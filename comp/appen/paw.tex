@@ -1,0 +1,62 @@
+\chapter{Projector Augmented Wave}\label{appen_paw}
+
+Pseudopotential technique has been proven to be accurate for a large variety of systems, but there is no strict gurantee that it will produce the same results as an all-electron calculation. The challenge with norm-conserving pseudopotentials is that it limits the \textit{softness}. Another way to say it, it needs higher cut-off energy. In the plane-wave basis set for the pseudo wavefunctions is defined by the shortest wave lentgh $\lambda=2\pi/\abs{\vec{G}}$, where $\vec{G}$ is the wave vector. Projector augmented waves (PAW) introduces projectors and auxiliary localized functions to increase the softness of the pseudopotential, at the same time keeping full wave function. In this section I will try to introduce PAW with some basic formalism. The origin of the PAW method lies a transformation that maps the true wavefunctions with their complete nodal structure into auxiliary wavefunctions. The purpose of this transformation is to have a smooth auxiliary wavefunctions, which have a rapidly convergent plane-wave expansion. The PAW method was first proposed by Bl\"ochl in 1994~\cite{blochl1994projector}. The linear transformation is as follows.
+\begin{equation}
+\ket{\Psi_n} = \hat{\mathcal{T}}\ket{\tilde{\Psi}_n}
+\end{equation}
+Where, $\ket{\Psi_n}$ is the true all-electron KS single particle wave function, $\ket{\tilde{\Psi}_n}$ is auxiliary smooth wave function, and $\hat{\mathcal{T}}$ is a linear transformation operator. Since the true wave functions are already smooth at a certain minimum distance from the core, $\tilde{\mathcal{T}}$ should only modify the wave function close to the nuclei. Thus the transformation operator becomes
+\begin{equation}
+\tilde{\mathcal{T}} = 1 + \sum_a \tilde{\mathcal{T}^a}
+\end{equation}
+Where a is an atom index, $\tilde{\mathcal{T}^a}$, has no effect outside a certain atom-specific augmentation region, $r_C^a$. Inside the augmentation spheres, the true wave function can be expanded in the partial waves $\phi_i^a$, for a corresponding auxiliary smooth partial wave can be defined as $\tilde{\phi}_i^a$, and they connected by the following relation.
+\begin{equation}
+\label{eq_aug_t}
+\ket{\phi_i^a} = (1+\hat{\mathcal{T}}^a)\ket{\tilde{\phi}_i^a} \Rightarrow  \hat{\mathcal{T}}^a \ket{\phi_i^a} = \ket{\phi_i^a} - \ket{\tilde{\phi}_i^a}
+\end{equation} 
+Here $a$ is an atom index, $i$ comes from partial waves. Outside the augmentation sphere, the partial wave and its smooth counterpart should be identical.
+\begin{equation}
+\phi_i^a(\mathbf{r}) = \tilde{\phi}_i^a(\mathbf{r}),\  for \quad r > r_c^a
+\end{equation} 
+Where $\phi_i^a(\mathbf{r})=\braket{\mathbf{r}}{\phi_i^a}$, and similar for $\tilde{\phi}_i^a$. If the smooth partial waves form a complete set inside the augmentation sphere, we can expand the smooth all electron wave functions as 
+\begin{equation}
+\ket{\tilde{\Psi}_i^a} = \sum_i P_{ni}^a \ket{\tilde{\phi}_i^a}, \quad \abs{\mathbf{r}-\mathbf{R}} < r_c^a
+\end{equation}
+Where, $P_{na}^a$ are expansion coefficients, and need to be determined. And also, the index a stands for atomic sites, i to dintinguish different partials waves and n connected to quantum numbers $(l,m)$. Since the transformation operator connects the smooth pseudo wave function to true wave function.
+\begin{equation}
+\ket{\Psi_n} = \hat{\mathcal{T}} \ket{\tilde{\Psi}_n} = \sum_i P_{ni}^a \ket{\psi_i^a}, \quad \abs{\mathbf{r}-\mathbf{R}} < r_c^a
+\end{equation} 
+Something really interesting about the above equation, the true wave function has the same expansion coefficient $(P_{ni}^a)$ as the pseudo wavefucntion. The transformation operator $\hat{\mathcal{T}}$ is required to be linear, the coefficient must be linear functionals of $\ket{\tilde{\Psi}_n}$, i.e.
+\begin{equation}
+P_{ni}^a = \braket{\tilde{p}_i^a}{\tilde{\Psi}_n}
+\end{equation}
+Where $\ket{\tilde{p}_i^a}$ are some fixed functions termed smooth projector functions. As there is no overlap between the augmentation spheres, we expect the smooth all electron wave function, $\ket{\tilde{\Psi}_n^a} = \sum_i \ket{\tilde{\phi}_i^a} \braket{\tilde{p}_i^a}{\tilde{\Psi}_n}$. The projectors have to be localized within an augmentation region
+\begin{equation}
+\label{eq_paw_complete}
+	\sum_i \dyad{\tilde{\phi}_i^a}{\tilde{p}_i^a} = 1
+\end{equation}
+This also implied that
+\begin{equation}
+	\braket{\tilde{p}_{i_1}^a}{\tilde{\phi}_{i_2}^a} = \delta_{i_1,i_2},\quad for \quad < r_c^a
+\end{equation}
+the projector functions should be orthonormal to the smooth partial waves inside the augmentation sphere. The choice of projectors and partial waves can be found more detailed form original work of Bl\"ochl~\cite{blochl1994projector}. Using the completeness relation from Eqn~\ref{eq_paw_complete}
+\begin{equation}
+\hat{\mathcal{T}^a} = \sum_i \hat{\mathcal{T}^a} \dyad{\tilde{\phi}_i^a}{\tilde{p}_i^a} = \sum_i \left( \ket{\phi_i^a} -\ket{\tilde{\phi}_i^a} \right) \bra{\tilde{p}_i^a}
+\end{equation}
+Remember, the operator $\hat{\mathcal{T}}^a$ operates only inside the sphere, outside sphere it behave like this $\ket{\phi_i^a} - \ket{\tilde{\phi}_i^a}$. Thus the total transformation operator becomes
+\begin{equation}
+\hat{\mathcal{T}} = 1 + \sum_a\sum_i\left( \ket{\phi_i^a} -\ket{\tilde{\phi}_i^a} \right) \bra{\tilde{p}_i^a} 
+\end{equation}
+To summarize, we obtain the all electron KS wave function $\ket{\Psi_n(\mathbf{r})} = \braket{\mathbf{r}}{\Psi_n}$ from the transformation
+\begin{equation}
+\label{eq_main_paw}
+\Psi_n(\mathbf{r}) = \tilde{\Psi}_n(\mathbf{r}) + \sum_a\sum_i \left (\phi_i^a(\mathbf{r}) - \tilde{\phi}_i^a(\mathbf{r})   \right) \braket{\tilde{p}_i^a}{\tilde{\psi}_n}
+\end{equation}
+The equation above has three different components in the right. The first is the auxiliary wave function. The second term is the sum of partial waves, the last term is the sum of pseudo partial waves that must be subtracted inside the augmentation region. To make it a simple KS wave function representation
+\begin{equation}
+\psi_n(\mathbf{r}) = \tilde{\psi}_n(\mathbf{r}) + \sum_a\left( \psi_n^a(\mathbf{r}-\mathbf{R}^a) - \tilde{\psi}_n^a (\mathbf{r} - \mathbf{R}^a) \right)
+\end{equation}
+
+The trouble of the original KS wave functions, was that they display rapid oscillations in some of the space and smooth behavior in other parts of space. By decomposing the wave function, the achievement is that the original wave function is separated into auxiliary wave functions which are smooth everywhere.
+
+\bibliographystyle{unsrt}
+\bibliography{abbreviated,comp}

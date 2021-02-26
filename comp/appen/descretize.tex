@@ -1,0 +1,30 @@
+\chapter{FEM Discretization of the heat equation}\label{appen_discretize}
+
+The divergence theorem in vector calculus can be stated as follows. Let $V$ be region in space with boundary $\partial V$. Then the volume integral of the divergence $\nabla \cdot \mathbf{F}$ over $V$ and the surface integral of $\mathbf{F}$ over the boundary $\partial V$ of $V$ are related by
+\begin{equation}
+\label{eq_divergence}
+\int_V \left ( \nabla \cdot \mathbf{F}  \right) dV = \int_{\partial V} \mathbf{F}\cdot d\mathbf{a}
+\end{equation} 
+A special case of divergence theorem follows by specializing the plane. Letting $S$ be a region in the plane with boundary $\partial S$, then Eqn~\ref{eq_divergence} can be written in the following ways
+\begin{equation}
+\label{eq_div_plane}
+\int_S \nabla \cdot \mathbf{F}dA = \int_{\partial S} \mathbf{F}\cdot \hat{n} ds
+\end{equation}
+It turns volume integral into a surface integral. Multiplying Eqn~\ref{eq_div_plane} with a smooth function $\Upsilon$ and integrating  
+\begin{equation}
+\label{eq_test_func}
+\int_S \Upsilon\left ( \nabla\cdot \mathbf{F} dA  \right) = \int_S \nabla \cdot \left(\Upsilon \mathbf{F} \right)dA - \int_S \nabla \Upsilon\cdot \mathbf{F}dA 
+\end{equation}
+Using the divergence theorem~\ref{eq_div_plane} the above equation can be written in the following way:
+\begin{equation}
+\int_S \Upsilon\left ( \nabla\cdot \mathbf{F} dA  \right) = \int_{\partial S}\Upsilon \mathbf{F} \cdot \hat{n} ds  - \int_S \nabla \Upsilon\cdot \mathbf{F}dA 
+\end{equation}
+In the finite element calculation, for example $\mathbf{F}=-K(x)\nabla u$, and with the help of divergence theorem the weak form equation becomes
+\begin{equation}
+-\int_{S} \Upsilon\left(\nabla \cdot K(x) \nabla u \right ) dA = \int_{S} \nabla \Upsilon \cdot K(x) \nabla u dA - \int_{\partial S} \Upsilon \left( K(x) \nabla u\cdot \hat{n}  \right) ds 
+\end{equation}
+Using the inner product notation the above integral equation can be represented as follows:
+\begin{equation}
+-\left( \Upsilon, \nabla\cdot K(x) \nabla u \right ) = \left ( \nabla \Upsilon, K(x) \nabla u \right ) - \langle \Upsilon, K(x) \nabla u\cdot \hat{n}\rangle
+\end{equation}
+To approach the problem numerically the term $ \langle \Upsilon, K(x) \nabla u\cdot \hat{n}\rangle$ is usually handed by boundary condition, and the term $ \left ( \nabla \Upsilon, K(x) \nabla u \right )$  needs to be solve iteratively.

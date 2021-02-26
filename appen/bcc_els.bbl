@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{iasir2020pseudopotential}
+A~Rafi~M Iasir and Karl~D Hammond.
+\newblock Pseudopotential for plane-wave density functional theory studies of
+  metallic uranium.
+\newblock {\em Comput.\ Mater.\ Sci.}, 171:109221, 2020.
+
+\bibitem{dal2014pseudopotentials}
+Andrea Dal~Corso.
+\newblock Pseudopotentials periodic table: From {H} to {Pu}.
+\newblock {\em Computational Materials Science}, 95:337--350, 2014.
+
+\bibitem{pp1}
+{Quantum Espresso}.
+\newblock {PS} library.
+\newblock {\url{http://www.quantum-espresso.org/pseudopotentials}}, 2019.
+
+\end{thebibliography}

@@ -1,0 +1,75 @@
+\chapter{Atomic Units}\label{appen_atomicunit}
+There are special units of measurement which is convenient for atomic physics and DFT calculations. They are named after the Physicist Douglas Hatree~\cite{hartree}. In this system the numerical values of the four fundamental physical constants are assumed to be unity. They are as follows:
+\begin{itemize}
+\item Reduced planck constant: $\hbar = 1$, atomic unit of action.
+\item Elementary Charge: $e = 1$, atomic unit of charge.
+\item Bohr radius: $a_0 = 1$, atomic unit of length.
+\item Electronic mass: $m_e = 1$, atomic unit of mass.
+\end{itemize}
+Now we will explore how it simplifies quantum mechanical calculation of hydrogen atom. The hydrogen atom consists of a heavy proton (charge $e$) with a much lighter electron (charge $-e$) that orbits around it. The potential energy (in SI units) is
+\begin{equation}\label{eq_hyd_pot}
+V(\vb{r}) = -\frac{Ze^2}{4\pi \epsilon_0 \abs{r}}
+\end{equation}
+where $Z$ is the atomic number and $\vb{r}$ is the position relative to the nuclear site. The radial Schr\"odinger equation including the centrifugal term is:
+\begin{equation}\label{eq_hdr_atom}
+	\left [ -\frac{\hbar^2}{2m_e}\nabla_r^2 + \frac{\hbar^2 \ell (\ell+1)}{2m_er^2} - \frac{Ze^2}{4\pi \epsilon_0 \abs{r}} - E \right ]rR(r) = 0
+\end{equation}
+The above equation can be simplified by introducing dimensionless quantities. Multiplying Eq.~\eqref{eq_hdr_atom} with $m_e/\hbar^2$ the equation becomes:
+\begin{align}
+\begin{split}
+\left [-\nabla^2_r + \frac{\ell(\ell+1)}{r^2} + \frac{2m_eZe^2}{4\pi\epsilon_0\hbar^2} \frac{1}{r} - \frac{2m_eE}{\hbar^2} \right ] rR(r) & = 0 \\
+\left [ -\frac{1}{2} \nabla_r^2 + \frac{\ell(\ell+1)}{2r^2} + \frac{Z}{a_0r} - \frac{E}{E_0a_0^2}    \right ]rR(r) & = 0 \\
+\left [-\frac{1}{2}\nabla_{\zeta}^2 + \frac{\ell(\ell+1)}{2\zeta^2} + \frac{Z}{\zeta} - \frac{E}{E_0}    \right ] \zeta R(\zeta a_0) & = 0
+\end{split}
+\end{align} 
+The above equation has two units, one is for length scale, the Bohr radius $a_0$ and the other one is an energy scale, the Hartree $E_0$.
+\subsection{Bohr Radius}
+\begin{equation}
+\label{eq_bohr}
+a_0 = \frac{4\pi\epsilon_0 \hbar^2}{m_ee^2}
+\end{equation}
+The Bohr radius is the length unit of the Hatree atomic unit system. It corresponds to the radius of a classical electron circling a proton at the ground energy of the hydrogen atom. Using all the fundamental constants in Eq.~\eqref{eq_bohr} the standard atomic unit of Bohr becomes
+\begin{equation}
+1\ \text{bohr} = \frac{4\pi\epsilon_0 \hbar^2}{m_ee^2} = \num{0.52917725e-10} \text{m} = 0.52917725 \ \AA
+\end{equation}
+
+
+\subsection{Hatree}
+\begin{equation}
+\label{eq_htr}
+ E_0= \frac{\hbar^2}{m_ea_0^2} = \frac{m_ee^4}{(4\pi\epsilon_0\hbar)^2}
+\end{equation}
+The Hartree is the energy unit in the Hatree atomic unit system. One Hartree is twice the binding energy of an electron in the hydrogen atom. To satisfy $a_0 = 1$, all the fundamental units becomes unity ($\hbar = m_e = e = 4\pi\epsilon_0 = 1$), according to Eq.~\eqref{eq_bohr}. The unit of Hatree can also be calculated from the fundamental units.
+\begin{equation}
+1\ \text{hartree} = \frac{\hbar^2}{m_ea_0^2} = \frac{m_ee^4}{(4\pi\epsilon_0\hbar)^2} = \num{4.3597482e-10} \text{J} = 27.211396 \  \text{eV}
+\end{equation}
+
+In Hatree units, the Schr\"odinger equation of an electron in the Coulomb potential of the nucleus has the following form:
+\begin{equation}
+\left(-\frac{1}{2}\nabla^2 - \frac{Z}{r} - E \right) \ket{\psi} = 0
+\end{equation}
+
+\subsection{Rydberg Atomic Units}
+The Rydberg atomic unit is another useful atomic unit which is widely used in DFT and atomic physics. In Hatree atomic units, the assumption is $\hbar^2/2m_e = \frac{1}{2}$. In Rydberg atomic units the assumption is: 
+\begin{equation*}
+\hbar = 2m_e = e^2/2 = 1
+\end{equation*}
+Using the above relations, the length unit does not change in Rydberg units.
+\begin{equation}
+a_0 = \frac{4\pi\epsilon_0 \hbar^2}{2m_ee^2/2} = \frac{4\pi\epsilon_0 \hbar^2}{m_ee^2} = 0.52917725 \ \AA
+\end{equation}
+
+The energy unit does change as follows:
+\begin{equation}
+1\ \text{Ry} =  \frac{\hbar^2}{2m_ea_0^2} = \frac{1}{2} \frac{\hbar^2}{m_ea_0^2} = 13.605693\  \text{eV}
+\end{equation}
+
+
+
+
+
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{abbreviated,comp}

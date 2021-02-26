@@ -1,0 +1,15 @@
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Parameters used to generate the pseudopotential in atompaw}}{40}{table.3.1}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of ground-state properties and elastic moduli of \textalpha -U with previous work}}{43}{table.3.2}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Comparison of ground-state properties and elastic moduli of \textgamma -U with previous work}}{44}{table.3.3}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Comparison of ground-state properties and elastic moduli of bct uranium with previous work}}{45}{table.3.4}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Comparison of ground-state properties and elastic parameters of fcc uranium}}{46}{table.3.5}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\gdef \the@ipfilectr {}

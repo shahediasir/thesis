@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: xenontherm.aux
+The style file: unsrt.bst
+Database file #1: abbreviated.bib
+Database file #2: comp.bib
+Warning--string name "jcamd" is undefined
+--line 600 of file comp.bib
+Warning--empty journal in ghoniem2001theory
+Warning--empty booktitle in trelis
+You've used 49 entries,
+            1791 wiz_defined-function locations,
+            1530 strings with 22743 characters,
+and the built_in function-call counts, 11893 in all, are:
+= -- 1097
+> -- 530
+< -- 3
++ -- 197
+- -- 148
+* -- 948
+:= -- 1912
+add.period$ -- 148
+call.type$ -- 49
+change.case$ -- 46
+chr.to.int$ -- 0
+cite$ -- 51
+duplicate$ -- 463
+empty$ -- 1140
+format.name$ -- 148
+if$ -- 2554
+int.to.chr$ -- 0
+int.to.str$ -- 49
+missing$ -- 52
+newline$ -- 248
+num.names$ -- 49
+pop$ -- 80
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 167
+stack$ -- 0
+substring$ -- 1020
+swap$ -- 58
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 135
+width$ -- 51
+write$ -- 544
+(There were 3 warnings)

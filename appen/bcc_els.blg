@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: appen/bcc_els.aux
+The style file: unsrt.bst
+Database file #1: abbreviated.bib
+Database file #2: comp.bib
+Database file #3: umox.bib
+Repeated entry---line 891 of file umox.bib
+ : @misc{pp1
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 898 of file umox.bib
+ : @article{dal2014pseudopotentials
+ :                                 ,
+I'm skipping whatever remains of this entry
+You've used 3 entries,
+            1791 wiz_defined-function locations,
+            1413 strings with 17027 characters,
+and the built_in function-call counts, 579 in all, are:
+= -- 53
+> -- 16
+< -- 0
++ -- 7
+- -- 4
+* -- 31
+:= -- 98
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 23
+empty$ -- 64
+format.name$ -- 4
+if$ -- 126
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 18
+num.names$ -- 3
+pop$ -- 8
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 10
+stack$ -- 0
+substring$ -- 43
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 6
+width$ -- 4
+write$ -- 34
+(There were 2 error messages)

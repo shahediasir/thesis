@@ -1,0 +1,210 @@
+%%
+%% This is file `MUthesis-example.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% MUthesis.dtx  (with options: `example')
+%% 
+%% This is a generated file.
+%% 
+%% Copyright (C) 2017-2018 by Karl D. Hammond
+%% 
+%% Karl D. Hammond,
+%% Department of Chemical Engineering
+%% University of Missouri
+%% Contact: hammondkd@missouri.edu
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%%
+%%
+
+\documentclass{MUthesis}
+%% options:
+%%  doublespace   -- the default, indicates double spacing as per MU
+%%                   requirements; use for all final copies
+%%  singlespace   -- for early work; not acceptable for final draft
+%%  dissertation  -- default; indicates this is a dissertation
+%%  thesis        -- indicates this is a Master's thesis; changes the default
+%%                   for \degree{}{} to Master of Science / M.S.
+%%  comprehensive -- indicates this is a comprehensive exam; disables
+%%                   \copyrightpage and \signaturepage
+%%  nolisthyphen  -- disallows hyphenation in the Table of Contents and
+%%                   the list of figures/tables; only use if the graduate
+%%                   school or your committee complain
+%%  nohyphen      -- disallows hyphenation /everywhere/; don't use unless
+%%                   someone complains (and even then, fight back!)
+%%  hyperpages    -- default; loads hyperref with stripped down options
+%%  hyper         -- loads hyperref with page labels and invisible links
+%%  nohyper       -- turns off loading of hyperref completely; usually the
+%%                   hyperpages option, which uses hyperref only to fix page
+%%                   labels (so that i is called i, not 1, in the PDF),
+%%                   is a better choice. Use this if you want to load hyperref
+%%                   with other options than either "hyper" or "hyperpages"
+%%                   loads.
+%%
+%%  All other options are passed as-is to the "report" class; the default size
+%%  is 12pt, but you can specify 10 or 11 pt (or any other size supported by
+%%  "report")
+
+\usepackage{txfonts}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.mps}
+
+\title{Family Type and Incidence of Childhood Depression}
+\author{Jeffery Lehmkuhl}
+\date{May 2001} % The date you'll actually graduate -- must be
+                % December, May, or July
+\copyrightyear{2001} % year of graduation / publication
+%%\cochairs{}{} % multiple chairs
+\chair{Thomas Sink} % a single chair
+\firstreader{Vijay Kumar}
+\secondreader{Gary Cortez}
+\thirdreader{John Smith}
+\fourthreader{Gail Newman}
+
+%% Your degree's name;
+%%\degree{Doctor of Philosophy}{Ph.D.}
+%% defaults to {Doctor of Philosophy}{Ph.D.} (option "dissertation"; default)
+%% defaults to {Master of Science}{M.S.} for theses (option "thesis")
+
+\begin{document}
+\frontmatter   % optional (automatically set at \begin{document})
+\maketitle     % mandatory
+\copyrightpage % optional
+\approvalpage  % mandatory
+
+%% optional
+\begin{dedication}
+  To my sister
+\end{dedication}
+
+%% optional / usually absent
+\begin{epigraph}{Anonymous}
+``Hyperbole is the best thing ever.''
+\end{epigraph}
+
+%% Acknowledgments are required for all dissertations and theses
+\begin{acknowledgments}
+This page is where you would acknowledge all those who helped you with your
+academic research. This is not necessarily where you would recognize loved ones
+who supported you during your studies. That would be more appropriately done in
+an optional Dedication page. Think more, ``I thank Professor Smith \dots''
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum eu tellus.
+Nullam et odio eget sapien porttitor interdum. Donec vel ante. Maecenas in sem
+a nunc viverra hendrerit. Quisque ut massa quis pede blandit pharetra.
+
+Pellentesque sed ligula sit amet ligula scelerisque sagittis. Nulla adipiscing
+tellus at pede. Cras id nunc vel diam congue dictum. Donec a nulla nec eros
+ornare consequat. Nullam quis orci. Nam adipiscing, erat in congue
+pellentesque, dolor eros euismod quam, a egestas mauris magna varius justo.
+
+Sed eu sem et lorem blandit volutpat. Duis pulvinar, arcu quis suscipit
+convallis, ante elit auctor dui, in fermentum diam velit a mauris. In risus
+odio, consectetuer quis, ullamcorper in, rutrum ut, metus.
+
+Vestibulum rutrum quam ut ante. Integer velit. Sed commodo sem tempor lacus.
+\end{acknowledgments}
+
+%% Table of Contents is mandatory; lists are mandatory if you have any of them;
+%% they must be in this order
+\tableofcontents
+%%\listofillustrations
+\listoftables
+\listoffigures
+%%\listofschemes
+%%\listofsymbols % or \printnomenclature; requires nomencl package
+
+%% The abstract is optional...yeah, right.
+\begin{abstract}
+The Short Academic Abstract is not to exceed one page in length. The Abstract
+should be double-spaced. This should be a separate file on your CD saved as
+``short.pdf.''
+
+If you want to use the same Abstract (or a longer version) in the thesis or
+dissertation, that is permissible.
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum eu tellus.
+Nullam et odio eget sapien porttitor interdum. Donec vel ante. Maecenas in sem
+a nunc viverra hendrerit. Quisque ut massa quis pede blandit pharetra.
+Pellentesque sed ligula sit amet ligula scelerisque sagittis. Nulla adipiscing
+tellus at pede. Cras id nunc vel diam congue dictum. Donec a nulla nec eros
+ornare consequat. Nullam quis orci.
+
+Nam adipiscing, erat in congue pellentesque, dolor eros euismod quam, a egestas
+mauris magna varius justo. Sed eu sem et lorem blandit volutpat. Duis pulvinar,
+arcu quis suscipit convallis, ante elit auctor dui, in fermentum diam velit a
+mauris. In risus odio, consectetuer quis, ullamcorper in, rutrum ut, metus.
+Vestibulum rutrum quam ut ante. Integer velit. Sed commodo sem tempor lacus.
+
+Donec lectus. Ut lectus. Cras luctus vulputate quam. Suspendisse potenti. Proin
+enim. Fusce quis mauris. Nullam eu augue. Fusce ligula neque, viverra eu,
+fermentum quis, vestibulum faucibus, ligula. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Curabitur rutrum.
+\end{abstract}
+
+\mainmatter % this line is mandatory
+
+\chapter{The Efficiency of Everything}
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+
+\include{chapter2}
+
+%% end of body
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+
+\chapter{Data That Need Showing}
+
+\backmatter % mandatory; prepares for bibliography, glossary, index
+\nocite{*}
+\bibliographystyle{mybibstyle}
+\bibliography{MUexample}
+
+\begin{vita} % required for dissertations; optional for theses
+The body of the text begins here. This should be indented and double-spaced.
+There are no restrictions on the length. This is not intended to be a
+curriculum vitae. Jeffrey Smith was born\dots Ut tellus augue, aliquet ut,
+tincidunt non, congue ac, justo. In tempus, mauris sit amet tincidunt dapibus,
+nulla nunc dignissim nulla, nec auctor tortor velit non felis. Mauris lacus
+massa, scelerisque id, tincidunt quis, rutrum id, est.
+
+Duis congue vestibulum dui. Nullam consectetuer, risus nec fermentum ornare,
+diam dolor hendrerit mauris, a accumsan mi turpis at sem.
+
+Curabitur condimentum, erat ac dictum sollicitudin, neque lectus varius turpis,
+euismod aliquet lorem magna quis leo. Quisque vitae ipsum quis dolor eleifend
+faucibus. Phasellus fringilla metus ut nisi. Sed et risus. Sed ullamcorper
+dolor sit amet nisl. Nullam viverra. Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit.
+
+Ut ultrices, quam at consectetuer ornare, ligula risus euismod turpis, non
+mattis lectus metus vel ligula. Aliquam metus lacus, faucibus non, porta ut,
+adipiscing ac, turpis. Fusce quis dolor. Nam vitae eros. Integer et nulla.
+Vestibulum rhoncus faucibus enim. Praesent pellentesque ipsum et ligula.
+
+Donec risus mauris, volutpat vel, fermentum at, tincidunt vel, urna. Nam vitae
+nisl ut orci hendrerit luctus. Nam lacus leo, molestie at, aliquet ut,
+adipiscing et, tellus. Proin porttitor. Aenean condimentum mauris hendrerit
+tellus. Aenean ornare libero sit amet ipsum. Integer vulputate, sem eleifend
+lacinia tempor, dolor lorem sagittis augue, non dictum sapien libero nec odio.
+\end{vita}
+
+\end{document}
+\endinput
+%%
+%% End of file `MUthesis-example.tex'.

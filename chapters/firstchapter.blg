@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: chapters/firstchapter.aux
+The style file: unsrt.bst
+Database file #1: abbreviated.bib
+Database file #2: comp.bib
+You're missing a field name---line 1930 of file comp.bib
+ : 
+ : %journal = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty author and editor in international2005iaea
+You've used 25 entries,
+            1791 wiz_defined-function locations,
+            1538 strings with 21160 characters,
+and the built_in function-call counts, 5666 in all, are:
+= -- 498
+> -- 291
+< -- 3
++ -- 108
+- -- 83
+* -- 420
+:= -- 934
+add.period$ -- 76
+call.type$ -- 25
+change.case$ -- 24
+chr.to.int$ -- 0
+cite$ -- 26
+duplicate$ -- 227
+empty$ -- 536
+format.name$ -- 83
+if$ -- 1224
+int.to.chr$ -- 0
+int.to.str$ -- 25
+missing$ -- 22
+newline$ -- 127
+num.names$ -- 25
+pop$ -- 62
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 79
+stack$ -- 0
+substring$ -- 373
+swap$ -- 35
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 55
+width$ -- 27
+write$ -- 273
+(There was 1 error message)

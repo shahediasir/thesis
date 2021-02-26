@@ -1,0 +1,782 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.3)  7 SEP 2020 16:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**MUthesis.dtx
+(./MUthesis.dtx
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
+File: MUthesis.dtx 2020/04/10 v1.10 University of Missouri thesis/dissertation 
+class
+(/usr/share/texlive/texmf-dist/tex/latex/base/ltxdoc.cls
+Document Class: ltxdoc 2017/03/13 v2.0v Standard LaTeX documentation class
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/doc.sty
+Package: doc 2016/02/15 v2.1g Standard LaTeX documentation package (FMi)
+\c@StandardModuleDepth=\count87
+\guard@level=\count88
+\MacrocodeTopsep=\skip43
+\MacroIndent=\dimen103
+\macro@cnt=\count89
+\MacroTopsep=\skip44
+\index@excludelist=\toks14
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count90
+\mult@box=\box26
+\multicol@leftmargin=\dimen104
+\c@unbalance=\count91
+\c@collectmore=\count92
+\doublecol@number=\count93
+\multicoltolerance=\count94
+\multicolpretolerance=\count95
+\full@width=\dimen105
+\page@free=\dimen106
+\premulticols=\dimen107
+\postmulticols=\dimen108
+\multicolsep=\skip45
+\multicolbaselineskip=\skip46
+\partial@page=\box27
+\last@line=\box28
+\maxbalancingoverflow=\dimen109
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count96
+\c@finalcolumnbadness=\count97
+\last@try=\dimen110
+\multicolovershoot=\dimen111
+\multicolundershoot=\dimen112
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\mc@col@check@num=\count98
+)
+\IndexMin=\dimen113
+\c@IndexColumns=\count99
+\GlossaryMin=\dimen114
+\c@GlossaryColumns=\count100
+\check@sum=\count101
+\bslash@cnt=\count102
+\wrong@table=\toks15
+\c@CodelineNo=\count103
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/pxfonts.sty
+Package: pxfonts 2008/01/22 v1.1.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/pxr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/pxr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/pxr/m/n --> OT1/pxr/bx/n on input line 22.
+\symitalic=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/pxr/m/it --> OT1/pxr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/pxr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/pxr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/pxr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/pxr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/pxr/m/it --> OT1/pxr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/pxss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/pxss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/pxss/m/n --> OT1/pxss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/pxtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/pxtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/pxtt/m/n --> OT1/pxtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/pxmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/pxmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/pxmi/m/it --> OML/pxmi/bx/it on input line 59.
+\symlettersA=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/pxmia/m/it --> U/pxmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pxsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pxsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/pxsy/m/n --> OMS/pxsy/bx/n on input line 78.
+\symAMSa=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/pxsya/m/n --> U/pxsya/bx/n on input line 94.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/pxsyb/m/n --> U/pxsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/pxsyc/m/n --> U/pxsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/pxex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/pxex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/pxex/m/n --> OMX/pxex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/pxexa/m/n --> U/pxexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 997.
+)
+\@indexfile=\write3
+\openout3 = `MUthesis.idx'.
+
+
+Writing index file MUthesis.idx
+\@glossaryfile=\write4
+\openout4 = `MUthesis.glo'.
+
+Writing glossary file MUthesis.glo 
+No file MUthesis.aux.
+\openout1 = `MUthesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 47.
+LaTeX Font Info:    Try loading font information for OML+pxmi on input line 47.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/omlpxmi.fd
+File: omlpxmi.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/pxsy/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for OMS+pxsy on input line 47.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/omspxsy.fd
+File: omspxsy.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/pxex/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for OMX+pxex on input line 47.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/omxpxex.fd
+File: omxpxex.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/pxexa/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for U+pxexa on input line 47.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxexa.fd
+File: upxexa.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Try loading font information for OT1+pxr on input line 47.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/ot1pxr.fd
+File: ot1pxr.fd 2000/12/14 v1.0
+)
+Package doc Info: Made | a short reference for \verb on input line 47.
+ (./MUthesis.dtx
+***************************
+* Character table correct *
+***************************
+LaTeX Font Info:    Try loading font information for OT1+pxss on input line 118
+.
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/ot1pxss.fd
+File: ot1pxss.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Try loading font information for U+pxmia on input line 118.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxmia.fd
+File: upxmia.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Try loading font information for U+pxsya on input line 118.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxsya.fd
+File: upxsya.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Try loading font information for U+pxsyb on input line 118.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxsyb.fd
+File: utxsyb.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Try loading font information for U+pxsyc on input line 118.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/upxsyc.fd
+File: upxsyc.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Try loading font information for OT1+pxtt on input line 118
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/ot1pxtt.fd
+File: ot1pxtt.fd 2000/12/14 v1.0
+)
+
+LaTeX Warning: Reference `section:usage' on page 1 undefined on input line 145.
+
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Overfull \hbox (0.71729pt too wide) in paragraph at lines 227--236
+\OT1/pxr/m/n/10 com-pre-hen-sive (dis-ser-ta-tion pro-posal) and []\OT1/pxtt/m/
+n/10 \degree{Master of Science}{M.S.}
+ []
+
+[3]
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+
+LaTeX Warning: Marginpar on page 4 moved.
+
+[4]
+
+LaTeX Warning: Marginpar on page 5 moved.
+
+[5] [6]
+Overfull \hbox (4.0993pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 %  thesis        -- indicates this is a Master's thesis; chan
+ges the default[] 
+ []
+
+[7]
+Overfull \hbox (8.8243pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 %                   is a better choice. Use this if you want 
+to load hyperref[] 
+ []
+
+
+Overfull \hbox (8.8243pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 %  All other options are passed as-is to the "report" class; 
+the default size[] 
+ []
+
+
+Overfull \hbox (4.0993pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 % defaults to {Doctor of Philosophy}{Ph.D.} (option "disserta
+tion"; default)[] 
+ []
+
+[8]
+Overfull \hbox (18.27428pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 academic research. This is not necessarily where you would re
+cognize loved ones[] 
+ []
+
+
+Overfull \hbox (18.27428pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 who supported you during your studies. That would be more app
+ropriately done in[] 
+ []
+
+
+Overfull \hbox (18.27428pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ves
+tibulum eu tellus.[] 
+ []
+
+
+Overfull \hbox (13.54929pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Nullam et odio eget sapien porttitor interdum. Donec vel ante
+. Maecenas in sem[] 
+ []
+
+
+Overfull \hbox (13.54929pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Pellentesque sed ligula sit amet ligula scelerisque sagittis.
+ Nulla adipiscing[] 
+ []
+
+
+Overfull \hbox (4.0993pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Vestibulum rutrum quam ut ante. Integer velit. Sed commodo se
+m tempor lacus.[] 
+ []
+
+
+Overfull \hbox (13.54929pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 % Table of Contents is mandatory; lists are mandatory if you 
+have any of them;[] 
+ []
+
+
+Overfull \hbox (8.8243pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 The Short Academic Abstract is not to exceed one page in leng
+th. The Abstract[] 
+ []
+
+[9]
+Overfull \hbox (18.27428pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ves
+tibulum eu tellus.[] 
+ []
+
+
+Overfull \hbox (13.54929pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Nullam et odio eget sapien porttitor interdum. Donec vel ante
+. Maecenas in sem[] 
+ []
+
+
+Overfull \hbox (13.54929pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Pellentesque sed ligula sit amet ligula scelerisque sagittis.
+ Nulla adipiscing[] 
+ []
+
+
+Overfull \hbox (18.27428pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Nam adipiscing, erat in congue pellentesque, dolor eros euism
+od quam, a egestas[] 
+ []
+
+
+Overfull \hbox (18.27428pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 mauris magna varius justo. Sed eu sem et lorem blandit volutp
+at. Duis pulvinar,[] 
+ []
+
+
+Overfull \hbox (8.8243pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 arcu quis suscipit convallis, ante elit auctor dui, in fermen
+tum diam velit a[] 
+ []
+
+
+Overfull \hbox (4.0993pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Vestibulum rutrum quam ut ante. Integer velit. Sed commodo se
+m tempor lacus.[] 
+ []
+
+
+Overfull \hbox (18.27428pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Donec lectus. Ut lectus. Cras luctus vulputate quam. Suspendi
+sse potenti. Proin[] 
+ []
+
+
+Overfull \hbox (4.0993pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%[] 
+ []
+
+
+Overfull \hbox (4.0993pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 The body of the text begins here. This should be indented and
+ double-spaced.[] 
+ []
+
+
+Overfull \hbox (13.54929pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 tincidunt non, congue ac, justo. In tempus, mauris sit amet t
+incidunt dapibus,[] 
+ []
+
+[10]
+Overfull \hbox (4.0993pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Duis congue vestibulum dui. Nullam consectetuer, risus nec fe
+rmentum ornare,[] 
+ []
+
+
+Overfull \hbox (18.27428pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Curabitur condimentum, erat ac dictum sollicitudin, neque lec
+tus varius turpis,[] 
+ []
+
+
+Overfull \hbox (8.8243pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 euismod aliquet lorem magna quis leo. Quisque vitae ipsum qui
+s dolor eleifend[] 
+ []
+
+
+Overfull \hbox (8.8243pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 dolor sit amet nisl. Nullam viverra. Lorem ipsum dolor sit am
+et, consectetuer[] 
+ []
+
+
+Overfull \hbox (4.0993pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 mattis lectus metus vel ligula. Aliquam metus lacus, faucibus
+ non, porta ut,[] 
+ []
+
+
+Overfull \hbox (13.54929pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 Donec risus mauris, volutpat vel, fermentum at, tincidunt vel
+, urna. Nam vitae[] 
+ []
+
+
+Overfull \hbox (4.0993pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 tellus. Aenean ornare libero sit amet ipsum. Integer vulputat
+e, sem eleifend[] 
+ []
+
+
+Overfull \hbox (13.54929pt too wide) in paragraph at lines 695--695
+[]\OT1/pxtt/m/n/9 lacinia tempor, dolor lorem sagittis augue, non dictum sapien
+ libero nec odio.[] 
+ []
+
+[11]
+LaTeX Font Info:    Try loading font information for TS1+pxr on input line 741.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/pxfonts/ts1pxr.fd
+File: ts1pxr.fd 2000/12/14 v1.0
+)
+Overfull \hbox (0.59105pt too wide) in paragraph at lines 812--812
+ [][]\OT1/pxtt/m/n/9 \DeclareOption{nolisthyphen}{\renewcommand*{\list@hyphen@p
+enalty{10000}}} 
+ []
+
+[12]
+Overfull \hbox (62.01593pt too wide) in paragraph at lines 837--837
+ [][]\OT1/pxtt/m/n/9 \ExecuteOptions{doublespace,dissertation,hyperpages,12pt,l
+etterpaper,oneside,openany}% 
+ []
+
+
+Overfull \hbox (10.04103pt too wide) in paragraph at lines 878--878
+ [][]\OT1/pxtt/m/n/9 \setlength{\topmargin}{-0.5truein} % headers at top of pag
+e 0.5in from edge 
+ []
+
+
+Overfull \hbox (24.216pt too wide) in paragraph at lines 878--878
+ [][]\OT1/pxtt/m/n/9 \setlength{\headsep}{0.3truein}    % header 0.3in from bod
+y, body 1in from top 
+ []
+
+
+Overfull \hbox (24.216pt too wide) in paragraph at lines 878--878
+ [][]                                   \OT1/pxtt/m/n/9 %   0.6in from bottom (
+allows for trimming) 
+ []
+
+[13] [14]
+Overfull \hbox (14.76602pt too wide) in paragraph at lines 995--995
+ [][]  \OT1/pxtt/m/n/9 \par\nobreak                          % TeX penalty to p
+revent page break. 
+ []
+
+
+Overfull \hbox (14.76602pt too wide) in paragraph at lines 1010--1010
+ [][]  \OT1/pxtt/m/n/9 \nobreak                              % TeX penalty to p
+revent page break. 
+ []
+
+[15] [16]
+Overfull \hbox (0.59105pt too wide) in paragraph at lines 1152--1152
+ [][]     \OT1/pxtt/m/n/9 \leaders\hbox{$\m@th\mkern \@dotsep mu \hbox{.}\mkern
+ \@dotsep mu$}% 
+ []
+
+[17] [18] [19]
+Overfull \hbox (5.31604pt too wide) in paragraph at lines 1351--1351
+ [][]    \OT1/pxtt/m/n/9 \ClassWarning{MUthesis}{Encountered `backmatter' with 
+no `mainmatter'} 
+ []
+
+
+Overfull \hbox (47.84096pt too wide) in paragraph at lines 1351--1351
+ [][]      \OT1/pxtt/m/n/9 \ClassWarningNoLine{MUthesis}{Encountered `backmatte
+r' with no `mainmatter'}% 
+ []
+
+
+Overfull \hbox (43.11597pt too wide) in paragraph at lines 1365--1365
+ [][]    \OT1/pxtt/m/n/9 \ClassWarningNoLine{MUthesis}{No `backmatter' encounte
+red (no bibliography?)}% 
+ []
+
+
+Overfull \hbox (38.39098pt too wide) in paragraph at lines 1365--1365
+ [][]      \OT1/pxtt/m/n/9 \ClassWarningNoLine{MUthesis}{No `mainmatter' or `ba
+ckmatter' encountered}% 
+ []
+
+[20] [21]
+Overfull \hbox (5.31604pt too wide) in paragraph at lines 1468--1468
+ [][]        \OT1/pxtt/m/n/9 Dr.~\@firstchair\ and Dr.~\@secondchair, \thesis@t
+ype\ Supervisors 
+ []
+
+
+Overfull \hbox (24.216pt too wide) in paragraph at lines 1533--1533
+ [][]  \OT1/pxtt/m/n/9 The undersigned, appointed by the dean of the Graduate S
+chool, have examined 
+ []
+
+[22]
+Overfull \hbox (14.76602pt too wide) in paragraph at lines 1533--1533
+ [][]  \OT1/pxtt/m/n/9 and hereby certify that, in their opinion, it is worthy 
+of acceptance.\par 
+ []
+
+[23] [24]
+Overfull \hbox (14.76602pt too wide) in paragraph at lines 1706--1706
+ [][]  \OT1/pxtt/m/n/9 \setcounter{page}{2}% graduate school requirement that t
+his is page ii.... 
+ []
+
+[25]
+Overfull \hbox (33.66599pt too wide) in paragraph at lines 1723--1723
+ [][]    \OT1/pxtt/m/n/9 \ClassWarningNoLine{MUthesis}{No `acknowledgments' env
+ironment;\MessageBreak 
+ []
+
+
+Overfull \hbox (19.49101pt too wide) in paragraph at lines 1757--1757
+ [][]      \OT1/pxtt/m/n/9 Dr.~\@firstchair\ and Dr.~\@secondchair, \thesis@typ
+e\ Supervisors \par 
+ []
+
+
+Overfull \hbox (5.31604pt too wide) in paragraph at lines 1797--1797
+ [][]      \OT1/pxtt/m/n/9 \ClassWarningNoLine{MUthesis}{No `vita' environment 
+found; a vita is 
+ []
+
+[26]
+Overfull \hbox (5.31604pt too wide) in paragraph at lines 1858--1858
+ [][]            \OT1/pxtt/m/n/9 \addcontentsline{toc}{section}{\protect\number
+line{}\refname}% 
+ []
+
+[27]
+Overfull \hbox (14.76602pt too wide) in paragraph at lines 1913--1913
+ [][]                \OT1/pxtt/m/n/9 \write\@auxout{\string\bibcite{##2}{##1}}}
+\fi\ignorespaces}% 
+ []
+
+
+Overfull \hbox (14.76602pt too wide) in paragraph at lines 1913--1913
+ [][]                \OT1/pxtt/m/n/9 {\string\bibcite{#1}{\the\value{\@listctr}
+}}\fi\ignorespaces 
+ []
+
+[28] [29]
+Overfull \hbox (19.49101pt too wide) in paragraph at lines 1998--1998
+ [][]          \OT1/pxtt/m/n/9 \addcontentsline{toc}{#2}{\texorpdfstring{\MakeU
+ppercase{#1}}{#1}}% 
+ []
+
+
+Overfull \hbox (10.04103pt too wide) in paragraph at lines 2040--2040
+ [][]\OT1/pxtt/m/n/9 \def\copyright@year{\ClassWarningNoLine{MUthesis}{No copyr
+ight year given}} 
+ []
+
+[30]
+Overfull \hbox (43.11597pt too wide) in paragraph at lines 2082--2082
+ [][]\OT1/pxtt/m/n/9 \def\@firstreader{\ClassWarningNoLine{MUthesis}{No \noexpa
+nd\firstreader defined}} 
+ []
+
+
+Overfull \hbox (0.59105pt too wide) in paragraph at lines 2082--2082
+ [][]\OT1/pxtt/m/n/9 \newcommand*{\secondreader}[1]{\gdef\@secondreader{#1}\sec
+ond@readertrue} 
+ []
+
+
+Overfull \hbox (0.59105pt too wide) in paragraph at lines 2082--2082
+ [][]\OT1/pxtt/m/n/9 \newcommand*{\fourthreader}[1]{\gdef\@fourthreader{#1}\fou
+rth@readertrue} 
+ []
+
+[31] [32]
+Overfull \hbox (0.59105pt too wide) in paragraph at lines 2216--2216
+ [][]        \OT1/pxtt/m/n/9 {\normalsize\parindent\z@\textbf{\csname fname@#1\
+endcsname\hfill 
+ []
+
+No file MUthesis.gls.
+No file MUthesis.ind.
+*******************
+* Checksum passed *
+*******************
+) [33] (./MUthesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1914 strings out of 494847
+ 24631 string characters out of 6179081
+ 83186 words of memory out of 5000000
+ 5213 multiletter control sequences out of 15000+600000
+ 46726 words of font info for 130 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 30i,8n,22p,232b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/pxfonts/rpcxr.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/pxfonts/rpxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxf
+onts/rpxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/rpxsc.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/palatino/uplri8a.pfb>
+Output written on MUthesis.pdf (33 pages, 135602 bytes).
+PDF statistics:
+ 152 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

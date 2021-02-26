@@ -1,0 +1,16 @@
+
+\begin{thenomenclature} 
+\nomgroup{A}
+  \item [{$\lambda$}]\begingroup thermal conductitivity\nomeqref {2.5}\nompageref{14}
+  \item [{$\lambda_0$}]\begingroup thermal conductivity of 100$\%$ dense material\nomeqref {2.5}\nompageref{14}
+  \item [{$\lambda_p$}]\begingroup thermal conductivity of dispersed phase\nomeqref {2.5}\nompageref{14}
+  \item [{$\lambda_s$}]\begingroup thermal conductivity of continuous phase (U--10Mo)\nomeqref {2.5}\nompageref{14}
+  \item [{$\mathcal{H}$}]\begingroup many body hamiltonian\nomeqref {3.1}\nompageref{28}
+  \item [{$\nu$}]\begingroup porosity\nomeqref {2.5}\nompageref{14}
+  \item [{$\nu_p$}]\begingroup volume fraction of xenon in U--10Mo\nomeqref {2.5}\nompageref{14}
+  \item [{$K$}]\begingroup thermal conductivity tensor\nomeqref {2.2}\nompageref{11}
+  \item [{$K_{\text{eff}}$}]\begingroup effective thermal conductivity\nomeqref {2.3}\nompageref{12}
+  \item [{$q''$}]\begingroup heat flux\nomeqref {2.2}\nompageref{11}
+  \item [{$T$}]\begingroup absolute temperature\nomeqref {2.2}\nompageref{11}
+
+\end{thenomenclature}

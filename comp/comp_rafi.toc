@@ -1,0 +1,44 @@
+\ifack@found \else \stepcounter {page}\global \ack@foundtrue \fi 
+\contentsline {chapter}{\MakeUppercase {List of Tables}}{iv}{chapter*.2}
+\contentsline {chapter}{\MakeUppercase {List of Figures}}{v}{chapter*.3}
+\renewcommand *{\toc@label }{Chapter}\@first@in@sectiontrue 
+\gdef \the@ipfilectr {@-1}
+\contentsline {chapter}{\numberline {1.}\MakeUppercase {U--Mo fuel: a brief introduction}}{1}{chapter.1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\contentsline {chapter}{\numberline {2.}\MakeUppercase {Effect of Xenon on the overall thermal conductivity of U-10Mo}}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Methods}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Effective Thermal Conductivity Calculation}{11}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Results and Discussion}{13}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Effect of Xenon Gas Bubbles on the Thermal Conductivity}{13}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Intra-Granular Bubbles}{13}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Inter-Granular Bubbles}{14}{subsubsection.2.3.1.2}
+\contentsline {subsection}{\numberline {2.3.2}Effect of Xenon Pressure on the Overall Thermal Conductivity}{16}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Effect of Bubble Arrangement on Thermal Conductivity}{17}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Conclusions}{21}{section.2.4}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
+\contentsline {chapter}{\numberline {3.}\MakeUppercase {First-Principles Study of Metallic Uranium}}{26}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{26}{section.3.1}
+\contentsline {section}{\numberline {3.2}Density Functional Theory: A Brief Introduction}{28}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Solution of the Single particle Kohn-Sham Equations}{31}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Kohn-Sham problem for an isolated atom}{32}{section.3.3}
+\contentsline {section}{\numberline {3.4}Theory of Pseudopotential}{34}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Basic Phillips-Kleinman Construction}{36}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Computational Details}{39}{section.3.5}
+\contentsline {section}{\numberline {3.6}Results}{40}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}\textalpha -Uranium}{41}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}\textgamma -U: Crystal Structure and Elastic Moduli}{43}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Body-centered Tetragonal Uranium}{45}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Face-Centered Cubic Uranium}{46}{subsection.3.6.4}
+\contentsline {subsection}{\numberline {3.6.5}Electronic Density of States}{47}{subsection.3.6.5}
+\contentsline {section}{\numberline {3.7}Conclusion}{49}{section.3.7}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\contentsline {chapter}{\numberline {4.}\MakeUppercase {Xenon mobility in U--Mo fuel}}{55}{chapter.4}
+\gdef \the@ipfilectr {}
+\c@tocdepth =0\renewcommand *{\toc@label }{Appendix}\@first@in@sectiontrue 
+\gdef \the@ipfilectr {@-5}
+\contentsline {chapter}{\numberline {A.}\MakeUppercase {Calculation of Elastic Parameters of alpha-uranium}}{58}{appendix.A}
+\gdef \the@ipfilectr {}

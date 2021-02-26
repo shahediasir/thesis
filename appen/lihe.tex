@@ -1,0 +1,58 @@
+\chapter{Helium Interaction with BCC Lithium}
+Lithium is one of the promising plasma facing material in ITER. In the near surface of plasma facing materials high density of interstitials and vacancies are being produced in addition to higher concentration of hydrogen and helium. This defects and gases will change the microstructure of the material. It is therefore important to determine the property of point defects in Lithium and its interaction with helium atom.
+
+We perform all our calculations using density functional theory (DFT) with plane-wave basis sets as implemented in the software \textsc{QuantumEspresso}\cite{}. The PAW based pseudopotential were used from PS library. The generalized gradient approximation of Perdew--Burke--Ernzerhof (PBE) was used as exchange-correlation functional~\cite{}. We used a $4\times4\times4$ of bcc lithium, which consists of 128 atoms to simulate point defects. Brillouin zone sampling was performed using Monkhorst and Pack scheme~\cite{}. The plane wave cutoff energy was 50 Ry. The equilibrium lattice parameter obtained was 3.436 \AA. All the calculations were performed at constant volume fully relaxing the atomic positions in the supercells.
+
+The formation energies are calculated as follows:
+\begin{align}\label{eq_forme}
+\begin{split}
+ E^{f}_{\text{oct}} & = E_{\text{Li}+\text{He}_{\text{oct}}} - E_{\text{Li}} - E_{\text{He}_{\text{iso}}} \\
+ E^{f}_{\text{tetr}}& = E_{\text{Li}+\text{He}_{\text{tetr}}} - E_{\text{Li}} - E_{\text{He}_{\text{iso}}} \\
+ E^f_{\Box} & = E^{{\Box}_1}_{\text{Li}} - \frac{N-1}{N} E_{\text{Li}_N} \\
+ E^f_{\text{subs}} & = E_{\text{Li}+\text{He}_{\Box}} - \frac{N-1}{N} E_{\text{Li}_N} - E_{\text{He}_{\text{iso}}}
+\end{split}
+ \end{align}
+
+The binding energy between vacancy and solute is calculated as follows
+\begin{equation}\label{eq_binde}
+ E_\text{b}^{\mathrm{He}\text{--}\Box} = E^{\mathrm{He}_1}_{\mathrm{Li}_{N-1}} + E^{\Box_1}_{\mathrm{Li}_{N-1}}- E^{\mathrm{He}_1\Box_1}_{\mathrm{U}_{N-2}} - E_{\mathrm{Li}_N}
+\end{equation}
+
+The binding energies of two helium atoms is determined as obtained as:
+\begin{equation}
+E_{\text{b}}^{A_1\text{--}A_2} = E_N^{A_1} + E_N^{A_2} - E_N^{A_1+A_2} - E_N 
+\end{equation}
+
+The He--He dumbbell formation energy can be calculated using the following equation:
+\begin{equation}\label{eq_dmbl}
+E_{f}^{\text{He}-\Box-\text{He}} = E_{N-1}^{\text{He}-\Box-\text{He}} - E_{N-1}^{\Box} - 2E_{\text{He}_{\text{iso}}}
+\end{equation}
+
+\begin{table}
+\caption[]{Formation energies (in eV) for a single He atom positioned in the octahedral or tetrahedral interstitial sites as well as in substitution. He migration energy (eV). The Calculations are done using 128 atom supercells.}
+\label{table:he_li}
+\centering
+\begin{tabular}{l|c|c|c} \hline \hline
+eV                & Li--He  &  W--He~\cite{becquart2007ab}   &  Fe--He~\cite{seletskaia2005magnetic} \\ \hline
+    $E^{f}_{\text{oct}}$  & 1.142   &  6.38    & 4.60   \\ \hline
+    $E^{f}_{\text{tetr}}$ & 1.132   &  6.16    & 4.37   \\ \hline
+    $E^f_{subs}$          & 1.213   &  4.70    & 4.08   \\ \hline
+    $E^{t-t}_{mig}$       & 0.003   &  0.06    & 0.06    \\ \hline 
+\end{tabular}
+\end{table}
+
+\begin{table}
+\caption[]{Formation of  He--He dumbbells around a vacancy in lithium using \eqref{eq_dmbl}}
+\label{table:dumbel}
+\centering
+\begin{tabular}{c|c} \hline \hline
+Dumbbell Configuration & Formation Energy (eV) \\ \hline 
+\hkl<111>	& 1.348 \\ \hline
+\hkl<110>   & 1.367  \\ \hline
+\hkl<010>   & 1.383 \\ \hline
+\end{tabular}
+\end{table}
+
+
+\bibliographystyle{unsrt}
+\bibliography{abbreviated,comp}

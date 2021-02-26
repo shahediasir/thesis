@@ -1,0 +1,140 @@
+\documentclass[hyper,comprehensive]{MUthesis}
+%% options:
+%%  doublespace  -- the default, indicates double spacing as per MU
+%%                  requirements; use for all final copies
+%%  singlespace  -- for early work; not acceptable for final draft
+%%  dissertation -- default; indicates this is a dissertation
+%%  thesis       -- indicates this is a Master's thesis; changes the default
+%%                  for \degree{}{} to Master of Science / M.S.
+%%  nolisthyphen -- disallows hyphenation in the Table of Contents and
+%%                      the list of figures/tables; only use if the graduate
+%%                      school or your committee complain
+%%  nohyphen     -- disallows hyphenation /everywhere/; don't use unless
+%%                  someone complains (and even then, fight back!)
+%%  hyperpages   -- default; loads hyperref with stripped down options
+%%  hyper        -- loads hyperref with page labels and invisible links
+%%  nohyper      -- turns off loading of hyperref, which is used only to
+%%                  fix page labels (so that i is called i, not 1, in the PDF);
+%%                  use this if you want to load hyperref with other options
+%%
+%%  All other options are passed as-is to the "report" class; the default size
+%%  is 12pt, but you can specify 10 or 11 pt (or any other size supported by
+%%  "report")
+
+\usepackage{amsmath}
+\usepackage{physics}
+\usepackage{txfonts}
+\usepackage{graphicx}
+%\usepackage{achemso}
+\usepackage{textgreek}
+\usepackage{miller}
+\usepackage{comment}
+
+%\usepackage[rootbib]{chapterbib}
+\usepackage{chapterbib}
+%\begin{comment}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+\tikzstyle{block2} = [rectangle, draw,
+    text width=15em, text centered, minimum height=3em]
+
+\tikzstyle{block3} = [rectangle, draw,
+	text width=20em, text centered, minimum height=3em]
+
+\tikzstyle{decision} = [diamond, draw,
+	text width=7em, text centered, minimum height=2em]
+
+
+\tikzstyle{block} = [rectangle, draw,
+    text width=5em, text centered, minimum height=3em]
+
+\tikzstyle{line} = [thick, ->, >=stealth, draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
+    minimum height=2em]
+
+\tikzstyle[arrow] = [thick, ->, >=stealth]
+%\end{comment}
+
+\DeclareRobustCommand{\schrod}{Schr\"odinger }
+
+\graphicspath{{images/}}
+
+\newcommand*{\ie}{\emph{i.e.}}
+\newcommand*{\eg}{\emph{e.g.}}
+\makeatletter
+\DeclareRobustCommand{\etal}{\emph{et al}\@ifnextchar.{}{.}}
+\makeatother
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.mps}
+
+\title{Studying the Impact of Xenon gas in Uranium-Molybdenum Fuel}
+\author{Abu Rafi Mohammad Iasir}
+\date{April, 12 2019} 
+                
+\chair{Karl Hammond}
+\firstreader{Scott Kovalaski}
+\secondreader{Robert Winholtz}
+\thirdreader{Nickie Peters}
+
+%% Your degree's name;
+%\degree{Doctor of Philosophy}{Ph.D.}
+%% defaults to {Doctor of Philosophy}{Ph.D.} (option "dissertation"; default)
+%% defaults to {Master of Science}{M.S.} for theses (option "thesis")
+
+\begin{document}
+\frontmatter   % optional (automatically set at \begin{document})
+\maketitle     % mandatory
+%\copyrightpage % optional
+\approvalpage  % mandatory
+%\begin{acknowledgments}
+
+%\end{acknowledgments}
+
+
+\tableofcontents
+%%\listofillustrations
+\listoftables
+
+\listoffigures
+%%\listofschemes
+%%\listofsymbols % or \printnomenclature; requires nomencl package
+
+
+
+
+%\begin{abstract}
+%\end{abstract}
+
+\mainmatter % this line is mandatory
+
+\include{chapters/firstchapter}
+
+\include{chapters/xenontherm}
+
+\include{chapters/pseudoUranium}
+
+\include{chapters/futurework}
+
+
+
+
+
+
+\appendix
+%\include{appen/descretize}
+%\include{appen/opw}
+%\include{appen/paw}
+\include{appen/elastic_alphaU}
+
+%\chapter{Data That Need Showing}
+
+\backmatter % mandatory; prepares for bibliography, glossary, index
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{full,comp}
+
+
+\end{document}
+\endinput
+%%
+%% End of file `MUthesis-example.tex'.

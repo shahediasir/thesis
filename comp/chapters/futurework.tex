@@ -1,0 +1,51 @@
+\chapter[Xenon mobility in U--Mo fuel]{Xenon Mobility in BCC Uranium in the presence of Molybdenum}
+
+\tikzstyle{block10} = [rectangle, draw, fill=blue!20,
+    text width=17em, text centered, minimum height=3em]
+\tikzstyle{block11} = [rectangle, draw, fill=blue!20,
+	text width=10em, text centered, minimum height=3em]
+
+
+Understanding the fission gas diffusion in the fuel is one of the oldest challenges in nuclear engineering and fuel design. The presence of xenon gas (one of the fission gases) not only impact the neutronics of the reactor but also impact the thermal properties of the fuel. In U--Mo fuel fission gas shows an interesting pattern that stabilizes at high temperature (see section~\ref{sec:introduction_ch1}). The atomic transport process in U--Mo fuel is of great interest for understanding the performance of the fuel during irradiation. In particular , the fission gas behavior is an important factor since it reduces the thermal conductivity, and produce internal stress and blister. For UO$_2$ fuel a large amount of work~(\cite{petit1999location, crocombette2002ab, freyss2006ab}) have been performed to understand the mechanism of fission gas release. For metallic fuel (i.e U--Mo) the mechanism still needed to be studied.
+
+In this study, we will focus on the atomic diffusion mechanism of xenon, which is the dominant gaseous species accounting for almost 85\% of fission gas~\cite{blades1956ratio, petruska1955absolute}. We will approach this challenge with first principles technique. Point defects, especially vacancy defects, which is considered to be a major diffusion channel in the UO$_2$ matrix~\cite{petit1999location}. Calculation of the vacancy formation energy in the \textgamma-uranium would be a fist step. And how the vacancy formation energy changes around the octahedral site is also important. The possible step would be calculating the energy needed to incorporate a xenon atom in one of the interstitial sites. Which particular location around the octahedral interstitial sites provide the stable location for xenon will be a really interesting to study. The formation energy of a single vacancy in \textgamma-U can be defined as
+\begin{equation}
+\label{eq_vacancy}
+E_v = E_{(n-1)U} - \frac{n-1}{n} E_{nU}
+\end{equation}
+
+Here $E_{(n-1)U}$ is the total energy of an $(n-1)U$ atom supercell containing a single uranium vacancy. $E_{nU}$ is the total energy of an ideal \textgamma-U supercell with n lattice cites. The formation energy of an U interstitial is defined as 
+\begin{equation}
+\label{eq_interstitial}
+E_I = E_{(n+1)U} - \frac{n+1}{n} E_{nU}
+\end{equation}
+
+Where $E_{(n+1)U}$ is the total energy of $(n+1)U$ atoms, which includes the atoms at lattice positions as well as one interstitial. The formation energy of Mo substitution is defined as
+\begin{equation}
+E_s = E_{(n-1)U+Mo} - \frac{n-1}{n}E_{nU} - E_{Mo}
+\end{equation}
+
+where $E_{(n-1)U+Mo}$ is the energy of a lattice containing one Mo substitutional and $E_{Mo}$ is the energy of one Mo atom in the bcc crystal. Incorporation of molybdenum in the \textgamma-uranium would be a challenging step since U--Mo alloys are disordered. The energy needed to incorporate a free Xe atom at at octahedral interstitial site (OIS) in \textgamma-U needs to be calculated. From this we might have an idea about a stable location of xenon. The calculation of vacancies and xenon can be investigated by the calculation of their migration energies. 
+
+The future work can be summarized but not limited to the following objectives.
+
+
+\begin{itemize}
+\item Vacancy formation energy for \textgamma-uranium.
+\item The energy needed to incorporate a free xenon atom at an octahedral interstitial site (OIS) in \textgamma-uranium.
+\item Stable location of xenon in the \textgamma-uranium.
+\item Low energy position of xenon in the presence of molybdenum.
+\item Xenon migration energy calculation.
+\item Effect of xenon migration energy in the presence of molybdenum.
+\item Calculation of diffusion constant of xenon in \textgamma-uranium.
+\item Impact of molybdenum in the diffusion constant of xenon. 
+\item Xenon migration path analysis.
+\end{itemize}
+
+Using supercell approach in density functional theory is very time demanding. Some of the objectives presented above, usually are computationally heavy. Hopefully I can achieve the primary goals in 7-9 months.
+
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{abbreviated,comp}

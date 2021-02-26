@@ -1,0 +1,773 @@
+\begin{thebibliography}{100}
+
+\bibitem{travelli1980current}
+Armando Travelli.
+\newblock Current status of the rertr program.
+\newblock Technical report, Argonne National Lab., IL (USA), 1980.
+
+\bibitem{snelgrove1997development}
+James~L. Snelgrove, G.~L. Hofman, M.~K. Meyer, C.~L. Trybus, and T.~C. Wiencek.
+\newblock Development of very-high-density low-enriched-uranium fuels.
+\newblock {\em Nucl.\ Eng.\ Des.}, 178(1):119--126, 1997.
+
+\bibitem{m3web}
+{National Nuclear Security Administration}.
+\newblock Material management minization.
+\newblock {\url{https://www.energy.gov/nnsa/missions/nonproliferation}}, 2019.
+
+\bibitem{wilson2017us}
+EH~Wilson, A~Bergeron, JA~Stillman, TA~Heltemes, D~Jaluvka, and L~Jamison.
+\newblock Us high performance research reactor conversion program: an overview
+  on element design.
+\newblock In {\em Proceedings of the 2017 European Research Reactor
+  Conference}. RRFM Rotterdam, Netherlands, 2017.
+
+\bibitem{kittel1993history}
+J.~H. Kittel, B.~R.~T. Frost, J.~P. Mustelier, K.~Q. Bagley, G.~C. Crittenden,
+  and J.~Van~Dievoet.
+\newblock History of fast reactor fuel development.
+\newblock {\em J.~Nucl.\ Mater.}, 204:1--13, 1993.
+
+\bibitem{meyer2000irradiation}
+M.~K. Meyer, T.~C. Wiencek, S.~L. Hayes, and G.~L. Hofman.
+\newblock Irradiation behavior of {U$_6$Mn}--{Al} dispersion fuel elements.
+\newblock {\em J.~Nucl.\ Mater.}, 278(2):358--363, 2000.
+
+\bibitem{hofman1987irradiation}
+G.~L. Hofman, R.~F. Domagala, and G.~L. Copeland.
+\newblock Irradiation behavior of low-enriched {U$_6$Fe}-{Al} dispersion fuel
+  elements.
+\newblock {\em J.~Nucl.\ Mater.}, 150(2):238--243, 1987.
+
+\bibitem{donze1959stabilisation}
+G~Donz{\'e} and G~Cabane.
+\newblock Stabilisation de la phase $\gammaup$ dans les alliages ternaires a
+  base d'uranium-molybdene.
+\newblock {\em J.~Nucl.\ Mater.}, 1(4):364--373, 1959.
+
+\bibitem{giraud1973formation}
+F~Giraud-Heraud and J~Guillaumin.
+\newblock Transition phase formation in {U-7,5\% Nb-2,5\%Zr} alloy.
+\newblock {\em Acta Metall.}, 21(9):1243--1252, 1973.
+
+\bibitem{lopes2013mechanical}
+Denise~Adorno Lopes, Thomaz Augusto~Guisard Restivo, and Angelo~Fernando
+  Padilha.
+\newblock Mechanical and thermal behaviour of {U--Mo} and {U}--{Nb}--{Zr}
+  alloys.
+\newblock {\em J.~Nucl.\ Mater.}, 440(1):304--309, 2013.
+
+\bibitem{ASM-Alloy-Mo}
+Hiroaki Okamoto, Mark~E. Schlesinger, and Erik~M. Mueller, editors.
+\newblock {\em {Mo} (Molybdenum) Binary Alloy Phase Diagrams}, volume~3 of {\em
+  ASM Handbook}, pages 489--498.
+\newblock ASM International, 2016.
+
+\bibitem{Berche2011}
+A.~Berche, N.~Dupin, C.~Gu{\'e}nau, C.~Rado, B.~Sundman, and J.~C. Dumas.
+\newblock Calphad thermodynamic description of some binary systems involving
+  {U}.
+\newblock {\em J.~Nucl.\ Mater.}, 411:131--143, 2011.
+
+\bibitem{horak1973operating}
+J.~A. Horak, J.~A. Reuscher, and D.~J. Sasmor.
+\newblock Operating experience with uranium--molybdenum fuel in pulsed
+  reactors.
+\newblock Technical report, Sandia Labs., Albuquerque, N. Mex.(USA), 1973.
+
+\bibitem{cottrell1964development}
+S.~A. Cottrell, E.~Edmonds, P.~Higginson, and W.~Oldfield.
+\newblock Development and performance of dounreay fast reactor metal fuel.
+\newblock Technical report, United Kingdom Atomic Energy Authority. Industrial
+  Group. Dounreay, 1964.
+
+\bibitem{no20031374}
+International Atomic~Energy Agency.
+\newblock Development status of metallic, dispersion and non-oxide advanced and
+  alternative fuels for power and research reactors.
+\newblock {\em Nuclear Fuel Cycle and Material Section}, 2003.
+
+\bibitem{jeong2015mechanical}
+Gwan~Yoon Jeong, Yeon~Soo Kim, and Dong-Seong Sohn.
+\newblock Mechanical analysis of {UMo/Al} dispersion fuel.
+\newblock {\em J.~Nucl.\ Mater.}, 466:509--521, 2015.
+
+\bibitem{leenaers2004post}
+Ann Leenaers, S.~Van~den Berghe, E.~Koonen, C.~Jarousse, F.~Huet, M.~Trotabas,
+  M.~Boyard, S.~Guillot, L.~Sannen, and M.~Verwerft.
+\newblock Post-irradiation examination of uranium--7wt\% molybdenum atomized
+  dispersion fuel.
+\newblock {\em J.~Nucl.\ Mater.}, 335(1):39--47, 2004.
+
+\bibitem{jue2014microstructural}
+Jan-Fong Jue, Dennis~D. Keiser, Cynthia~R. Breckenridge, Glenn~A. Moore, and
+  Mitchell~K. Meyer.
+\newblock Microstructural characteristics of hip-bonded monolithic nuclear
+  fuels with a diffusion barrier.
+\newblock {\em J.~Nucl.\ Mater.}, 448(1):250--258, 2014.
+
+\bibitem{van2008transmission}
+Sven Van~den Berghe, Wouter Van~Renterghem, and Ann Leenaers.
+\newblock Transmission electron microscopy investigation of irradiated
+  {U}--{7wt\%} {Mo} dispersion fuel.
+\newblock {\em J.~Nucl.\ Mater.}, 375(3):340--346, 2008.
+
+\bibitem{olander2009growth}
+D.~Olander.
+\newblock Growth of the interaction layer around fuel particles in dispersion
+  fuel.
+\newblock {\em J.~Nucl.\ Mater.}, 383(3):201--208, 2009.
+
+\bibitem{burkes2015thermal}
+Douglas~E. Burkes, Andrew~M. Casella, Amanda~J. Casella, Edgar~C. Buck, Karl~N.
+  Pool, Paul~J. {MacF}arlan, Matthew~K. Edwards, and Frances~N. Smith.
+\newblock Thermal properties of {U}--{Mo} alloys irradiated to moderate burnup
+  and power.
+\newblock {\em J.~Nucl.\ Mater.}, 464:331--341, 2015.
+
+\bibitem{rondinella2010high}
+Vincenzo~V. Rondinella and Thierry Wiss.
+\newblock The high burn-up structure in nuclear fuel.
+\newblock {\em Mater.\ Today}, 13(12):24--32, 2010.
+
+\bibitem{blades1956ratio}
+A.~T. Blades, W.~H. Fleming, and H.~G. Thode.
+\newblock The ratio of xenon to krypton in {U\textsuperscript{235}} fission.
+\newblock {\em Can.\ J.~Chem.}, 34(3):233--237, 1956.
+
+\bibitem{petruska1955absolute}
+J.~A. Petruska, H.~G. Thode, and R.~H. Tomlinson.
+\newblock The absolute fission yields of twenty-eight mass chains in the
+  thermal neutron fission of {U\textsuperscript{235}}.
+\newblock {\em Can.\ J.~Phys.}, 33(11):693--706, 1955.
+
+\bibitem{kim2011fission}
+Yeon~Soo Kim and G.~L. Hofman.
+\newblock Fission product induced swelling of {U}--{Mo} alloy fuel.
+\newblock {\em J.~Nucl.\ Mater.}, 419(1):291--301, 2011.
+
+\bibitem{miller2015transmission}
+B.~D. Miller, J.~Gan, D.~D. Keiser, Jr, A.~B. Robinson, J.~F. Jue, J.~W.
+  Madden, and P.~G. Medvedev.
+\newblock Transmission electron microscopy characterization of the fission gas
+  bubble superlattice in irradiated {U}--7wt\% {Mo} dispersion fuels.
+\newblock {\em J.~Nucl.\ Mater.}, 458:115--121, 2015.
+
+\bibitem{miller2012advantages}
+Brandon~D. Miller, Jian Gan, James Madden, Jan-Fong Jue, A.~Robinson, and D.~D.
+  Keiser.
+\newblock Advantages and disadvantages of using a focused ion beam to prepare
+  {TEM} samples from irradiated {U}--10{Mo} monolithic nuclear fuel.
+\newblock {\em J.~Nucl.\ Mater.}, 424(1):38--42, 2012.
+
+\bibitem{gan2010transmission}
+Jian Gan, D.~D. Keiser, Dan~M. Wachs, Adam~B. Robinson, Brandon~D. Miller, and
+  Todd~R. Allen.
+\newblock Transmission electron microscopy characterization of irradiated
+  {U}--7{Mo}/{Al}--2{Si} dispersion fuel.
+\newblock {\em J.~Nucl.\ Mater.}, 396(2):234--239, 2010.
+
+\bibitem{gan2012tem}
+Jian Gan, D.~D. Keiser, Brandon~D. Miller, Adam~B. Robinson, Jan-Fong Jue,
+  Pavel Medvedev, and Dan~M. Wachs.
+\newblock {TEM} characterization of {U}--7{Mo}/{Al}--2{Si} dispersion fuel
+  irradiated to intermediate and high fission densities.
+\newblock {\em J.~Nucl.\ Mater.}, 424(1):43--50, 2012.
+
+\bibitem{johnson1980gas}
+P.~B. Johnson and D.~J. Mazey.
+\newblock The gas-bubble superlattice and the development of surface structure
+  in {He$^+$} and {H} irradiated metals at 300~{K}.
+\newblock {\em J.~Nucl.\ Mater.}, 93--94:721--727, 1980.
+
+\bibitem{johnson1980hydrogen}
+P.~B. Johnson and D.~J. Mazey.
+\newblock Hydrogen gas-bubble structure in proton-irradiated copper at 300~{K}.
+\newblock {\em J.~Nucl.\ Mater.}, 91(1):41--46, 1980.
+
+\bibitem{evans1983void}
+J.~H. Evans.
+\newblock Void and bubble lattice formation in molybdenum: {A} mechanism based
+  on two-dimensional self-interstitial diffusion.
+\newblock {\em J.~Nucl.\ Mater.}, 119(2--3):180--188, 1983.
+
+\bibitem{mazey1986bubble}
+D.~J. Mazey and J.~H. Evans.
+\newblock Bubble lattice formation in titanium injected with krypton ions.
+\newblock {\em J.~Nucl.\ Mater.}, 138(1):16--18, 1986.
+
+\bibitem{evans1986solid}
+J.~H. Evans and D.~J. Mazey.
+\newblock Solid bubble formation in titanium injected with krypton ions.
+\newblock {\em J.~Nucl.\ Mater.}, 138(2-3):176--184, 1986.
+
+\bibitem{johnson1991image}
+P.~B. Johnson, K.~J. Stevens, and R.~W. Thomson.
+\newblock Image processing techniques in the study of ordered bubble arrays:
+  Bubble facetting in vanadium.
+\newblock {\em Nucl.\ Instrum.\ Meth.\ Phys.\ Res.~B}, 62(2):218--227, 1991.
+
+\bibitem{johnson1995gas}
+P.~B. Johnson and D.~J. Mazey.
+\newblock Gas-bubble superlattice formation in bcc metals.
+\newblock {\em J.~Nucl.\ Mater.}, 218(3):273--288, 1995.
+
+\bibitem{lawson1998temperature}
+F.~E. Lawson and P.~B. Johnson.
+\newblock A temperature threshold for gas-bubble superlattice formation in
+  molybdenum.
+\newblock {\em J.~Nucl.\ Mater.}, 252(1-2):34--42, 1998.
+
+\bibitem{ghoniem2001theory}
+N.~M. Ghoniem, Daniel Walgraef, and S.~J. Zinkle.
+\newblock Theory and experiment of nanostructure self-organization in
+  irradiated materials.
+\newblock 8(1):1--38, 2001.
+
+\bibitem{johnson2006helium}
+P.~B. Johnson and Fenella Lawson.
+\newblock Helium gas-bubble superlattice formation in molybdenum.
+\newblock {\em Nucl.\ Instrum.\ Meth.\ Phys.\ Res.~B}, 243(2):325--334, 2006.
+
+\bibitem{Gan2015}
+J.~Gan, D.~D. Keiser, Jr., B.~D. Miller, A.~B. Robinson, D.~M. Wachs, and M.~K.
+  Meyer.
+\newblock Thermal stability of fission gas bubble superlattice in irradiated
+  {U--10Mo} fuel.
+\newblock {\em J.~Nucl.\ Mater.}, 464:1--5, September 2015.
+
+\bibitem{bakker1997using}
+K.~Bakker.
+\newblock Using the finite element method to compute the influence of complex
+  porosity and inclusion structures on the thermal and electrical conductivity.
+\newblock {\em Int.\ J.~Heat Mass Tran.}, 40(15):3503--3511, 1997.
+
+\bibitem{maxwell1881treatise}
+James~Clerk Maxwell.
+\newblock {\em A Treatise on Electricity and Magnetism}, volume~1.
+\newblock Clarendon Press, Oxford, 1881.
+
+\bibitem{macewan1967effect}
+J.~B. M{acE}wan, R.~L. Stoute, and M.~J.~F. Notley.
+\newblock Effect of porosity on the thermal conductivity of {UO}$_2$.
+\newblock {\em J.~Nucl.\ Mater.}, 24(1):109--112, 1967.
+
+\bibitem{goldsmith1973measurements}
+L.~A. Goldsmith and J.~A.~M. Douglas.
+\newblock Measurements of the thermal conductivity of uranium dioxide at
+  670--1270 {K}.
+\newblock {\em J.~Nucl.\ Mater.}, 47(1):31--42, 1973.
+
+\bibitem{devries1989experimental}
+M.~F. {DeV}ries.
+\newblock An experimental determination of the thermal conductivity of a {304L}
+  stainless steel powder metallurgy material.
+\newblock {\em J.~Heat Tran.}, 111:281, 1989.
+
+\bibitem{loeb1954thermal}
+Arthur~L. Loeb.
+\newblock Thermal conductivity: {VIII}, {A} theory of thermal conductivity of
+  porous materials.
+\newblock {\em J.~Am.\ Ceram.\ Soc.}, 37(2):96--99, 1954.
+
+\bibitem{cunningham1981heat}
+M.~E. Cunningham and K.~L. Peddicord.
+\newblock Heat conduction in spheres packed in an infinite regular cubical
+  array.
+\newblock {\em Int.\ J.~Heat Mass Tran.}, 24(7):1081--1088, 1981.
+
+\bibitem{tzou1991effect}
+Da~Yu Tzou.
+\newblock The effect of internal heat transfer in cavities on the overall
+  thermal conductivity.
+\newblock {\em Int.\ J.~Heat Mass Tran.}, 34(7):1839--1846, 1991.
+
+\bibitem{bauer1993general}
+T.~H. Bauer.
+\newblock A general analytical approach toward the thermal conductivity of
+  porous media.
+\newblock {\em Int.\ J.~Heat Mass Tran.}, 36(17):4181--4191, 1993.
+
+\bibitem{hu2015assessment}
+Shenyang Hu, Andrew~M. Casella, Curt~A. Lavender, David~J. Senor, and
+  Douglas~E. Burkes.
+\newblock Assessment of effective thermal conductivity in {U}--{Mo} metallic
+  fuels with distributed gas bubbles.
+\newblock {\em J.~Nucl.\ Mater.}, 462:64--76, 2015.
+
+\bibitem{trelis}
+{Trellis Pro}.
+\newblock Computational simulation software.
+\newblock csimsoft, LLC., American Fork, Utah, 2012--2017.
+
+\bibitem{rabinovich1987thermophysical}
+Viktor~Abramovich Rabinovich, A.~A. Vasserman, V.~I. Nedostup, and Lo~S.
+  Veksler.
+\newblock {\em Thermophysical Properties of Neon, Argon, Krypton, and Xenon}.
+\newblock Hemisphere Publishing Corporation, New York, NY, 1987.
+
+\bibitem{kaufmann1962nuclear}
+Albert~R. Kaufmann.
+\newblock {\em Nuclear Reactor Fuel Elements: Metallurgy and Fabrication}.
+\newblock Interscience Publishers, New York, 1962.
+
+\bibitem{burkes2010thermo}
+Douglas~E Burkes, Cynthia~A Papesch, Andrew~P Maddison, Thomas Hartmann, and
+  Francine~J Rice.
+\newblock Thermo-physical properties of {DU}--10wt.\% {Mo} alloys.
+\newblock {\em J.~Nucl.\ Mater.}, 403(1):160--166, 2010.
+
+\bibitem{greenwood1959role}
+G.~W. Greenwood, A.~J.~E. Foreman, and D.~E. Rimmer.
+\newblock The role of vacancies and dislocations in the nucleation and growth
+  of gas bubbles in irradiated fissile material.
+\newblock {\em J.~Nucl.\ Mater.}, 1(4):305--324, 1959.
+
+\bibitem{trinkaus1983energetics}
+H.~Trinkaus.
+\newblock Energetics and formation kinetics of helium bubbles in metals.
+\newblock {\em Radiat.\ Eff.}, 78(1--4):189--211, 1983.
+
+\bibitem{xiao2015atomistic}
+Hongxing Xiao, Chongsheng Long, Xiaofeng Tian, and Shujian Li.
+\newblock Atomistic simulations of the small xenon bubble behavior in {U}--{Mo}
+  alloy.
+\newblock {\em Mater. Des.}, 74:55--60, 2015.
+
+\bibitem{thomas1991condensed}
+L.~E. Thomas.
+\newblock Condensed-phase xenon and krypton in {UO$_2$} spent fuel.
+\newblock In {\em Fundamental Aspects of Inert Gases in Solids}, pages
+  431--441. Springer, New York, 1991.
+
+\bibitem{ross1980condensed}
+M.~Ross and A.~K. {McM}ahan.
+\newblock Condensed xenon at high pressure.
+\newblock {\em Phys.\ Rev.~B}, 21(4):1658--1664, 1980.
+
+\bibitem{zheng2014thermodynamics}
+J.~Zheng, Q.~F. Chen, Y.~J. Gu, Z.~Y. Chen, and C.~J. Li.
+\newblock Thermodynamics, compressibility, and phase diagram: {S}hock
+  compression of supercritical fluid xenon.
+\newblock {\em J.~Chem.\ Phys.}, 141(12):124, 2014.
+
+\bibitem{gaston2009moose}
+Derek Gaston, Chris Newman, Glen Hansen, and Damien Lebrun-Grandie.
+\newblock {MOOSE}: A parallel computational framework for coupled systems of
+  nonlinear equations.
+\newblock {\em Nucl.\ Eng.\ Des.}, 239(10):1768--1778, 2009.
+
+\bibitem{clark2003monolithic}
+C.~R. Clark, G.~C. Knighton, M.~K. Meyer, and G.~L. Hofman.
+\newblock Monolithic fuel plate development at {A}rgonne {N}ational
+  {L}aboratory.
+\newblock In {\em 2003 International Meeting on Reduced Enrichment for Research
+  and Test Reactors}, volume~1, Chicago, Illinois, October 2003.
+
+\bibitem{smith2013thermal}
+David~S. Smith, Arnaud Alzina, Julie Bourret, Beno{\^\i}t Nait-Ali, Fabienne
+  Pennec, Nicolas Tessier-Doyen, Kodai Otsu, Hideaki Matsubara, Pierre Elser,
+  and Urs.~T. Gonzenbach.
+\newblock Thermal conductivity of porous materials.
+\newblock {\em J.~Mater.\ Res.}, 28(17):2260--2272, 2013.
+
+\bibitem{hashin1962variational}
+Zvi Hashin and Shmuel Shtrikman.
+\newblock A variational approach to the theory of the effective magnetic
+  permeability of multiphase materials.
+\newblock {\em J.~Appl.\ Phys.}, 33(10):3125--3131, 1962.
+
+\bibitem{Schulz1981}
+Brigitte Schulz.
+\newblock Thermal conductivity of porous and highly porous.
+\newblock {\em High Temp.\ High Press.}, 13:649--660, 1981.
+
+\bibitem{kim2013recrystallization}
+Yeon~Soo Kim, G.L. Hofman, and J.~S. Cheon.
+\newblock Recrystallization and fission-gas-bubble swelling of {U}--{Mo} fuel.
+\newblock {\em J.~Nucl.\ Mater.}, 436(1):14--22, 2013.
+
+\bibitem{bauer1995pile}
+Theodore~H. Bauer and John~W. Holland.
+\newblock In-pile measurement of the thermal conductivity of irradiated
+  metallic fuel.
+\newblock {\em Nucl.\ Technol.}, 110(3):407--421, 1995.
+
+\bibitem{peddicord1978porosity}
+K.~L. Peddicord, M.~E. Cunningham, and A~Tripathi.
+\newblock Porosity correction to thermal conductivity based on analytical
+  temperature solutions.
+\newblock {\em Trans.\ Am.\ Nucl.\ Soc.}, 28:548, 1978.
+
+\bibitem{bakker1995determination}
+K.~Bakker, H.~Kwast, and E.~H.~P. Cordfunke.
+\newblock Determination of a porosity correction factor for the thermal
+  conductivity of irradiated {UO$_2$} fuel by means of the finite element
+  method.
+\newblock {\em J.~Nucl.\ Mater.}, 226(1--2):128--143, 1995.
+
+\bibitem{lawson1988structure}
+A.~C. Lawson, C.~E. Olsen, J.~W. Richardson, M.~H. Mueller, and G.~H. Lander.
+\newblock Structure of {\textbeta}-uranium.
+\newblock {\em Acta Crystallogr.~B}, 44(2):89--96, 1988.
+
+\bibitem{akella1997structural}
+J.~Akella, S.~Weir, J.~M. Wills, and P.~S{\"o}derlind.
+\newblock Structural stability in uranium.
+\newblock {\em J.~Phys.\ Condens.\ Matter}, 9(39):L549--L555, 1997.
+
+\bibitem{lander2003gh}
+G.~H. Lander.
+\newblock G h lander.
+\newblock {\em Science}, 301:1057, 2003.
+
+\bibitem{freemanHandbook1984}
+Arthur~J. Freeman and G.~H. Lander.
+\newblock {\em Handbook on the Physics and Chemistry of the Actinides}, volume
+  1,2.
+\newblock North-Holland, Amsterdam, 1984.
+
+\bibitem{wills1992crystal}
+J.~M. Wills and Olle Eriksson.
+\newblock Crystal-structure stabilities and electronic structure for the light
+  actinides {Th}, {Pa}, and {U}.
+\newblock {\em Phys.\ Rev.~B}, 45(24):13879, 1992.
+
+\bibitem{eriksson1993first}
+Olle Eriksson, Per S{\"o}derlind, J.~M. Wills, and A.~M. Boring.
+\newblock First principles studies of crystal structures of {$f$} elements.
+\newblock {\em Phys.~C Supercond.}, 190(1):5--11, 1993.
+
+\bibitem{crocombette2001plane}
+J.~P. Crocombette, F.~Jollet, L.~Thien~Nga, and T.~Petit.
+\newblock Plane-wave pseudopotential study of point defects in uranium dioxide.
+\newblock {\em Phys.\ Rev.~B}, 64(10):104107, 2001.
+
+\bibitem{soderlind2002first}
+Per S{\"o}derlind.
+\newblock First-principles elastic and structural properties of uranium metal.
+\newblock {\em Phys.\ Rev.~B}, 66(8):085113, 2002.
+
+\bibitem{lawson2000melting}
+A.~C. Lawson, B.~M. Artinez, J.~A. Roberts, B.~I. Bennett, and J.~W.
+  Richardson, Jr.
+\newblock Melting of the light actinides.
+\newblock {\em Philos.\ Mag.~B}, 80(1):53--59, 2000.
+
+\bibitem{jones2000theoretical}
+M.~D. Jones, J.~C. Boettger, R.~C. Albers, and D.~J. Singh.
+\newblock Theoretical atomic volumes of the light actinides.
+\newblock {\em Phys.\ Rev.~B}, 61(7):4644, 2000.
+
+\bibitem{taylor2008evaluation}
+Christopher~D. Taylor.
+\newblock Evaluation of first-principles techniques for obtaining materials
+  parameters of {\textalpha}-uranium and the {\hkl(001)} \textalpha-uranium
+  surface.
+\newblock {\em Phys.\ Rev.~B}, 77(9):094119, 2008.
+
+\bibitem{Bloechl1994}
+P.~E. Bl{\"o}chl.
+\newblock Projector augmented-wave method.
+\newblock {\em Phys.\ Rev.~B}, 50(24):17953--17979, December 1994.
+
+\bibitem{Perdew1992a}
+J.~P. Perdew, J.~A. Chevary, S.~H. Vosko, K.~A. Jackson, M.~R. Pederson, D.~J.
+  Singh, and C.~Fiolhais.
+\newblock Atoms, molecules, solids, and surfaces: {A}pplications of the
+  generalized gradient approximation for exchange and correlation.
+\newblock {\em Phys.\ Rev.~B}, 46(11):6671--6687, September 1992.
+
+\bibitem{Perdew1993}
+J.~P. Perdew, J.~A. Chevary, S.~H. Vosko, K.~A. Jackson, M.~R. Pederson, D.~J.
+  Singh, and C.~Fiolhais.
+\newblock Erratum: {A}toms, molecules, solids, and surfaces: {A}pplications of
+  the generalized gradient approximation for exchange and correlation.
+\newblock {\em Phys.\ Rev.~B}, 48(7):4978, 1993.
+
+\bibitem{barrett1963crystal}
+C.~S. Barrett, M.~H. Mueller, and R.~L. Hitterman.
+\newblock Crystal structure variations in alpha uranium at low temperatures.
+\newblock {\em Phys.\ Rev.}, 129(2):625, 1963.
+
+\bibitem{xiang2008quantum}
+Shikai Xiang, Hanchen Huang, and L.~M. Hsiung.
+\newblock Quantum mechanical calculations of uranium phases and niobium defects
+  in {\textgamma}-uranium.
+\newblock {\em J.~Nucl.\ Mater.}, 375(1):113--119, 2008.
+
+\bibitem{Perdew1996b}
+John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.
+\newblock Generalized gradient approximation made simple.
+\newblock {\em Phys.\ Rev.\ Lett.}, 77(18):3865--3868, October 1996.
+
+\bibitem{Perdew1997}
+John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.
+\newblock Generalized gradient approximation made simple (errata).
+\newblock {\em Phys.\ Rev.\ Lett.}, 78(7):1396, 1997.
+
+\bibitem{li2012structure}
+J.~H. Li, Q.~B. Ren, C.~H. Lu, L.~Lu, Y.~Dai, and B.~X. Liu.
+\newblock Structure, formation energies and elastic constants of uranium metal
+  investigated by first principles calculations.
+\newblock {\em J.~Alloy Compd.}, 516:139--143, 2012.
+
+\bibitem{beeler2013first}
+Benjamin Beeler, Chaitanya Deo, Michael Baskes, and Maria Okuniewski.
+\newblock First principles calculations of the structure and elastic constants
+  of {\textalpha}, {\textbeta} and {\textgamma} uranium.
+\newblock {\em J.~Nucl.\ Mater.}, 433(1-3):143--151, 2013.
+
+\bibitem{hartree}
+Douglas~R Hartree.
+\newblock The wave mechanics of an atom with a non-coulomb central field. part
+  i. theory and methods.
+\newblock {\em Mat. Proc. Cambridge Philos. Soc.}, 24:89, 1928.
+
+\bibitem{fock}
+Vladimir Fock.
+\newblock N{\"a}herungsmethode zur l{\"o}sung des quantenmechanischen
+  mehrk{\"o}rperproblems.
+\newblock {\em Zeitschrift f{\"u}r Physik}, 61(1-2):126--148, 1930.
+
+\bibitem{thomas1927calculation}
+Llewellyn~H. Thomas.
+\newblock The calculation of atomic fields.
+\newblock In {\em Mathematical Proceedings of the Cambridge Philosophical
+  Society}, volume~23, pages 542--548. Cambridge University Press, 1927.
+
+\bibitem{fermi1927metodo}
+Enrico Fermi.
+\newblock Un metodo statistico per la determinazione di alcune priorieta
+  dell’atome.
+\newblock {\em Rend. Accad. Naz. Lincei}, 6(602-607):32, 1927.
+
+\bibitem{hohenberg1964inhomogeneous}
+Pierre Hohenberg and Walter Kohn.
+\newblock Inhomogeneous electron gas.
+\newblock {\em Phys.\ Rev.}, 136(3B):B864, 1964.
+
+\bibitem{herring1940new}
+Conyers Herring.
+\newblock A new method for calculating wave functions in crystals.
+\newblock {\em Phys.\ Rev.}, 57(12):1169, 1940.
+
+\bibitem{phillips1959new}
+James~C Phillips and Leonard Kleinman.
+\newblock New method for calculating wave functions in crystals and molecules.
+\newblock {\em Phys.\ Rev.}, 116(2):287, 1959.
+
+\bibitem{hamann1979norm}
+D.~R. Hamann, M.~Schl{\"u}ter, and C.~Chiang.
+\newblock Norm-conserving pseudopotentials.
+\newblock {\em Phys.\ Rev.\ Lett.}, 43(20):1494, 1979.
+
+\bibitem{troullier1991efficient}
+Norman Troullier and Jos{\'e}~Lu{\'\i}s Martins.
+\newblock Efficient pseudopotentials for plane-wave calculations.
+\newblock {\em Phys.\ Rev.~B}, 43(3):1993, 1991.
+
+\bibitem{vanderbilt1990soft}
+David Vanderbilt.
+\newblock Soft self-consistent pseudopotentials in a generalized eigenvalue
+  formalism.
+\newblock {\em Phys.\ Rev.~B}, 41(11):7892, 1990.
+
+\bibitem{kresse1999ultrasoft}
+Georg Kresse and D.~Joubert.
+\newblock From ultrasoft pseudopotentials to the projector augmented-wave
+  method.
+\newblock {\em Phys.\ Rev.~B}, 59(3):1758, 1999.
+
+\bibitem{giannozzi2009quantum}
+Paolo Giannozzi, Stefano Baroni, Nicola Bonini, Matteo Calandra, Roberto Car,
+  Carlo Cavazzoni, Davide Ceresoli, Guido~L. Chiarotti, Matteo Cococcioni,
+  Ismaila Dabo, Andrea Dal~Corso, Stefano de~Gironcoli, Stefano Fabris, Guido
+  Fratesi, Ralph Gebauer, Uwe Gerstmann, Christos Gougoussis, Anton Kokalj,
+  Michele Lazzeri, Layla Martin-Samos, Nicola Marzari, Francesco Mauri,
+  Riccardo Mazzarello, Stefano Paolini, Alfredo Pasquarello, Lorenzo Paulatto,
+  Carlo Sbraccia, Sandro Scandolo, Gabriele Sclauzero, Ari~P. Seitsonen,
+  Alexander Smogunov, Paolo Umari, and Renata~M. Wentzcovitch.
+\newblock {QUANTUM ESPRESSO}: {A} modular and open-source software project for
+  quantum simulations of materials.
+\newblock {\em J.~Phys.\ Condens.\ Matter}, 21(39):395502, September 2009.
+
+\bibitem{holzwarth2001projector}
+N.~A.~W. Holzwarth, A.~R. Tackett, and G.~E. Matthews.
+\newblock A projector augmented wave ({PAW}) code for electronic structure
+  calculations, part~{I}: {atompaw} for generating atom-centered functions.
+\newblock {\em Comput.\ Phys.\ Commun.}, 135(3):329--347, 2001.
+
+\bibitem{tackett2001projector}
+A.~R. Tackett, N.~A.~W. Holzwarth, and G.~E. Matthews.
+\newblock A projector augmented wave ({PAW}) code for electronic structure
+  calculations, part~{II}: {pwpaw} for periodic solids in a plane wave basis.
+\newblock {\em Comput.\ Phys.\ Commun.}, 135(3):348--376, 2001.
+
+\bibitem{iche2008examining}
+Nathalie Ich{\'e}-Tarrat and Colin~J. Marsden.
+\newblock Examining the performance of dft methods in uranium chemistry: Does
+  core size matter for a pseudopotential?
+\newblock {\em The Journal of Physical Chemistry A}, 112(33):7632--7642, 2008.
+
+\bibitem{rappe1990optimized}
+Andrew~M. Rappe, Karin~M. Rabe, Efthimios Kaxiras, and J.~D. Joannopoulos.
+\newblock Optimized pseudopotentials.
+\newblock {\em Phys.\ Rev.~B}, 41(2):1227, 1990.
+
+\bibitem{StructureofCrystals}
+{Naval Research Laboratories}.
+\newblock Structure of {C}rystals.
+\newblock {\url{http://aflowlib.duke.edu/users/egossett/lattice/}}, 2015.
+
+\bibitem{pack1977special}
+James~D. Pack and Hendrik~J. Monkhorst.
+\newblock ``special points for {B}rillouin-zone integrations''---a reply.
+\newblock {\em Phys.\ Rev.~B}, 16(4):1748--1749, 1977.
+
+\bibitem{methfessel1989high}
+M.~Methfessel and A.~T. Paxton.
+\newblock High-precision sampling for {B}rillouin-zone integration in metals.
+\newblock {\em Phys.\ Rev.~B}, 40(6):3616--3621, 1989.
+
+\bibitem{ravindran1998density}
+P.~Ravindran, Lars Fast, P.~A. Korzhavyi, B.~Johansson, J.~Wills, and
+  O.~Eriksson.
+\newblock Density functional theory for calculation of elastic properties of
+  orthorhombic crystals: {A}pplication to {TiSi$_2$}.
+\newblock {\em J.~Appl.\ Phys.}, 84(9):4891--4904, 1998.
+
+\bibitem{beckstein2001first}
+O.~Beckstein, J.~E. Klepeis, G.~L.~W. Hart, and O.~Pankratov.
+\newblock First-principles elastic constants and electronic structure of
+  {\textalpha-pt$_2$ si} and {PtSi}.
+\newblock {\em Phys.\ Rev.~B}, 63(13):134112, 2001.
+
+\bibitem{lander1994solid}
+G.~H. Lander, E.~S. Fisher, and S.~D. Bader.
+\newblock The solid-state properties of uranium: {A} historical perspective and
+  review.
+\newblock {\em Adv.\ Phys.}, 43(1):1--111, 1994.
+
+\bibitem{le2003structural}
+T.~Le~Bihan, S.~Heathman, M.~Idiri, G.~H. Lander, J.~M. Wills, A.~C. Lawson,
+  and Andreas Lindbaum.
+\newblock Structural behavior of {\textalpha}-uranium with pressures to
+  {100~GPa}.
+\newblock {\em Phys.\ Rev.~B}, 67(13):134102, 2003.
+
+\bibitem{murnaghan1944compressibility}
+F.~D. Murnaghan.
+\newblock The compressibility of media under extreme pressures.
+\newblock {\em Proc.\ Natl.\ Acad.\ Sci.\ U.~S.~A.}, 30(9):244--247, 1944.
+
+\bibitem{hood2008quantum}
+Randolph~Q. Hood, L.~H. Yang, and John~A. Moriarty.
+\newblock Quantum molecular dynamics simulations of uranium at high pressure
+  and temperature.
+\newblock {\em Phys.\ Rev.~B}, 78(2):024116, 2008.
+
+\bibitem{yoo1998phase}
+Choong-Shik Yoo, Hyunchae Cynn, and Per S{\"o}derlind.
+\newblock Phase diagram of uranium at high pressures and temperatures.
+\newblock {\em Phys.\ Rev.~B}, 57(17):10359, 1998.
+
+\bibitem{fisher1958adiabatic}
+E.~S. Fisher and H.~J. {McS}kimin.
+\newblock Adiabatic elastic moduli of single crystal alpha-uranium.
+\newblock {\em J.~Appl.\ Phys.}, 29(10):1473--1484, 1958.
+
+\bibitem{wilson1949structures}
+A.~S. Wilson and R.~E. Rundle.
+\newblock The structures of uranium metal.
+\newblock {\em Acta Crystallogr.}, 2(2):126--127, 1949.
+
+\bibitem{yakel1973review}
+Harry~L. Yakel.
+\newblock Review of x-ray diffraction studies in uranium alloys.
+\newblock Technical report, Oak Ridge National Laboratory, Tennessee (USA),
+  1973.
+
+\bibitem{nashchemistry}
+I.~Grenthe, J.~Drozdzynski, T.~Fujino, E.~C. Buck, T.~E. Albrecht-Schmitt, and
+  S.~F. Wolf.
+\newblock {\em The Chemistry of the Actinide and Transactinide Elements},
+  volume~1.
+\newblock Springer, Dordrecht, 2006.
+
+\bibitem{kim2016superconductivity}
+N.-T.~H Kim-Ngan and L.~Havela.
+\newblock Superconductivity in {U-T} alloys ({T${}={}$Mo, Pt, Pd, Nb, Zr})
+  stabilized in the cubic {\textgamma-u} structure by splat-cooling technique.
+\newblock {\em J.~Sci.\ Adv.\ Mater.\ Dev.}, 1(2):121--127, 2016.
+
+\bibitem{born1940stability}
+Max Born.
+\newblock On the stability of crystal lattices. {I.}
+\newblock {\em Proc.\ Camb.\ Phil.\ Soc.}, 36(2):160--172, 1940.
+
+\bibitem{born1954dynamical}
+Max Born and Kun Huang.
+\newblock {\em Dynamical Theory of Crystal Lattices}.
+\newblock Clarendon Press, 1954.
+
+\bibitem{Mouhat2014}
+F{\'e}lix Mouhat and Fran{\c c}ois-Xavier Coudert.
+\newblock Necessary and sufficient elastic stability conditions in various
+  crystal systems.
+\newblock {\em Phys.\ Rev.~B}, 90:224104, 2014.
+
+\bibitem{Soderlind1998}
+Per S{\"o}derlind.
+\newblock Theory of the crystal structures of cerium and the light actinides.
+\newblock {\em Adv.\ Phys.}, 47(6):959--998, 1998.
+
+\bibitem{tucker1950approximate}
+C.~W. Tucker, Jr.
+\newblock An approximate crystal structure for the beta phase of uranium.
+\newblock Technical Report KAPL-388, Knolls Atomic Power Laboratory, 1950.
+
+\bibitem{tucker1951crystal}
+C.~W. Tucker.
+\newblock The crystal structure of the {\textbeta}\ phase of uranium.
+\newblock {\em Acta Crystallogr.}, 4(5):425--431, 1951.
+
+\bibitem{donohue1971structure}
+Jerry Donohue and Howard Einspahr.
+\newblock The structure of {\textbeta}-uranium.
+\newblock {\em Acta Crystallogr.~B}, 27(9):1740--1743, 1971.
+
+\bibitem{donohue1974structures}
+Jerry Donohue.
+\newblock {\em Structures of the Elements}.
+\newblock John Wiley and Sons, 1974.
+
+\bibitem{meyer2014irradiation}
+M.~K. Meyer, J.~Gan, J.~F. Jue, D.~D. Keiser, E.~Perez, A.~Robinson, D.~M.
+  Wachs, N.~Woolstenhulme, G.~L. Hofman, and Y.~S. Kim.
+\newblock Irradiation performance of {U}-{Mo} monolithic fuel.
+\newblock {\em Nucl.\ Eng.\ Technol.}, 46(2):169--182, 2014.
+
+\bibitem{petit1999location}
+Thomas Petit, G.~Jomard, C.~Lemaignan, B.~Bigot, and A.~Pasturel.
+\newblock Location of krypton atoms in uranium dioxide.
+\newblock {\em J.~Nucl.\ Mater.}, 275(1):119--123, 1999.
+
+\bibitem{crocombette2002ab}
+Jean-Paul Crocombette.
+\newblock Ab initio energetics of some fission products (kr, i, cs, sr and he)
+  in uranium dioxide.
+\newblock {\em J.~Nucl.\ Mater.}, 305(1):29--36, 2002.
+
+\bibitem{freyss2006ab}
+M.~Freyss, N.~Vergnet, and T.~Petit.
+\newblock Ab initio modeling of the behavior of helium and xenon in actinide
+  dioxide nuclear fuels.
+\newblock {\em J.~Nucl.\ Mater.}, 352(1-3):144--150, 2006.
+
+\bibitem{wallace1998thermodynamics}
+Duane~C. Wallace.
+\newblock {\em Thermodynamics of crystals}.
+\newblock Courier Corporation, 1998.
+
+\end{thebibliography}

@@ -1,0 +1,2259 @@
+% \iffalse meta-comment
+% File: MUthesis.dtx Copyright (C) 2017-2018 Karl D. Hammond
+%
+% Karl D. Hammond,
+% Department of Chemical Engineering
+% University of Missouri
+% Contact: hammondkd@missouri.edu
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+% 
+% The Current Maintainer of this work is K. D. Hammond.
+%
+% This work consists of the files MUthesis.dtx and MUthesis.ins
+% and the derived files MUthesis.cls, MUthesis.pdf,
+% and MUthesis-example.tex.
+% \fi
+%
+% \iffalse
+%<*driver>
+\ProvidesFile{MUthesis.dtx}
+%</driver>
+%
+%<class>\NeedsTeXFormat{LaTeX2e}
+%<class>\ProvidesClass{MUthesis}
+%<*class>
+    [2020/04/10 v1.10 University of Missouri thesis/dissertation class]
+%</class>
+%
+%<*driver>
+\documentclass{ltxdoc}
+\usepackage{textcomp}
+\usepackage{pxfonts}
+\EnableCrossrefs
+\CodelineIndex
+\RecordChanges
+% I had to define this command because equals signs are "special" in glossaries
+\newcommand*{\textequals}{=}%
+%\OnlyDescription
+\begin{document}
+  \DocInput{MUthesis.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \CheckSum{1529}
+%
+% \CharacterTable
+% {Upper-case   \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%  Lower-case   \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%  Digits       \0\1\2\3\4\5\6\7\8\9
+%  Exclamation     \!      Double quote    \"      Hash (number)   \#
+%  Dollar          \$      Percent         \%      Ampersand       \&
+%  Acute accent    \'      Left paren      \(      Right paren     \)
+%  Asterisk        \*      Plus            \+      Comma           \,
+%  Minus           \-      Point           \.      Solidus         \/
+%  Colon           \:      Semicolon       \;      Less than       \<
+%  Equals          \=      Greater than    \>      Question mark   \?
+%  Commercial at   \@      Left bracket    \[      Backslash       \\
+%  Right bracket   \]      Circumflex      \^      Underscore      \_
+%  Grave accent    \`      Left brace      \{      Vertical bar    \|
+%  Right brace     \}      Tilde           \~}
+%
+% \changes{v0.1}{2017/05/20}{Initial internal version}
+% \changes{v1.0}{2018/08/13}{Initial public release}
+% \changes{v1.0}{2018/08/13}{Fixed \cs{cleardoublepage} occurrences to account
+%       for \texttt{openright} setting}
+% \changes{v1.5}{2019/04/06}{Changed page numbers on copyright, approval,
+%       dedication, etc.\ pages (prior to Acknowledgments) to avoid problems
+%       with two-sided documents and changed most frontmatter commands to
+%       make them work with two-sided documents in which the frontmatter
+%       reverses the odd and even pages formats}
+% \changes{v1.7}{2019/08/12}{Undid changes in v1.3: we can live with
+%       ragged-right entries in the table of contents, we cannot live with
+%       numbers protruding into the margin. The line marked ``ragged-right
+%       contents\dots'' was the only change.}
+%
+% \DoNotIndex{\@Alph,\@M,\@afterheading,\@afterindenttrue,\@arabic,\@auxout}
+% \DoNotIndex{\@author,\@chapapp,\@date,\@float,\@gls@toc,\@highpenalty}
+% \DoNotIndex{\@empty,\@startsection,\@starttoc,\@title,\@writefile,\ }
+% \DoNotIndex{\@ifpackageloaded,\@ifundefined,\@minus,\@mkboth,\@plus}
+% \DoNotIndex{\@restonecolfalse,\@restonecoltrue,\@tempdima,\@tocrmarg}
+% \DoNotIndex{\@topnewpage,\@topnum,\ ,\addcontentsline,\addpenalty}
+% \DoNotIndex{\addvspace,\advance,\AtBeginDocument,\AtEndDocument,\begin}
+% \DoNotIndex{\addtocontents,\baselineskip,\bfseries,\c@chapter,\c@illustration}
+% \DoNotIndex{\c@scheme,\c@secnumdepth,\c@tocdepth,\centering,\cleardoublepage}
+% \DoNotIndex{\clearpage,\copyright,\csname,\def,\else,\end,\end@dblfloat}
+% \DoNotIndex{\end@float,\endcsname,\endold@thebibliography,\expandafter}
+% \DoNotIndex{\ext@illustration,\ext@scheme,\fi,\fnum@illustration,\fnum@scheme}
+% \DoNotIndex{\fps@illustration,\fps@scheme,\ftype@illustration,\ftype@scheme}
+% \DoNotIndex{\gdef,\global,\hbox,\hfill,\hskip,\hspace,\ifglstoc}
+% \DoNotIndex{\ifglsnumberline,\ifnum,\indent,\large,\leaders,\leavevmode}
+% \DoNotIndex{\let,\linewidth,\list,\m@ne,\m@th,\MakeLowercase,\MakeUppercase}
+% \DoNotIndex{\mkern,\newcommand,\newcounter,\newenvironment,\newif,\newlength}
+% \DoNotIndex{\nobreak,\nobreakspace,\noexpand,\noindent,\nom@tempdim}
+% \DoNotIndex{\nomitemsep,\nomlabel,\nompreamble,\normalcolor,\normalfont}
+% \DoNotIndex{\null,\numberline,\old@printindex,\old@thebibliography}
+% \DoNotIndex{\onecolumn,\p@,\par,\parfillskip,\parindent,\parskip}
+% \DoNotIndex{\PassOptionsToClass,\ProcessOptions,\protect,\providecommand}
+% \DoNotIndex{\refstepcounter,\relax,\renewcommand,\renewenvironment}
+% \DoNotIndex{\rightskip,\rule,\secdef,\setcounter,\setlength,\small,\space}
+% \DoNotIndex{\textbf,\textdegree,\textmu,\thanks,\twocolumn,\typeout}
+% \DoNotIndex{\vfil,\vfill,\vskip,\vspace,\write,\z@,\c@enumiv}
+%
+% \GetFileInfo{MUthesis.dtx}
+%
+% \title{The \textsf{MUthesis} Document Class\thanks{This document
+%   corresponds to \textsf{MUthesis}~\fileversion, dated \filedate.}}
+% \author{Karl D. Hammond \\ \texttt{hammondkd@missouri.edu}}
+% \date{\filedate}
+% \maketitle
+%
+% \begin{abstract}
+% A document class, |MUthesis|, is defined that implements the formatting
+% requirements for theses and dissertations at the University of Missouri,
+% also referred to as the University of Missouri-Columbia by some. The class
+% is based on |report|, but is conscious of two-sided documents as well.
+% \end{abstract}
+%
+% \section{Introduction}
+%
+% The \textsf{MUthesis} document class is intended to match---with minimal
+% user effort---the formatting requirements for theses and dissertations
+% at the University of Missouri.
+%
+% Note that the graduate school is notoriously
+% nonchalant about enforcing any formatting requirements, and many theses and
+% dissertations have been turned in that show inconsistent formatting from
+% frontmatter chapters compared to the main document.
+% It should come as a suprise to no one who is familiar with \LaTeX\ and its
+% design principles that this class strives for such consistency throughout
+% the document.
+%
+% Documents should be written as though using the \texttt{report} class, with
+% the exception of the front matter (material prior to Chapter~1). In fact, it
+% is possible to use this document class without any of the front matter,
+% assuming one avoids the \cs{maketitle} command as well as other commands
+% defined in Section~\ref{section:usage} specific to the thesis/dissertation
+% format.
+%
+% \section{Using This Class} \label{section:usage}
+% \DescribeMacro{\documentclass}
+% The first line of your file should be
+% \begin{quote}\ttfamily
+%   |\documentclass{MUthesis}|
+% \end{quote}
+% for dissertations,
+% \begin{quote}\ttfamily
+%   |\documentclass[thesis]{MUthesis}|
+% \end{quote}
+% for theses, or
+% \begin{quote}\ttfamily
+%   |\documentclass[comprehensive]{MUthesis}|
+% \end{quote}
+% for comprehensive examinations (dissertation proposals). Note that a
+% dissertation is written for a doctorate and a thesis for a Master's degree.
+% You can also specify the \texttt{dissertation} option explicitly if you wish.
+%
+% Loading the document class will automatically set the paper size, line
+% spacing, and text size; changes in typeface, inclusion of images, and
+% other aspects are changed in the usual way through compatible packages.
+%
+% \subsection{Class Options}
+% The class defines the following options:
+% \begin{description}
+%   \item[10pt,11pt,12pt] Default: |12pt|. Sets the text size to the
+%       given size. These are passed directly to the |report| class.
+%   \item[dissertation] (default) Sets options for doctoral
+%       dissertations and sets the default |degree| to ``Doctor of
+%       Philosophy'' (Ph.D.)
+%   \item[thesis] Sets options for Master's theses and sets the default
+%       |degree| to ``Master of Science'' (M.S.)
+%   \item[comprehensive] Sets options for comprehensive examinations. Default
+%       |degree| is still ``Doctor of Philosophy'' (Ph.D.)
+%   \item[doublespace] (default) Sets format to double-spacing. Required for
+%       final submissions.
+%   \item[singlespace] Sets format to single-spacing. Intended for preliminary
+%       drafts or testing purposes; unacceptable for final submissions.
+%   \item[nolisthyphen] Turn off hyphenation in the Table of Contents, List
+%       of Figures, etc. Only use this if something looks wrong with the
+%       hyphenation that cannot be solved other ways or if someone complains.
+%   \item[nohyphen] Turn off hyphenation throughout the entire document.
+%       \textbf{Only} use this if someone actively complains about your
+%       document's hyphenation and other fixes (e.g., \cs{hyphenation})
+%       do not work.
+%   \item[hyperpages] (default) Load the |hyperref| package with options that
+%       disable hyperlinks but still link PDF page numbers to the document's
+%       page numbers.
+%   \item[hyper] Load the |hyperref| package with hidden links and PDF pages
+%       that are linked to the real page numbers.
+%   \item[nohyper] Disable loading of |hyperref| package. Use this option if
+%       you experience problems with |hyperref| or if you plan to include color
+%       hyperlinks or other |hyperref| features. If you do plan to use other
+%       |hyperref| features, you should include the |pdfpagelabels| option when
+%       loading the package.
+% \end{description}
+% All other options to this class are passed as-is to the |report| class.
+%
+% \subsection{Entering Document Data}
+% Document data, such as committee members and chairs, are entered through
+% commands. These commands may be used either in the preamble or in the
+% document itself, provided they come before |\maketitle|.
+%
+% \DescribeMacro{\title} The thesis/dissertation title.
+%
+% \DescribeMacro{\author} Your full name, as you want it to appear. Note that
+% this does not need to match your name as it appears in your official
+% University records, but if it does not, you might consider changing your
+% official name with the University administration.
+%
+% \DescribeMacro{\date} The date (month and year) your degree will be issued.
+% \emph{This is \emph{not} the date of your defense.} It can only be May, July,
+% or December and the year.
+%
+% \DescribeMacro{\copyrightyear} The year of copyright, if you are printing a
+% copyright page. Should be the same year as your graduation
+% year, unless publication is withheld for some reason. The copyright page
+% is \emph{optional}.
+% 
+% \DescribeMacro{\degree} If your degree is something other than the default,
+% you can change it with the |\degree| command. For example, a Master of
+% Music might use\\
+% |  \degree{Master of Music}{M.M.}|\\
+% and a Doctor of Education might be\\
+% |  \degree{Doctor of Education}{Ed.D.}|.\\
+% The default is |\degree{Doctor of Philosophy}{Ph.D.}| for a dissertation or
+% comprehensive (dissertation proposal) and |\degree{Master of Science}{M.S.}|
+% for a thesis.
+%
+% \DescribeMacro{\chair} The chair of your committee, as the name will
+% appear on both the Title and Approval pages. If you are co-advised, see
+% the |\cochairs| command.
+%
+% \DescribeMacro{\cochairs} Takes two arguments: the first and second co-chairs
+% of your committee, as their names will appear on the Title and Approval
+% pages. If you only have one advisor, or you have two advisors but the
+% Graduate School is only aware of one of them (i.e., it's not ``official''),
+% then you should use the |\chair| command.
+%
+% \DescribeMacro{\firstreader} Your first committee member who is not an
+% advisor. Note that the Graduate School makes no distinctions between inside
+% and outside members in the thesis/dissertation itself, so all we need here is
+% a name.
+%
+% \DescribeMacro{\secondreader} Your second committee member. This is optional
+% for co-advised theses.
+%
+% \DescribeMacro{\thirdreader} Your third committee member. This is optional
+% for theses and co-advised dissertations.
+%
+% \DescribeMacro{\fourthreader} Your fourth committee member (optional).
+% Additional committee members can be added with |\fifthreader| and
+% |\sixthreader|.
+%
+% \subsection{Front Matter}
+% \DescribeMacro{\frontmatter}
+% The first command after |\begin{document}| should be |\frontmatter|; in
+% fact, this is implicit, so this line is optional.
+%
+% \DescribeMacro{\maketitle}
+% The command |\maketitle| should appear right after |\frontmatter| (or
+% directly after |\begin{document}|). This makes the title page. An error will
+% result if you issue this command without issuing |\title|, |\author|, and
+% |\chair| (or |\cochairs|).
+%
+% \DescribeMacro{\copyrightpage} The |\copyrightpage| is optional. If it
+% appears, then it should be directly after |\maketitle|. If no |\author| or
+% |\copyrightyear| have appeared, an error will result. This command does
+% nothing with the |comprehensive| option in place.
+%
+% \DescribeMacro{\approvalpage} The |\approvalpage| should immediately follow
+% the |\copyrightpage| (if present) or |\maketitle| (if there is no copyright
+% page). All committee members must have already been defined, as well as the
+% title, author, and chair(s). This command does nothing with the
+% |comprehensive| option in place.
+%
+% The spacing between names on the approval page can be adjusted by adjusting
+% the length |\nameskip| using something like |\setlength| or |\addtolength|.
+%
+% \DescribeEnv{dedication} The |dedication| environment is optional.
+% It is similar to the dedication page of a book, and formatted similarly.
+% Example:\\
+% |  \begin{dedication}|\\
+% |     To my mother.|\\
+% |  \end{dedication}|
+%
+% \DescribeEnv{epigraph} The |epigraph| environment is optional.
+% It takes one non-optional argument, which is the source of the quote.
+% Example:\\
+% |  \begin{epigraph}{Anonymous}|\\
+% |     ``Hyperbole is the best thing ever.''|\\
+% |  \end{epigraph}|
+%
+% \DescribeEnv{acknowledgments}
+% Acknowledgments are required for all dissertations and theses. They can (and
+% should) be omitted in comprehensive exams.
+% This page is where you would acknowledge all those who helped you with your
+% academic research. This is not necessarily where you would recognize loved
+% ones who supported you during your studies. That would be more appropriately
+% done in an optional Dedication page. It is \textbf{always} page~ii,
+% regardless of the number of (unnumbered) pages before it. Omitting this
+% environment will result in a warning for theses and dissertations.
+%
+% \DescribeMacro{\tableofcontents}
+% \DescribeMacro{\listofillustrations}
+% \DescribeMacro{\listoftables}
+% \DescribeMacro{\listoffigures}
+% \DescribeMacro{\listofschemes}
+% \DescribeMacro{\listofsymbols}
+% The Table of Contents is mandatory. The lists of Illustrations, Tables,
+% Figures, and Schemes are mandatory if you have any Illustrations, Tables,
+% etc. Most documents will only have Tables and Figures; Schemes are common
+% in chemistry and chemical engineering, and some disciplines differentiate
+% between Illustrations and Figures (or prefer one term over the other).
+% If the lists appear, they should appear in the order listed here.
+% The |\listofsymbols| macro (identical to |\printnomenclature|) is defined
+% only if the |nomencl| package has been loaded. You are encouraged to use the
+% following packages to generate these: |tikz| for illustrations; |array|,
+% |tabularx|, and |booktabs| for tables; |graphicx| for figures; |chemfig| for
+% schemes; and |nomencl| for symbols.
+% 
+% \DescribeMacro{\listof}
+% Note that the |\listof| macro from the |float| package is compatible with
+% this package, so additional floats can be defined using that mechanism.
+%
+% \DescribeEnv{abstract}
+% The abstract environment is optional (yeah, right).
+% The Abstract should be one paragraph, and generally should not exceed one
+% page in length. Note that the
+% abstract that appears here can technically be different than the one
+% submitted as a separate file, but that is generally not advisable.
+% 
+% \subsection{The Main Text}
+% \DescribeMacro{\mainmatter}
+% The first command of the main text \textbf{must} be |\mainmatter|.
+% This command does things like reset page counters, change page numbering,
+% and other important formatting. An effort is made to issue a warning if this
+% command is absent.
+%
+% \DescribeMacro{\chapter}
+% Chapters are described in the usual way, with the |\chapter| command. This
+% command is ``smart'' enough to know whether it is used in |\frontmatter|,
+% |\mainmatter|, and |\backmatter|, as well as whether it is in the main text
+% or in the appendix.
+%
+% \DescribeMacro{\appendix}
+% The |\appendix| command is used the same way as in |report|.
+%
+% \subsection{Back Matter}
+% \DescribeMacro{\backmatter}
+% The main text, including appendices, if present, ends with the |\backmatter|
+% command. This command is automatically issued in the bibliography in
+% documents that do not use |chapterbib|, but it is advisable to issue it
+% prior to that.
+%
+% \DescribeMacro{\bibliography}
+% \DescribeEnv{thebibliography}
+% The bibliography can be entered in the standard ways: manually, using the
+% |thebibliography| environment, or automatically, with \BibTeX\ and an
+% appropriate bibliography style.
+%
+% Note that \textbf{there is a difference between a references section and a
+% bibliography}. The former is a list of documents cited in the text; the
+% latter is a list of all references consulted during the making of the
+% document, regardless of whether they are cited in the text. Theses and
+% dissertations have bibliographies, so it is recommended that you issue
+% |\nocite{*}| right before |\bibliography| to make sure your entire \BibTeX\
+% database gets added to the bibliography.
+%
+% The style of the bibliography is entirely up to you and your advisor.
+% In the absence of a strong preference, it is recommended that you follow the
+% citation style of a major journal or book publisher in your field.
+% References can be numeric or author--year style; packages such as |cite| and
+% |natbib| will help facilitate this.
+%
+% This class has not been tested with \textsc{Bib}\LaTeX; it is unknown whether
+% there are any compatibility issues, though it is worth noting that at the
+% time of writing, Biber (\textsc{Bib}\LaTeX's back-end) is incapable of
+% handling author lists longer than a few authors long, and therefore (in the
+% author's opinion) that package has a long way to go before it is accepted
+% in the mainstream.
+%
+% This class is compatible with the |chapterbib| package, which allows for
+% reference lists at the end of each chapter and a comprehensive bibliography
+% at the end of the document. Reference lists at the end of the
+% document are not numbered if |chapterbib| is included.
+%
+% \DescribeEnv{glossary}
+% Glossaries are optional (and in fact relatively rare in theses and
+% dissertations). They can be included by including the |glossaries|
+% package. The \textsf{MUthesis} class is aware of this package and
+% redefines the environment to be compatible. See the documentation for the
+% |glossaries| package.
+% 
+% Note that if you want a list of symbols (nomenclature), try the |nomencl|
+% package and the |\listofsymbols| (or |\printnomenclature|) command.
+%
+% \DescribeEnv{index}
+% An index is rare in a thesis/dissertation, but one can be included by the
+% |makeidx| package and associated commands. See the documentation for that
+% package.
+%
+% \DescribeEnv{vita}
+% A Vita is required for dissertations, but not for theses. This is included
+% via the |vita| environment. There are no restrictions on the length. This is
+% not intended to be a curriculum vitae; instead, think of a brief biography
+% of the author, such as would appear at the end of a book.
+%
+% \subsection{Compatibility with Standard Packages}
+% The |MUthesis| document class is specifically aware of the features of the
+% following packages and redefines some of their internals for consistency in
+% formatting:
+% \changes{v1.8}{2020/03/25}{Added known issue with \texttt{subcaption} package
+%       and the \texttt{hyper} option, including a workaround.}
+% \begin{description}
+%   \item [chapterbib] This class has only been tested with numeric citation
+%       styles. As currently implemented, in-chapter reference lists have the
+%       header \textbf{References}, while the comprehensive bibliography at the
+%       end is unnumbered and has the heading \textbf{Bibliography}.
+%       You can change these defaults by redefining |\refname| and |\bibname|.
+%   \item [natbib] This class overrides some of |natbib|'s settings,
+%       particularly with respect to how numbers are formatted. If you want to
+%       change something and it does not seem to be working, try redefining it
+%       \emph{after} |\begin{document}|, as the class may be undoing your
+%       redefinitions.
+%   \item [nomencl] The |nomencl| package automatically has the heading
+%       ``List of Symbols,'' though this can be restored or changed by
+%       redefining |\nomname|, as usual.
+%   \item [glossaries] Slight tweaks are made to format the glossary and
+%       list of acronym headers.
+%   \item [makeidx] Indices are compatible with this class.
+%   \item [float] This class takes care of defining new floats with this
+%       package, to the point that no additional work should be required by
+%       the user.
+%   \item [hyperref] This class is compatible with |hyperref|.
+%       The |hyperref| package is loaded by default, though the default options
+%       are stripped down so as to fix the numbering of pages in the PDF but
+%       not actually create hyperlinks. Using |hyperref| with full links is
+%       supported in this version as well. See the documentation for the
+%       |hyper|, |hyperpages|, and |nohyper| class options.
+%   \item [subcaption] This class is compatible with |subcaption|, though its
+%       use is strongly discouraged: subcaptions look tacky. If you insist on
+%       using them, know that the |[hyper]| option will create spurious
+%       entries in the list of figures. This is solved by including
+%       the |hyperref| package explicitly, e.g.,
+%       |\usepackage[pdfpagelabels,hidelinks]{hyperref}|.
+% \end{description}
+% There are no known compatibility problems with other packages, but any that
+% occur will be mentioned. However, users are \emph{strongly} advised to
+% \textbf{avoid the following packages}, as they will subvert formatting done
+% by the class:
+% \begin{description}
+%   \item [titlesec] Do not mess with the titles or sections this way
+%   \item [tocloft] It is unknown what will happen if you use this on top of
+%       the tweaks to the Table of Contents and List of [objects] that have
+%       already been implemented
+%   \item [geometry,fullpage,a4wide,a4,chngpage] It is not advisable to
+%   redefine margins or page geometry
+% \end{description}
+% \begin{macro}{\caption}
+% \begin{macro}{\captionsetup}
+% Users should feel free to use the |caption| package to tweak the look of
+% their captions, though it is already loaded and used by this class---instead
+% of using the optional arguments, use |caption|'s |\captionsetup| command.
+% \end{macro}
+% \end{macro}
+%%
+%%
+% \subsection{Known Issues}
+% \begin{macro}{\title}
+% \begin{macro}{\chapter}
+% \begin{macro}{\author}
+% \begin{description}
+%   \item[Lowercase letters in headings] The chapter headings, title, and (on
+%     the title page) author's name are made uppercase to conform to the
+%     Graduate School's templates via \LaTeX's |\MakeUppercase| macro, which
+%     has the side effect that things like names or chemical symbols will also
+%     be made uppercase, even in cases in which you might not want that to
+%     happen. For example, an author named McDonald might want his/her last
+%     name to be written McDONALD on the title page, but it would instead be
+%     rendered \MakeUppercase{McDonald}.
+%
+%     To fix this, use David Carlisle's |textcase| package with the
+%     |overload| option, then use |\NoCaseChange| on the letter(s) in question.
+%     You will likely have to use |\protect| to prevent macro expansion until
+%     the appropriate location. For example,
+% \begin{verbatim}
+%       \author{James M\protect\NoCaseChange{c}Loughlin}
+%       \title{The Effects of Dichromates
+%           (\protect\NoCaseChange{\ce{Cr^{6+}}}) in Aquifers}
+% \end{verbatim}
+%     after including the |textcase| and |mhchem| packages would render the
+%     appropriate case in both instances.
+% \end{description}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+%%
+% \section{Example Dissertation}
+% The following will more or less reproduce the front matter and back matter
+% in the example files the graduate school produces.
+%
+% \iffalse
+%<*example>
+
+% \fi
+% \begin{small}
+% \begin{verbatim}
+\documentclass{MUthesis}
+%% options:
+%%  doublespace   -- the default, indicates double spacing as per MU
+%%                   requirements; use for all final copies
+%%  singlespace   -- for early work; not acceptable for final draft
+%%  dissertation  -- default; indicates this is a dissertation
+%%  thesis        -- indicates this is a Master's thesis; changes the default
+%%                   for \degree{}{} to Master of Science / M.S.
+%%  comprehensive -- indicates this is a comprehensive exam; disables
+%%                   \copyrightpage and \signaturepage
+%%  nolisthyphen  -- disallows hyphenation in the Table of Contents and
+%%                   the list of figures/tables; only use if the graduate
+%%                   school or your committee complain
+%%  nohyphen      -- disallows hyphenation /everywhere/; don't use unless
+%%                   someone complains (and even then, fight back!)
+%%  hyperpages    -- default; loads hyperref with stripped down options
+%%  hyper         -- loads hyperref with page labels and invisible links
+%%  nohyper       -- turns off loading of hyperref completely; usually the
+%%                   hyperpages option, which uses hyperref only to fix page
+%%                   labels (so that i is called i, not 1, in the PDF),
+%%                   is a better choice. Use this if you want to load hyperref
+%%                   with other options than either "hyper" or "hyperpages"
+%%                   loads.
+%%
+%%  All other options are passed as-is to the "report" class; the default size
+%%  is 12pt, but you can specify 10 or 11 pt (or any other size supported by
+%%  "report")
+
+\usepackage{txfonts}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.mps}
+
+\title{Family Type and Incidence of Childhood Depression}
+\author{Jeffery Lehmkuhl}
+\date{May 2001} % The date you'll actually graduate -- must be
+                % December, May, or July
+\copyrightyear{2001} % year of graduation / publication
+%%\cochairs{}{} % multiple chairs
+\chair{Thomas Sink} % a single chair
+\firstreader{Vijay Kumar}
+\secondreader{Gary Cortez}
+\thirdreader{John Smith}
+\fourthreader{Gail Newman}
+
+%% Your degree's name;
+%%\degree{Doctor of Philosophy}{Ph.D.}
+%% defaults to {Doctor of Philosophy}{Ph.D.} (option "dissertation"; default)
+%% defaults to {Master of Science}{M.S.} for theses (option "thesis")
+
+\begin{document}
+\frontmatter   % optional (automatically set at \begin{document})
+\maketitle     % mandatory
+\copyrightpage % optional
+\approvalpage  % mandatory
+
+%% optional
+\begin{dedication}
+  To my sister
+\end{dedication}
+
+%% optional / usually absent
+\begin{epigraph}{Anonymous}
+``Hyperbole is the best thing ever.''
+\end{epigraph}
+
+%% Acknowledgments are required for all dissertations and theses
+\begin{acknowledgments}
+This page is where you would acknowledge all those who helped you with your
+academic research. This is not necessarily where you would recognize loved ones
+who supported you during your studies. That would be more appropriately done in
+an optional Dedication page. Think more, ``I thank Professor Smith \dots''
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum eu tellus.
+Nullam et odio eget sapien porttitor interdum. Donec vel ante. Maecenas in sem
+a nunc viverra hendrerit. Quisque ut massa quis pede blandit pharetra. 
+
+Pellentesque sed ligula sit amet ligula scelerisque sagittis. Nulla adipiscing
+tellus at pede. Cras id nunc vel diam congue dictum. Donec a nulla nec eros
+ornare consequat. Nullam quis orci. Nam adipiscing, erat in congue
+pellentesque, dolor eros euismod quam, a egestas mauris magna varius justo. 
+
+Sed eu sem et lorem blandit volutpat. Duis pulvinar, arcu quis suscipit
+convallis, ante elit auctor dui, in fermentum diam velit a mauris. In risus
+odio, consectetuer quis, ullamcorper in, rutrum ut, metus. 
+
+Vestibulum rutrum quam ut ante. Integer velit. Sed commodo sem tempor lacus.
+\end{acknowledgments}
+
+%% Table of Contents is mandatory; lists are mandatory if you have any of them;
+%% they must be in this order
+\tableofcontents
+%%\listofillustrations
+\listoftables
+\listoffigures
+%%\listofschemes
+%%\listofsymbols % or \printnomenclature; requires nomencl package
+
+%% The abstract is optional...yeah, right.
+\begin{abstract}
+The Short Academic Abstract is not to exceed one page in length. The Abstract
+should be double-spaced. This should be a separate file on your CD saved as
+``short.pdf.''
+
+If you want to use the same Abstract (or a longer version) in the thesis or
+dissertation, that is permissible.
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum eu tellus.
+Nullam et odio eget sapien porttitor interdum. Donec vel ante. Maecenas in sem
+a nunc viverra hendrerit. Quisque ut massa quis pede blandit pharetra.
+Pellentesque sed ligula sit amet ligula scelerisque sagittis. Nulla adipiscing
+tellus at pede. Cras id nunc vel diam congue dictum. Donec a nulla nec eros
+ornare consequat. Nullam quis orci. 
+
+Nam adipiscing, erat in congue pellentesque, dolor eros euismod quam, a egestas
+mauris magna varius justo. Sed eu sem et lorem blandit volutpat. Duis pulvinar,
+arcu quis suscipit convallis, ante elit auctor dui, in fermentum diam velit a
+mauris. In risus odio, consectetuer quis, ullamcorper in, rutrum ut, metus.
+Vestibulum rutrum quam ut ante. Integer velit. Sed commodo sem tempor lacus. 
+
+Donec lectus. Ut lectus. Cras luctus vulputate quam. Suspendisse potenti. Proin
+enim. Fusce quis mauris. Nullam eu augue. Fusce ligula neque, viverra eu,
+fermentum quis, vestibulum faucibus, ligula. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Curabitur rutrum.
+\end{abstract}
+
+\mainmatter % this line is mandatory
+
+\chapter{The Efficiency of Everything}
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+Blah blah blah.
+
+\include{chapter2}
+
+%% end of body
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+
+\chapter{Data That Need Showing}
+
+\backmatter % mandatory; prepares for bibliography, glossary, index
+\nocite{*}
+\bibliographystyle{mybibstyle}
+\bibliography{MUexample}
+
+\begin{vita} % required for dissertations; optional for theses
+The body of the text begins here. This should be indented and double-spaced.
+There are no restrictions on the length. This is not intended to be a
+curriculum vitae. Jeffrey Smith was born\dots Ut tellus augue, aliquet ut,
+tincidunt non, congue ac, justo. In tempus, mauris sit amet tincidunt dapibus,
+nulla nunc dignissim nulla, nec auctor tortor velit non felis. Mauris lacus
+massa, scelerisque id, tincidunt quis, rutrum id, est. 
+
+Duis congue vestibulum dui. Nullam consectetuer, risus nec fermentum ornare,
+diam dolor hendrerit mauris, a accumsan mi turpis at sem. 
+
+Curabitur condimentum, erat ac dictum sollicitudin, neque lectus varius turpis,
+euismod aliquet lorem magna quis leo. Quisque vitae ipsum quis dolor eleifend
+faucibus. Phasellus fringilla metus ut nisi. Sed et risus. Sed ullamcorper
+dolor sit amet nisl. Nullam viverra. Lorem ipsum dolor sit amet, consectetuer
+adipiscing elit. 
+
+Ut ultrices, quam at consectetuer ornare, ligula risus euismod turpis, non
+mattis lectus metus vel ligula. Aliquam metus lacus, faucibus non, porta ut,
+adipiscing ac, turpis. Fusce quis dolor. Nam vitae eros. Integer et nulla.
+Vestibulum rhoncus faucibus enim. Praesent pellentesque ipsum et ligula. 
+
+Donec risus mauris, volutpat vel, fermentum at, tincidunt vel, urna. Nam vitae
+nisl ut orci hendrerit luctus. Nam lacus leo, molestie at, aliquet ut,
+adipiscing et, tellus. Proin porttitor. Aenean condimentum mauris hendrerit
+tellus. Aenean ornare libero sit amet ipsum. Integer vulputate, sem eleifend
+lacinia tempor, dolor lorem sagittis augue, non dictum sapien libero nec odio.
+\end{vita}
+
+\end{document}
+% \end{verbatim}
+% \end{small}
+% \iffalse
+%</example>
+% \fi
+%
+% \StopEventually{\PrintChanges\PrintIndex}
+%
+% \iffalse
+%<*class>
+% \fi
+%
+% \section{Implementation}
+% \subsection{Default settings}
+%
+% \begin{macro}{\univ@name}
+% The name of the University; its value, which you should never have to
+% change, is ``University of Missouri''; the University's thesis/dissertation
+% guidelines say ``University of Missouri-Columbia,'' but this is several years
+% out of date. The Graduate School may eventually update it, but until then, I
+% made the executive decision to follow the University's name/brand guidelines
+% and leave it this way.
+%    \begin{macrocode}
+\newcommand*{\univ@name}{University of Missouri}
+%    \end{macrocode}
+% \end{macro}
+% There are several other internal commands used to define the degree name, its
+% abbreviation, the type of document, and various other things that are
+% controlled by class options.
+% \changes{v1.2}{2018/09/07}{Added \cs{documentname} macro to handle
+%   comprehensive exams}%
+%    \begin{macrocode}
+\newcommand*{\@degree}{Doctor of Philosophy}
+\newcommand*{\@degreeabbrv}{Ph.D.}
+\newcommand*{\thesis@type}{Dissertation}
+\newcommand*{\list@hyphen@penalty}{50}
+\newcommand*{\documentname}{\thesis@type}
+\newif\ifdouble@space
+\newif\ifload@hyperref
+\newif\ifis@dissertation
+\newif\ifack@found
+\ack@foundfalse
+%    \end{macrocode}
+% \begin{macro}{\degrees}
+% \begin{macro}{\micro}
+% Special commands are defined for degrees (e.g., |\degrees C| yields
+% \textdegree C) and the ``micro'' symbol (e.g., |5.6~\micro m| yields
+% 5.6~\textmu m); these features use the |textcomp| package.
+% \textbf{Important:} you cannot use |\degree| for this purpose, as that
+% macro is used to define the name of your degree (e.g., Doctor of
+% Philosophy)!
+% \changes{v1.4}{2019/05/04}{Put \cs{degrees} and \cs{micro} after
+%       \cs{begin}\texttt{\{document\}} so as to prevent conflicts with
+%       user-defined macros}
+% \changes{v1.9}{2020/04/06}{Added [full] to \texttt{textcomp} requirepackage
+%       line for compatibility with newtx and newpx}
+%    \begin{macrocode}
+\RequirePackage[full]{textcomp}
+\AtBeginDocument{%
+  \providecommand*{\degrees}{\textdegree}%
+  \providecommand*{\micro}{\textmu}%
+}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+%
+% ^^A%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsection{Class Options}
+% ^^A%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% \changes{v0.3}{2017/06/02}{Made default size 12 and fixed the passing of
+%    the size to report.cls}
+% \begin{macro}{\text@size}
+% The text size is defined here so we can pass it along to |report| without
+% problems.
+%    \begin{macrocode}
+\DeclareOption{10pt}{\def\text@size{10pt}}%
+\DeclareOption{11pt}{\def\text@size{11pt}}%
+\DeclareOption{12pt}{\def\text@size{12pt}}%
+%    \end{macrocode}
+% \end{macro}
+% \changes{v1.2}{2018/09/07}{Added \texttt{comprehensive} class option}%
+%    \begin{macrocode}
+\DeclareOption{dissertation}{%
+  \global\is@dissertationtrue
+}
+\DeclareOption{thesis}{%
+  \global\is@dissertationfalse
+  \renewcommand*{\thesis@type}{Thesis}%
+  \renewcommand*{\@degree}{Master of Science}%
+  \renewcommand*{\@degreeabbrv}{M.S.}%
+}
+%    \end{macrocode}
+% \changes{v1.4}{2019/04/05}{Removed the copyright and approval pages from
+%       documents created with the \texttt{comprehensive} option and fixed page
+%       numbers in comprehensives without acknowledgments (most of them\dots).}
+% The |comprehensive| option is for dissertation \emph{proposals}
+% (comprehensive exams), which do not have a copyright page, approval page,
+% or acknowledgments.
+%    \begin{macrocode}
+\DeclareOption{comprehensive}{%
+  \is@dissertationfalse
+  \renewcommand*{\documentname}{Dissertation Proposal}
+  \addtocontents{toc}{%
+    \protect\ifack@found\protect\else
+      \protect\global\protect\ack@foundtrue
+   \protect\fi
+  }
+  \AtBeginDocument{%
+    \let\copyrightpage\relax
+    \let\approvalpage\relax
+  }%
+}
+\DeclareOption{doublespace}{\double@spacetrue}
+\DeclareOption{singlespace}{\double@spacefalse}
+\DeclareOption{nolisthyphen}{\renewcommand*{\list@hyphen@penalty{10000}}}
+\DeclareOption{nohyphen}{%
+%    \end{macrocode}
+% \changes{v0.3}{2018/06/02}{Deleted rogue \cs{renewcommand} in nohyphen
+%       option}%
+% ^^A \hyphenpenalty=10000% % these are SLOW; consider using hyphenat with [none]
+% ^^A \exhyphenpenalty=10000%
+% We turn hyphenation off by telling \TeX\ not to hyphenate until a character
+% that should be beyond the end of the line.
+%    \begin{macrocode}
+    \righthyphenmin=62%
+    \lefthyphenmin=62%
+}
+\newcommand*{\hyper@options}{}%
+\DeclareOption{hyper}{%
+    \load@hyperreftrue
+    \renewcommand*{\hyper@options}{pdfpagelabels,hidelinks}
+}
+\DeclareOption{hyperpages}{%
+    \load@hyperreftrue
+    \renewcommand*{\hyper@options}{implicit=false,pdfpagelabels,draft}
+}
+\DeclareOption{nohyper}{\load@hyperreffalse}
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
+\ExecuteOptions{doublespace,dissertation,hyperpages,12pt,letterpaper,oneside,openany}%
+\ProcessOptions\relax
+\LoadClass[\text@size]{report}
+%    \end{macrocode}
+% ^^A--------------------------------------------------------------------------
+% \subsection{Process document class options}
+% ^^A--------------------------------------------------------------------------
+% \begin{macro}{\doublespacing}
+% \begin{macro}{\singlespacing}
+% \begin{environment}{doublespace}
+% \begin{environment}{singlespace}
+% Spacing (single vs.\ double); this is handled by the |setspace| package for
+% double spacing. Since the default is single-spacing, I just defined those
+% macros and environments to do nothing when single spacing is in effect.
+%    \begin{macrocode}
+\ifdouble@space
+  \RequirePackage{setspace}
+\else
+  \newenvironment{doublespace}{}{}
+  \newenvironment{singlespace}{}{}
+  \let\doublespacing\relax
+  \let\singlespacing\relax
+\fi
+%    \end{macrocode}
+% \end{environment}
+% \end{environment}
+% \end{macro}
+% \end{macro}
+% ^^A--------------------------------------------------------------------------
+% \subsection{Margins}
+% ^^A--------------------------------------------------------------------------
+% These macros define the correct margins to satisfy the graduate school
+% if letter sized paper (the default) is used. If you use something other than
+% letter sized paper, you are on your own.
+%    \begin{macrocode}
+\setlength{\oddsidemargin}{0.5truein}  % binding margin at least 1.5in
+\setlength{\evensidemargin}{0.0truein} % non-binding margin only 1in
+\setlength{\textwidth}{6.0truein}      % 6in wide typing area
+\setlength{\topmargin}{-0.5truein} % headers at top of page 0.5in from edge
+\setlength{\headheight}{0.2truein} % room for header
+\setlength{\headsep}{0.3truein}    % header 0.3in from body, body 1in from top
+\setlength{\textheight}{9.0truein} % 9in high typing area
+\setlength{\footskip}{0.4truein}   % footer 0.4in from body,
+                                   %   0.6in from bottom (allows for trimming)
+%    \end{macrocode}
+%
+% Widow/orphan control; anything less than 10000 allows these to happen, which
+% is strictly forbidden by most style sheets.
+%
+%    \begin{macrocode}
+\widowpenalty=10000
+\clubpenalty=10000
+%    \end{macrocode}
+%
+% Text/float fraction tweaks; we allow slightly more of the page to be filled
+% than the default, which is 0.5. The default |\topfraction| can also be
+% tweaked (default: 0.7), as can |\textfraction| (default: 0.2).
+%
+% \changes{v0.5}{2017/08/04}{Tweaked \cs{floatpagefraction} and reset
+%         \cs{textfraction} and \cs{topfraction}}
+%
+%    \begin{macrocode}
+\renewcommand*{\floatpagefraction}{0.6}
+%    \end{macrocode}
+% ^^A \renewcommand*{\topfraction}{0.80} % default is 0.7
+% ^^A \renewcommand*{\textfraction}{0.15} % default is 0.2
+%
+% ^^A--------------------------------------------------------------------------
+% \subsection{Chapter and section commands}
+% ^^A--------------------------------------------------------------------------
+% \begin{macro}{\toc@label}
+% Instead of redefining |\chapter| after we encounter |\appendix|, I redefine
+% this command and leave |\chapter| alone.
+%    \begin{macrocode}
+\newcommand*{\toc@label}{frontmatter}
+%    \end{macrocode}
+% \end{macro}
+% \begin{macro}{\if@first@in@section}
+% This one was defined to make the word Chapter (or Appendix) appear in
+% the table of contents.
+% ^^A FIXME: Do I actually need this? I suspect not!
+%    \begin{macrocode}
+\newif\if@first@in@section
+\@first@in@sectionfalse
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\chapter}
+% The only change here from |report| is that we indent the text right after the
+% heading.
+%    \begin{macrocode}
+\renewcommand\chapter{%
+  \if@openright\cleardoublepage\else\clearpage\fi
+  \thispagestyle{plain}%
+  \@afterindenttrue
+  \global\@topnum\z@
+  \secdef\@chapter\@schapter
+}
+%    \end{macrocode}
+% \changes{v1.1}{2018/08/16}{Modifications for \texttt{hyperref} compatibility}
+% These two |\providecommand| lines define commands that are overridden if/when
+% |hyperref| gets loaded. They essentially do nothing if it is not loaded.
+%    \begin{macrocode}
+\providecommand*{\texorpdfstring}[2]{\expandafter #1}
+\providecommand*{\phantomsection}{}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@chapter}
+% The only difference in |\@chapter| from report.cls is the part about contents
+% lines.
+%    \begin{macrocode}
+\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+                         \refstepcounter{chapter}%
+                         \typeout{\@chapapp\space\thechapter.}%
+%    \end{macrocode}
+% \changes{v1.1}{2018/08/16}{Added \cs{texorpdfstring} for \texttt{hyperref}
+%       compatibility; without this, the PDF outline will not work.}
+%    \begin{macrocode}
+                         \addcontentsline{toc}{chapter}%
+                             {\protect\numberline{\thechapter.}%
+                              \texorpdfstring{\MakeUppercase{#1}}%
+                                              {\thechapter. #1}%
+                             }%
+                    \else
+                      \addcontentsline{toc}{chapter}%
+                          {\texorpdfstring{\MakeUppercase{#1}}{#1}}%
+                    \fi
+                    \chaptermark{#1}%
+%    \end{macrocode}
+% \changes{v1.0}{2018/08/13}{Removed addvspace commands from \cs{@chapter} for
+%       lof and lot; they do not do anything for this class}
+% ^^A                \addtocontents{lof}{\protect\addvspace{10\p@}}%
+% ^^A                \addtocontents{lot}{\protect\addvspace{10\p@}}%
+%    \begin{macrocode}
+                    \if@twocolumn
+                      \@topnewpage[\@makechapterhead{#2}]%
+                    \else
+                      \@makechapterhead{#2}%
+                      \@afterheading
+                    \fi}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@makechapterhead}
+% Heading for the chapter command; all caps, bold, but otherwise ordinary
+% text. Less space than in standard reports.
+%   \begin{macrocode}
+\renewcommand{\@makechapterhead}[1]{%   % Heading for \chapter command
+  \vspace*{30\p@}                       % Space at top of text page.
+  \begin{center}\large\bfseries
+    \ifnum \c@secnumdepth >\m@ne
+      \MakeUppercase\@chapapp\ \thechapter % 'CHAPTER' and number.
+      \par\nobreak
+    \fi
+  \addvspace{\topskip}
+  \MakeUppercase{#1}
+  \end{center}
+  \par\nobreak                          % TeX penalty to prevent page break.
+  \vskip 24\p@                          % Space between title and text.
+}
+%    \end{macrocode}
+% \end{macro}
+% \begin{macro}{\@makeschapterhead}
+% Exactly the same as |\@makechapterhead| except without the Table of Contents
+% entry.
+%    \begin{macrocode}
+\renewcommand{\@makeschapterhead}[1]{%  % Heading for \chapter* command
+  \vspace*{30\p@}                       % Space at top of page.
+  \begin{center}
+    \large\bfseries                     % Title.
+    \MakeUppercase{#1}\par
+  \end{center}
+  \nobreak                              % TeX penalty to prevent page break.
+  \vskip 24\p@                          % Space between title and text.
+}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@dotsep}
+% Default separation between dots in the table of contents is 4.5; we reduce
+% it here so it looks a bit more aesthetically pleasing. Units are ``math
+% units'' (mu), where 18~mu${} = 1$~em.
+%    \begin{macrocode}
+\renewcommand*{\@dotsep}{2}
+%    \end{macrocode}
+% \end{macro}
+% \begin{macro}{\l@chapter}
+% This macro creates chapter headings in the Table of Contents. If this is
+% the first chapter after |\mainmatter| or |\appendix|, it adds the word
+% Chapter or Appendix to the Table of Contents as well.
+%    \begin{macrocode}
+\renewcommand{\l@chapter}[2]{%
+  \addpenalty{-\@highpenalty}%
+  \addvspace{\baselineskip}%
+  \if@first@in@section
+%    \end{macrocode}
+% ^^A Graduate school's template doesn't leave extra space before this line,
+% ^^A but I'm putting it in there anyway!
+%    \begin{macrocode}
+    \addvspace{2\baselineskip}%
+    \parindent\z@ {\bfseries\toc@label} \par
+    \addvspace{\baselineskip}%
+    \@first@in@sectionfalse
+  \fi
+  \@dottedtocline{0}{0.0em}{1.5em}{\bfseries#1}{\bfseries#2}
+}
+%    \end{macrocode}
+% \end{macro}
+% \changes{v0.3}{2017/06/02}{Redefined \cs{section}, \cs{subsection}, etc.
+%         to be consistent}
+% \begin{macro}{\section}
+% \begin{macro}{\subsection}
+% \begin{macro}{\subsubsection}
+% \begin{macro}{\paragraph}
+% \begin{macro}{\subparagraph}
+% We use slightly different spacings around section headings than in the
+% |report| class. Note that |\z@| means ``0 pt.''
+%    \begin{macrocode}
+\renewcommand{\section}{%
+  \@startsection{section}{1}{\z@}
+                {4.5ex \@plus 2ex \@minus .2ex}
+                {0.001ex \@plus .2ex}
+                {\normalfont\bfseries}}
+\renewcommand{\subsection}{%
+  \@startsection{subsection}{2}{\z@}
+                {3.25ex \@plus 1ex \@minus .2ex}
+                {0.001ex \@plus .2ex}
+                {\normalfont\bfseries}}
+\renewcommand{\subsubsection}{%
+  \@startsection{subsubsection}{3}{\z@}%
+                {3.25ex \@plus 1ex \@minus .2ex}%
+                {0.001ex \@plus .2ex}%
+                {\normalfont\bfseries}}
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}{\z@}%
+                {2.5ex \@plus1ex \@minus.2ex}%
+                {-1em}%
+                {\normalfont\normalsize\bfseries}}
+\renewcommand{\subparagraph}{%
+  \@startsection{subparagraph}{5}{\z@}%
+                {0.0ex \@plus1ex \@minus .2ex}%
+                {-1em}%
+                {\normalfont\small\bfseries}}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+%
+% ^^A-------------------------------------------------------------------------
+% ^^A Table of Contents
+% ^^A-------------------------------------------------------------------------
+% \begin{macro}{\contentsname}
+% Default ToC name in |report| is ``Contents''; we change it to be consistent
+% with the Graduate School's requirements.
+%    \begin{macrocode}
+\renewcommand*{\contentsname}{Table of Contents}
+%    \end{macrocode}
+% \end{macro}
+% \begin{macro}{\tableofcontents}
+% Tweaks to the Table of Contents.
+% \changes{v1.1}{2018/08/16}{Defined the command \cs{pdfbookmark} (overridden
+%       by \texttt{hyperref}, if loaded) to make sure Contents appear in the
+%       PDF outline}
+% \changes{v1.4}{2019/04/05}{Set the first page of the table of contents}
+%    \begin{macrocode}
+\renewcommand\tableofcontents{%
+    %\if@openright\cleardoublepage\else\clearpage\fi
+    \renewcommand*{\thepage}{\roman{page}}%
+    \pagestyle{plain}%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\contentsname
+        \@mkboth{%
+           \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}%
+    \pdfbookmark{\contentsname}{\contentsname}%
+% Next line is the other change from report.cls
+    {\hyphenpenalty=\list@hyphen@penalty\@starttoc{toc}}%
+    \if@restonecol\twocolumn\fi
+}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\@dottedtocline}
+% \begin{macro}{\thetocindent}
+% The following code keeps page numbers from protruding into the margin when
+% \TeX\ can't figure out how to make the line shorter; copied from umthesis.cls
+% (UMass Amherst / John Ridgway)
+%    \begin{macrocode}
+\def\thetocindent{-1}
+\newlength{\MUthesis@contentshangindent}
+\setlength{\MUthesis@contentshangindent}{1.55em}
+\renewcommand{\@dottedtocline}[5]{%
+  \ifnum #1>\c@tocdepth \else
+    \ifnum \thetocindent = #1 \else
+      \def\thetocindent{#1}
+      \ifdouble@space\addvspace{\topskip}\fi
+    \fi
+    \vskip \z@ \@plus.2\p@
+    {\leftskip #2\relax \rightskip \@tocrmarg \parfillskip -\rightskip
+     \advance\rightskip by 0pt plus 1fil\relax% ragged-right contents...
+     \parindent #2\relax\@afterindenttrue
+     \interlinepenalty\@M
+     \leavevmode
+     \@tempdima #3\relax
+     \advance\leftskip \@tempdima \null\nobreak\hskip -\leftskip
+     \hangindent\MUthesis@contentshangindent
+     {#4}\nobreak%
+     \leaders\hbox{$\m@th\mkern \@dotsep mu \hbox{.}\mkern \@dotsep mu$}%
+             \hskip3em plus1fill\relax%
+       \normalfont \normalcolor #5%
+     \par}%
+  \fi}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+%
+% ^^A--------------------------------------------------------------------------
+% \subsection{Lists of Figures and Tables}
+% ^^A--------------------------------------------------------------------------
+%
+% \begin{macro}{\tablenumberwidth}
+% The width of numbers in the table of contents is hard-coded into report.cls;
+% this makes it mutable
+%    \begin{macrocode}
+\newlength{\tablenumberwidth}
+\setlength{\tablenumberwidth}{2.3em}
+%    \end{macrocode}
+% \end{macro}
+% \begin{macro}{\listoffigures}
+% \begin{macro}{\listoftables}
+% We use |\chapter| here, rather than |\chapter*|, so it appears in the Table
+% of Contents. Since we are in |\frontmatter|, no number is generated.
+%    \begin{macrocode}
+\renewcommand\listoffigures{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter{\listfigurename}%
+      \@mkboth{\MakeUppercase\listfigurename}%
+              {\MakeUppercase\listfigurename}%
+    {\normalsize\parindent\z@\textbf{\figurename\hfill Page}\par}%
+    {\hyphenpenalty=\list@hyphen@penalty\@starttoc{lof}}%
+    \if@restonecol\twocolumn\fi
+}
+\renewcommand\listoftables{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter{\listtablename}%
+      \@mkboth{%
+          \MakeUppercase\listtablename}%
+         {\MakeUppercase\listtablename}%
+    {\normalsize\parindent\z@\textbf{\tablename\hfill Page}\par}%
+    {\hyphenpenalty=\list@hyphen@penalty\@starttoc{lot}}%
+    \if@restonecol\twocolumn\fi
+}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \begin{macro}{\l@figure}
+% \begin{macro}{\l@table}
+% Dotted line in List of Figures; we reuse this for tables and other floats
+% as well.
+%    \begin{macrocode}
+\renewcommand*\l@figure{%
+  \addvspace{\baselineskip}% blank line between entries of LoF
+    \@dottedtocline{1}{1.5em}{\tablenumberwidth}
+}
+\let\l@table\l@figure
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% ^^A \let\base@starttoc\@starttoc % FIXME: are these necessary?
+% ^^A \renewcommand{\@starttoc}{\tolerance10000\base@starttoc}
+%
+% ^^A--------------------------------------------------------------------------
+% \changes{v0.4}{2018/07/07}{Made captioning more compatible with custom
+%         settings of \texttt{caption} package}
+% \begin{macro}{\caption}
+% \begin{macro}{\abovecaptionskip}
+% \begin{macro}{\belowcaptionskip}
+% Caption tweaks. We use the |caption| package for this.
+%    \begin{macrocode}
+\setlength\abovecaptionskip{\topskip}
+\setlength\belowcaptionskip{\topskip}
+\RequirePackage{caption}
+\captionsetup{font=small,labelsep=period,labelfont=bf}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \begin{macro}{\textfloatsep}
+% We had 75\% more space between floats and the text
+%    \begin{macrocode}
+\setlength{\textfloatsep}{1.75\textfloatsep}
+%    \end{macrocode}
+% \end{macro}
+% ^^A--------------------------------------------------------------------------
+% \begin{macro}{\appendix}
+% Appendix also has to produce the word ``Appendix'' in the Table of Contents
+% \changes{v0.3}{2017/06/02}{Fixed a bug (stray \cs{backmatter}) so appendices
+%         still have letters}
+% \changes{v0.6}{2018/07/21}{Moved \cs{cleardoublepage} to top of \cs{appendix}
+%         so ``Appendix'' appears at correct place in ToC}
+%    \begin{macrocode}
+\renewcommand{\appendix}{%
+  \if@openright\cleardoublepage\else\clearpage\fi
+%%\par
+  \setcounter{chapter}{0}%
+  \setcounter{section}{0}%
+  \renewcommand*{\@chapapp}{\appendixname}%
+  \renewcommand*{\thechapter}{\@Alph\c@chapter}
+%    \end{macrocode}
+% Write Appendix just above the first appendix in the Table of Contents.
+% We also exclude sections, subsections, etc.\ from the ToC\@.
+% \changes{v0.3}{2017/06/02}{Fixed bug regarding "Appendix" in ToC}
+% \changes{v1.4}{2019/04/05}{Fixed bug in local vs. global setting of tocdepth
+%       after an appendix}
+%    \begin{macrocode}
+  \immediate\write\@auxout{%
+    \noexpand\@writefile{toc}{%
+      \noexpand\c@tocdepth=0%
+      \noexpand\renewcommand*{\noexpand\toc@label}{\appendixname}%
+      \noexpand\@first@in@sectiontrue
+    }%
+  }%
+}
+%    \end{macrocode}
+% \end{macro}
+% ^^A--------------------------------------------------------------------------
+% \subsection{Special commands}
+% ^^A--------------------------------------------------------------------------
+% \begin{macro}{\frontmatter}
+% These are used to change page numbering, set chapter numbering, etc.;
+% the |\frontmatter| command is issued automatically at the beginning
+% of the document.
+%    \begin{macrocode}
+\newif\if@mainmatter
+\@mainmatterfalse
+\newif\if@backmatter
+\@backmatterfalse
+\newcommand{\frontmatter}{%
+%    \end{macrocode}
+% No chapter or section numbers in the front matter.
+%    \begin{macrocode}
+  \setcounter{secnumdepth}{-1}%
+  \global\@mainmatterfalse
+  \global\@backmatterfalse
+  \global\@first@in@sectionfalse
+  \pagenumbering{roman}%
+%    \end{macrocode}
+% turn off page numbers until the acknowledgments section
+%    \begin{macrocode}
+  \pagestyle{empty}%
+}
+%    \end{macrocode}
+% \end{macro}
+% \begin{macro}{\mainmatter}
+% The |\mainmatter| command is mandatory; it puts the word ``Chapter'' in the
+% Table of Contents, sets page numbering to Arabic numerals (starting from 1),
+% and resets the chapter counter.
+% \changes{v0.6}{2018/07/21}{Moved \cs{cleardoublepage} to top of
+%         \cs{mainmatter} so ``Chapter'' appears at correct place in ToC}
+%    \begin{macrocode}
+\newcommand{\mainmatter}{%
+  \if@openright\cleardoublepage\else\clearpage\fi
+  \restorepagemargins
+  % Section numbering by default goes all the way down, but only out to
+  % subsections in the Table of Contents
+  \setcounter{secnumdepth}{7}%
+  \setcounter{tocdepth}{3}%
+  \global\@mainmattertrue
+  \global\@backmatterfalse
+%    \end{macrocode}
+% Put ``Chapter'' in the Table of Contents.
+% \changes{v0.3}{2017/06/02}{Fixed bug regarding ``Chapter'' in ToC}
+%    \begin{macrocode}
+  \immediate\write\@auxout{\noexpand\@writefile{toc}{%
+    \noexpand\renewcommand*{\noexpand\toc@label}{\chaptername}%
+    \noexpand\@first@in@sectiontrue}%
+  }
+  \pagestyle{plain}%
+  \doublespacing
+  \pagenumbering{arabic}%
+  \setcounter{chapter}{0}%
+}
+%    \end{macrocode}
+% \end{macro}
+% \begin{macro}{\backmatter}
+% This turns chapter numbers off again (bibliography, etc.).
+%    \begin{macrocode}
+\newcommand{\backmatter}{%
+%    \end{macrocode}
+% \changes{v0.2}{2017/05/31}{Print a warning if still in frontmatter when
+%         \cs{backmatter} occurs}
+%    \begin{macrocode}
+  \if@mainmatter\else
+    \ClassWarning{MUthesis}{Encountered `backmatter' with no `mainmatter'}
+    \AtEndDocument{%
+      \ClassWarningNoLine{MUthesis}{Encountered `backmatter' with no `mainmatter'}%
+    }
+  \fi
+  \setcounter{secnumdepth}{-1}%
+  \addtocontents{toc}{\protect\setcounter{tocdepth}{3}}
+  \global\@backmattertrue
+  \global\@mainmatterfalse
+}
+%    \end{macrocode}
+% \end{macro}
+% We should have encountered |\mainmatter| (and probably |\backmatter|) at some
+% point
+%    \begin{macrocode}
+\AtEndDocument{%
+  \if@mainmatter
+    \ClassWarningNoLine{MUthesis}{No `backmatter' encountered (no bibliography?)}%
+  \else
+    \if@backmatter\relax\else
+      \ClassWarningNoLine{MUthesis}{No `mainmatter' or `backmatter' encountered}%
+    \fi
+  \fi
+}
+%    \end{macrocode}
+%
+% ^^A--------------------------------------------------------------------------
+% \subsection{Front matter}
+% ^^A--------------------------------------------------------------------------
+% \begin{macro}{\copyrightpage}
+% Copyright page is optional.
+%    \begin{macrocode}
+\newcounter{real@page}
+\newcommand{\copyrightpage}{%
+  \clearpage
+%    \end{macrocode}
+% \changes{v1.1}{2018/08/16}{Changed page numbering to create a unique page
+%           number (`c') for the copyright page in the PDF}
+% This makes the page number ``c'' in the PDF (no number is printed), which
+% avoids |hyperref| warnings about invalid/duplicate page numbers.
+% \changes{v1.5}{2019/04/05}{Fixed page numbering of copyright page, which
+%           threw off the page numbering on subsequent pages}
+% We set the page number back to its original value (plus 1) to make sure
+% subsequent pages' right/left situations in the PDF are still correct.
+% \changes{v1.6}{2019/04/25}{Added ``Copyright'' to PDF bookmarks if
+%           \texttt{hyperref} is loaded.}%
+%    \begin{macrocode}
+  \setcounter{real@page}{\value{page}}%
+  \renewcommand*{\thepage}{\alph{page}}%
+%
+  \pdfbookmark{Copyright}{Copyright}%
+  \thispagestyle{empty}%
+  \null\vfill
+  \noindent
+  \begin{minipage}{0.98\textwidth}
+    \centering\copyright\ Copyright by \@author\ \copyright@year \par
+    \doublespacing
+    All Rights Reserved
+  \end{minipage}
+  \vspace{1.25in}\null
+  \clearpage
+  \pagenumbering{roman}%
+  \setcounter{page}{\value{real@page}}%
+  \stepcounter{page}
+  \let\copyrightpage\relax
+}
+%    \end{macrocode}
+% \end{macro}
+% ^^A--------------------------------------------------------------------------
+% ^^A Title page
+% ^^A--------------------------------------------------------------------------
+% \begin{macro}{\maketitle}
+% Make the title page. The |\ifco@chairs| macro allows for co-chairs.
+% \changes{v0.3}{2017/06/02}{Minor tweak to vertical spacing on title page}
+%    \begin{macrocode}
+\renewcommand{\maketitle}{%
+  \begin{titlepage}
+    \pagestyle{empty}%
+    \thispagestyle{empty}%
+%    \end{macrocode}
+% \changes{v1.1}{2018/08/16}{Added a bookmark and a new page number to help
+%       with \texttt{hyperref} compatibility}
+% The next three lines make the title page page~i (required) and unnumbered
+% (also required); it appears in the PDF's outline, but not in the Table of
+% Contents.
+% \changes{v1.10}{2020/04/10}{Fixed bug related to \cs{protect}\cs{@author}
+%       and \cs{protect}\cs{@title} on title page.}
+%    \begin{macrocode}
+    \pdfbookmark{Title Page}{Title Page}%
+    \setcounter{page}{1}%
+    \null
+    \vfill
+    \begin{center}%
+      \setlength{\parskip}{1.25\baselineskip}%
+      \MakeUppercase{\@title} \par
+      \rule{4in}{1pt}%
+      \par
+      A \documentname\par
+      presented to\par
+      the Faculty of the Graduate School\par
+      at the \univ@name \par
+      \rule{4in}{1pt}%
+      \par
+      In Partial Fulfillment\par
+      of the Requirements for the Degree\par
+      \@degree\par
+      \rule{4in}{1pt}%
+      \par
+      by\par
+      \MakeUppercase{\@author}\par
+      \ifco@chairs
+        Dr.~\@firstchair\ and Dr.~\@secondchair, \thesis@type\ Supervisors
+      \else
+        Dr.~\@chair, \thesis@type\ Supervisor
+      \fi
+      \par
+      \MakeUppercase{\@date}\par
+    \end{center}%
+    \vfill
+    \null
+  \end{titlepage}%
+  \clearpage
+  \renewcommand*{\thepage}{\alph{page}}%
+  \setcounter{footnote}{0}%
+  \let\thanks\relax
+  \let\maketitle\relax
+}
+%    \end{macrocode}
+% \end{macro}
+% ^^A--------------------------------------------------------------------------
+% ^^A Approval page
+% ^^A--------------------------------------------------------------------------
+% \begin{macro}{\approvalpage}
+% The approval page is required, but not numbered.
+% \changes{v0.3}{2017/02/06}{Fixed spacing}
+% \changes{v0.4}{2017/07/07}{Corrected omitted word ``hereby'' on approval page}
+%    \begin{macrocode}
+\newlength{\nameskip}
+\setlength{\nameskip}{0.5in}
+\newlength{\rule@thickness}
+\setlength{\rule@thickness}{0.5pt}
+\newcommand*{\rule@width}{0.55\textwidth}
+\newcommand{\approvalpage}{%
+  \renewcommand*{\thepage}{\alph{page}}%
+  \cleardoublepage
+%    \end{macrocode}
+% \changes{v1.1}{2018/08/16}{Added tweaks to page numbering for
+%       \texttt{hyperref} compatibility}
+% The following four lines put the Approval Page in the PDF outline and make
+%       the PDF page number ``a,'' assuming |hyperref| is loaded. If it is not,
+%       they do nothing.
+%    \begin{macrocode}
+  \providecommand*{\pdfbookmark}[3][]{}%
+  \pdfbookmark{Approval Page}{Approval Page}%
+  %\pagenumbering{alph}%
+  %\setcounter{page}{1}%
+  \thispagestyle{empty}%
+  {\addtolength{\baselineskip}{0.5ex}\setlength{\parindent}{\z@}%
+%    \end{macrocode}
+% \changes{v1.9}{2018/04/06}{Tweaked the spacing on the title page: the
+%       term ``dissertation'' or ``thesis'' now starts on its own line.}
+%    \begin{macrocode}
+  The undersigned, appointed by the dean of the Graduate School, have examined
+  the\par
+  \MakeLowercase{\thesis@type} entitled
+
+  \begin{center}
+    \vspace{1ex}%
+    \begin{minipage}{0.8\textwidth}\noindent\centering
+      \MakeUppercase{\@title}
+    \end{minipage}
+    \vspace{1ex}%
+  \end{center}
+
+  presented by \@author,\par
+  a candidate for the degree of {\@degree},\par
+  and hereby certify that, in their opinion, it is worthy of acceptance.\par
+  }
+  \vskip 1.25\nameskip
+  \begin{center}
+    \ifco@chairs
+      \rule{\rule@width}{\rule@thickness}\par
+      Professor \@firstchair, co-chair\par
+      \vskip\nameskip
+      \rule{\rule@width}{\rule@thickness}\par
+      Professor \@secondchair, co-chair\par
+      \vskip\nameskip
+    \else
+      \rule{\rule@width}{\rule@thickness}\par
+      Professor \@chair, chair\par
+      \vskip\nameskip
+    \fi
+%    \end{macrocode}
+% Readers (committee members); first reader is \emph{always} there.
+%    \begin{macrocode}
+    \rule{\rule@width}{\rule@thickness}\par
+    Professor \@firstreader, member\par
+    \vskip\nameskip
+%    \end{macrocode}
+% Second reader and further, if present
+%    \begin{macrocode}
+    \ifsecond@reader
+      \rule{\rule@width}{\rule@thickness}\par
+      Professor \@secondreader, member\par
+      \vskip\nameskip
+    \fi
+    \ifthird@reader
+      \rule{\rule@width}{\rule@thickness}\par
+      Professor \@thirdreader, member\par
+      \vskip\nameskip
+    \fi
+    \iffourth@reader
+      \rule{\rule@width}{\rule@thickness}\par
+      Professor \@fourthreader, member\par
+      \vskip\nameskip
+    \fi
+    \iffifth@reader
+      \rule{\rule@width}{\rule@thickness}\par
+      Professor \@fifthreader, member\par
+      \vskip\nameskip
+    \fi
+    \ifsixth@reader
+      \rule{\rule@width}{\rule@thickness}\par
+      Professor \@sixthreader, member\par
+      \vskip\nameskip
+    \fi
+  \end{center}
+%    \end{macrocode}
+% Make certain there is nothing on the back of the approval page
+%    \begin{macrocode}
+  \cleardoublepage
+}
+%    \end{macrocode}
+% \end{macro}
+% ^^A--------------------------------------------------------------------------
+% ^^A Dedication page
+% ^^A--------------------------------------------------------------------------
+% \begin{environment}{dedication}
+% The dedication environment is optional and not numbered.
+%    \begin{macrocode}
+\newcommand*{\dedicationname}{Dedication}
+\newenvironment{dedication}{%
+  \if@openright\cleardoublepage\else\clearpage\fi
+  \null\vfil
+%    \end{macrocode}
+% \changes{v1.1}{2018/08/16}{Fixed PDF page numbering on dedication page}
+%   The next two lines change the page number in the PDF to ``d'' if |hyperref|
+%   has been loaded. They do nothing if it has not.
+% \changes{v1.6}{2019/04/25}{Added ``Dedication Page'' to PDF bookmarks if
+%   \texttt{hyperref} has been loaded}
+%    \begin{macrocode}
+  \renewcommand*{\thepage}{\alph{page}}%
+  \thispagestyle{empty}%
+  \pdfbookmark{\dedicationname}{\dedicationname}%
+  \vfill
+  \begin{quotation}
+  }{\par\end{quotation}\vfill\vfil\null}
+%    \end{macrocode}
+% \end{environment}
+% ^^A--------------------------------------------------------------------------
+% ^^A Epigraph
+% ^^A--------------------------------------------------------------------------
+% \begin{environment}{epigraph}
+% Epigraph is optional. The optional argument is the person to whom to
+% attribute the quotation.
+% \changes{v1.1}{2018/08/16}{Fixed PDF page numbering on epigraph page}
+%   The next two lines change the page number in the PDF to ``e'' if
+%   \texttt{hyperref} has been loaded. They do nothing if it has not.
+% \changes{v1.6}{2019/04/25}{Added ``Epigraph'' to the PDF bookmarks if
+%   \texttt{hyperref} has been loaded.}
+%    \begin{macrocode}
+\newcommand*{\epigraphname}{Epigraph}
+\newenvironment{epigraph}[1]{%
+  \clearpage\null\vfil
+  \renewcommand*{\thepage}{\alph{page}}%
+  \gdef\epi@author{#1}%
+  \thispagestyle{empty}%
+  \pdfbookmark{\epigraphname}{\epigraphname}%
+  \vfill
+  \begin{quote}
+}{\end{quote}
+    \hspace{0.25\linewidth}---\epi@author\par
+  \vfill\vfil\null
+}
+%    \end{macrocode}
+% \end{environment}
+% ^^A--------------------------------------------------------------------------
+% ^^A Acknowledgments page(s)
+% ^^A--------------------------------------------------------------------------
+% \begin{environment}{acknowledgments}
+% Acknowledgments are required, and required to be numbered page~ii; we use
+% that fact to set the page counter.
+% RANT: it's super-duper annoying in two-sided documents that the
+% acknowledgments (a "chapter") starts on an even-numbered page! It requires
+% me to do all kinds of creative things (such as redefining |\cleardoublepage|)
+% and is generally unnecessary and stupid.\footnote{Pretty much every rule the
+% administration makes at the University of Missouri is unnecessary and
+% stupid.}
+%
+% \changes{v1.5}{2019/04/06}{Added commands to switch the layout of even and
+%       odd pages and redefined things so that all frontmatter after
+%       Acknowledgments starts on even numbered pages that are actually printed
+%       as odd numbered pages in the PDF\@.}
+% \changes{v1.7}{2019/08/12}{In the commands that flip the page margins in
+%       the front matter of two-sided documents, I changed
+%       \texttt{\cs{setlength}\{\cs{a}\}\{\cs{b}\}} to
+%       \texttt{\cs{a}\protect\textequals\cs{b}\cs{relax}} so as to be more
+%       compatible with the \texttt{calc} package. This was done because
+%       \texttt{calc}'s changes to \cs{setlength} broke my
+%       \cs{reversepagemargins} and \cs{restorepagemargins} commands.}
+% ^^A BEGIN ADDED STUFF
+%    \begin{macrocode}
+\newlength{\other@margin}
+\newif\ifmargins@normal
+\margins@normaltrue
+\newcommand{\reversepagemargins}{%
+  \if@twoside
+    \ifmargins@normal
+      \other@margin=\oddsidemargin\relax
+      \global\oddsidemargin=\evensidemargin\relax
+      \global\evensidemargin=\other@margin\relax
+      \global\margins@normalfalse
+    \fi
+  \fi
+}
+\newcommand{\restorepagemargins}{%
+  \if@twoside
+    \ifmargins@normal
+      \relax
+    \else
+      \other@margin=\oddsidemargin\relax
+      \global\oddsidemargin=\evensidemargin\relax
+      \global\evensidemargin=\other@margin\relax
+      \global\margins@normaltrue
+    \fi
+  \fi
+}
+\let\normal@cleardoublepage\cleardoublepage
+\renewcommand*{\cleardoublepage}{%
+  \ifmargins@normal
+    \normal@cleardoublepage
+  \else
+    \clearpage
+    \if@twoside
+      \ifodd\c@page
+        \hbox{}\newpage
+        \if@twocolumn\hbox{}\newpage\fi
+      \fi
+    \fi
+  \fi
+}
+%    \end{macrocode}
+% ^^A END ADDED STUFF
+%    \begin{macrocode}
+\newcommand*{\ackname}{Acknowledgments}
+\newenvironment{acknowledgments}{%
+  \chapter{\ackname}%
+  \phantomsection
+  \pagenumbering{roman}%
+  \setcounter{page}{2}% graduate school requirement that this is page ii.... 
+  \reversepagemargins
+  \pagestyle{plain}%
+  \global\ack@foundtrue
+  \begin{doublespace}
+}{\end{doublespace}%
+%    \end{macrocode}
+% \changes{v1.0}{2018/08/13}{Fixed a bug with the last page of a 2+ page
+%       Acknowledgments section having no page number}
+%    \begin{macrocode}
+  \thispagestyle{plain}%
+}
+%    \end{macrocode}
+% \changes{v0.6}{2018/07/21}{Added check to remind user to include
+%         acknowledgments if they are absent}
+%    \begin{macrocode}
+\AtEndDocument{%
+  \ifack@found\else
+    \ClassWarningNoLine{MUthesis}{No `acknowledgments' environment;\MessageBreak
+      this environment is required for all\MessageBreak
+      theses and dissertations}
+  \fi
+}
+%    \end{macrocode}
+% \end{environment}
+% ^^A--------------------------------------------------------------------------
+% ^^A Abstract
+% ^^A--------------------------------------------------------------------------
+% \begin{environment}{abstract}
+% The |abstract| environment is optional (yeah, right), and must appear in the
+% table of contents; we also put the title at the top of the page.
+%    \begin{macrocode}
+\renewenvironment{abstract}{%
+%    \end{macrocode}
+% \changes{v1.0}{2018/08/13}{Tweaked font of title and spacing on Abstract page}
+% \changes{v1.1}{2018/08/16}{Added \cs{phantomsection} and \cs{texorpdfstring}
+%       to avoid conflicts with \texttt{hyperref}}
+% \changes{v1.2}{2018/09/07}{Tweaked spacing on Abstract page again}
+%    \begin{macrocode}
+  \if@openright\cleardoublepage\else\clearpage\fi
+  \phantomsection
+  \pagestyle{plain}%
+  \begin{center}
+%    \end{macrocode}
+% ^^A TODO: this should have \boldmath{...} around the \MakeUppercase, here and in section headings!
+%    \begin{macrocode}
+      {\large\bfseries\MakeUppercase{\@title}}\par
+    \par\vspace{1.25\topskip}%
+    \@author
+    \par\vspace{\topskip}%
+    \ifco@chairs
+      Dr.~\@firstchair\ and Dr.~\@secondchair, \thesis@type\ Supervisors \par
+    \else
+      Dr.~\@chair, \thesis@type\ Supervisor \par
+    \fi
+    \par\vspace{2\topskip}%
+    \MakeUppercase{\bfseries\expandafter{\abstractname}}%
+%    \end{macrocode}
+% \changes{v0.4}{2018/07/07}{Make Abstract heading appear in ToC}
+% This adds the abstract to the Table of Contents and fixes its entry in the
+% PDF outline as well.
+%    \begin{macrocode}
+    \addcontentsline{toc}{chapter}%
+        {\texorpdfstring{\MakeUppercase{\abstractname}}
+        {\abstractname}}%
+  \end{center} \par \addvspace{-0.75\topskip}%
+  \begin{doublespace}%
+  \indent 
+}
+{\par\end{doublespace}}
+%    \end{macrocode}
+% \end{environment}
+% ^^A--------------------------------------------------------------------------
+% ^^A Vita
+% ^^A--------------------------------------------------------------------------
+% \begin{environment}{vita}
+% A Vita is required for dissertations.
+%    \begin{macrocode}
+\newif\ifvita@present
+\vita@presentfalse
+\newenvironment{vita}{%
+  \chapter{Vita}
+}{\global\vita@presenttrue}
+%    \end{macrocode}
+% \changes{v0.6}{2018/07/21}{Added check to remind user to include vita if it
+%         is absent for a dissertation}
+% Check for missing vita in a dissertation
+%    \begin{macrocode}
+\AtEndDocument{
+  \ifis@dissertation
+    \ifvita@present\relax
+    \else
+      \ClassWarningNoLine{MUthesis}{No `vita' environment found; a vita is
+        required for dissertations}%
+    \fi
+  \fi
+}
+%    \end{macrocode}
+% \end{environment}
+% ^^A--------------------------------------------------------------------------
+% ^^A Bibliography
+% ^^A--------------------------------------------------------------------------
+% \begin{environment}{thebibliography}
+% Because so many packages redefine the |thebibliography| environment, we
+% redefine it to match the graduate school's requirement at the beginning of
+% the document, after any packages. This should make it compatible with things
+% like |chapterbib|, though this has not been tested.
+%
+% \changes{v1.0}{2018/08/12}{Modified \texttt{thebibliography} to work with
+%           \texttt{chapterbib} and \texttt{natbib}}
+% ^^A TODO: This (probably) doesn't work with author-year citations!
+%    \begin{macrocode}
+\let\MUthesis@bib@name\bibname
+\newcommand*{\refname}{References}%
+%    \end{macrocode}
+% \changes{v0.2}{2017/05/31}{Force \cs{backmatter} at start of thebibliography}
+%    \begin{macrocode}
+\newif\ifMUthesis@use@chapterbib
+\MUthesis@use@chapterbibfalse
+\newif\ifMUthesis@use@natbib
+\MUthesis@use@natbibfalse
+%    \end{macrocode}
+% We use numbers in bibliographies as ``1.'' rather than ``[1]'' here; if
+% using |natbib|, we redefine |\bibnumfmt| after |\begin{document}| instead.
+%    \begin{macrocode}
+\renewcommand*{\@biblabel}[1]{\hfill #1.}%
+%    \end{macrocode}
+% We use |\bibsection| here so that |natbib| uses it when the time comes.
+% It is redefined at |\begin{document}| to override |natbib|'s wishes.
+% \changes{v1.6}{2019/04/05}{Added per-chapter ``References'' sections to the
+%   table of contents if \texttt{chapterbib} is used}
+%    \begin{macrocode}
+\newcommand{\bibsection}{}
+\AtBeginDocument{%
+    \@ifpackageloaded{chapterbib}%
+        {\MUthesis@use@chapterbibtrue}%
+        {\MUthesis@use@chapterbibfalse}%
+    \@ifpackageloaded{natbib}%
+        {\MUthesis@use@natbibtrue
+         \renewcommand*{\bibnumfmt}[1]{#1.}
+        }%
+        {\MUthesis@use@natbibfalse}%
+    \renewcommand{\bibsection}{%
+       \ifMUthesis@use@chapterbib
+          \if@backmatter
+            \chapter{\bibname}%
+            \let\MUthesis@bib@name\bibname
+          \else
+            \section*{\refname}%
+            \addcontentsline{toc}{section}{\protect\numberline{}\refname}%
+            \let\MUthesis@bib@name\refname
+          \fi
+       \else
+          \chapter{\bibname}%
+          \if@backmatter\relax\else\backmatter\fi
+       \fi
+       \@mkboth{\MakeUppercase\MUthesis@bib@name}
+               {\MakeUppercase\MUthesis@bib@name}%
+%    \end{macrocode}
+% \changes{v0.3}{2017/06/02}{Fix bibliography entry spacing}
+%    \begin{macrocode}
+    \singlespacing
+    }
+    \renewenvironment{thebibliography}[1]{%
+       \bibsection
+       \ifMUthesis@use@natbib
+           \bibpreamble
+           \bibfont
+           \list{\@biblabel{\the\c@NAT@ctr}}
+                {\@bibsetup{#1}\global\c@NAT@ctr\z@}%
+       \else
+           \list{\@biblabel{\@arabic\c@enumiv}}%
+                {%
+                 \if@backmatter
+                   \labelwidth 20pt%
+                   \leftmargin\labelwidth
+                 \else
+                   \settowidth\labelwidth{\@biblabel{#1}}%
+                   \leftmargin\labelwidth
+                   \advance\leftmargin\labelsep
+                 \fi
+                 \@openbib@code
+                 \usecounter{enumiv}%
+                 \let\p@enumiv\@empty
+                 \renewcommand\theenumiv{\@arabic\c@enumiv}%
+                }%
+       \fi
+%    \end{macrocode}
+% If we have per-chapter bibliographies (with |chapterbib|), we redefine the
+% bibitem code so that there are no numbers in the main bibliography.
+%    \begin{macrocode}
+   \if@backmatter
+     \ifMUthesis@use@chapterbib
+       \ifMUthesis@use@natbib
+         \renewcommand*{\bibnumfmt}[1]{}
+%    \end{macrocode}
+% FIXME: This code works, but likely breaks some natbib features.
+%    \begin{macrocode}
+         \def\@lbibitem[##1]##2{%
+            \item[\hfill]{\hspace{-\labelwidth}\if@filesw
+               {\let\protect\noexpand
+                \immediate
+                \write\@auxout{\string\bibcite{##2}{##1}}}\fi\ignorespaces}%
+         }%
+       \else
+         \renewcommand*{\@bibitem}[1]{%
+            \item[\hfill]\hspace{-\labelwidth}\if@filesw
+                 \immediate\write\@auxout
+                {\string\bibcite{#1}{\the\value{\@listctr}}}\fi\ignorespaces
+            }%
+       \fi
+     \fi
+   \fi
+%    \end{macrocode}
+% The rest is from |report.cls| and/or |natbib.sty|
+%    \begin{macrocode}
+%% FIXME should these next two lines be there?
+%% \sloppy
+%% \interlinepenalty=10000%
+   \sfcode`\.\@m
+   \ifMUthesis@use@natbib
+     \let\NAT@bibitem@first@sw\@firstoftwo
+       \let\citeN\cite \let\shortcite\cite
+       \let\citeasnoun\cite
+   \fi
+}{\ifMUthesis@use@natbib
+    \bibitem@fin
+    \bibpostamble
+  \fi
+  \def\@noitemerr
+    {\@latex@warning{Empty `thebibliography' environment}}%
+  \endlist
+  \ifMUthesis@use@natbib\bibcleanup\fi
+}
+}
+%    \end{macrocode}
+% \end{environment}
+% ^^A--------------------------------------------------------------------------
+% ^^A Nomenclatures -- Make the Nomenclature section compatible with formatting
+% ^^A--------------------------------------------------------------------------
+% \begin{environment}{nomencl}
+% \begin{macro}{\nomname}
+% \begin{macro}{\listofsymbols}
+% This code makes the |nomencl| package compatible with this class. The
+% command |\listofsymbols| is an alias for |\printnomenclature|.
+%    \begin{macrocode}
+\AtBeginDocument{%
+  \@ifpackageloaded{nomencl}{%
+    \ClassWarningNoLine{MUthesis}
+      {Redefining the nomenclature to fit with MUthesis.cls}%
+    \renewcommand*{\nomname}{List of Symbols}%
+    \let\listofsymbols\printnomenclature
+    \def\thenomenclature{%
+      \chapter{\nomname}%
+      \nompreamble
+      \list{}{%
+        \labelwidth\nom@tempdim
+        \leftmargin\labelwidth
+        \advance\leftmargin\labelsep
+        \itemsep\nomitemsep
+        \let\makelabel\nomlabel%
+      }%
+    }%
+  }{}%
+}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{environment}
+% ^^A--------------------------------------------------------------------------
+% ^^A Glossaries -- fix the glossaries to be compatible with this class
+% ^^A--------------------------------------------------------------------------
+% \changes{v0.3}{2018/06/02}{Made glossaries package work with this class}
+% \begin{environment}{glossaries}
+% \begin{macro}{\acronymname}
+% We redefine the appropriate commands from the |glossaries| package, if it
+% has been loaded, for compatibility with this class.
+% \changes{v1.1}{2018/08/16}{Added \cs{texorpdfstring} to ensure
+%       \texttt{hyperref} compatibility.}
+%    \begin{macrocode}
+\AtBeginDocument{%
+  \@ifpackageloaded{glossaries}{%
+    \ClassWarningNoLine{MUthesis}
+      {Redefining glossaries to fit with MUthesis.cls}%
+    \renewcommand*{\acronymname}{List of Acronyms}%
+    \glstoctrue
+    \renewcommand*{\@gls@toc}[2]{%
+      \ifglstoc
+        \ifglsnumberline
+          \addcontentsline{toc}{#2}%
+              {\numberline{}\texorpdfstring{\MakeUppercase{#1}}{#1}}%
+        \else
+          \addcontentsline{toc}{#2}{\texorpdfstring{\MakeUppercase{#1}}{#1}}%
+        \fi
+      \fi
+    }%
+  }{}%
+}
+%    \end{macrocode}
+% \end{macro}
+% \end{environment}
+% ^^A--------------------------------------------------------------------------
+% ^^A Indexes -- fix the index to be compatible with this class
+% ^^A--------------------------------------------------------------------------
+% \changes{v0.3}{2018/06/02}{Made makeidx package work with this class}
+% \begin{environment}{makeidx}
+% \begin{macro}{\printindex}
+% We redefine |\printindex| for compatibility with this class if |makeidx|
+% has been included.
+% \changes{v1.1}{2018/06/16}{Added \cs{texorpdfstring} for \texttt{hyperref}
+%       compatibility.}
+%    \begin{macrocode}
+\AtBeginDocument{%
+  \@ifpackageloaded{makeidx}{%
+    \ClassWarningNoLine{MUthesis}
+      {Redefining the index to fit with MUthesis.cls}%
+    \let\old@printindex\printindex
+    \renewcommand{\printindex}{%
+      \if@openright\cleardoublepage\else\clearpage\fi
+      \singlespacing
+      \addcontentsline{toc}{chapter}%
+          {\texorpdfstring{\MakeUppercase{\indexname}}{\indexname}}%
+      \old@printindex
+    }%
+  }{}%
+}
+%    \end{macrocode}
+% \end{macro}
+% \end{environment}
+% ^^A--------------------------------------------------------------------------
+% \subsection{Commands and environments for front matter}
+% \begin{macro}{\degree}
+% \begin{macro}{\copyrightyear}
+% These commands are the user interface; their function is to store names and
+% dates for future use on the title page, copyright page, and approval page.
+%    \begin{macrocode}
+\newcommand*{\degree}[2]{\gdef\@degree{#1}\gdef\@degreeabbrv{#2}}
+\let\copyright@year\relax
+\def\copyright@year{\ClassWarningNoLine{MUthesis}{No copyright year given}}
+\newcommand*{\copyrightyear}[1]{\gdef\copyright@year{#1}}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% ^^A--------------------------------------------------------------------------
+% ^^A Chair(s)
+% ^^A--------------------------------------------------------------------------
+% \begin{macro}{\chair}
+% \begin{macro}{\cochairs}
+% \begin{macro}{\firstreader}
+% \begin{macro}{\secondreader}
+% \begin{macro}{\thirdreader}
+% \begin{macro}{\fourthreader}
+% \begin{macro}{\fifthreader}
+% \begin{macro}{\sixthreader}
+% Commands used to define the thesis/dissertation committee.
+% \changes{v1.8}{2020/03/25}{Added definitions for ``hidden'' commands so they
+%       warn the user if the information is absent and provide more helpful
+%       information.}
+%    \begin{macrocode}
+\newif\ifco@chairs
+\co@chairsfalse
+\def\@chair{\ClassWarningNoLine{MUthesis}{No \noexpand\chair defined}}
+\newcommand*{\chair}[1]{\gdef\@chair{#1}\co@chairsfalse}
+\newcommand*{\cochairs}[2]{\gdef\@firstchair{#1}\gdef\@secondchair{#2}%
+    \co@chairstrue}
+\def\@firstreader{\ClassWarningNoLine{MUthesis}{No \noexpand\firstreader defined}}
+\newcommand*{\firstreader}[1]{\gdef\@firstreader{#1}}%
+\newif\ifsecond@reader
+\second@readerfalse
+\newcommand*{\secondreader}[1]{\gdef\@secondreader{#1}\second@readertrue}
+\newif\ifthird@reader
+\third@readerfalse
+\newcommand*{\thirdreader}[1]{\gdef\@thirdreader{#1}\third@readertrue}
+\newif\iffourth@reader
+\fourth@readerfalse
+\newcommand*{\fourthreader}[1]{\gdef\@fourthreader{#1}\fourth@readertrue}
+\newif\iffifth@reader
+\fifth@readerfalse
+\newcommand*{\fifthreader}[1]{\gdef\@fifthreader{#1}\fifth@readertrue}
+\newif\ifsixth@reader
+\sixth@readerfalse
+\newcommand*{\sixthreader}[1]{\gdef\@sixthreader{#1}\sixth@readertrue}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+%
+% \changes{v0.6}{2018/07/21}{Added environments for illustrations and schemes
+%         and made adjustments to be compatible with \texttt{float} package}
+% ^^A--------------------------------------------------------------------------
+% ^^A Additional floats and compatibility with float package
+% ^^A--------------------------------------------------------------------------
+% \begin{environment}{illustration}
+% \begin{macro}{\illustrationname}
+% \begin{macro}{\listillustrationname}
+% \begin{macro}{\theillustration}
+% Define an illustration environment and the associated list of illustrations.
+% These are essentially the same as the table and figure environments.
+%    \begin{macrocode}
+\newcounter{illustration}[chapter]
+\newcommand*{\illustrationname}{Illustration}
+\newcommand*{\listillustrationname}{List of Illustrations}
+\renewcommand\theillustration
+    {\ifnum \c@chapter>\z@ \thechapter.\fi \@arabic\c@illustration}
+\def\fps@illustration{tbp}
+\def\ftype@illustration{1}
+\def\ext@illustration{loi}
+\def\fnum@illustration{\illustrationname\nobreakspace\theillustration}
+\newenvironment{illustration}
+               {\@float{illustration}}
+               {\end@float}
+\newenvironment{illustration*}
+               {\dblfloat{illustration}}
+               {\end@dblfloat}
+\newcommand\listofillustrations{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter{\listillustrationname}%
+      \@mkboth{%
+          \MakeUppercase\listillustrationname}%
+         {\MakeUppercase\listillustrationname}%
+    {\normalsize\parindent\z@\textbf{\illustrationname\hfill Page}\par}%
+    {\hyphenpenalty=\list@hyphen@penalty\@starttoc{loi}}%
+    \if@restonecol\twocolumn\fi
+}
+\let\l@illustration\l@figure
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{environment}
+% ^^A Schemes
+% \begin{environment}{scheme}
+% \begin{macro}{\schemename}
+% \begin{macro}{\listschemename}
+% \begin{macro}{\thescheme}
+% Define a scheme environment and the associated list of schemes for chemically
+% reacting systems. These are essentially the same as the table and figure
+% environments, too.
+%    \begin{macrocode}
+\newcounter{scheme}[chapter]
+\newcommand*{\schemename}{Scheme}
+\newcommand*{\listschemename}{List of Schemes}
+\renewcommand\thescheme
+    {\ifnum \c@chapter>\z@ \thechapter.\fi \@arabic\c@scheme}
+\def\fps@scheme{tbp}
+\def\ftype@scheme{1}
+\def\ext@scheme{los}
+\def\fnum@scheme{\schemename\nobreakspace\thescheme}
+\newenvironment{scheme}
+               {\@float{scheme}}
+               {\end@float}
+\newenvironment{scheme*}
+               {\dblfloat{scheme}}
+               {\end@dblfloat}
+\newcommand\listofschemes{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter{\listschemename}%
+      \@mkboth{%
+          \MakeUppercase\listschemename}%
+         {\MakeUppercase\listschemename}%
+    {\normalsize\parindent\z@\textbf{\schemename\hfill Page}\par}%
+    {\hyphenpenalty=\list@hyphen@penalty\@starttoc{los}}%
+    \if@restonecol\twocolumn\fi
+}
+\let\l@scheme\l@figure
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{environment}
+% ^^A--------------------------------------------------------------------------
+% ^^A Arbitrary other floats / float package compatibility
+% ^^A--------------------------------------------------------------------------
+% \begin{macro}{\newfloat}
+% \begin{macro}{\listof}
+% \begin{macro}{\float@listhead}
+%    \begin{macrocode}
+\AtBeginDocument{%
+  \@ifpackageloaded{float}{%
+    \renewcommand*{\float@listhead}[1]{%
+      \if@twocolumn
+        \@restonecoltrue\onecolumn
+      \else
+        \@restonecolfalse
+      \fi
+      \chapter{#1}
+        \@mkboth{%
+          \MakeUppercase{#1}}
+         {\MakeUppercase{#1}}%
+    }%
+    \renewcommand*{\listof}[2]{%
+      \@ifundefined{ext@#1}{\float@error{#1}}{%
+        \expandafter\let\csname l@#1\endcsname\l@figure
+        \float@listhead{#2}%
+        {\normalsize\parindent\z@\textbf{\csname fname@#1\endcsname\hfill
+            Page}\par}%
+        {\hyphenpenalty=\list@hyphen@penalty
+            \@starttoc{\csname ext@#1\endcsname}}%
+        \if@restonecol\twocolumn\fi
+      }%
+    }%
+  }{}%
+}%
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% ^^A--------------------------------------------------------------------------
+% \subsection{Page numbers in the PDF}
+% To get page numbers in the PDF, I use |hyperref|'s |pdfpagelabels| option.
+% The |hyperpages| option uses the |implicit=false| and |draft| options to
+% |hyperref| so that links are not enabled but the pages still have the correct
+% labels in the PDF\@. The user could re-enable this later using |hyperref|'s
+% commands, but it is better to use the |hyper| option to the document class.
+% The |nohyper| option prevents the document class from loading |hyperref|,
+% just in case anyone has trouble.
+% \begin{macro}{\pdfbookmark}
+% \changes{v1.8}{2020/03/25}{Moved provided command for \cs{pdfbookmark} (in
+%       case \texttt{hyperref} is not loaded) to the end of the preamble.}
+%    \begin{macrocode}
+\ifload@hyperref
+  \AtBeginDocument{%
+    \expandafter\RequirePackage[\hyper@options]{hyperref}
+  }
+\else
+  \AtBeginDocument{%
+    \providecommand*{\pdfbookmark}[3][]{}%
+  }
+\fi
+%    \end{macrocode}
+% \end{macro}
+% ^^A--------------------------------------------------------------------------
+% \changes{v1.2}{2018/09/07}{Moved loading of \texttt{hyperref} to the end of
+%       the class, so that it's the last package loaded (fixing a bug with the
+%       appendix in the PDF outline).}
+%% Start the document in "frontmatter" mode by default
+%    \begin{macrocode}
+\AtBeginDocument{%
+  \frontmatter
+}
+%    \end{macrocode}
+% \iffalse
+%</class>
+% \fi
+%
+% \Finale
+\endinput

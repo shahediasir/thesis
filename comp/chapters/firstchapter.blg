@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: firstchapter.aux
+The style file: unsrt.bst
+Database file #1: abbreviated.bib
+Database file #2: comp.bib
+Repeated entry---line 1584 of file comp.bib
+ : @article{kittel1993history
+ :                           ,
+I'm skipping whatever remains of this entry
+You've used 19 entries,
+            1791 wiz_defined-function locations,
+            1356 strings with 17973 characters,
+and the built_in function-call counts, 4652 in all, are:
+= -- 411
+> -- 249
+< -- 2
++ -- 90
+- -- 71
+* -- 364
+:= -- 769
+add.period$ -- 58
+call.type$ -- 19
+change.case$ -- 20
+chr.to.int$ -- 0
+cite$ -- 19
+duplicate$ -- 176
+empty$ -- 424
+format.name$ -- 71
+if$ -- 995
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 16
+newline$ -- 98
+num.names$ -- 20
+pop$ -- 38
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 64
+stack$ -- 0
+substring$ -- 348
+swap$ -- 29
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 48
+width$ -- 21
+write$ -- 210
+(There was 1 error message)

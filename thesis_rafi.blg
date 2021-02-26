@@ -1,0 +1,168 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis_rafi.aux
+A level-1 auxiliary file: chapters/firstchapter.aux
+The style file: unsrt.bst
+A level-1 auxiliary file: chapters/xenontherm.aux
+Illegal, another \bibstyle command---line 103 of file chapters/xenontherm.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 104 of file chapters/xenontherm.aux
+ : \bibdata
+ :         {abbreviated,comp}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: chapters/pseudoUranium.aux
+Illegal, another \bibstyle command---line 229 of file chapters/pseudoUranium.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 230 of file chapters/pseudoUranium.aux
+ : \bibdata
+ :         {abbreviated,comp}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: chapters/u-mo-xe.aux
+Illegal, another \bibstyle command---line 77 of file chapters/u-mo-xe.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 78 of file chapters/u-mo-xe.aux
+ : \bibdata
+ :         {abbreviated,umox}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: chapters/futurework.aux
+Illegal, another \bibstyle command---line 9 of file chapters/futurework.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 10 of file chapters/futurework.aux
+ : \bibdata
+ :         {abbreviated,comp}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: appen/elastic_alphaU.aux
+Illegal, another \bibstyle command---line 14 of file appen/elastic_alphaU.aux
+ : \bibstyle
+ :          {unsrt}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 15 of file appen/elastic_alphaU.aux
+ : \bibdata
+ :         {abbreviated,comp}
+I'm skipping whatever remains of this command
+Database file #1: abbreviated.bib
+Database file #2: comp.bib
+Warning--string name "jcamd" is undefined
+--line 600 of file comp.bib
+Warning--I didn't find a database entry for "sinha2010phase"
+Warning--I didn't find a database entry for "yakel1969crystal"
+Warning--I didn't find a database entry for "sinha2010effect"
+Warning--I didn't find a database entry for "prabhakaran2017u"
+Warning--I didn't find a database entry for "williams2017post"
+Warning--I didn't find a database entry for "dwight1960uranium"
+Warning--I didn't find a database entry for "tangri1961metastable"
+Warning--I didn't find a database entry for "berche2011calphad"
+Warning--I didn't find a database entry for "zhang2010thermodynamic"
+Warning--I didn't find a database entry for "losada2019ground"
+Warning--I didn't find a database entry for "landa2011density"
+Warning--I didn't find a database entry for "alonso2007role"
+Warning--I didn't find a database entry for "castellano2020thermodynamic"
+Warning--I didn't find a database entry for "iasir2018estimation"
+Warning--I didn't find a database entry for "yun2008atomic"
+Warning--I didn't find a database entry for "carter1972xenon"
+Warning--I didn't find a database entry for "matzke1966diffusion"
+Warning--I didn't find a database entry for "macewan1964xenon"
+Warning--I didn't find a database entry for "une1987effects"
+Warning--I didn't find a database entry for "catlow1978fission"
+Warning--I didn't find a database entry for "jackson1986calculation"
+Warning--I didn't find a database entry for "grimes1989calculations"
+Warning--I didn't find a database entry for "ball1990diffusion"
+Warning--I didn't find a database entry for "grimes1991stability"
+Warning--I didn't find a database entry for "andersson2011u"
+Warning--I didn't find a database entry for "adda1959etude"
+Warning--I didn't find a database entry for "peterson1964diffusion"
+Warning--I didn't find a database entry for "rothman1959self"
+Warning--I didn't find a database entry for "rothman1961diffusion"
+Warning--I didn't find a database entry for "adda1962etude"
+Warning--I didn't find a database entry for "resnick1962self"
+Warning--I didn't find a database entry for "rothman1961self"
+Warning--I didn't find a database entry for "liu2012atomic"
+Warning--I didn't find a database entry for "smirnova2015atomistic"
+Warning--I didn't find a database entry for "adams1989self"
+Warning--I didn't find a database entry for "blochl1993first"
+Warning--I didn't find a database entry for "blochl1990first"
+Warning--I didn't find a database entry for "frank1996first"
+Warning--I didn't find a database entry for "janotti2004solute"
+Warning--I didn't find a database entry for "krvcmar2005diffusion"
+Warning--I didn't find a database entry for "milman1993free"
+Warning--I didn't find a database entry for "sandberg2002self"
+Warning--I didn't find a database entry for "lidiard1955"
+Warning--I didn't find a database entry for "lidiard1960"
+Warning--I didn't find a database entry for "leclaire1956"
+Warning--I didn't find a database entry for "leclaire1970"
+Warning--I didn't find a database entry for "mehrer2007diffusion"
+Warning--I didn't find a database entry for "vineyard1954theory"
+Warning--I didn't find a database entry for "vineyard1957frequency"
+Warning--I didn't find a database entry for "Eyring1935"
+Warning--I didn't find a database entry for "Evans1935"
+Warning--I didn't find a database entry for "Heinola2010a"
+Warning--I didn't find a database entry for "balluffi1973diffusion"
+Warning--I didn't find a database entry for "wolverton2007solute"
+Warning--I didn't find a database entry for "iasir2020pseudopotential"
+Warning--I didn't find a database entry for "pp1"
+Warning--I didn't find a database entry for "dal2014pseudopotentials"
+Warning--I didn't find a database entry for "soderlind1998theory"
+Warning--I didn't find a database entry for "ye1987phonon"
+Warning--I didn't find a database entry for "sanchez1975model"
+Warning--I didn't find a database entry for "beeler2010first"
+Warning--I didn't find a database entry for "henkelman2000climbing"
+Warning--I didn't find a database entry for "henkelman2000improved"
+Warning--I didn't find a database entry for "matter1980investigation"
+Warning--I didn't find a database entry for "lund2013vacancy"
+Warning--I didn't find a database entry for "shin2010first"
+Warning--I didn't find a database entry for "saal2012solute"
+Warning--I didn't find a database entry for "burke1972measurement"
+Warning--I didn't find a database entry for "kong2014first"
+Warning--I didn't find a database entry for "ohnuma2009first"
+Warning--empty journal in ghoniem2001theory
+Warning--empty booktitle in trelis
+You've used 133 entries,
+            1791 wiz_defined-function locations,
+            2205 strings with 39871 characters,
+and the built_in function-call counts, 31649 in all, are:
+= -- 2818
+> -- 1515
+< -- 10
++ -- 561
+- -- 428
+* -- 2533
+:= -- 5156
+add.period$ -- 402
+call.type$ -- 133
+change.case$ -- 128
+chr.to.int$ -- 0
+cite$ -- 135
+duplicate$ -- 1229
+empty$ -- 3014
+format.name$ -- 428
+if$ -- 6791
+int.to.chr$ -- 0
+int.to.str$ -- 133
+missing$ -- 134
+newline$ -- 668
+num.names$ -- 134
+pop$ -- 220
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 444
+stack$ -- 0
+substring$ -- 2519
+swap$ -- 163
+text.length$ -- 10
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 336
+width$ -- 136
+write$ -- 1468
+(There were 10 error messages)

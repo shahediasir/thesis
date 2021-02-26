@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: comp_rafi.aux
+A level-1 auxiliary file: chapters/xenontherm.aux
+A level-1 auxiliary file: chapters/pseudoUranium.aux
+A level-1 auxiliary file: chapters/futurework.aux
+A level-1 auxiliary file: appen/elastic_alphaU.aux
+The style file: plain.bst
+Database file #1: full.bib
+Database file #2: comp.bib
+Warning--string name "jcamd" is undefined
+--line 600 of file comp.bib
+Repeated entry---line 1584 of file comp.bib
+ : @article{kittel1993history
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in ghoniem2001theory
+Warning--can't use both volume and number fields in thomas1927calculation
+Warning--empty booktitle in trelis
+You've used 127 entries,
+            2118 wiz_defined-function locations,
+            2006 strings with 41348 characters,
+and the built_in function-call counts, 45899 in all, are:
+= -- 4477
+> -- 2477
+< -- 11
++ -- 1000
+- -- 850
+* -- 3763
+:= -- 7827
+add.period$ -- 383
+call.type$ -- 127
+change.case$ -- 797
+chr.to.int$ -- 0
+cite$ -- 130
+duplicate$ -- 1448
+empty$ -- 3319
+format.name$ -- 850
+if$ -- 9181
+int.to.chr$ -- 0
+int.to.str$ -- 127
+missing$ -- 132
+newline$ -- 638
+num.names$ -- 255
+pop$ -- 628
+preamble$ -- 1
+purify$ -- 678
+quote$ -- 0
+skip$ -- 949
+stack$ -- 0
+substring$ -- 3189
+swap$ -- 165
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 490
+warning$ -- 3
+while$ -- 458
+width$ -- 130
+write$ -- 1405
+(There was 1 error message)

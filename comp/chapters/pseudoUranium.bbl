@@ -1,0 +1,344 @@
+\begin{thebibliography}{10}
+
+\bibitem{lawson1988structure}
+A.~C. Lawson, C.~E. Olsen, J.~W. Richardson, M.~H. Mueller, and G.~H. Lander.
+\newblock Structure of {\textbeta}-uranium.
+\newblock {\em Acta Crystallogr.~B}, 44(2):89--96, 1988.
+
+\bibitem{akella1997structural}
+J.~Akella, S.~Weir, J.~M. Wills, and P.~S{\"o}derlind.
+\newblock Structural stability in uranium.
+\newblock {\em J.~Phys.\ Condens.\ Matter}, 9(39):L549--L555, 1997.
+
+\bibitem{lander2003gh}
+G.~H. Lander.
+\newblock G h lander.
+\newblock {\em Science}, 301:1057, 2003.
+
+\bibitem{freemanHandbook1984}
+Arthur~J. Freeman and G.~H. Lander.
+\newblock {\em Handbook on the Physics and Chemistry of the Actinides}, volume
+  1,2.
+\newblock North-Holland, Amsterdam, 1984.
+
+\bibitem{wills1992crystal}
+J.~M. Wills and Olle Eriksson.
+\newblock Crystal-structure stabilities and electronic structure for the light
+  actinides {Th}, {Pa}, and {U}.
+\newblock {\em Phys.\ Rev.~B}, 45(24):13879, 1992.
+
+\bibitem{eriksson1993first}
+Olle Eriksson, Per S{\"o}derlind, J.~M. Wills, and A.~M. Boring.
+\newblock First principles studies of crystal structures of {$f$} elements.
+\newblock {\em Phys.~B Condens.\ Matter}, 190(1):5--11, 1993.
+
+\bibitem{crocombette2001plane}
+J.~P. Crocombette, F.~Jollet, L.~Thien~Nga, and T.~Petit.
+\newblock Plane-wave pseudopotential study of point defects in uranium dioxide.
+\newblock {\em Phys.\ Rev.~B}, 64(10):104107, 2001.
+
+\bibitem{soderlind2002first}
+Per S{\"o}derlind.
+\newblock First-principles elastic and structural properties of uranium metal.
+\newblock {\em Phys.\ Rev.~B}, 66(8):085113, 2002.
+
+\bibitem{lawson2000melting}
+A.~C. Lawson, B.~M. Artinez, J.~A. Roberts, B.~I. Bennett, and J.~W.
+  Richardson, Jr.
+\newblock Melting of the light actinides.
+\newblock {\em Philos.\ Mag.~B}, 80(1):53--59, 2000.
+
+\bibitem{jones2000theoretical}
+M.~D. Jones, J.~C. Boettger, R.~C. Albers, and D.~J. Singh.
+\newblock Theoretical atomic volumes of the light actinides.
+\newblock {\em Phys.\ Rev.~B}, 61(7):4644, 2000.
+
+\bibitem{taylor2008evaluation}
+Christopher~D. Taylor.
+\newblock Evaluation of first-principles techniques for obtaining materials
+  parameters of {\textalpha}-uranium and the {\hkl(001)} \textalpha-uranium
+  surface.
+\newblock {\em Phys.\ Rev.~B}, 77(9):094119, 2008.
+
+\bibitem{Bloechl1994}
+P.~E. Bl{\"o}chl.
+\newblock Projector augmented-wave method.
+\newblock {\em Phys.\ Rev.~B}, 50(24):17953--17979, December 1994.
+
+\bibitem{Perdew1992a}
+J.~P. Perdew, J.~A. Chevary, S.~H. Vosko, K.~A. Jackson, M.~R. Pederson, D.~J.
+  Singh, and C.~Fiolhais.
+\newblock Atoms, molecules, solids, and surfaces: {A}pplications of the
+  generalized gradient approximation for exchange and correlation.
+\newblock {\em Phys.\ Rev.~B}, 46(11):6671--6687, September 1992.
+
+\bibitem{Perdew1993}
+J.~P. Perdew, J.~A. Chevary, S.~H. Vosko, K.~A. Jackson, M.~R. Pederson, D.~J.
+  Singh, and C.~Fiolhais.
+\newblock Erratum: {A}toms, molecules, solids, and surfaces: {A}pplications of
+  the generalized gradient approximation for exchange and correlation.
+\newblock {\em Phys.\ Rev.~B}, 48(7):4978, 1993.
+
+\bibitem{barrett1963crystal}
+C.~S. Barrett, M.~H. Mueller, and R.~L. Hitterman.
+\newblock Crystal structure variations in alpha uranium at low temperatures.
+\newblock {\em Phys.\ Rev.}, 129(2):625, 1963.
+
+\bibitem{xiang2008quantum}
+Shikai Xiang, Hanchen Huang, and L.~M. Hsiung.
+\newblock Quantum mechanical calculations of uranium phases and niobium defects
+  in {\textgamma}-uranium.
+\newblock {\em J.~Nucl.\ Mater.}, 375(1):113--119, 2008.
+
+\bibitem{Perdew1996b}
+John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.
+\newblock Generalized gradient approximation made simple.
+\newblock {\em Phys.\ Rev.\ Lett.}, 77(18):3865--3868, October 1996.
+
+\bibitem{Perdew1997}
+John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.
+\newblock Generalized gradient approximation made simple (errata).
+\newblock {\em Phys.\ Rev.\ Lett.}, 78(7):1396, 1997.
+
+\bibitem{li2012structure}
+J.~H. Li, Q.~B. Ren, C.~H. Lu, L.~Lu, Y.~Dai, and B.~X. Liu.
+\newblock Structure, formation energies and elastic constants of uranium metal
+  investigated by first principles calculations.
+\newblock {\em J.~Alloy Compd.}, 516:139--143, 2012.
+
+\bibitem{beeler2013first}
+Benjamin Beeler, Chaitanya Deo, Michael Baskes, and Maria Okuniewski.
+\newblock First principles calculations of the structure and elastic constants
+  of {\textalpha}, {\textbeta} and {\textgamma} uranium.
+\newblock {\em J.~Nucl.\ Mater.}, 433(1-3):143--151, 2013.
+
+\bibitem{hohenberg1964inhomogeneous}
+Pierre Hohenberg and Walter Kohn.
+\newblock Inhomogeneous electron gas.
+\newblock {\em Phys.\ Rev.}, 136(3B):B864, 1964.
+
+\bibitem{thomas1927calculation}
+Llewellyn~H. Thomas.
+\newblock The calculation of atomic fields.
+\newblock In {\em Mathematical Proceedings of the Cambridge Philosophical
+  Society}, volume~23, pages 542--548. Cambridge University Press, 1927.
+
+\bibitem{fermi1927metodo}
+Enrico Fermi.
+\newblock Un metodo statistico per la determinazione di alcune priorieta
+  dell’atome.
+\newblock {\em Rend. Accad. Naz. Lincei}, 6(602-607):32, 1927.
+
+\bibitem{langreth1975exchange}
+David~C. Langreth and John~P. Perdew.
+\newblock The exchange-correlation energy of a metallic surface.
+\newblock {\em Solid State Commun.}, 17(11):1425--1429, 1975.
+
+\bibitem{kohn1965self}
+Walter Kohn and Lu~Jeu Sham.
+\newblock Self-consistent equations including exchange and correlation effects.
+\newblock {\em Phys.\ Rev.}, 140(4A):A1133, 1965.
+
+\bibitem{giannozzi2009quantum}
+Paolo Giannozzi, Stefano Baroni, Nicola Bonini, Matteo Calandra, Roberto Car,
+  Carlo Cavazzoni, Davide Ceresoli, Guido~L. Chiarotti, Matteo Cococcioni,
+  Ismaila Dabo, Andrea Dal~Corso, Stefano de~Gironcoli, Stefano Fabris, Guido
+  Fratesi, Ralph Gebauer, Uwe Gerstmann, Christos Gougoussis, Anton Kokalj,
+  Michele Lazzeri, Layla Martin-Samos, Nicola Marzari, Francesco Mauri,
+  Riccardo Mazzarello, Stefano Paolini, Alfredo Pasquarello, Lorenzo Paulatto,
+  Carlo Sbraccia, Sandro Scandolo, Gabriele Sclauzero, Ari~P. Seitsonen,
+  Alexander Smogunov, Paolo Umari, and Renata~M. Wentzcovitch.
+\newblock {QUANTUM ESPRESSO}: {A} modular and open-source software project for
+  quantum simulations of materials.
+\newblock {\em J.~Phys.\ Condens.\ Matter}, 21(39):395502, September 2009.
+
+\bibitem{gonze2002first}
+Xavier Gonze, J-M Beuken, R.~Caracas, F.~Detraux, M.~Fuchs, G-M Rignanese, Luc
+  Sindic, Matthieu Verstraete, G.~Zerah, F.~Jollet, et~al.
+\newblock First-principles computation of material properties: the abinit
+  software project.
+\newblock {\em Comput.\ Mater.\ Sci.}, 25(3):478--492, 2002.
+
+\bibitem{herring1940new}
+Conyers Herring.
+\newblock A new method for calculating wave functions in crystals.
+\newblock {\em Phys.\ Rev.}, 57(12):1169, 1940.
+
+\bibitem{phillips1959new}
+James~C Phillips and Leonard Kleinman.
+\newblock New method for calculating wave functions in crystals and molecules.
+\newblock {\em Phys.\ Rev.}, 116(2):287, 1959.
+
+\bibitem{hamann1979norm}
+D.~R. Hamann, M.~Schl{\"u}ter, and C.~Chiang.
+\newblock Norm-conserving pseudopotentials.
+\newblock {\em Phys.\ Rev.\ Lett.}, 43(20):1494, 1979.
+
+\bibitem{troullier1991efficient}
+Norman Troullier and Jos{\'e}~Lu{\'\i}s Martins.
+\newblock Efficient pseudopotentials for plane-wave calculations.
+\newblock {\em Phys.\ Rev.~B}, 43(3):1993, 1991.
+
+\bibitem{kresse1999ultrasoft}
+Georg Kresse and D.~Joubert.
+\newblock From ultrasoft pseudopotentials to the projector augmented-wave
+  method.
+\newblock {\em Phys.\ Rev.~B}, 59(3):1758, 1999.
+
+\bibitem{holzwarth2001projector}
+N.~A.~W. Holzwarth, A.~R. Tackett, and G.~E. Matthews.
+\newblock A projector augmented wave ({PAW}) code for electronic structure
+  calculations, part~{I}: {atompaw} for generating atom-centered functions.
+\newblock {\em Comput.\ Phys.\ Commun.}, 135(3):329--347, 2001.
+
+\bibitem{tackett2001projector}
+A.~R. Tackett, N.~A.~W. Holzwarth, and G.~E. Matthews.
+\newblock A projector augmented wave ({PAW}) code for electronic structure
+  calculations, part~{II}: {pwpaw} for periodic solids in a plane wave basis.
+\newblock {\em Comput.\ Phys.\ Commun.}, 135(3):348--376, 2001.
+
+\bibitem{iche2008examining}
+Nathalie Ich{\'e}-Tarrat and Colin~J. Marsden.
+\newblock Examining the performance of dft methods in uranium chemistry: Does
+  core size matter for a pseudopotential?
+\newblock {\em The Journal of Physical Chemistry A}, 112(33):7632--7642, 2008.
+
+\bibitem{rappe1990optimized}
+Andrew~M. Rappe, Karin~M. Rabe, Efthimios Kaxiras, and J.~D. Joannopoulos.
+\newblock Optimized pseudopotentials.
+\newblock {\em Phys.\ Rev.~B}, 41(2):1227, 1990.
+
+\bibitem{StructureofCrystals}
+{Naval Research Laboratories}.
+\newblock Structure of {C}rystals.
+\newblock {\url{http://aflowlib.duke.edu/users/egossett/lattice/}}, 2015.
+
+\bibitem{pack1977special}
+James~D. Pack and Hendrik~J. Monkhorst.
+\newblock ``special points for {B}rillouin-zone integrations''---a reply.
+\newblock {\em Phys.\ Rev.~B}, 16(4):1748--1749, 1977.
+
+\bibitem{methfessel1989high}
+M.~Methfessel and A.~T. Paxton.
+\newblock High-precision sampling for {B}rillouin-zone integration in metals.
+\newblock {\em Phys.\ Rev.~B}, 40(6):3616--3621, 1989.
+
+\bibitem{ravindran1998density}
+P.~Ravindran, Lars Fast, P.~A. Korzhavyi, B.~Johansson, J.~Wills, and
+  O.~Eriksson.
+\newblock Density functional theory for calculation of elastic properties of
+  orthorhombic crystals: {A}pplication to {TiSi$_2$}.
+\newblock {\em J.~Appl.\ Phys.}, 84(9):4891--4904, 1998.
+
+\bibitem{beckstein2001first}
+O.~Beckstein, J.~E. Klepeis, G.~L.~W. Hart, and O.~Pankratov.
+\newblock First-principles elastic constants and electronic structure of
+  {\textalpha-pt$_2$ si} and {PtSi}.
+\newblock {\em Phys.\ Rev.~B}, 63(13):134112, 2001.
+
+\bibitem{lander1994solid}
+G.~H. Lander, E.~S. Fisher, and S.~D. Bader.
+\newblock The solid-state properties of uranium: {A} historical perspective and
+  review.
+\newblock {\em Adv.\ Phys.}, 43(1):1--111, 1994.
+
+\bibitem{le2003structural}
+T.~Le~Bihan, S.~Heathman, M.~Idiri, G.~H. Lander, J.~M. Wills, A.~C. Lawson,
+  and Andreas Lindbaum.
+\newblock Structural behavior of {\textalpha}-uranium with pressures to
+  {100~GPa}.
+\newblock {\em Phys.\ Rev.~B}, 67(13):134102, 2003.
+
+\bibitem{murnaghan1944compressibility}
+F.~D. Murnaghan.
+\newblock The compressibility of media under extreme pressures.
+\newblock {\em Proc.\ Natl.\ Acad.\ Sci.\ U.~S.~A.}, 30(9):244--247, 1944.
+
+\bibitem{hood2008quantum}
+Randolph~Q. Hood, L.~H. Yang, and John~A. Moriarty.
+\newblock Quantum molecular dynamics simulations of uranium at high pressure
+  and temperature.
+\newblock {\em Phys.\ Rev.~B}, 78(2):024116, 2008.
+
+\bibitem{yoo1998phase}
+Choong-Shik Yoo, Hyunchae Cynn, and Per S{\"o}derlind.
+\newblock Phase diagram of uranium at high pressures and temperatures.
+\newblock {\em Phys.\ Rev.~B}, 57(17):10359, 1998.
+
+\bibitem{fisher1958adiabatic}
+E.~S. Fisher and H.~J. {McS}kimin.
+\newblock Adiabatic elastic moduli of single crystal alpha-uranium.
+\newblock {\em J.~Appl.\ Phys.}, 29(10):1473--1484, 1958.
+
+\bibitem{wilson1949structures}
+A.~S. Wilson and R.~E. Rundle.
+\newblock The structures of uranium metal.
+\newblock {\em Acta Crystallogr.}, 2(2):126--127, 1949.
+
+\bibitem{yakel1973review}
+Harry~L. Yakel.
+\newblock Review of x-ray diffraction studies in uranium alloys.
+\newblock Technical report, Oak Ridge National Laboratory, Tennessee (USA),
+  1973.
+
+\bibitem{nashchemistry}
+I.~Grenthe, J.~Drozdzynski, T.~Fujino, E.~C. Buck, T.~E. Albrecht-Schmitt, and
+  S.~F. Wolf.
+\newblock {\em The Chemistry of the Actinide and Transactinide Elements},
+  volume~1.
+\newblock Springer, Dordrecht, 2006.
+
+\bibitem{kittel1993history}
+J.~H. Kittel, B.~R.~T. Frost, J.~P. Mustelier, K.~Q. Bagley, G.~C. Crittenden,
+  and J.~Van~Dievoet.
+\newblock History of fast reactor fuel development.
+\newblock {\em J.~Nucl.\ Mater.}, 204:1--13, 1993.
+
+\bibitem{kim2016superconductivity}
+N.-T.~H Kim-Ngan and L.~Havela.
+\newblock Superconductivity in {U-T} alloys ({T${}={}$Mo, Pt, Pd, Nb, Zr})
+  stabilized in the cubic {\textgamma-u} structure by splat-cooling technique.
+\newblock {\em J.~Sci.\ Adv.\ Mater.\ Dev.}, 1(2):121--127, 2016.
+
+\bibitem{born1940stability}
+Max Born.
+\newblock On the stability of crystal lattices. {I.}
+\newblock {\em Proc.\ Camb.\ Phil.\ Soc.}, 36(2):160--172, 1940.
+
+\bibitem{born1954dynamical}
+Max Born and Kun Huang.
+\newblock {\em Dynamical Theory of Crystal Lattices}.
+\newblock Clarendon Press, 1954.
+
+\bibitem{Mouhat2014}
+F{\'e}lix Mouhat and Fran{\c c}ois-Xavier Coudert.
+\newblock Necessary and sufficient elastic stability conditions in various
+  crystal systems.
+\newblock {\em Phys.\ Rev.~B}, 90:224104, 2014.
+
+\bibitem{Soderlind1998}
+Per S{\"o}derlind.
+\newblock Theory of the crystal structures of cerium and the light actinides.
+\newblock {\em Adv.\ Phys.}, 47(6):959--998, 1998.
+
+\bibitem{tucker1950approximate}
+C.~W. Tucker, Jr.
+\newblock An approximate crystal structure for the beta phase of uranium.
+\newblock Technical Report KAPL-388, Knolls Atomic Power Laboratory, 1950.
+
+\bibitem{tucker1951crystal}
+C.~W. Tucker.
+\newblock The crystal structure of the {\textbeta}\ phase of uranium.
+\newblock {\em Acta Crystallogr.}, 4(5):425--431, 1951.
+
+\bibitem{donohue1971structure}
+Jerry Donohue and Howard Einspahr.
+\newblock The structure of {\textbeta}-uranium.
+\newblock {\em Acta Crystallogr.~B}, 27(9):1740--1743, 1971.
+
+\bibitem{donohue1974structures}
+Jerry Donohue.
+\newblock {\em Structures of the Elements}.
+\newblock John Wiley and Sons, 1974.
+
+\end{thebibliography}

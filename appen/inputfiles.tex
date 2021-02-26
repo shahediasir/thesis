@@ -1,0 +1,976 @@
+\chapter{Input Files}\label{appen_inputfiles}
+Input files for different software are included in this chapter. Because of the complexity and number, I have included samples of them.
+
+\section{MOOSE Framework}
+This is the \texttt{main.C} file for moose simulation. Depends on the problem, moose requires a number of header files and source file.  
+
+\lstset{style=cpp}
+\begin{lstlisting}
+  /* this is a main app file created for the purpose of simulating heat conduction
+   *      This is file is created by Rafi, Sepetember 27, 2016
+   *      *****************************************************   */
+  
+  #include "HeatCondRafiApp.h"
+  #include "MooseInit.h"
+  #include "Moose.h"
+  #include "MooseApp.h"
+  #include "AppFactory.h"
+  
+  // Creat a performance log
+  PerfLog Moose::perf_log("HeatCondRafi");
+  
+  //Begin the main problem.
+  int main(int argc, char *argv[])
+  {
+      // Initialize MPI, solvers and MOOSE
+      MooseInit init(argc, argv);
+  
+      // Register this application's MooseApp and any it depends on
+      HeatCondRafiApp::registerApps();
+  
+      // This creates dynamic memory that we're responsible for deleting
+      //MooseApp * app =  AppFactory::createAppShared("HeatCondRafiApp", argc, argv);
+    std::shared_ptr<MooseApp> app = AppFactory::createAppShared("HeatCondRafiApp", argc, argv);
+  
+      //Execute the application
+      app->run();
+  
+      // Free up the memory we created earlier
+      //delete app;
+  
+      return 0;
+  }
+\end{lstlisting}
+\pagebreak
+This is a sample of source file (kernel in MOOSE) of heat transfer in U--10Mo 
+\lstset{style=cpp}
+\begin{lstlisting}
+// this file is edited by rafi fro temperature dependent thermal conductivity
+#include "Tempdepk.h"
+
+template<>
+InputParameters validParams<Tempdepk>()
+{
+  InputParameters params = validParams<Diffusion>();
+  params.addClassDescription("This will solve heat diffusion with temperature dependent thermal conductivity");
+  return params;
+}
+
+Tempdepk::Tempdepk(const InputParameters & parameters) :
+    Diffusion(parameters),
+	_thermal_conductivity(getMaterialProperty<Real>("thermal_conductivity"))  /*be sure u use the "thermal_conductivity, otherwise it will
+not read the thermal_conductivity from the input*/
+{
+}
+
+Real
+Tempdepk::computeQpResidual()
+{
+  //return _grad_u[_qp] * _grad_test[_i][_qp];
+  //Real _k=0.606+0.0351*_u[_qp]; // from D.E. Burkes et al./ Journal of Nuc Material 2010
+
+  return _thermal_conductivity[_qp]*Diffusion::computeQpResidual();
+}
+
+Real
+Tempdepk::computeQpJacobian()
+{
+  //Real _k=0.606+0.0351*_u[_qp];
+  //return _grad_phi[_j][_qp] * _grad_test[_i][_qp];
+
+  return _thermal_conductivity[_qp]*Diffusion::computeQpJacobian();
+}
+
+\end{lstlisting}
+\pagebreak
+
+\lstset{style=cpp}
+\begin{lstlisting}
+// this file is edited by rafi fro temperature dependent thermal conductivity
+#include "TXenon.h"
+
+
+template<>
+InputParameters validParams<TXenon>()
+{
+  InputParameters params = validParams<Diffusion>();
+  params.addClassDescription("This will solve heat diffusion with temperature dependent thermal conductivity");
+  return params;
+}
+
+TXenon::TXenon(const InputParameters & parameters) :
+    Diffusion(parameters),
+	_thermal_conductivity(getMaterialProperty<Real>("thermal_conductivity"))  /*be sure u use the "thermal_conductivity, otherwise it will
+not read the thermal_conductivity from the input*/
+{
+}
+
+Real
+TXenon::computeQpResidual()
+{
+  //return _grad_u[_qp] * _grad_test[_i][_qp];
+  //Real _k=0.606+0.0351*_u[_qp]; // from D.E. Burkes et al./ Journal of Nuc Material 2010
+
+/* return _thermal_conductivity[_qp]*Diffusion::computeQpResidual() + 380E3*_test[_i][_qp]; */
+
+// the above one for a constant forcing function
+
+  return _thermal_conductivity[_qp]*Diffusion::computeQpResidual();
+}
+
+Real
+TXenon::computeQpJacobian()
+{
+  //Real _k=0.606+0.0351*_u[_qp];
+  //return _grad_phi[_j][_qp] * _grad_test[_i][_qp];
+
+  return _thermal_conductivity[_qp]*Diffusion::computeQpJacobian() + 
+	(-2*4.72984E-09*_u[_qp]*2.+2.0891E-5)*_grad_u[_qp]*_grad_test[_i][_qp];
+}
+
+\end{lstlisting}
+\pagebreak
+Material source code for U--10Mo property.
+\lstset{style=cpp}
+\begin{lstlisting}
+// this file is edited by Rafi January 24, 2017
+// 
+#include "Tconductivity.h"
+
+template<>
+InputParameters validParams<Tconductivity>()
+{
+  InputParameters params = validParams<Material>();
+// we do not need to add any data from the input file
+  params.addClassDescription("This is to calculate the temperature dependent thermal conductivity of U-10Mo");
+// the "temperature" variable has to be defined in the input files
+  params.addCoupledVar("dep_variable", "The thermal conductivity is calculated from temperature");
+  return params;
+}
+
+Tconductivity::Tconductivity(const InputParameters & parameters) :
+    Material(parameters),
+
+    // Declare  material properties.  This returns references that we
+    // hold onto as member variables
+    //_permeability(declareProperty<Real>("permeability")),
+	_thermal_conductivity(declareProperty<Real>("thermal_conductivity")),
+	//_dep_variable(isCoupled("dep_varible"))
+	_dep_variable(coupledValue("dep_variable"))
+{
+}
+
+void
+Tconductivity::computeQpProperties()
+{
+
+  // Sample the LinearInterpolation object to get the permeability for the ball size
+  //_permeability[_qp] = _permeability_interpolation.sample(_ball_radius);
+  _thermal_conductivity[_qp]=0.606+0.0351*_dep_variable[_qp];
+}
+\end{lstlisting}
+\pagebreak
+\lstset{style=cpp}
+Source file for xenon material property.
+\begin{lstlisting}
+// this file is edited by Rafi February 13, 2017
+// 
+#include "XenonT.h"
+
+template<>
+InputParameters validParams<XenonT>()
+{
+  InputParameters params = validParams<Material>();
+// we do not need to add any data from the input file
+  params.addClassDescription("This is to calculate the temperature dependent  thermal conductivity of Xenon");
+// the "temperature" variable has to be defined in the input files
+  params.addCoupledVar("dep_variable", "The thermal conductivity is calculated from temperature");
+  return params;
+}
+
+
+XenonT::XenonT(const InputParameters & parameters) :
+    Material(parameters),
+
+    // Declare  material properties.  This returns references that we
+    // hold onto as member variables
+    //_permeability(declareProperty<Real>("permeability")),
+	_thermal_conductivity(declareProperty<Real>("thermal_conductivity")),
+	//_dep_variable(isCoupled("dep_varible"))
+	_dep_variable(coupledValue("dep_variable"))
+{
+}
+
+void
+XenonT::computeQpProperties()
+{
+
+  // Sample the LinearInterpolation object to get the permeability for the ball size
+  //_permeability[_qp] = _permeability_interpolation.sample(_ball_radius);
+  //_thermal_conductivity[_qp]=0.000000001+0.00000000001*_dep_variable[_qp];
+  /*abobe correlation is wrong, is calculated wrong, the next equation is calcuated from Robinovich et al. Thermophy
+	sical property of Neon, Argon, Krypton, and Xenon */
+
+	_thermal_conductivity[_qp]=-4.72984E-09*_dep_variable[_qp]*_dep_variable[_qp] + 2.0891E-5*_dep_variable[_qp]+ 2.83137E-05 ;
+	 
+	
+}
+\end{lstlisting}
+\pagebreak
+
+Source file for heat flux calculation.
+\lstset{style=cpp}
+\begin{lstlisting}
+
+#include "HeatFlux.h"
+
+template<>
+InputParameters validParams<HeatFlux>()
+{
+  InputParameters params = validParams<AuxKernel>();
+
+  MooseEnum component("x y z");
+  // Declare the options for a MooseEnum.
+  // These options will be presented to the user in Peacock
+  // and if something other than these options is in the input file
+  // an error will be printed
+  params.addClassDescription("This is to calculate the heat flux for over all material");
+  // Add a "coupling paramater" to get a variable from the input file.
+  params.addRequiredCoupledVar("field_temperature", "The temperature field.");
+  params.addRequiredParam<MooseEnum>("component", component, "The desired component of temperature");
+
+  return params;
+}
+
+HeatFlux::HeatFlux(const InputParameters & parameters) :
+    AuxKernel(parameters),
+
+    // Get the gradient of the variable
+    _temperature_gradient(coupledGradient("field_temperature")),
+
+    // Snag thermal_coductivity from the Material system.
+    // Only AuxKernels operating on Elemental Auxiliary Variables can do this
+    _t_thermal_conductivity(getMaterialProperty<Real>("thermal_conductivity")),
+	_component(getParam<MooseEnum>("component"))
+
+{
+}
+
+Real
+HeatFlux::computeValue()
+{
+  // Access the gradient of the pressure at this quadrature point
+  // Then pull out the "component" of it we are looking for (x, y or z)
+  // Note that getting a particular component of a gradient is done using the
+  // parenthesis operator
+  return _t_thermal_conductivity[_qp]*_temperature_gradient[_qp](_component);
+}
+\end{lstlisting}
+This source file is to calculate the gradient of the temperature.
+\lstset{style=cpp}
+\begin{lstlisting}
+
+#include "TGradient.h"
+
+template<>
+InputParameters validParams<TGradient>()
+{
+  InputParameters params = validParams<AuxKernel>();
+
+  // Declare the options for a MooseEnum.
+  // These options will be presented to the user in Peacock
+  // and if something other than these options is in the input file
+  // an error will be printed
+  params.addClassDescription("This is to calculate the temperature gradient for over all material");
+  // Add a "coupling paramater" to get a variable from the input file.
+  //params.addRequiredCoupledVar("field_temperature", "The temperature field.");
+  MooseEnum component("x y z");
+
+  // Use the MooseEnum to add a parameter called "component"
+  params.addRequiredCoupledVar("field_temperature", "The Temperature field");
+  params.addRequiredParam<MooseEnum>("component", component, "The desired component of velocity.");
+  return params;
+}
+
+TGradient::TGradient(const InputParameters & parameters) :
+    AuxKernel(parameters),
+
+    // Get the gradient of the variable
+    _temperature_gradient(coupledGradient("field_temperature")),
+
+	_component(getParam<MooseEnum>("component"))
+    // Snag thermal_coductivity from the Material system.
+    // Only AuxKernels operating on Elemental Auxiliary Variables can do this
+    //_t_thermal_conductivity(getMaterialProperty<Real>("thermal_conductivity"))
+
+{
+}
+
+Real 
+TGradient::computeValue()
+{
+  // Access the gradient of the pressure at this quadrature point
+  // Then pull out the "component" of it we are looking for (x, y or z)
+  // Note that getting a particular component of a gradient is done using the
+  // parenthesis operator
+  return _temperature_gradient[_qp](_component);
+}
+\end{lstlisting}
+\pagebreak
+For every source file, we need header files. The required header files are below.
+\texttt{Tempdepk.h}
+\lstset{style=cpp}
+\begin{lstlisting}
+// this file created by Rafi, January 24, 2017
+#ifndef TEMPDEPK_H
+#define TEMPDEPK_H
+#include "Diffusion.h"
+class Tempdepk;
+template<>
+InputParameters validParams<Tempdepk>();
+
+/**
+ * This kernel will solve a temperature dependent thermal conductivity with diffusion of temperature
+ */
+class Tempdepk : public Diffusion
+{
+public:
+  Tempdepk(const InputParameters & parameters);
+protected:
+  virtual Real computeQpResidual() override;
+  virtual Real computeQpJacobian() override;
+// creating a moose array for material property
+ const MaterialProperty<Real> & _thermal_conductivity;
+};
+#endif 
+
+\end{lstlisting}
+\pagebreak
+\texttt{TXenon.h}
+\lstset{style=cpp}
+\begin{lstlisting}
+/ this file created by Rafi, January 24, 2017
+#ifndef TXENON_H
+#define TXENON_H
+
+#include "Diffusion.h"
+
+class TXenon;
+template<>
+InputParameters validParams<TXenon>();
+
+/**
+ * This kernel will solve a temperature dependent thermal conductivity with diffusion of temperature
+ */
+class TXenon : public Diffusion
+{
+public:
+  TXenon(const InputParameters & parameters);
+
+protected:
+  virtual Real computeQpResidual() override;
+
+  virtual Real computeQpJacobian() override;
+// creating a moose array for material property
+
+ const MaterialProperty<Real> & _thermal_conductivity;
+};
+#endif 
+
+\end{lstlisting}
+\pagebreak
+\lstset{style=cpp}
+\begin{lstlisting}
+// this file is created by Rafi at February 13, 2017
+
+#ifndef TCONDUCTIVITY_H
+#define TCONDUCTIVITY_H
+
+#include "Material.h"
+
+class Tconductivity;
+
+template<>
+InputParameters validParams<Tconductivity>();
+
+/**
+ * Material objects inherit from Material and override computeQpProperties.
+ *
+ * Their job is to declare properties for use by other objects in the
+ * calculation such as Kernels and BoundaryConditions.
+ */
+class Tconductivity : public Material
+{
+public:
+  Tconductivity(const InputParameters & parameters);
+
+protected:
+  /**
+   * Necessary override.  This is where the values of the properties
+   * are computed.
+   */
+  virtual void computeQpProperties() override;
+
+private:
+    // The thermal conductivity 
+  MaterialProperty<Real> & _thermal_conductivity; // for u-10 Mo
+
+  // const VariableGradient & _dep_variable; // this will get the temperature 
+  //std::vector<const VariableValue> & _dep_variable;
+  //VariableValue<Real> & _dep_variable;
+   const VariableValue & _dep_variable;
+};
+#endif //Tconductivity
+\end{lstlisting}
+\pagebreak
+\texttt{XenonT.h}
+\lstset{style=cpp}
+\begin{lstlisting}
+/ this file is created by Rafi at February 13, 2017
+// The reference is Rabinovich et al.
+// Thermophysical Propeties of Neon, Argon, Krypton and Xenon// for the purpose of temperature dependent thermal condcutivity for U-10Mo
+#ifndef XENONT_H
+#define XENONT_H
+
+#include "Material.h"
+class XenonT;
+
+template<>
+InputParameters validParams<XenonT>();
+
+/**
+ * Material objects inherit from Material and override computeQpProperties.
+ *
+ * Their job is to declare properties for use by other objects in the
+ * calculation such as Kernels and BoundaryConditions.
+ */
+class XenonT : public Material
+{
+public:
+  XenonT(const InputParameters & parameters);
+
+protected:
+  /** 
+   * Necessary override.  This is where the values of the properties
+   * are computed.
+   */
+  virtual void computeQpProperties() override;
+private:
+
+    // The thermal conductivity 
+  MaterialProperty<Real> & _thermal_conductivity; // for u-10 Mo
+
+  // const VariableGradient & _dep_variable; // this will get the temperature 
+  //std::vector<const VariableValue> & _dep_variable;
+  //VariableValue<Real> & _dep_variable;
+   const VariableValue & _dep_variable;
+};
+
+#endif //XENONT_H
+\end{lstlisting}
+\pagebreak
+\texttt{HeatFlux.h}
+\lstset{style=cpp}
+\begin{lstlisting}{style=dflt}
+ifndef HEATFLUX_H
+#define HEATFLUX_H
+
+#include "AuxKernel.h"
+
+//Forward Declarations
+class HeatFlux;
+
+template<>
+InputParameters validParams<HeatFlux>();
+
+/**
+ * Constant auxiliary value
+ */
+class HeatFlux : public AuxKernel
+{
+public:
+  HeatFlux(const InputParameters & parameters);
+
+  virtual ~HeatFlux() {}
+
+protected:
+  /** 
+   * AuxKernels MUST override computeValue.  computeValue() is called on
+   * every quadrature point.  For Nodal Auxiliary variables those quadrature
+   * points coincide with the nodes.
+   */
+  virtual Real computeValue() override;
+
+
+  /// The gradient of a coupled variable
+  const VariableGradient & _temperature_gradient;
+
+  /// Holds the permeability and viscosity from the material system
+  const MaterialProperty<Real> & _t_thermal_conductivity;
+  // const MaterialProperty<Real> & _viscosity;
+
+    int _component;
+};
+#endif // end of HEATFLUX_H
+\end{lstlisting}
+\pagebreak
+\lstset{style=cpp}
+\texttt{TGradient.h}
+\begin{lstlisting}{style=cpp}
+ifndef TGRADIENT_H
+#define TGRADIENT_H
+
+#include "AuxKernel.h"
+
+//Forward Declarations
+class TGradient;
+
+template<>
+InputParameters validParams<TGradient>();
+
+/**
+ * Constant auxiliary value
+ */
+class TGradient : public AuxKernel
+{
+public:
+  TGradient(const InputParameters & parameters);
+
+  virtual ~TGradient() {}
+
+protected:
+  /** 
+   * AuxKernels MUST override computeValue.  computeValue() is called on
+   * every quadrature point.  For Nodal Auxiliary variables those quadrature
+   * points coincide with the nodes.
+   */
+  virtual Real computeValue() override;
+
+
+  /// The gradient of a coupled variable
+  const VariableGradient & _temperature_gradient;
+
+  /// Holds the permeability and viscosity from the material system
+  //const MaterialProperty<Real> & _t_thermal_conductivity;
+  int _component;
+  // const MaterialProperty<Real> & _viscosity;
+};
+
+#endif // end of TGRADIENT_H
+\end{lstlisting}
+\pagebreak
+
+\section{ATOMPAW}
+This is an input file for Atompaw to generate the paw database for electronic structure calculation.
+\lstset{style=atpw}
+\begin{lstlisting}
+U 92
+GGA-PBE scalarrelativistic loggridv4 700 
+7 6 6 5 0 
+6 2 1   
+5 3 3   
+0 0 0 
+c   !1s2    1   
+c   !2s2    2   
+c   !3s2    3   
+c   !4s2    4   
+c   !5s2    5   
+v   !6s2    6       1
+v   !7s2    7       2
+c   !2p6    8   
+c   !3p6    9   
+c   !4p6    10  
+c   !5p6    11    
+v   !6p6    12      3   
+c   !3d10   13  
+c   !4d10   14  
+c   !5d10   15  
+v   !6d1    16      4   
+c   !4f14   17  
+v   !5f3    18      5   
+3
+2.5 2.02 1.5 1.8    !rpaw, rshape, rvloc, rcore, in a.u 
+n
+y               !one additional p partial wave
+0.00
+n               !no additional p partial wave
+y               !one additional d partial wave
+0.2             !
+n               !no additional d partial wave
+y               !one additional f partial wave
+3.0
+n               !no additional f partial wave
+custom  rrkj besselshape    !UPF format needs bessels    
+4 0.0 !bessel               !l quantum number, reference energy (Ry), bessel for simplicity
+1.3     !1 s            ! rc s partial wave
+1.3     !2 s            ! rc for s
+2.5     !3 p            ! rc for p
+2.5     !4 p            ! rc for p
+1.55    !5 d            ! rc for d, 1.3 gives very good result
+1.55    !6 d        ! rc for  d,    1.3 gives very good result, 4.0 energy
+2.5     !7 f        ! rc for f
+2.5     !8 f        ! rc for  f
+PWSCFOUT
+default
+0
+\end{lstlisting}
+
+\section{DFT Calculation}
+\subsection{SCF of a primitive cell}
+This is sample input file to calculate the self consistent field study using Quantum Espresso. It contains the lattice parameter of \textalpha-uranium.
+\lstset{style=deflt}
+\begin{lstlisting}
+&CONTROL
+                       title = 'alphaU'
+                 calculation = 'scf'
+                restart_mode = 'from_scratch'
+                      outdir = '/home/iasir/quantum_espresso/Uranium_PAW/rvloc_96/y_value_plot/lat01'
+                  pseudo_dir = '/home/iasir/quantum_espresso/Uranium_PAW/rvloc_96/y_value_plot/lat01'
+                      prefix = 'alphaU'
+                   verbosity = 'default'
+                     tstress = .true.
+                     tprnfor = .true.
+ /
+ &SYSTEM
+                       ibrav = 0 
+                          A  = 2.8383
+                         at  = 2 
+                        ntyp = 1 
+                        ntyp = 1 
+                     ecutwfc = 50
+                     ecutrho = 250 
+                    smearing = 'methfessel-paxton'
+ /
+ &ELECTRONS
+             diagonalization = 'david'
+ /
+ &IONS
+
+ /
+CELL_PARAMETERS {alat}
+  0.500000000000000  -1.031658697792153   0.000000000000000 
+  0.500000000000000   1.031658697792153   0.000000000000000 
+  0.000000000000000   0.000000000000000   1.73379271551118
+ATOMIC_SPECIES
+    U  238.0290000000  U.GGA-PBE-paw.UPF
+
+ATOMIC_POSITIONS {crystal}
+U   0.09860000000000000  -0.0986000000000000  -0.250000000000000 
+U  -0.09860000000000000    0.0986000000000000   0.250000000000000  
+
+K_POINTS automatic
+20  20  26   0 0 0 
+
+\end{lstlisting}
+
+\pagebreak
+\subsection{Supercell of uranium}
+The following input is for performing a relax calcuation using supercell of \textgamma-uranium with molybdenum and xenon.
+\lstset{style=atpw}
+\begin{lstlisting}
+&CONTROL
+                                title  = 'supercellgammaU'
+                           calculation = 'relax'
+                          restart_mode = 'from_scratch'
+                         outdir = '/group/hammond/sysyphus/3x3/2prim-2nd/im02',
+                            pseudo_dir = '/group/hammond/sysyphus/pp_dir',
+                                prefix = 'supercell_gammaU'
+                         etot_conv_thr = 1.0D-6
+                         forc_conv_thr = 1.0D-6
+                             verbosity = 'default'
+                               tstress = .true.
+                               tprnfor = .true.
+                                nstep  = 200
+/
+&SYSTEM
+                                 ibrav = 0
+                                     A = 10.35
+                                   nat = 53
+                                  ntyp = 3
+                               ecutwfc = 50
+                               ecutrho = 260
+                             occupations = 'smearing'
+                                   degauss = 0.02
+                                  smearing = 'mp'
+/
+&ELECTRONS
+           diagonalization = 'david'
+         electron_maxstep  = 900
+               mixing_beta = 0.1
+/
+&IONS
+
+/
+&CELL
+
+/
+CELL_PARAMETERS {alat}
+ 1.00   0.00    0.00
+ 0.00   1.00    0.00
+ 0.00   0.00    1.00
+
+ATOMIC_SPECIES
+   U  238.02800   U.GGA-PBE-paw.UPF
+   Xe 131.29      Xe.GGA-PBE-paw.UPF
+   Mo 95.94       Mo.GGA-PBE-paw.UPF
+
+ATOMIC_POSITIONS (crystal)
+U        0.000000000   0.000000000   0.000000000    0   0   0
+U        0.210984461   0.204688901   0.229195736
+U        0.000000000   0.000000000   0.333333333    0   0   0
+U        0.000000000   0.000000000   0.666666667    0   0   0
+U        0.333333333   0.000000000   0.000000000    0   0   0
+U        0.666666667   0.000000000   0.000000000    0   0   0
+U        0.000000000   0.333333333   0.000000000    0   0   0
+U        0.000000000   0.666666667   0.000000000    0   0   0
+U        0.137231091   0.153757182   0.530873483
+U        0.174376372   0.129124170   0.859923969
+U        0.526508957   0.134953713   0.159596399
+U        0.862089662   0.133706169   0.175813941
+U        0.158683128   0.524614679   0.202129442
+U        0.148170903   0.848856345   0.127554382
+U        0.000000000   0.333333333   0.333333333    0   0   0
+U        0.000000000   0.666666667   0.666666667    0   0   0
+U        0.000000000   0.666666667   0.333333333    0   0   0
+U        0.000000000   0.333333333   0.666666667    0   0   0
+U        0.333333333   0.000000000   0.333333333    0   0   0
+U        0.666666667   0.000000000   0.666666667    0   0   0
+U        0.333333333   0.000000000   0.666666667    0   0   0
+U        0.666666667   0.000000000   0.333333333    0   0   0
+U        0.333333333   0.333333333   0.000000000    0   0   0
+U        0.666666667   0.666666667   0.000000000    0   0   0
+U        0.666666667   0.333333333   0.000000000    0   0   0
+U        0.333333333   0.666666667   0.000000000    0   0   0
+U        0.137231091   0.153757182   0.530873483
+U        0.174376372   0.129124170   0.859923969
+U        0.526508957   0.134953713   0.159596399
+U        0.862089662   0.133706169   0.175813941
+U        0.158683128   0.524614679   0.202129442
+U        0.148170903   0.848856345   0.127554382
+U        0.000000000   0.333333333   0.333333333    0   0   0
+U        0.000000000   0.666666667   0.666666667    0   0   0
+U        0.000000000   0.666666667   0.333333333    0   0   0
+U        0.000000000   0.333333333   0.666666667    0   0   0
+U        0.333333333   0.000000000   0.333333333    0   0   0
+U        0.666666667   0.000000000   0.666666667    0   0   0
+U        0.333333333   0.000000000   0.666666667    0   0   0
+U        0.666666667   0.000000000   0.333333333    0   0   0
+U        0.333333333   0.333333333   0.000000000    0   0   0
+U        0.666666667   0.666666667   0.000000000    0   0   0
+U        0.666666667   0.333333333   0.000000000    0   0   0
+U        0.333333333   0.666666667   0.000000000    0   0   0
+U        0.179014193   0.490220525   0.515819257
+U        0.211529991   0.769018260   0.787411348
+U        0.174791835   0.807115343   0.456517964
+U        0.138750516   0.465098823   0.842421942
+U        0.460277126   0.148072446   0.492479910
+U        0.853185555   0.205057669   0.814927365
+U        0.517574914   0.155283842   0.808674767
+U        0.797006954   0.141631469   0.505322942
+U        0.472193561   0.445111610   0.164972643
+U        0.797427656   0.818792499   0.205498630
+U        0.849105689   0.447077449   0.157067159
+U        0.477316581   0.824076376   0.198019584
+U        0.357811109   0.358247142   0.377740929
+Mo       0.317120589   0.314631326   0.680448732
+Mo       0.607263578   0.351682511   0.642824966
+U        0.340594168   0.659454747   0.325699754
+U        0.361075015   0.621507036   0.637398808
+Mo       0.660724290   0.302342735   0.343336983
+U        0.864625684   0.823864687   0.866239386
+U        0.857300550   0.828682348   0.537389462
+U        0.459239378   0.501675726   0.851462699
+U        0.787353995   0.504077862   0.849782744
+U        0.483651729   0.821500104   0.546062842
+U        0.525967152   0.834454416   0.872311707
+U        0.803327765   0.439115905   0.558594712
+U        0.678734725   0.684452016   0.648081893
+Xe       0.649495337   0.596675850   0.354354426
+
+
+
+!Xe    0.500000000         0.500000000         0.500000000
+
+K_POINTS automatic
+4 4 4       0 0 0
+\end{lstlisting}
+\pagebreak
+\subsection{Nudged Elastic Band Calculation}
+The following input file is to perform nudged elastic band calculation using Quantum Espresso.
+\lstset{style=atpw}
+\begin{lstlisting}
+BEGIN
+BEGIN_PATH_INPUT
+&PATH
+  restart_mode      = 'from_scratch',
+  string_method     = 'neb',
+  nstep_path        = 100,
+  ds                = 1.00,
+  opt_scheme        = "broyden",
+  num_of_images     = 5,
+  k_max             = 0.6169D0,
+  k_min             = 0.6169D0,
+  CI_scheme         = "auto",
+  path_thr          = 0.1D0,
+/
+END_PATH_INPUT
+BEGIN_ENGINE_INPUT
+&CONTROL
+ outdir = '/group/hammond/sysyphus/3x3/2prim-2nd/neb',
+ pseudo_dir = '/group/hammond/sysyphus/pp_dir',
+ prefix = 'xe01neb' ,
+ verbosity = 'high' ,
+ etot_conv_thr = 1e-6 ,
+ forc_conv_thr = 1e-5 ,
+ nstep = 200 ,
+ tstress = .true.,
+ tprnfor = .true.,
+ max_seconds = 1.0D+18,
+/
+&SYSTEM
+                       ibrav = 0,
+                           A = 10.35,
+                         nat = 53, 
+                        ntyp = 3,
+                     ecutwfc = 50, 
+                     ecutrho = 260,
+                 occupations = 'smearing',
+                     degauss = 0.02,
+                    smearing = 'mp',
+/
+&ELECTRONS
+            electron_maxstep = 900,
+                    conv_thr = 1e-7 ,
+                 mixing_beta = 0.1 ,
+             diagonalization = 'david' ,
+/
+&IONS
+/
+ATOMIC_SPECIES
+   U  238.02800   U.GGA-PBE-paw.UPF
+   Xe 131.29      Xe.GGA-PBE-paw.UPF
+   Mo 95.94       Mo.GGA-PBE-paw.UPF
+BEGIN_POSITIONS
+FIRST_IMAGE
+ATOMIC_POSITIONS (crystal)
+U        0.000000000   0.000000000   0.000000000    0   0   0
+U        0.175109924   0.144562064   0.206801126
+U        0.000000000   0.000000000   0.333333333    0   0   0
+U        0.000000000   0.000000000   0.666666667    0   0   0
+U        0.333333333   0.000000000   0.000000000    0   0   0
+U        0.666666667   0.000000000   0.000000000    0   0   0
+U        0.000000000   0.333333333   0.000000000    0   0   0
+U        0.000000000   0.666666667   0.000000000    0   0   0
+U        0.172966137   0.162988305   0.549703444
+U        0.170611892   0.151612185   0.878052143
+U        0.495257014   0.208922221   0.160293502
+U        0.831518767   0.131820848   0.145403232
+U        0.187663248   0.516383543   0.207043480
+U        0.141733995   0.833501726   0.124057856
+U        0.000000000   0.333333333   0.333333333    0   0   0
+U        0.000000000   0.666666667   0.666666667    0   0   0
+U        0.000000000   0.666666667   0.333333333    0   0   0
+U        0.000000000   0.333333333   0.666666667    0   0   0
+U        0.333333333   0.000000000   0.333333333    0   0   0
+U        0.666666667   0.000000000   0.666666667    0   0   0
+U        0.333333333   0.000000000   0.666666667    0   0   0
+U        0.666666667   0.000000000   0.333333333    0   0   0
+U        0.333333333   0.333333333   0.000000000    0   0   0
+U        0.666666667   0.666666667   0.000000000    0   0   0
+U        0.666666667   0.333333333   0.000000000    0   0   0
+U        0.333333333   0.666666667   0.000000000    0   0   0
+U        0.151218039   0.506822556   0.548576738
+U        0.146390108   0.829542179   0.788362872
+U        0.185174494   0.843342696   0.464715498
+U        0.143670888   0.494112883   0.870258462
+U        0.521448430   0.133334423   0.501328591
+U        0.833500163   0.136787016   0.798434778
+U        0.495145627   0.121151838   0.844025002
+U        0.863545497   0.168786689   0.469156772
+U        0.509274324   0.548329765   0.145881356
+U        0.825440636   0.779984312   0.192980330
+U        0.842423236   0.466015059   0.136756583
+U        0.534458472   0.865141497   0.169291879
+U        0.310602920   0.323532531   0.315012292
+Mo       0.328606490   0.314883686   0.687255302
+Mo       0.674009341   0.305267841   0.662448637
+U        0.326631011   0.679870122   0.331479707
+U        0.371644890   0.679274954   0.665208460
+Mo       0.672193000   0.303810812   0.317212538
+U        0.820847752   0.816237464   0.833790833
+U        0.780071628   0.836705518   0.490628528
+U        0.493041587   0.450284430   0.842990907
+U        0.818302670   0.476570581   0.798002061
+U        0.497363584   0.801441831   0.487806684
+U        0.478662001   0.802952159   0.852807185
+U        0.852755368   0.505332549   0.451217549
+U        0.687902994   0.670557165   0.683653268
+Xe       0.536400212   0.492947199   0.459667944
+LAST_IMAGE
+ATOMIC_POSITIONS (crystal)
+U        0.000000000   0.000000000   0.000000000    0   0   0
+U        0.211003121   0.204403180   0.229059646
+U        0.000000000   0.000000000   0.333333333    0   0   0
+U        0.000000000   0.000000000   0.666666667    0   0   0
+U        0.333333333   0.000000000   0.000000000    0   0   0
+U        0.666666667   0.000000000   0.000000000    0   0   0
+U        0.000000000   0.333333333   0.000000000    0   0   0
+U        0.000000000   0.666666667   0.000000000    0   0   0
+U        0.137157542   0.154100490   0.530986252
+U        0.174212597   0.129079723   0.860099413
+U        0.526361077   0.134914785   0.159501081
+U        0.862023067   0.133697598   0.175888456
+U        0.158401680   0.524202200   0.202384340
+U        0.148244066   0.848143594   0.127034040
+U        0.000000000   0.333333333   0.333333333    0   0   0
+U        0.000000000   0.666666667   0.666666667    0   0   0
+U        0.000000000   0.666666667   0.333333333    0   0   0
+U        0.000000000   0.333333333   0.666666667    0   0   0
+U        0.333333333   0.000000000   0.333333333    0   0   0
+U        0.666666667   0.000000000   0.666666667    0   0   0
+U        0.333333333   0.000000000   0.666666667    0   0   0
+U        0.666666667   0.000000000   0.333333333    0   0   0
+U        0.333333333   0.333333333   0.000000000    0   0   0
+U        0.666666667   0.666666667   0.000000000    0   0   0
+U        0.666666667   0.333333333   0.000000000    0   0   0
+U        0.333333333   0.666666667   0.000000000    0   0   0
+U        0.178710377   0.490990744   0.516187076
+U        0.211424168   0.769055779   0.787371675
+U        0.175042054   0.807911917   0.455992431
+U        0.138797282   0.465117394   0.842521779
+U        0.460172734   0.148226288   0.492431541
+U        0.853214362   0.204001135   0.813615314
+U        0.517320360   0.155236389   0.808583066
+U        0.796831649   0.141536092   0.504982369
+U        0.472082596   0.445170387   0.165199942
+U        0.797246556   0.819083198   0.205717103
+U        0.848947010   0.446752941   0.157261389
+U        0.477337922   0.823974130   0.198045419
+U        0.357415253   0.358227015   0.377748970
+Mo       0.316993580   0.314763082   0.680421155
+Mo       0.607201462   0.351778562   0.642719282
+U        0.340550068   0.659420403   0.325593019
+U        0.361166032   0.621614060   0.637522343
+Mo       0.660553429   0.302407475   0.343460369
+U        0.864645732   0.824012823   0.866480839
+U        0.857095779   0.828386743   0.537288219
+U        0.459295873   0.501704484   0.851504670
+U        0.787396737   0.503369090   0.850267568
+U        0.483789070   0.821735869   0.546285283
+U        0.525937071   0.834449910   0.872642503
+U        0.803265518   0.439297450   0.559004083
+U        0.678713059   0.684639768   0.648649342
+Xe       0.649346200   0.596837093   0.354823657
+END_POSITIONS
+K_POINTS automatic
+4 4 4  0 0 0
+CELL_PARAMETERS {alat}
+ 1.00   0.00    0.00
+ 0.00   1.00    0.00
+ 0.00   0.00    1.00
+END_ENGINE_INPUT
+END
+
+\end{lstlisting}
+
+
