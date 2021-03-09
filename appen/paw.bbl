@@ -1,8 +1,13 @@
+\providecommand{\newblock}{}
 \begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.1
+% /biblio/bibtex/contrib/iopart-num
 
 \bibitem{blochl1994projector}
-Peter~E Bl{\"o}chl.
-\newblock Projector augmented-wave method.
-\newblock {\em Phys.\ Rev.~B}, 50(24):17953, 1994.
+Bl{\"o}chl P~E 1994 {\em Phys.\ Rev.~B\/} {\bf 50} 17953
 
 \end{thebibliography}

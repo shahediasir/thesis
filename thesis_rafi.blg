@@ -2,167 +2,259 @@ This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis_rafi.aux
 A level-1 auxiliary file: chapters/firstchapter.aux
-The style file: unsrt.bst
+A level-1 auxiliary file: chapters/background.aux
 A level-1 auxiliary file: chapters/xenontherm.aux
-Illegal, another \bibstyle command---line 103 of file chapters/xenontherm.aux
- : \bibstyle
- :          {unsrt}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 104 of file chapters/xenontherm.aux
- : \bibdata
- :         {abbreviated,comp}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/pseudoUranium.aux
-Illegal, another \bibstyle command---line 229 of file chapters/pseudoUranium.aux
- : \bibstyle
- :          {unsrt}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 230 of file chapters/pseudoUranium.aux
- : \bibdata
- :         {abbreviated,comp}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/u-mo-xe.aux
-Illegal, another \bibstyle command---line 77 of file chapters/u-mo-xe.aux
- : \bibstyle
- :          {unsrt}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 78 of file chapters/u-mo-xe.aux
- : \bibdata
- :         {abbreviated,umox}
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/futurework.aux
-Illegal, another \bibstyle command---line 9 of file chapters/futurework.aux
- : \bibstyle
- :          {unsrt}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 10 of file chapters/futurework.aux
- : \bibdata
- :         {abbreviated,comp}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: appen/elastic_alphaU.aux
-Illegal, another \bibstyle command---line 14 of file appen/elastic_alphaU.aux
- : \bibstyle
- :          {unsrt}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 15 of file appen/elastic_alphaU.aux
- : \bibdata
- :         {abbreviated,comp}
-I'm skipping whatever remains of this command
-Database file #1: abbreviated.bib
+A level-1 auxiliary file: appen/atomicunits.aux
+A level-1 auxiliary file: appen/lihe.aux
+A level-1 auxiliary file: appen/opw.aux
+A level-1 auxiliary file: appen/paw.aux
+A level-1 auxiliary file: appen/psfile.aux
+A level-1 auxiliary file: appen/fem_moose.aux
+A level-1 auxiliary file: appen/inputfiles.aux
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated field_info (elt_size=4) to 13806 items from 5000.
+Database file #1: full.bib
 Database file #2: comp.bib
 Warning--string name "jcamd" is undefined
 --line 600 of file comp.bib
-Warning--I didn't find a database entry for "sinha2010phase"
-Warning--I didn't find a database entry for "yakel1969crystal"
-Warning--I didn't find a database entry for "sinha2010effect"
-Warning--I didn't find a database entry for "prabhakaran2017u"
-Warning--I didn't find a database entry for "williams2017post"
-Warning--I didn't find a database entry for "dwight1960uranium"
-Warning--I didn't find a database entry for "tangri1961metastable"
-Warning--I didn't find a database entry for "berche2011calphad"
-Warning--I didn't find a database entry for "zhang2010thermodynamic"
-Warning--I didn't find a database entry for "losada2019ground"
-Warning--I didn't find a database entry for "landa2011density"
-Warning--I didn't find a database entry for "alonso2007role"
-Warning--I didn't find a database entry for "castellano2020thermodynamic"
-Warning--I didn't find a database entry for "iasir2018estimation"
-Warning--I didn't find a database entry for "yun2008atomic"
-Warning--I didn't find a database entry for "carter1972xenon"
-Warning--I didn't find a database entry for "matzke1966diffusion"
-Warning--I didn't find a database entry for "macewan1964xenon"
-Warning--I didn't find a database entry for "une1987effects"
-Warning--I didn't find a database entry for "catlow1978fission"
-Warning--I didn't find a database entry for "jackson1986calculation"
-Warning--I didn't find a database entry for "grimes1989calculations"
-Warning--I didn't find a database entry for "ball1990diffusion"
-Warning--I didn't find a database entry for "grimes1991stability"
-Warning--I didn't find a database entry for "andersson2011u"
-Warning--I didn't find a database entry for "adda1959etude"
-Warning--I didn't find a database entry for "peterson1964diffusion"
-Warning--I didn't find a database entry for "rothman1959self"
-Warning--I didn't find a database entry for "rothman1961diffusion"
-Warning--I didn't find a database entry for "adda1962etude"
-Warning--I didn't find a database entry for "resnick1962self"
-Warning--I didn't find a database entry for "rothman1961self"
-Warning--I didn't find a database entry for "liu2012atomic"
-Warning--I didn't find a database entry for "smirnova2015atomistic"
-Warning--I didn't find a database entry for "adams1989self"
-Warning--I didn't find a database entry for "blochl1993first"
-Warning--I didn't find a database entry for "blochl1990first"
-Warning--I didn't find a database entry for "frank1996first"
-Warning--I didn't find a database entry for "janotti2004solute"
-Warning--I didn't find a database entry for "krvcmar2005diffusion"
-Warning--I didn't find a database entry for "milman1993free"
-Warning--I didn't find a database entry for "sandberg2002self"
-Warning--I didn't find a database entry for "lidiard1955"
-Warning--I didn't find a database entry for "lidiard1960"
-Warning--I didn't find a database entry for "leclaire1956"
-Warning--I didn't find a database entry for "leclaire1970"
-Warning--I didn't find a database entry for "mehrer2007diffusion"
-Warning--I didn't find a database entry for "vineyard1954theory"
-Warning--I didn't find a database entry for "vineyard1957frequency"
-Warning--I didn't find a database entry for "Eyring1935"
-Warning--I didn't find a database entry for "Evans1935"
-Warning--I didn't find a database entry for "Heinola2010a"
-Warning--I didn't find a database entry for "balluffi1973diffusion"
-Warning--I didn't find a database entry for "wolverton2007solute"
-Warning--I didn't find a database entry for "iasir2020pseudopotential"
-Warning--I didn't find a database entry for "pp1"
-Warning--I didn't find a database entry for "dal2014pseudopotentials"
-Warning--I didn't find a database entry for "soderlind1998theory"
-Warning--I didn't find a database entry for "ye1987phonon"
-Warning--I didn't find a database entry for "sanchez1975model"
-Warning--I didn't find a database entry for "beeler2010first"
-Warning--I didn't find a database entry for "henkelman2000climbing"
-Warning--I didn't find a database entry for "henkelman2000improved"
-Warning--I didn't find a database entry for "matter1980investigation"
-Warning--I didn't find a database entry for "lund2013vacancy"
-Warning--I didn't find a database entry for "shin2010first"
-Warning--I didn't find a database entry for "saal2012solute"
-Warning--I didn't find a database entry for "burke1972measurement"
-Warning--I didn't find a database entry for "kong2014first"
-Warning--I didn't find a database entry for "ohnuma2009first"
+Database file #3: umox.bib
+Repeated entry---line 1 of file umox.bib
+ : @article{snelgrove1997development
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 28 of file umox.bib
+ : @article{lander2003gh
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 38 of file umox.bib
+ : @book{freemanHandbook1984
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 47 of file umox.bib
+ : @article{lawson1988structure
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 57 of file umox.bib
+ : @article{akella1997structural
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 68 of file umox.bib
+ : @article{kittel1993history
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 78 of file umox.bib
+ : @article{wilson1949structures
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 90 of file umox.bib
+ : @article{kim2016superconductivity
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 104 of file umox.bib
+ : @inbook{ASM-Alloy-Mo
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 115 of file umox.bib
+ : @article{Berche2011
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 127 of file umox.bib
+ : @article{rondinella2010high
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 402 of file umox.bib
+ : @article{petit1999location
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 414 of file umox.bib
+ : @article{crocombette2002ab
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 427 of file umox.bib
+ : @article{freyss2006ab
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 439 of file umox.bib
+ : @article{blades1956ratio
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 451 of file umox.bib
+ : @article{petruska1955absolute
+ :                              ,
+I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 843 of file umox.bib
+ : @article{giannozzi2009quantum
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 868 of file umox.bib
+ : @article{Bloechl1994
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 879 of file umox.bib
+ : @article{iasir2020pseudopotential
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 891 of file umox.bib
+ : @misc{pp1
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 898 of file umox.bib
+ : @article{dal2014pseudopotentials
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 909 of file umox.bib
+ : @article{Perdew1996b
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 920 of file umox.bib
+ : @article{Perdew1997
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 955 of file umox.bib
+ : @article{xiang2008quantum
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1139 of file umox.bib
+ : @article{prabhakaran2017u
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1151 of file umox.bib
+ : @article{meyer2014irradiation
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1165 of file umox.bib
+ : @article{williams2017post
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1185 of file umox.bib
+ : @article{miller2012advantages
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1198 of file umox.bib
+ : @article{miller2015transmission
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1212 of file umox.bib
+ : @article{gan2010transmission
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1226 of file umox.bib
+ : @article{gan2012tem
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1241 of file umox.bib
+ : @article{van2008transmission
+ :                             ,
+I'm skipping whatever remains of this entry
+Database file #4: lihe.bib
+Repeated entry---line 1 of file lihe.bib
+ : @article{becquart2007ab
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 11 of file lihe.bib
+ : @article{seletskaia2005magnetic
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 22 of file lihe.bib
+ : @article{giannozzi2009quantum
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 46 of file lihe.bib
+ : @article{Perdew1996b
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 57 of file lihe.bib
+ : @article{Perdew1997
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 67 of file lihe.bib
+ : @article{pack1977special
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 77 of file lihe.bib
+ : @article{blochl1994projector
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 185 of file lihe.bib
+ : @article{dal2014pseudopotentials
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 195 of file lihe.bib
+ : @misc{pp1
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 202 of file lihe.bib
+ : @article{henkelman2000climbing
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 215 of file lihe.bib
+ : @article{henkelman2000improved
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 229 of file lihe.bib
+ : @article{frank1996first
+ :                        ,
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
 Warning--empty journal in ghoniem2001theory
-Warning--empty booktitle in trelis
-You've used 133 entries,
-            1791 wiz_defined-function locations,
-            2205 strings with 39871 characters,
-and the built_in function-call counts, 31649 in all, are:
-= -- 2818
-> -- 1515
-< -- 10
-+ -- 561
-- -- 428
-* -- 2533
-:= -- 5156
-add.period$ -- 402
-call.type$ -- 133
-change.case$ -- 128
-chr.to.int$ -- 0
-cite$ -- 135
-duplicate$ -- 1229
-empty$ -- 3014
-format.name$ -- 428
-if$ -- 6791
-int.to.chr$ -- 0
-int.to.str$ -- 133
-missing$ -- 134
-newline$ -- 668
-num.names$ -- 134
-pop$ -- 220
+You've used 238 entries,
+            5847 wiz_defined-function locations,
+            3811 strings with 74508 characters,
+and the built_in function-call counts, 236743 in all, are:
+= -- 14952
+> -- 6472
+< -- 1554
++ -- 2105
+- -- 1550
+* -- 36938
+:= -- 23223
+add.period$ -- 243
+call.type$ -- 238
+change.case$ -- 989
+chr.to.int$ -- 233
+cite$ -- 239
+duplicate$ -- 22205
+empty$ -- 17786
+format.name$ -- 3810
+if$ -- 47231
+int.to.chr$ -- 6
+int.to.str$ -- 246
+missing$ -- 2864
+newline$ -- 766
+num.names$ -- 717
+pop$ -- 9251
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 1190
 quote$ -- 0
-skip$ -- 444
+skip$ -- 8404
 stack$ -- 0
-substring$ -- 2519
-swap$ -- 163
-text.length$ -- 10
+substring$ -- 5701
+swap$ -- 21015
+text.length$ -- 786
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 2
-while$ -- 336
-width$ -- 136
-write$ -- 1468
-(There were 10 error messages)
+top$ -- 8
+type$ -- 3379
+warning$ -- 1
+while$ -- 702
+width$ -- 0
+write$ -- 1938
+(There were 44 error messages)

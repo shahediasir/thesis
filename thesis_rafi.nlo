@@ -1,11 +1,48 @@
-\nomenclatureentry{a$T$@[{$T$}]\begingroup absolute temperature\nomeqref {2.2}|nompageref}{12}
-\nomenclatureentry{a$q''$@[{$q''$}]\begingroup heat flux\nomeqref {2.2}|nompageref}{12}
-\nomenclatureentry{a$K$@[{$K$}]\begingroup thermal conductivity tensor\nomeqref {2.2}|nompageref}{12}
-\nomenclatureentry{a$K_{\text{eff}}$@[{$K_{\text{eff}}$}]\begingroup effective thermal conductivity\nomeqref {2.3}|nompageref}{13}
-\nomenclatureentry{a$\lambda$@[{$\lambda$}]\begingroup thermal conductitivity\nomeqref {2.5}|nompageref}{15}
-\nomenclatureentry{a$\lambda_s$@[{$\lambda_s$}]\begingroup thermal conductivity of continuous phase (U--10Mo)\nomeqref {2.5}|nompageref}{15}
-\nomenclatureentry{a$\lambda_p$@[{$\lambda_p$}]\begingroup thermal conductivity of dispersed phase\nomeqref {2.5}|nompageref}{15}
-\nomenclatureentry{a$\lambda_0$@[{$\lambda_0$}]\begingroup thermal conductivity of 100$\%$ dense material\nomeqref {2.5}|nompageref}{15}
-\nomenclatureentry{a$\nu$@[{$\nu$}]\begingroup porosity\nomeqref {2.5}|nompageref}{15}
-\nomenclatureentry{a$\nu_p$@[{$\nu_p$}]\begingroup volume fraction of xenon in U--10Mo\nomeqref {2.5}|nompageref}{15}
-\nomenclatureentry{a$\mathcal{H}$@[{$\mathcal{H}$}]\begingroup many body hamiltonian\nomeqref {3.1}|nompageref}{30}
+\nomenclatureentry{a$\mathcal{H}$@[{$\mathcal{H}$}]\begingroup many body hamiltonian\nomeqref {2.1}|nompageref}{11}
+\nomenclatureentry{a$\Psi(t)$@[{$\Psi(t)$}]\begingroup time dependent wave function\nomeqref {2.1}|nompageref}{11}
+\nomenclatureentry{a$m_e$@[{$m_e$}]\begingroup mass of a single elctron\nomeqref {2.3}|nompageref}{12}
+\nomenclatureentry{a$\vb{r}_j$@[{$\vb{r}_j$}]\begingroup position of $j$-th electron\nomeqref {2.3}|nompageref}{12}
+\nomenclatureentry{a$\vb{R}_a$@[{$\vb{R}_a$}]\begingroup position of $a$-th nucleus\nomeqref {2.3}|nompageref}{12}
+\nomenclatureentry{a$n(\vb{r})$@[{$n(\vb{r})$}]\begingroup electron density\nomeqref {2.19}|nompageref}{16}
+\nomenclatureentry{a$N$@[{$N$}]\begingroup number of electrons\nomeqref {2.19}|nompageref}{16}
+\nomenclatureentry{a$\upsilon^{\text{EX}}$@[{$\upsilon^{\text{EX}}$}]\begingroup exchange potential\nomeqref {2.19}|nompageref}{16}
+\nomenclatureentry{a$E_{xc}$@[{$E_{xc}$}]\begingroup exchange-correlation energy\nomeqref {2.19}|nompageref}{16}
+\nomenclatureentry{a$V_{\text{ext}}$@[{$V_{\text{ext}}$}]\begingroup external potential\nomeqref {2.34}|nompageref}{21}
+\nomenclatureentry{a$E$@[{$E$}]\begingroup energy of the system\nomeqref {2.34}|nompageref}{21}
+\nomenclatureentry{a$n$@[{$n$}]\begingroup principle quantum number\nomeqref {2.38}|nompageref}{22}
+\nomenclatureentry{a$\ell$@[{$\ell$}]\begingroup angular quantum number\nomeqref {2.38}|nompageref}{22}
+\nomenclatureentry{a$m$@[{$m$}]\begingroup spin\nomeqref {2.38}|nompageref}{22}
+\nomenclatureentry{a$\psi_{AE}$@[{$\psi_{AE}$}]\begingroup all electron wave function\nomeqref {2.51}|nompageref}{28}
+\nomenclatureentry{a$\psi_{ps}$@[{$\psi_{ps}$}]\begingroup pseudo wave function\nomeqref {2.51}|nompageref}{28}
+\nomenclatureentry{a$T$@[{$T$}]\begingroup absolute temperature\nomeqref {3.2}|nompageref}{36}
+\nomenclatureentry{a$q''$@[{$q''$}]\begingroup heat flux\nomeqref {3.2}|nompageref}{36}
+\nomenclatureentry{a$K$@[{$K$}]\begingroup thermal conductivity tensor\nomeqref {3.2}|nompageref}{36}
+\nomenclatureentry{a$K_{\text{eff}}$@[{$K_{\text{eff}}$}]\begingroup effective thermal conductivity\nomeqref {3.3}|nompageref}{37}
+\nomenclatureentry{a$\lambda$@[{$\lambda$}]\begingroup thermal conductitivity\nomeqref {3.5}|nompageref}{39}
+\nomenclatureentry{a$\lambda_s$@[{$\lambda_s$}]\begingroup thermal conductivity of continuous phase (U--10Mo)\nomeqref {3.5}|nompageref}{39}
+\nomenclatureentry{a$\lambda_p$@[{$\lambda_p$}]\begingroup thermal conductivity of dispersed phase\nomeqref {3.5}|nompageref}{39}
+\nomenclatureentry{a$\lambda_0$@[{$\lambda_0$}]\begingroup thermal conductivity of 100$\%$ dense material\nomeqref {3.5}|nompageref}{39}
+\nomenclatureentry{a$\nu$@[{$\nu$}]\begingroup porosity\nomeqref {3.5}|nompageref}{39}
+\nomenclatureentry{a$\nu_p$@[{$\nu_p$}]\begingroup volume fraction of xenon in U--10Mo\nomeqref {3.5}|nompageref}{39}
+\nomenclatureentry{a$r_{PAW}$@[{$r_{PAW}$}]\begingroup augmentation radius\nomeqref {4.0}|nompageref}{54}
+\nomenclatureentry{a$r_{\text{core}}$@[{$r_{\text{core}}$}]\begingroup core radius\nomeqref {4.0}|nompageref}{54}
+\nomenclatureentry{a$r_{\text{shape}}$@[{$r_{\text{shape}}$}]\begingroup shape function cutoff\nomeqref {4.0}|nompageref}{54}
+\nomenclatureentry{a$D$@[{$D$}]\begingroup diffusion coefficient\nomeqref {5.1}|nompageref}{82}
+\nomenclatureentry{a$D_0$@[{$D_0$}]\begingroup pre-exponential factor\nomeqref {5.1}|nompageref}{82}
+\nomenclatureentry{a$E_m$@[{$E_m$}]\begingroup migration energy\nomeqref {5.1}|nompageref}{82}
+\nomenclatureentry{a$Q_{\text{IS}}$@[{$Q_{\text{IS}}$}]\begingroup vibrational partition function of the initial state\nomeqref {5.1}|nompageref}{82}
+\nomenclatureentry{a$Q_{\text{TS}}$@[{$Q_{\text{TS}}$}]\begingroup vibration partition function of transition state\nomeqref {5.1}|nompageref}{82}
+\nomenclatureentry{a$ E_\text{bind}^{\ce{$X$-\Box}}$@[{$ E_\text{bind}^{\ce{$X$-\Box}}$}]\begingroup binding energy between solute ($X$) and vacancy ($\Box$)\nomeqref {5.3}|nompageref}{84}
+\nomenclatureentry{a$E^{X_1}_{\mathrm{U}_{N-1}}$@[{$E^{X_1}_{\mathrm{U}_{N-1}}$}]\begingroup energy of a system with one solute atom\nomeqref {5.3}|nompageref}{84}
+\nomenclatureentry{a$E^{\Box_1}_{\mathrm{U}_{N-1}}$@[{$E^{\Box_1}_{\mathrm{U}_{N-1}}$}]\begingroup energy of a system with one vacancy\nomeqref {5.3}|nompageref}{84}
+\nomenclatureentry{a$E^{X_1\Box_1}_{\mathrm{U}_{N-2}}$@[{$E^{X_1\Box_1}_{\mathrm{U}_{N-2}}$}]\begingroup energy of a system with a solute--vacancy pair\nomeqref {5.3}|nompageref}{84}
+\nomenclatureentry{a$E_{\mathrm{U}_N}$@[{$E_{\mathrm{U}_N}$}]\begingroup energy of a system with $N$ uranium atoms\nomeqref {5.3}|nompageref}{84}
+\nomenclatureentry{a$E^{\Box}_f$@[{$E^{\Box}_f$}]\begingroup vacancy formation energy\nomeqref {5.3}|nompageref}{84}
+\nomenclatureentry{a$N$@[{$N$}]\begingroup number of atoms in a supercell\nomeqref {5.3}|nompageref}{84}
+\nomenclatureentry{a$\mathcal{P}$@[{$\mathcal{P}$}]\begingroup probability of having different numbers of molybdenum atoms in nearest-neighbor locations in bcc crystal\nomeqref {5.3}|nompageref}{84}
+\nomenclatureentry{a$x_{\text{Mo}}$@[{$x_{\text{Mo}}$}]\begingroup mole fraction of molybdenum\nomeqref {5.5}|nompageref}{84}
+\nomenclatureentry{a$E_f^{\text{subs}}$@[{$E_f^{\text{subs}}$}]\begingroup helium formation energy in a substitutional position\nomeqref {B.1}|nompageref}{104}
+\nomenclatureentry{a$E_f^{\text{tetr}}$@[{$E_f^{\text{tetr}}$}]\begingroup helium formation energy in a tetrahedral position\nomeqref {B.1}|nompageref}{104}
+\nomenclatureentry{a$E_f^{\text{oct}}$@[{$E_f^{\text{oct}}$}]\begingroup helium formation energy in a octahedral position\nomeqref {B.1}|nompageref}{104}
+\nomenclatureentry{a$E_{\text{He}_{\text{isolated}}}$@[{$E_{\text{He}_{\text{isolated}}}$}]\begingroup energy of an isolated helium atom\nomeqref {B.1}|nompageref}{104}
+\nomenclatureentry{a$E_f^{\text{He}-\Box-\text{He}}$@[{$E_f^{\text{He}-\Box-\text{He}}$}]\begingroup helium--helium dumbbell formation energy around a vacancy\nomeqref {B.5}|nompageref}{105}

@@ -1,52 +1,67 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: xenontherm.aux
-The style file: unsrt.bst
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: chapters/xenontherm.aux
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: abbreviated.bib
 Database file #2: comp.bib
 Warning--string name "jcamd" is undefined
 --line 600 of file comp.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
 Warning--empty journal in ghoniem2001theory
-Warning--empty booktitle in trelis
 You've used 49 entries,
-            1791 wiz_defined-function locations,
-            1530 strings with 22743 characters,
-and the built_in function-call counts, 11893 in all, are:
-= -- 1097
-> -- 530
-< -- 3
-+ -- 197
-- -- 148
-* -- 948
-:= -- 1912
-add.period$ -- 148
+            5847 wiz_defined-function locations,
+            2808 strings with 36263 characters,
+and the built_in function-call counts, 47603 in all, are:
+= -- 3022
+> -- 1259
+< -- 319
++ -- 419
+- -- 296
+* -- 7375
+:= -- 4697
+add.period$ -- 49
 call.type$ -- 49
-change.case$ -- 46
-chr.to.int$ -- 0
-cite$ -- 51
-duplicate$ -- 463
-empty$ -- 1140
-format.name$ -- 148
-if$ -- 2554
-int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 52
-newline$ -- 248
-num.names$ -- 49
-pop$ -- 80
+change.case$ -- 200
+chr.to.int$ -- 48
+cite$ -- 50
+duplicate$ -- 4498
+empty$ -- 3579
+format.name$ -- 743
+if$ -- 9443
+int.to.chr$ -- 2
+int.to.str$ -- 57
+missing$ -- 582
+newline$ -- 199
+num.names$ -- 147
+pop$ -- 1899
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 245
 quote$ -- 0
-skip$ -- 167
+skip$ -- 1681
 stack$ -- 0
-substring$ -- 1020
-swap$ -- 58
-text.length$ -- 3
+substring$ -- 1100
+swap$ -- 4221
+text.length$ -- 150
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 2
-while$ -- 135
-width$ -- 51
-write$ -- 544
-(There were 3 warnings)
+top$ -- 8
+type$ -- 684
+warning$ -- 1
+while$ -- 144
+width$ -- 0
+write$ -- 436
+(There were 2 warnings)

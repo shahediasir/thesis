@@ -4,6 +4,11 @@ The top-level auxiliary file: appen/bcc_els.aux
 The style file: unsrt.bst
 Database file #1: abbreviated.bib
 Database file #2: comp.bib
+You're missing a field name---line 1930 of file comp.bib
+ : 
+ : %journal = {},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Database file #3: umox.bib
 Repeated entry---line 891 of file umox.bib
  : @misc{pp1
@@ -54,4 +59,4 @@ warning$ -- 0
 while$ -- 6
 width$ -- 4
 write$ -- 34
-(There were 2 error messages)
+(There were 3 error messages)

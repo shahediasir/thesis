@@ -1,773 +1,2433 @@
-\begin{thebibliography}{100}
-
-\bibitem{travelli1980current}
-Armando Travelli.
-\newblock Current status of the rertr program.
-\newblock Technical report, Argonne National Lab., IL (USA), 1980.
-
-\bibitem{snelgrove1997development}
-James~L. Snelgrove, G.~L. Hofman, M.~K. Meyer, C.~L. Trybus, and T.~C. Wiencek.
-\newblock Development of very-high-density low-enriched-uranium fuels.
-\newblock {\em Nucl.\ Eng.\ Des.}, 178(1):119--126, 1997.
-
-\bibitem{m3web}
-{National Nuclear Security Administration}.
-\newblock Material management minization.
-\newblock {\url{https://www.energy.gov/nnsa/missions/nonproliferation}}, 2019.
-
-\bibitem{wilson2017us}
-EH~Wilson, A~Bergeron, JA~Stillman, TA~Heltemes, D~Jaluvka, and L~Jamison.
-\newblock Us high performance research reactor conversion program: an overview
-  on element design.
-\newblock In {\em Proceedings of the 2017 European Research Reactor
-  Conference}. RRFM Rotterdam, Netherlands, 2017.
-
-\bibitem{kittel1993history}
-J.~H. Kittel, B.~R.~T. Frost, J.~P. Mustelier, K.~Q. Bagley, G.~C. Crittenden,
-  and J.~Van~Dievoet.
-\newblock History of fast reactor fuel development.
-\newblock {\em J.~Nucl.\ Mater.}, 204:1--13, 1993.
-
-\bibitem{meyer2000irradiation}
-M.~K. Meyer, T.~C. Wiencek, S.~L. Hayes, and G.~L. Hofman.
-\newblock Irradiation behavior of {U$_6$Mn}--{Al} dispersion fuel elements.
-\newblock {\em J.~Nucl.\ Mater.}, 278(2):358--363, 2000.
-
-\bibitem{hofman1987irradiation}
-G.~L. Hofman, R.~F. Domagala, and G.~L. Copeland.
-\newblock Irradiation behavior of low-enriched {U$_6$Fe}-{Al} dispersion fuel
-  elements.
-\newblock {\em J.~Nucl.\ Mater.}, 150(2):238--243, 1987.
-
-\bibitem{donze1959stabilisation}
-G~Donz{\'e} and G~Cabane.
-\newblock Stabilisation de la phase $\gammaup$ dans les alliages ternaires a
-  base d'uranium-molybdene.
-\newblock {\em J.~Nucl.\ Mater.}, 1(4):364--373, 1959.
-
-\bibitem{giraud1973formation}
-F~Giraud-Heraud and J~Guillaumin.
-\newblock Transition phase formation in {U-7,5\% Nb-2,5\%Zr} alloy.
-\newblock {\em Acta Metall.}, 21(9):1243--1252, 1973.
-
-\bibitem{lopes2013mechanical}
-Denise~Adorno Lopes, Thomaz Augusto~Guisard Restivo, and Angelo~Fernando
-  Padilha.
-\newblock Mechanical and thermal behaviour of {U--Mo} and {U}--{Nb}--{Zr}
-  alloys.
-\newblock {\em J.~Nucl.\ Mater.}, 440(1):304--309, 2013.
-
-\bibitem{ASM-Alloy-Mo}
-Hiroaki Okamoto, Mark~E. Schlesinger, and Erik~M. Mueller, editors.
-\newblock {\em {Mo} (Molybdenum) Binary Alloy Phase Diagrams}, volume~3 of {\em
-  ASM Handbook}, pages 489--498.
-\newblock ASM International, 2016.
-
-\bibitem{Berche2011}
-A.~Berche, N.~Dupin, C.~Gu{\'e}nau, C.~Rado, B.~Sundman, and J.~C. Dumas.
-\newblock Calphad thermodynamic description of some binary systems involving
-  {U}.
-\newblock {\em J.~Nucl.\ Mater.}, 411:131--143, 2011.
-
-\bibitem{horak1973operating}
-J.~A. Horak, J.~A. Reuscher, and D.~J. Sasmor.
-\newblock Operating experience with uranium--molybdenum fuel in pulsed
-  reactors.
-\newblock Technical report, Sandia Labs., Albuquerque, N. Mex.(USA), 1973.
-
-\bibitem{cottrell1964development}
-S.~A. Cottrell, E.~Edmonds, P.~Higginson, and W.~Oldfield.
-\newblock Development and performance of dounreay fast reactor metal fuel.
-\newblock Technical report, United Kingdom Atomic Energy Authority. Industrial
-  Group. Dounreay, 1964.
-
-\bibitem{no20031374}
-International Atomic~Energy Agency.
-\newblock Development status of metallic, dispersion and non-oxide advanced and
-  alternative fuels for power and research reactors.
-\newblock {\em Nuclear Fuel Cycle and Material Section}, 2003.
-
-\bibitem{jeong2015mechanical}
-Gwan~Yoon Jeong, Yeon~Soo Kim, and Dong-Seong Sohn.
-\newblock Mechanical analysis of {UMo/Al} dispersion fuel.
-\newblock {\em J.~Nucl.\ Mater.}, 466:509--521, 2015.
-
-\bibitem{leenaers2004post}
-Ann Leenaers, S.~Van~den Berghe, E.~Koonen, C.~Jarousse, F.~Huet, M.~Trotabas,
-  M.~Boyard, S.~Guillot, L.~Sannen, and M.~Verwerft.
-\newblock Post-irradiation examination of uranium--7wt\% molybdenum atomized
-  dispersion fuel.
-\newblock {\em J.~Nucl.\ Mater.}, 335(1):39--47, 2004.
-
-\bibitem{jue2014microstructural}
-Jan-Fong Jue, Dennis~D. Keiser, Cynthia~R. Breckenridge, Glenn~A. Moore, and
-  Mitchell~K. Meyer.
-\newblock Microstructural characteristics of hip-bonded monolithic nuclear
-  fuels with a diffusion barrier.
-\newblock {\em J.~Nucl.\ Mater.}, 448(1):250--258, 2014.
-
-\bibitem{van2008transmission}
-Sven Van~den Berghe, Wouter Van~Renterghem, and Ann Leenaers.
-\newblock Transmission electron microscopy investigation of irradiated
-  {U}--{7wt\%} {Mo} dispersion fuel.
-\newblock {\em J.~Nucl.\ Mater.}, 375(3):340--346, 2008.
-
-\bibitem{olander2009growth}
-D.~Olander.
-\newblock Growth of the interaction layer around fuel particles in dispersion
-  fuel.
-\newblock {\em J.~Nucl.\ Mater.}, 383(3):201--208, 2009.
-
-\bibitem{burkes2015thermal}
-Douglas~E. Burkes, Andrew~M. Casella, Amanda~J. Casella, Edgar~C. Buck, Karl~N.
-  Pool, Paul~J. {MacF}arlan, Matthew~K. Edwards, and Frances~N. Smith.
-\newblock Thermal properties of {U}--{Mo} alloys irradiated to moderate burnup
-  and power.
-\newblock {\em J.~Nucl.\ Mater.}, 464:331--341, 2015.
-
-\bibitem{rondinella2010high}
-Vincenzo~V. Rondinella and Thierry Wiss.
-\newblock The high burn-up structure in nuclear fuel.
-\newblock {\em Mater.\ Today}, 13(12):24--32, 2010.
-
-\bibitem{blades1956ratio}
-A.~T. Blades, W.~H. Fleming, and H.~G. Thode.
-\newblock The ratio of xenon to krypton in {U\textsuperscript{235}} fission.
-\newblock {\em Can.\ J.~Chem.}, 34(3):233--237, 1956.
-
-\bibitem{petruska1955absolute}
-J.~A. Petruska, H.~G. Thode, and R.~H. Tomlinson.
-\newblock The absolute fission yields of twenty-eight mass chains in the
-  thermal neutron fission of {U\textsuperscript{235}}.
-\newblock {\em Can.\ J.~Phys.}, 33(11):693--706, 1955.
-
-\bibitem{kim2011fission}
-Yeon~Soo Kim and G.~L. Hofman.
-\newblock Fission product induced swelling of {U}--{Mo} alloy fuel.
-\newblock {\em J.~Nucl.\ Mater.}, 419(1):291--301, 2011.
-
-\bibitem{miller2015transmission}
-B.~D. Miller, J.~Gan, D.~D. Keiser, Jr, A.~B. Robinson, J.~F. Jue, J.~W.
-  Madden, and P.~G. Medvedev.
-\newblock Transmission electron microscopy characterization of the fission gas
-  bubble superlattice in irradiated {U}--7wt\% {Mo} dispersion fuels.
-\newblock {\em J.~Nucl.\ Mater.}, 458:115--121, 2015.
-
-\bibitem{miller2012advantages}
-Brandon~D. Miller, Jian Gan, James Madden, Jan-Fong Jue, A.~Robinson, and D.~D.
-  Keiser.
-\newblock Advantages and disadvantages of using a focused ion beam to prepare
-  {TEM} samples from irradiated {U}--10{Mo} monolithic nuclear fuel.
-\newblock {\em J.~Nucl.\ Mater.}, 424(1):38--42, 2012.
-
-\bibitem{gan2010transmission}
-Jian Gan, D.~D. Keiser, Dan~M. Wachs, Adam~B. Robinson, Brandon~D. Miller, and
-  Todd~R. Allen.
-\newblock Transmission electron microscopy characterization of irradiated
-  {U}--7{Mo}/{Al}--2{Si} dispersion fuel.
-\newblock {\em J.~Nucl.\ Mater.}, 396(2):234--239, 2010.
-
-\bibitem{gan2012tem}
-Jian Gan, D.~D. Keiser, Brandon~D. Miller, Adam~B. Robinson, Jan-Fong Jue,
-  Pavel Medvedev, and Dan~M. Wachs.
-\newblock {TEM} characterization of {U}--7{Mo}/{Al}--2{Si} dispersion fuel
-  irradiated to intermediate and high fission densities.
-\newblock {\em J.~Nucl.\ Mater.}, 424(1):43--50, 2012.
-
-\bibitem{johnson1980gas}
-P.~B. Johnson and D.~J. Mazey.
-\newblock The gas-bubble superlattice and the development of surface structure
-  in {He$^+$} and {H} irradiated metals at 300~{K}.
-\newblock {\em J.~Nucl.\ Mater.}, 93--94:721--727, 1980.
-
-\bibitem{johnson1980hydrogen}
-P.~B. Johnson and D.~J. Mazey.
-\newblock Hydrogen gas-bubble structure in proton-irradiated copper at 300~{K}.
-\newblock {\em J.~Nucl.\ Mater.}, 91(1):41--46, 1980.
-
-\bibitem{evans1983void}
-J.~H. Evans.
-\newblock Void and bubble lattice formation in molybdenum: {A} mechanism based
-  on two-dimensional self-interstitial diffusion.
-\newblock {\em J.~Nucl.\ Mater.}, 119(2--3):180--188, 1983.
-
-\bibitem{mazey1986bubble}
-D.~J. Mazey and J.~H. Evans.
-\newblock Bubble lattice formation in titanium injected with krypton ions.
-\newblock {\em J.~Nucl.\ Mater.}, 138(1):16--18, 1986.
-
-\bibitem{evans1986solid}
-J.~H. Evans and D.~J. Mazey.
-\newblock Solid bubble formation in titanium injected with krypton ions.
-\newblock {\em J.~Nucl.\ Mater.}, 138(2-3):176--184, 1986.
-
-\bibitem{johnson1991image}
-P.~B. Johnson, K.~J. Stevens, and R.~W. Thomson.
-\newblock Image processing techniques in the study of ordered bubble arrays:
-  Bubble facetting in vanadium.
-\newblock {\em Nucl.\ Instrum.\ Meth.\ Phys.\ Res.~B}, 62(2):218--227, 1991.
-
-\bibitem{johnson1995gas}
-P.~B. Johnson and D.~J. Mazey.
-\newblock Gas-bubble superlattice formation in bcc metals.
-\newblock {\em J.~Nucl.\ Mater.}, 218(3):273--288, 1995.
-
-\bibitem{lawson1998temperature}
-F.~E. Lawson and P.~B. Johnson.
-\newblock A temperature threshold for gas-bubble superlattice formation in
-  molybdenum.
-\newblock {\em J.~Nucl.\ Mater.}, 252(1-2):34--42, 1998.
-
-\bibitem{ghoniem2001theory}
-N.~M. Ghoniem, Daniel Walgraef, and S.~J. Zinkle.
-\newblock Theory and experiment of nanostructure self-organization in
-  irradiated materials.
-\newblock 8(1):1--38, 2001.
-
-\bibitem{johnson2006helium}
-P.~B. Johnson and Fenella Lawson.
-\newblock Helium gas-bubble superlattice formation in molybdenum.
-\newblock {\em Nucl.\ Instrum.\ Meth.\ Phys.\ Res.~B}, 243(2):325--334, 2006.
-
-\bibitem{Gan2015}
-J.~Gan, D.~D. Keiser, Jr., B.~D. Miller, A.~B. Robinson, D.~M. Wachs, and M.~K.
-  Meyer.
-\newblock Thermal stability of fission gas bubble superlattice in irradiated
-  {U--10Mo} fuel.
-\newblock {\em J.~Nucl.\ Mater.}, 464:1--5, September 2015.
-
-\bibitem{bakker1997using}
-K.~Bakker.
-\newblock Using the finite element method to compute the influence of complex
-  porosity and inclusion structures on the thermal and electrical conductivity.
-\newblock {\em Int.\ J.~Heat Mass Tran.}, 40(15):3503--3511, 1997.
-
-\bibitem{maxwell1881treatise}
-James~Clerk Maxwell.
-\newblock {\em A Treatise on Electricity and Magnetism}, volume~1.
-\newblock Clarendon Press, Oxford, 1881.
-
-\bibitem{macewan1967effect}
-J.~B. M{acE}wan, R.~L. Stoute, and M.~J.~F. Notley.
-\newblock Effect of porosity on the thermal conductivity of {UO}$_2$.
-\newblock {\em J.~Nucl.\ Mater.}, 24(1):109--112, 1967.
-
-\bibitem{goldsmith1973measurements}
-L.~A. Goldsmith and J.~A.~M. Douglas.
-\newblock Measurements of the thermal conductivity of uranium dioxide at
-  670--1270 {K}.
-\newblock {\em J.~Nucl.\ Mater.}, 47(1):31--42, 1973.
-
-\bibitem{devries1989experimental}
-M.~F. {DeV}ries.
-\newblock An experimental determination of the thermal conductivity of a {304L}
-  stainless steel powder metallurgy material.
-\newblock {\em J.~Heat Tran.}, 111:281, 1989.
-
-\bibitem{loeb1954thermal}
-Arthur~L. Loeb.
-\newblock Thermal conductivity: {VIII}, {A} theory of thermal conductivity of
-  porous materials.
-\newblock {\em J.~Am.\ Ceram.\ Soc.}, 37(2):96--99, 1954.
-
-\bibitem{cunningham1981heat}
-M.~E. Cunningham and K.~L. Peddicord.
-\newblock Heat conduction in spheres packed in an infinite regular cubical
-  array.
-\newblock {\em Int.\ J.~Heat Mass Tran.}, 24(7):1081--1088, 1981.
-
-\bibitem{tzou1991effect}
-Da~Yu Tzou.
-\newblock The effect of internal heat transfer in cavities on the overall
-  thermal conductivity.
-\newblock {\em Int.\ J.~Heat Mass Tran.}, 34(7):1839--1846, 1991.
-
-\bibitem{bauer1993general}
-T.~H. Bauer.
-\newblock A general analytical approach toward the thermal conductivity of
-  porous media.
-\newblock {\em Int.\ J.~Heat Mass Tran.}, 36(17):4181--4191, 1993.
-
-\bibitem{hu2015assessment}
-Shenyang Hu, Andrew~M. Casella, Curt~A. Lavender, David~J. Senor, and
-  Douglas~E. Burkes.
-\newblock Assessment of effective thermal conductivity in {U}--{Mo} metallic
-  fuels with distributed gas bubbles.
-\newblock {\em J.~Nucl.\ Mater.}, 462:64--76, 2015.
-
-\bibitem{trelis}
-{Trellis Pro}.
-\newblock Computational simulation software.
-\newblock csimsoft, LLC., American Fork, Utah, 2012--2017.
-
-\bibitem{rabinovich1987thermophysical}
-Viktor~Abramovich Rabinovich, A.~A. Vasserman, V.~I. Nedostup, and Lo~S.
-  Veksler.
-\newblock {\em Thermophysical Properties of Neon, Argon, Krypton, and Xenon}.
-\newblock Hemisphere Publishing Corporation, New York, NY, 1987.
-
-\bibitem{kaufmann1962nuclear}
-Albert~R. Kaufmann.
-\newblock {\em Nuclear Reactor Fuel Elements: Metallurgy and Fabrication}.
-\newblock Interscience Publishers, New York, 1962.
-
-\bibitem{burkes2010thermo}
-Douglas~E Burkes, Cynthia~A Papesch, Andrew~P Maddison, Thomas Hartmann, and
-  Francine~J Rice.
-\newblock Thermo-physical properties of {DU}--10wt.\% {Mo} alloys.
-\newblock {\em J.~Nucl.\ Mater.}, 403(1):160--166, 2010.
-
-\bibitem{greenwood1959role}
-G.~W. Greenwood, A.~J.~E. Foreman, and D.~E. Rimmer.
-\newblock The role of vacancies and dislocations in the nucleation and growth
-  of gas bubbles in irradiated fissile material.
-\newblock {\em J.~Nucl.\ Mater.}, 1(4):305--324, 1959.
-
-\bibitem{trinkaus1983energetics}
-H.~Trinkaus.
-\newblock Energetics and formation kinetics of helium bubbles in metals.
-\newblock {\em Radiat.\ Eff.}, 78(1--4):189--211, 1983.
-
-\bibitem{xiao2015atomistic}
-Hongxing Xiao, Chongsheng Long, Xiaofeng Tian, and Shujian Li.
-\newblock Atomistic simulations of the small xenon bubble behavior in {U}--{Mo}
-  alloy.
-\newblock {\em Mater. Des.}, 74:55--60, 2015.
-
-\bibitem{thomas1991condensed}
-L.~E. Thomas.
-\newblock Condensed-phase xenon and krypton in {UO$_2$} spent fuel.
-\newblock In {\em Fundamental Aspects of Inert Gases in Solids}, pages
-  431--441. Springer, New York, 1991.
-
-\bibitem{ross1980condensed}
-M.~Ross and A.~K. {McM}ahan.
-\newblock Condensed xenon at high pressure.
-\newblock {\em Phys.\ Rev.~B}, 21(4):1658--1664, 1980.
-
-\bibitem{zheng2014thermodynamics}
-J.~Zheng, Q.~F. Chen, Y.~J. Gu, Z.~Y. Chen, and C.~J. Li.
-\newblock Thermodynamics, compressibility, and phase diagram: {S}hock
-  compression of supercritical fluid xenon.
-\newblock {\em J.~Chem.\ Phys.}, 141(12):124, 2014.
-
-\bibitem{gaston2009moose}
-Derek Gaston, Chris Newman, Glen Hansen, and Damien Lebrun-Grandie.
-\newblock {MOOSE}: A parallel computational framework for coupled systems of
-  nonlinear equations.
-\newblock {\em Nucl.\ Eng.\ Des.}, 239(10):1768--1778, 2009.
-
-\bibitem{clark2003monolithic}
-C.~R. Clark, G.~C. Knighton, M.~K. Meyer, and G.~L. Hofman.
-\newblock Monolithic fuel plate development at {A}rgonne {N}ational
-  {L}aboratory.
-\newblock In {\em 2003 International Meeting on Reduced Enrichment for Research
-  and Test Reactors}, volume~1, Chicago, Illinois, October 2003.
-
-\bibitem{smith2013thermal}
-David~S. Smith, Arnaud Alzina, Julie Bourret, Beno{\^\i}t Nait-Ali, Fabienne
-  Pennec, Nicolas Tessier-Doyen, Kodai Otsu, Hideaki Matsubara, Pierre Elser,
-  and Urs.~T. Gonzenbach.
-\newblock Thermal conductivity of porous materials.
-\newblock {\em J.~Mater.\ Res.}, 28(17):2260--2272, 2013.
-
-\bibitem{hashin1962variational}
-Zvi Hashin and Shmuel Shtrikman.
-\newblock A variational approach to the theory of the effective magnetic
-  permeability of multiphase materials.
-\newblock {\em J.~Appl.\ Phys.}, 33(10):3125--3131, 1962.
-
-\bibitem{Schulz1981}
-Brigitte Schulz.
-\newblock Thermal conductivity of porous and highly porous.
-\newblock {\em High Temp.\ High Press.}, 13:649--660, 1981.
-
-\bibitem{kim2013recrystallization}
-Yeon~Soo Kim, G.L. Hofman, and J.~S. Cheon.
-\newblock Recrystallization and fission-gas-bubble swelling of {U}--{Mo} fuel.
-\newblock {\em J.~Nucl.\ Mater.}, 436(1):14--22, 2013.
-
-\bibitem{bauer1995pile}
-Theodore~H. Bauer and John~W. Holland.
-\newblock In-pile measurement of the thermal conductivity of irradiated
-  metallic fuel.
-\newblock {\em Nucl.\ Technol.}, 110(3):407--421, 1995.
-
-\bibitem{peddicord1978porosity}
-K.~L. Peddicord, M.~E. Cunningham, and A~Tripathi.
-\newblock Porosity correction to thermal conductivity based on analytical
-  temperature solutions.
-\newblock {\em Trans.\ Am.\ Nucl.\ Soc.}, 28:548, 1978.
-
-\bibitem{bakker1995determination}
-K.~Bakker, H.~Kwast, and E.~H.~P. Cordfunke.
-\newblock Determination of a porosity correction factor for the thermal
-  conductivity of irradiated {UO$_2$} fuel by means of the finite element
-  method.
-\newblock {\em J.~Nucl.\ Mater.}, 226(1--2):128--143, 1995.
-
-\bibitem{lawson1988structure}
-A.~C. Lawson, C.~E. Olsen, J.~W. Richardson, M.~H. Mueller, and G.~H. Lander.
-\newblock Structure of {\textbeta}-uranium.
-\newblock {\em Acta Crystallogr.~B}, 44(2):89--96, 1988.
-
-\bibitem{akella1997structural}
-J.~Akella, S.~Weir, J.~M. Wills, and P.~S{\"o}derlind.
-\newblock Structural stability in uranium.
-\newblock {\em J.~Phys.\ Condens.\ Matter}, 9(39):L549--L555, 1997.
-
-\bibitem{lander2003gh}
-G.~H. Lander.
-\newblock G h lander.
-\newblock {\em Science}, 301:1057, 2003.
-
-\bibitem{freemanHandbook1984}
-Arthur~J. Freeman and G.~H. Lander.
-\newblock {\em Handbook on the Physics and Chemistry of the Actinides}, volume
-  1,2.
-\newblock North-Holland, Amsterdam, 1984.
-
-\bibitem{wills1992crystal}
-J.~M. Wills and Olle Eriksson.
-\newblock Crystal-structure stabilities and electronic structure for the light
-  actinides {Th}, {Pa}, and {U}.
-\newblock {\em Phys.\ Rev.~B}, 45(24):13879, 1992.
-
-\bibitem{eriksson1993first}
-Olle Eriksson, Per S{\"o}derlind, J.~M. Wills, and A.~M. Boring.
-\newblock First principles studies of crystal structures of {$f$} elements.
-\newblock {\em Phys.~C Supercond.}, 190(1):5--11, 1993.
-
-\bibitem{crocombette2001plane}
-J.~P. Crocombette, F.~Jollet, L.~Thien~Nga, and T.~Petit.
-\newblock Plane-wave pseudopotential study of point defects in uranium dioxide.
-\newblock {\em Phys.\ Rev.~B}, 64(10):104107, 2001.
-
-\bibitem{soderlind2002first}
-Per S{\"o}derlind.
-\newblock First-principles elastic and structural properties of uranium metal.
-\newblock {\em Phys.\ Rev.~B}, 66(8):085113, 2002.
-
-\bibitem{lawson2000melting}
-A.~C. Lawson, B.~M. Artinez, J.~A. Roberts, B.~I. Bennett, and J.~W.
-  Richardson, Jr.
-\newblock Melting of the light actinides.
-\newblock {\em Philos.\ Mag.~B}, 80(1):53--59, 2000.
-
-\bibitem{jones2000theoretical}
-M.~D. Jones, J.~C. Boettger, R.~C. Albers, and D.~J. Singh.
-\newblock Theoretical atomic volumes of the light actinides.
-\newblock {\em Phys.\ Rev.~B}, 61(7):4644, 2000.
-
-\bibitem{taylor2008evaluation}
-Christopher~D. Taylor.
-\newblock Evaluation of first-principles techniques for obtaining materials
-  parameters of {\textalpha}-uranium and the {\hkl(001)} \textalpha-uranium
-  surface.
-\newblock {\em Phys.\ Rev.~B}, 77(9):094119, 2008.
-
-\bibitem{Bloechl1994}
-P.~E. Bl{\"o}chl.
-\newblock Projector augmented-wave method.
-\newblock {\em Phys.\ Rev.~B}, 50(24):17953--17979, December 1994.
-
-\bibitem{Perdew1992a}
-J.~P. Perdew, J.~A. Chevary, S.~H. Vosko, K.~A. Jackson, M.~R. Pederson, D.~J.
-  Singh, and C.~Fiolhais.
-\newblock Atoms, molecules, solids, and surfaces: {A}pplications of the
-  generalized gradient approximation for exchange and correlation.
-\newblock {\em Phys.\ Rev.~B}, 46(11):6671--6687, September 1992.
-
-\bibitem{Perdew1993}
-J.~P. Perdew, J.~A. Chevary, S.~H. Vosko, K.~A. Jackson, M.~R. Pederson, D.~J.
-  Singh, and C.~Fiolhais.
-\newblock Erratum: {A}toms, molecules, solids, and surfaces: {A}pplications of
-  the generalized gradient approximation for exchange and correlation.
-\newblock {\em Phys.\ Rev.~B}, 48(7):4978, 1993.
-
-\bibitem{barrett1963crystal}
-C.~S. Barrett, M.~H. Mueller, and R.~L. Hitterman.
-\newblock Crystal structure variations in alpha uranium at low temperatures.
-\newblock {\em Phys.\ Rev.}, 129(2):625, 1963.
-
-\bibitem{xiang2008quantum}
-Shikai Xiang, Hanchen Huang, and L.~M. Hsiung.
-\newblock Quantum mechanical calculations of uranium phases and niobium defects
-  in {\textgamma}-uranium.
-\newblock {\em J.~Nucl.\ Mater.}, 375(1):113--119, 2008.
-
-\bibitem{Perdew1996b}
-John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.
-\newblock Generalized gradient approximation made simple.
-\newblock {\em Phys.\ Rev.\ Lett.}, 77(18):3865--3868, October 1996.
-
-\bibitem{Perdew1997}
-John~P. Perdew, Kieron Burke, and Matthias Ernzerhof.
-\newblock Generalized gradient approximation made simple (errata).
-\newblock {\em Phys.\ Rev.\ Lett.}, 78(7):1396, 1997.
-
-\bibitem{li2012structure}
-J.~H. Li, Q.~B. Ren, C.~H. Lu, L.~Lu, Y.~Dai, and B.~X. Liu.
-\newblock Structure, formation energies and elastic constants of uranium metal
-  investigated by first principles calculations.
-\newblock {\em J.~Alloy Compd.}, 516:139--143, 2012.
-
-\bibitem{beeler2013first}
-Benjamin Beeler, Chaitanya Deo, Michael Baskes, and Maria Okuniewski.
-\newblock First principles calculations of the structure and elastic constants
-  of {\textalpha}, {\textbeta} and {\textgamma} uranium.
-\newblock {\em J.~Nucl.\ Mater.}, 433(1-3):143--151, 2013.
-
-\bibitem{hartree}
-Douglas~R Hartree.
-\newblock The wave mechanics of an atom with a non-coulomb central field. part
-  i. theory and methods.
-\newblock {\em Mat. Proc. Cambridge Philos. Soc.}, 24:89, 1928.
-
-\bibitem{fock}
-Vladimir Fock.
-\newblock N{\"a}herungsmethode zur l{\"o}sung des quantenmechanischen
-  mehrk{\"o}rperproblems.
-\newblock {\em Zeitschrift f{\"u}r Physik}, 61(1-2):126--148, 1930.
-
-\bibitem{thomas1927calculation}
-Llewellyn~H. Thomas.
-\newblock The calculation of atomic fields.
-\newblock In {\em Mathematical Proceedings of the Cambridge Philosophical
-  Society}, volume~23, pages 542--548. Cambridge University Press, 1927.
-
-\bibitem{fermi1927metodo}
-Enrico Fermi.
-\newblock Un metodo statistico per la determinazione di alcune priorieta
-  dell’atome.
-\newblock {\em Rend. Accad. Naz. Lincei}, 6(602-607):32, 1927.
-
-\bibitem{hohenberg1964inhomogeneous}
-Pierre Hohenberg and Walter Kohn.
-\newblock Inhomogeneous electron gas.
-\newblock {\em Phys.\ Rev.}, 136(3B):B864, 1964.
-
-\bibitem{herring1940new}
-Conyers Herring.
-\newblock A new method for calculating wave functions in crystals.
-\newblock {\em Phys.\ Rev.}, 57(12):1169, 1940.
-
-\bibitem{phillips1959new}
-James~C Phillips and Leonard Kleinman.
-\newblock New method for calculating wave functions in crystals and molecules.
-\newblock {\em Phys.\ Rev.}, 116(2):287, 1959.
-
-\bibitem{hamann1979norm}
-D.~R. Hamann, M.~Schl{\"u}ter, and C.~Chiang.
-\newblock Norm-conserving pseudopotentials.
-\newblock {\em Phys.\ Rev.\ Lett.}, 43(20):1494, 1979.
-
-\bibitem{troullier1991efficient}
-Norman Troullier and Jos{\'e}~Lu{\'\i}s Martins.
-\newblock Efficient pseudopotentials for plane-wave calculations.
-\newblock {\em Phys.\ Rev.~B}, 43(3):1993, 1991.
-
-\bibitem{vanderbilt1990soft}
-David Vanderbilt.
-\newblock Soft self-consistent pseudopotentials in a generalized eigenvalue
-  formalism.
-\newblock {\em Phys.\ Rev.~B}, 41(11):7892, 1990.
-
-\bibitem{kresse1999ultrasoft}
-Georg Kresse and D.~Joubert.
-\newblock From ultrasoft pseudopotentials to the projector augmented-wave
-  method.
-\newblock {\em Phys.\ Rev.~B}, 59(3):1758, 1999.
-
-\bibitem{giannozzi2009quantum}
-Paolo Giannozzi, Stefano Baroni, Nicola Bonini, Matteo Calandra, Roberto Car,
-  Carlo Cavazzoni, Davide Ceresoli, Guido~L. Chiarotti, Matteo Cococcioni,
-  Ismaila Dabo, Andrea Dal~Corso, Stefano de~Gironcoli, Stefano Fabris, Guido
-  Fratesi, Ralph Gebauer, Uwe Gerstmann, Christos Gougoussis, Anton Kokalj,
-  Michele Lazzeri, Layla Martin-Samos, Nicola Marzari, Francesco Mauri,
-  Riccardo Mazzarello, Stefano Paolini, Alfredo Pasquarello, Lorenzo Paulatto,
-  Carlo Sbraccia, Sandro Scandolo, Gabriele Sclauzero, Ari~P. Seitsonen,
-  Alexander Smogunov, Paolo Umari, and Renata~M. Wentzcovitch.
-\newblock {QUANTUM ESPRESSO}: {A} modular and open-source software project for
-  quantum simulations of materials.
-\newblock {\em J.~Phys.\ Condens.\ Matter}, 21(39):395502, September 2009.
-
-\bibitem{holzwarth2001projector}
-N.~A.~W. Holzwarth, A.~R. Tackett, and G.~E. Matthews.
-\newblock A projector augmented wave ({PAW}) code for electronic structure
-  calculations, part~{I}: {atompaw} for generating atom-centered functions.
-\newblock {\em Comput.\ Phys.\ Commun.}, 135(3):329--347, 2001.
-
-\bibitem{tackett2001projector}
-A.~R. Tackett, N.~A.~W. Holzwarth, and G.~E. Matthews.
-\newblock A projector augmented wave ({PAW}) code for electronic structure
-  calculations, part~{II}: {pwpaw} for periodic solids in a plane wave basis.
-\newblock {\em Comput.\ Phys.\ Commun.}, 135(3):348--376, 2001.
-
-\bibitem{iche2008examining}
-Nathalie Ich{\'e}-Tarrat and Colin~J. Marsden.
-\newblock Examining the performance of dft methods in uranium chemistry: Does
-  core size matter for a pseudopotential?
-\newblock {\em The Journal of Physical Chemistry A}, 112(33):7632--7642, 2008.
-
-\bibitem{rappe1990optimized}
-Andrew~M. Rappe, Karin~M. Rabe, Efthimios Kaxiras, and J.~D. Joannopoulos.
-\newblock Optimized pseudopotentials.
-\newblock {\em Phys.\ Rev.~B}, 41(2):1227, 1990.
-
-\bibitem{StructureofCrystals}
-{Naval Research Laboratories}.
-\newblock Structure of {C}rystals.
-\newblock {\url{http://aflowlib.duke.edu/users/egossett/lattice/}}, 2015.
-
-\bibitem{pack1977special}
-James~D. Pack and Hendrik~J. Monkhorst.
-\newblock ``special points for {B}rillouin-zone integrations''---a reply.
-\newblock {\em Phys.\ Rev.~B}, 16(4):1748--1749, 1977.
-
-\bibitem{methfessel1989high}
-M.~Methfessel and A.~T. Paxton.
-\newblock High-precision sampling for {B}rillouin-zone integration in metals.
-\newblock {\em Phys.\ Rev.~B}, 40(6):3616--3621, 1989.
-
-\bibitem{ravindran1998density}
-P.~Ravindran, Lars Fast, P.~A. Korzhavyi, B.~Johansson, J.~Wills, and
-  O.~Eriksson.
-\newblock Density functional theory for calculation of elastic properties of
-  orthorhombic crystals: {A}pplication to {TiSi$_2$}.
-\newblock {\em J.~Appl.\ Phys.}, 84(9):4891--4904, 1998.
-
-\bibitem{beckstein2001first}
-O.~Beckstein, J.~E. Klepeis, G.~L.~W. Hart, and O.~Pankratov.
-\newblock First-principles elastic constants and electronic structure of
-  {\textalpha-pt$_2$ si} and {PtSi}.
-\newblock {\em Phys.\ Rev.~B}, 63(13):134112, 2001.
-
-\bibitem{lander1994solid}
-G.~H. Lander, E.~S. Fisher, and S.~D. Bader.
-\newblock The solid-state properties of uranium: {A} historical perspective and
-  review.
-\newblock {\em Adv.\ Phys.}, 43(1):1--111, 1994.
-
-\bibitem{le2003structural}
-T.~Le~Bihan, S.~Heathman, M.~Idiri, G.~H. Lander, J.~M. Wills, A.~C. Lawson,
-  and Andreas Lindbaum.
-\newblock Structural behavior of {\textalpha}-uranium with pressures to
-  {100~GPa}.
-\newblock {\em Phys.\ Rev.~B}, 67(13):134102, 2003.
-
-\bibitem{murnaghan1944compressibility}
-F.~D. Murnaghan.
-\newblock The compressibility of media under extreme pressures.
-\newblock {\em Proc.\ Natl.\ Acad.\ Sci.\ U.~S.~A.}, 30(9):244--247, 1944.
-
-\bibitem{hood2008quantum}
-Randolph~Q. Hood, L.~H. Yang, and John~A. Moriarty.
-\newblock Quantum molecular dynamics simulations of uranium at high pressure
-  and temperature.
-\newblock {\em Phys.\ Rev.~B}, 78(2):024116, 2008.
-
-\bibitem{yoo1998phase}
-Choong-Shik Yoo, Hyunchae Cynn, and Per S{\"o}derlind.
-\newblock Phase diagram of uranium at high pressures and temperatures.
-\newblock {\em Phys.\ Rev.~B}, 57(17):10359, 1998.
-
-\bibitem{fisher1958adiabatic}
-E.~S. Fisher and H.~J. {McS}kimin.
-\newblock Adiabatic elastic moduli of single crystal alpha-uranium.
-\newblock {\em J.~Appl.\ Phys.}, 29(10):1473--1484, 1958.
-
-\bibitem{wilson1949structures}
-A.~S. Wilson and R.~E. Rundle.
-\newblock The structures of uranium metal.
-\newblock {\em Acta Crystallogr.}, 2(2):126--127, 1949.
-
-\bibitem{yakel1973review}
-Harry~L. Yakel.
-\newblock Review of x-ray diffraction studies in uranium alloys.
-\newblock Technical report, Oak Ridge National Laboratory, Tennessee (USA),
-  1973.
-
-\bibitem{nashchemistry}
-I.~Grenthe, J.~Drozdzynski, T.~Fujino, E.~C. Buck, T.~E. Albrecht-Schmitt, and
-  S.~F. Wolf.
-\newblock {\em The Chemistry of the Actinide and Transactinide Elements},
-  volume~1.
-\newblock Springer, Dordrecht, 2006.
-
-\bibitem{kim2016superconductivity}
-N.-T.~H Kim-Ngan and L.~Havela.
-\newblock Superconductivity in {U-T} alloys ({T${}={}$Mo, Pt, Pd, Nb, Zr})
-  stabilized in the cubic {\textgamma-u} structure by splat-cooling technique.
-\newblock {\em J.~Sci.\ Adv.\ Mater.\ Dev.}, 1(2):121--127, 2016.
-
-\bibitem{born1940stability}
-Max Born.
-\newblock On the stability of crystal lattices. {I.}
-\newblock {\em Proc.\ Camb.\ Phil.\ Soc.}, 36(2):160--172, 1940.
-
-\bibitem{born1954dynamical}
-Max Born and Kun Huang.
-\newblock {\em Dynamical Theory of Crystal Lattices}.
-\newblock Clarendon Press, 1954.
-
-\bibitem{Mouhat2014}
-F{\'e}lix Mouhat and Fran{\c c}ois-Xavier Coudert.
-\newblock Necessary and sufficient elastic stability conditions in various
-  crystal systems.
-\newblock {\em Phys.\ Rev.~B}, 90:224104, 2014.
-
-\bibitem{Soderlind1998}
-Per S{\"o}derlind.
-\newblock Theory of the crystal structures of cerium and the light actinides.
-\newblock {\em Adv.\ Phys.}, 47(6):959--998, 1998.
-
-\bibitem{tucker1950approximate}
-C.~W. Tucker, Jr.
-\newblock An approximate crystal structure for the beta phase of uranium.
-\newblock Technical Report KAPL-388, Knolls Atomic Power Laboratory, 1950.
-
-\bibitem{tucker1951crystal}
-C.~W. Tucker.
-\newblock The crystal structure of the {\textbeta}\ phase of uranium.
-\newblock {\em Acta Crystallogr.}, 4(5):425--431, 1951.
-
-\bibitem{donohue1971structure}
-Jerry Donohue and Howard Einspahr.
-\newblock The structure of {\textbeta}-uranium.
-\newblock {\em Acta Crystallogr.~B}, 27(9):1740--1743, 1971.
-
-\bibitem{donohue1974structures}
-Jerry Donohue.
-\newblock {\em Structures of the Elements}.
-\newblock John Wiley and Sons, 1974.
-
-\bibitem{meyer2014irradiation}
-M.~K. Meyer, J.~Gan, J.~F. Jue, D.~D. Keiser, E.~Perez, A.~Robinson, D.~M.
-  Wachs, N.~Woolstenhulme, G.~L. Hofman, and Y.~S. Kim.
-\newblock Irradiation performance of {U}-{Mo} monolithic fuel.
-\newblock {\em Nucl.\ Eng.\ Technol.}, 46(2):169--182, 2014.
-
-\bibitem{petit1999location}
-Thomas Petit, G.~Jomard, C.~Lemaignan, B.~Bigot, and A.~Pasturel.
-\newblock Location of krypton atoms in uranium dioxide.
-\newblock {\em J.~Nucl.\ Mater.}, 275(1):119--123, 1999.
-
-\bibitem{crocombette2002ab}
-Jean-Paul Crocombette.
-\newblock Ab initio energetics of some fission products (kr, i, cs, sr and he)
-  in uranium dioxide.
-\newblock {\em J.~Nucl.\ Mater.}, 305(1):29--36, 2002.
-
-\bibitem{freyss2006ab}
-M.~Freyss, N.~Vergnet, and T.~Petit.
-\newblock Ab initio modeling of the behavior of helium and xenon in actinide
-  dioxide nuclear fuels.
-\newblock {\em J.~Nucl.\ Mater.}, 352(1-3):144--150, 2006.
-
-\bibitem{wallace1998thermodynamics}
-Duane~C. Wallace.
-\newblock {\em Thermodynamics of crystals}.
-\newblock Courier Corporation, 1998.
-
-\end{thebibliography}
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{238}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {IAEA}(2005)}]{international2005iaea}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {IAEA}},\ }\href
+  {https://www.iaea.org/publications/7146/management-of-high-enriched-uranium-for-peaceful-purposes-status-and-trends}
+  {\emph {\bibinfo {title} {Management of High Enriched Uranium for Peaceful
+  Purposes: Status and Trends}}},\ \bibinfo {series} {TECDOC Series}\ No.\
+  \bibinfo {number} {1452}\ (\bibinfo  {publisher} {INTERNATIONAL ATOMIC ENERGY
+  AGENCY},\ \bibinfo {address} {Vienna},\ \bibinfo {year} {2005})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Serber}(1992)}]{serber1992alamos}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Serber}},\ }\href@noop {} {\emph {\bibinfo {title} {The Los Alamos primer:
+  The first lectures on how to build an atomic bomb}}}\ (\bibinfo  {publisher}
+  {Univ of California Press},\ \bibinfo {year} {1992})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Travelli}(1980)}]{travelli1980current}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Travelli}},\ }\href@noop {} {\emph {\bibinfo {title} {Current status of the
+  {RERTR} program}}},\ \bibinfo {type} {Tech. Rep.}\ (\bibinfo  {institution}
+  {Argonne National Lab., IL (USA)},\ \bibinfo {year} {1980})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Snelgrove}\ \emph {et~al.}(1997)\citenamefont
+  {Snelgrove}, \citenamefont {Hofman}, \citenamefont {Meyer}, \citenamefont
+  {Trybus},\ and\ \citenamefont {Wiencek}}]{snelgrove1997development}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont
+  {Snelgrove}}, \bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont
+  {Hofman}}, \bibinfo {author} {\bibfnamefont {M.~K.}\ \bibnamefont {Meyer}},
+  \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont {Trybus}}, \ and\
+  \bibinfo {author} {\bibfnamefont {T.~C.}\ \bibnamefont {Wiencek}},\ }\href
+  {\doibase 10.1016/S0029-5493(97)00217-3} {\bibfield  {journal} {\bibinfo
+  {journal} {Nuclear Engineering and Design}\ }\textbf {\bibinfo {volume}
+  {178}},\ \bibinfo {pages} {119} (\bibinfo {year} {1997})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Burkes}\ \emph {et~al.}(2021)\citenamefont {Burkes},
+  \citenamefont {Schwerdt}, \citenamefont {Huber}, \citenamefont {Breitkreutz},
+  \citenamefont {Reiter}, \citenamefont {Petry}, \citenamefont {Schulthess},
+  \citenamefont {Casella}, \citenamefont {Casella}, \citenamefont {Buck} \emph
+  {et~al.}}]{burkes2021thermal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~E.}\ \bibnamefont
+  {Burkes}}, \bibinfo {author} {\bibfnamefont {I.~J.}\ \bibnamefont
+  {Schwerdt}}, \bibinfo {author} {\bibfnamefont {T.~K.}\ \bibnamefont {Huber}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Breitkreutz}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Reiter}}, \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Petry}}, \bibinfo {author} {\bibfnamefont
+  {J.~L.}\ \bibnamefont {Schulthess}}, \bibinfo {author} {\bibfnamefont
+  {A.~M.}\ \bibnamefont {Casella}}, \bibinfo {author} {\bibfnamefont {A.~J.}\
+  \bibnamefont {Casella}}, \bibinfo {author} {\bibfnamefont {E.~C.}\
+  \bibnamefont {Buck}},  \emph {et~al.},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf {\bibinfo
+  {volume} {547}},\ \bibinfo {pages} {152823} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wilson}\ \emph {et~al.}(2017)\citenamefont {Wilson},
+  \citenamefont {Bergeron}, \citenamefont {Stillman}, \citenamefont {Heltemes},
+  \citenamefont {Jaluvka},\ and\ \citenamefont {Jamison}}]{wilson2017us}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Wilson}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Bergeron}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Stillman}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Heltemes}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Jaluvka}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Jamison}},\ }in\ \href@noop {} {\emph
+  {\bibinfo {booktitle} {Proceedings of the 2017 European Research Reactor
+  Conference}}}\ (\bibinfo {organization} {RRFM Rotterdam, Netherlands},\
+  \bibinfo {year} {2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{National Academies of Sciences, Engineering, and
+  Medicine}}(2016)}]{national2016reducing}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{National Academies of
+  Sciences, Engineering, and Medicine}}},\ }\href@noop {} {\emph {\bibinfo
+  {title} {Reducing the Use of Highly Enriched Uranium in Civilian Research
+  Reactors}}}\ (\bibinfo  {publisher} {National Academies Press},\ \bibinfo
+  {address} {Washington, DC},\ \bibinfo {year} {2016})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{National Research
+  Council}}(2012)}]{national2012progress}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{National Research
+  Council}}},\ }\href@noop {} {\emph {\bibinfo {title} {Progress, Challenges,
+  and Opportunities for Converting U.S. and Russian Research Reactors: A
+  Workshop Report}}}\ (\bibinfo  {publisher} {National Academies Press},\
+  \bibinfo {address} {Washington, DC},\ \bibinfo {year} {2012})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kaufmann}(1962)}]{kaufmann1962nuclear}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {Kaufmann}},\ }\href@noop {} {\emph {\bibinfo {title} {Nuclear Reactor Fuel
+  Elements: Metallurgy and Fabrication}}}\ (\bibinfo  {publisher} {Interscience
+  Publishers},\ \bibinfo {address} {New York},\ \bibinfo {year}
+  {1962})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Meyer}\ \emph {et~al.}(2014)\citenamefont {Meyer},
+  \citenamefont {Gan}, \citenamefont {Jue}, \citenamefont {Keiser},
+  \citenamefont {Perez}, \citenamefont {Robinson}, \citenamefont {Wachs},
+  \citenamefont {Woolstenhulme}, \citenamefont {Hofman},\ and\ \citenamefont
+  {Kim}}]{meyer2014irradiation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~K.}\ \bibnamefont
+  {Meyer}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Gan}}, \bibinfo
+  {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Jue}}, \bibinfo {author}
+  {\bibfnamefont {D.~D.}\ \bibnamefont {Keiser}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Perez}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Robinson}}, \bibinfo {author} {\bibfnamefont {D.~M.}\
+  \bibnamefont {Wachs}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Woolstenhulme}}, \bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont
+  {Hofman}}, \ and\ \bibinfo {author} {\bibfnamefont {Y.~S.}\ \bibnamefont
+  {Kim}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nuclear
+  Engineering and Technology}\ }\textbf {\bibinfo {volume} {46}},\ \bibinfo
+  {pages} {169} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pugh}(1961)}]{pugh1961swelling}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Pugh}},\ }\href {\doibase 10.1016/0022-3115(61)90126-X} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf
+  {\bibinfo {volume} {4}},\ \bibinfo {pages} {177} (\bibinfo {year}
+  {1961})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Loomis}\ and\ \citenamefont
+  {Pracht}(1962)}]{loomis1962swelling}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Loomis}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Pracht}},\ }\href@noop {} {\emph {\bibinfo {title} {Swelling of uranium and
+  uranium alloys on postirradiation annealing}}},\ \bibinfo {type} {Tech.
+  Rep.}\ (\bibinfo  {institution} {Argonne National Lab., Ill.},\ \bibinfo
+  {year} {1962})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chiswik}\ \emph {et~al.}(1958)\citenamefont
+  {Chiswik}, \citenamefont {Dwight}, \citenamefont {Lloyd}, \citenamefont
+  {Nevitt},\ and\ \citenamefont {Zegler}}]{chiswik1958osti}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~H.}\ \bibnamefont
+  {Chiswik}}, \bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont {Dwight}},
+  \bibinfo {author} {\bibfnamefont {L.~T.}\ \bibnamefont {Lloyd}}, \bibinfo
+  {author} {\bibfnamefont {M.~V.}\ \bibnamefont {Nevitt}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {S.~T.}\ \bibnamefont {Zegler}},\ }\href {\doibase
+  10.2172/4322509} {\bibfield  {journal} {\bibinfo  {journal} {Second Un. Nat.
+  In. Conf. on the Peaceful Uses of Atomic Energy}\ } (\bibinfo {year}
+  {1958}),\ 10.2172/4322509}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Farrell}(2012)}]{farrell2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Farrell}},\ }in\ \href {\doibase
+  https://doi.org/10.1016/B978-0-08-056033-5.00113-0} {\emph {\bibinfo
+  {booktitle} {Comprehensive Nuclear Materials}}},\ \bibinfo {editor} {edited
+  by\ \bibinfo {editor} {\bibfnamefont {R.~J.}\ \bibnamefont {Konings}}}\
+  (\bibinfo  {publisher} {Elsevier},\ \bibinfo {address} {Oxford},\ \bibinfo
+  {year} {2012})\ pp.\ \bibinfo {pages} {143--175}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {White}\ \emph {et~al.}(1957)\citenamefont {White},
+  \citenamefont {Beard},\ and\ \citenamefont {Willis}}]{white1957}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~W.}\ \bibnamefont
+  {White}}, \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont {Beard}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.~H.}\ \bibnamefont {Willis}}\
+  }(\bibinfo  {publisher} {General Electric Company},\ \bibinfo {year}
+  {1957})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Saller}\ \emph {et~al.}(1956)\citenamefont {Saller},
+  \citenamefont {Dickerson}, \citenamefont {Rough}, \citenamefont {Foster},
+  \citenamefont {Bauer},\ and\ \citenamefont {Lulay}}]{saller1956study}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~A.}\ \bibnamefont
+  {Saller}}, \bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont
+  {Dickerson}}, \bibinfo {author} {\bibfnamefont {F.~A.}\ \bibnamefont
+  {Rough}}, \bibinfo {author} {\bibfnamefont {E.~L.}\ \bibnamefont {Foster}},
+  \bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont {Bauer}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont {Lulay}},\ }\href@noop
+  {} {\emph {\bibinfo {title} {A Study of Aluminum-Uranium Alloys}}},\ \bibinfo
+  {type} {Tech. Rep.}\ (\bibinfo  {institution} {Battelle Memorial Inst.,
+  Columbus, Ohio},\ \bibinfo {year} {1956})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sannen}\ \emph {et~al.}(2014)\citenamefont {Sannen},
+  \citenamefont {van~den Berghe},\ and\ \citenamefont {Leenaers}}]{sannen2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Sannen}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {van~den
+  Berghe}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Leenaers}},\ }in\ \href {\doibase 10.4028/www.scientific.net/AST.94.43}
+  {\emph {\bibinfo {booktitle} {6th Forum on New Materials - Part B}}},\
+  \bibinfo {series} {Advances in Science and Technology}, Vol.~\bibinfo
+  {volume} {94}\ (\bibinfo  {publisher} {Trans Tech Publications Ltd},\
+  \bibinfo {year} {2014})\ pp.\ \bibinfo {pages} {43--54}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Meyer}\ \emph {et~al.}(2000)\citenamefont {Meyer},
+  \citenamefont {Wiencek}, \citenamefont {Hayes},\ and\ \citenamefont
+  {Hofman}}]{meyer2000irradiation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~K.}\ \bibnamefont
+  {Meyer}}, \bibinfo {author} {\bibfnamefont {T.~C.}\ \bibnamefont {Wiencek}},
+  \bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont {Hayes}}, \ and\
+  \bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont {Hofman}},\ }\href
+  {\doibase 10.1016/S0022-3115(99)00280-9} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume}
+  {278}},\ \bibinfo {pages} {358} (\bibinfo {year} {2000})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hofman}\ \emph {et~al.}(1987)\citenamefont {Hofman},
+  \citenamefont {Domagala},\ and\ \citenamefont
+  {Copeland}}]{hofman1987irradiation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont
+  {Hofman}}, \bibinfo {author} {\bibfnamefont {R.~F.}\ \bibnamefont
+  {Domagala}}, \ and\ \bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont
+  {Copeland}},\ }\href {\doibase 10.1016/0022-3115(87)90079-1} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf
+  {\bibinfo {volume} {150}},\ \bibinfo {pages} {238} (\bibinfo {year}
+  {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {van~den Berghe}\ \emph {et~al.}(2011)\citenamefont
+  {van~den Berghe}, \citenamefont {Leenaers}, \citenamefont {Koonen},\ and\
+  \citenamefont {Sannen}}]{vandenberghe2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {van~den Berghe}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Leenaers}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Koonen}}, \
+  and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Sannen}},\ }in\
+  \href {\doibase 10.4028/www.scientific.net/AST.73.78} {\emph {\bibinfo
+  {booktitle} {5th FORUM ON NEW MATERIALS PART B}}},\ \bibinfo {series}
+  {Advances in Science and Technology}, Vol.~\bibinfo {volume} {73}\ (\bibinfo
+  {publisher} {Trans Tech Publications Ltd},\ \bibinfo {year} {2011})\ pp.\
+  \bibinfo {pages} {78--90}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Donz{\'e}}\ and\ \citenamefont
+  {Cabane}(1959)}]{donze1959stabilisation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Donz{\'e}}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Cabane}},\ }\href {\doibase 10.1016/0022-3115(59)90034-0} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf
+  {\bibinfo {volume} {1}},\ \bibinfo {pages} {364} (\bibinfo {year}
+  {1959})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Giraud-Heraud}\ and\ \citenamefont
+  {Guillaumin}(1973)}]{giraud1973formation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Giraud-Heraud}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Guillaumin}},\ }\href {\doibase 10.1016/0001-6160(73)90165-X} {\bibfield
+  {journal} {\bibinfo  {journal} {Acta Metallurgica}\ }\textbf {\bibinfo
+  {volume} {21}},\ \bibinfo {pages} {1243} (\bibinfo {year}
+  {1973})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lopes}\ \emph {et~al.}(2013)\citenamefont {Lopes},
+  \citenamefont {Restivo},\ and\ \citenamefont
+  {Padilha}}]{lopes2013mechanical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
+  {Lopes}}, \bibinfo {author} {\bibfnamefont {T.~A.~G.}\ \bibnamefont
+  {Restivo}}, \ and\ \bibinfo {author} {\bibfnamefont {A.~F.}\ \bibnamefont
+  {Padilha}},\ }\href {\doibase 10.1016/j.jnucmat.2013.05.014} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf
+  {\bibinfo {volume} {440}},\ \bibinfo {pages} {304} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Saller}\ \emph {et~al.}(1954)\citenamefont {Saller},
+  \citenamefont {Rough},\ and\ \citenamefont
+  {Bauer}}]{saller1954transformation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~A.}\ \bibnamefont
+  {Saller}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Rough}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Bauer}},\
+  }\href@noop {} {\emph {\bibinfo {title} {Transformation kinetics of
+  uranium-molybdenum alloys}}},\ \bibinfo {type} {Tech. Rep.}\ (\bibinfo
+  {institution} {Battelle Memorial Inst., Columbus, Ohio},\ \bibinfo {year}
+  {1954})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bostrom}\ and\ \citenamefont
+  {Halteman}(1956)}]{bostrom1957}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~A.}\ \bibnamefont
+  {Bostrom}}\ and\ \bibinfo {author} {\bibfnamefont {E.~K.}\ \bibnamefont
+  {Halteman}},\ }\href {\doibase 10.2172/4347373} {\emph {\bibinfo {title} {THE
+  METASTABLE GAMMA PHASE IN URANIUM BASE MOLYBDENUM ALLOYS}}},\ \bibinfo {type}
+  {Tech. Rep.}\ (\bibinfo  {institution} {Westinghouse Electric Corp. Bettis
+  Plant, Pittsburgh},\ \bibinfo {year} {1956})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Prabhakaran}(2017)}]{prabhakaran2017u}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Prabhakaran}},\ }\href {\doibase https://doi.org/10.1007/s11837-017-2612-3}
+  {\bibfield  {journal} {\bibinfo  {journal} {JOM}\ }\textbf {\bibinfo {volume}
+  {69}},\ \bibinfo {pages} {2529} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Williams}\ \emph {et~al.}(2017)\citenamefont
+  {Williams}, \citenamefont {Robinson},\ and\ \citenamefont
+  {Rabin}}]{williams2017post}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Williams}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Robinson}},
+  \ and\ \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Rabin}},\ }\href
+  {\doibase https://doi.org/10.1007/s11837-017-2552-y} {\bibfield  {journal}
+  {\bibinfo  {journal} {JOM}\ }\textbf {\bibinfo {volume} {69}},\ \bibinfo
+  {pages} {2546} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Okamoto}(2012)}]{okamoto2012mo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Okamoto}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Phase Equilibria and Diffusion}\ }\textbf {\bibinfo {volume}
+  {33}},\ \bibinfo {pages} {497} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Horak}\ \emph {et~al.}(1973)\citenamefont {Horak},
+  \citenamefont {Reuscher},\ and\ \citenamefont {Sasmor}}]{horak1973operating}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Horak}}, \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Reuscher}},
+  \ and\ \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont {Sasmor}},\
+  }\href@noop {} {\emph {\bibinfo {title} {Operating experience with
+  uranium--molybdenum fuel in pulsed reactors}}},\ \bibinfo {type} {Tech.
+  Rep.}\ (\bibinfo  {institution} {Sandia Labs., Albuquerque, N. Mex.(USA)},\
+  \bibinfo {year} {1973})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cottrell}\ \emph {et~al.}(1964)\citenamefont
+  {Cottrell}, \citenamefont {Edmonds}, \citenamefont {Higginson},\ and\
+  \citenamefont {Oldfield}}]{cottrell1964development}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~A.}\ \bibnamefont
+  {Cottrell}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Edmonds}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Higginson}}, \ and\
+  \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Oldfield}},\ }\href@noop
+  {} {\emph {\bibinfo {title} {Development and performance of Dounreay fast
+  reactor metal fuel}}},\ \bibinfo {type} {Tech. Rep.}\ (\bibinfo
+  {institution} {United Kingdom Atomic Energy Authority. Industrial Group.
+  Dounreay},\ \bibinfo {year} {1964})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Agency}(2003)}]{no20031374}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.~A.~E.}\
+  \bibnamefont {Agency}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Nuclear Fuel Cycle and Material Section}\ } (\bibinfo {year}
+  {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Leenaers}\ \emph {et~al.}(2004)\citenamefont
+  {Leenaers}, \citenamefont {Van~den Berghe}, \citenamefont {Koonen},
+  \citenamefont {Jarousse}, \citenamefont {Huet}, \citenamefont {Trotabas},
+  \citenamefont {Boyard}, \citenamefont {Guillot}, \citenamefont {Sannen},\
+  and\ \citenamefont {Verwerft}}]{leenaers2004post}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Leenaers}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Van~den
+  Berghe}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Koonen}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Jarousse}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Huet}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Trotabas}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Boyard}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Guillot}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Sannen}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Verwerft}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf {\bibinfo
+  {volume} {335}},\ \bibinfo {pages} {39} (\bibinfo {year} {2004})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Jue}\ \emph {et~al.}(2014)\citenamefont {Jue},
+  \citenamefont {Keiser}, \citenamefont {Breckenridge}, \citenamefont {Moore},\
+  and\ \citenamefont {Meyer}}]{jue2014microstructural}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-F.}\ \bibnamefont
+  {Jue}}, \bibinfo {author} {\bibfnamefont {D.~D.}\ \bibnamefont {Keiser}},
+  \bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont {Breckenridge}},
+  \bibinfo {author} {\bibfnamefont {G.~A.}\ \bibnamefont {Moore}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.~K.}\ \bibnamefont {Meyer}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\
+  }\textbf {\bibinfo {volume} {448}},\ \bibinfo {pages} {250} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Van~den Berghe}\ \emph {et~al.}(2008)\citenamefont
+  {Van~den Berghe}, \citenamefont {Van~Renterghem},\ and\ \citenamefont
+  {Leenaers}}]{van2008transmission}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Van~den Berghe}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Van~Renterghem}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Leenaers}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {375}},\ \bibinfo
+  {pages} {340} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Olander}(2009)}]{olander2009growth}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Olander}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {383}},\ \bibinfo
+  {pages} {201} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Guay}(1965)}]{osti_10163384}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont
+  {Guay}},\ }\href {\doibase 10.2172/10163384} {\enquote {\bibinfo {title}
+  {Uranium swelling in {N-Reactor} ({PT-NR-4}, {Sup. A}, {Report No. 1})},}\
+  }\bibinfo {howpublished} {{United States.
+  \url{https://www.osti.gov/biblio/10163384}}} (\bibinfo {year}
+  {1965})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Miller}\ \emph {et~al.}(2012)\citenamefont {Miller},
+  \citenamefont {Gan}, \citenamefont {Madden}, \citenamefont {Jue},
+  \citenamefont {Robinson},\ and\ \citenamefont
+  {Keiser}}]{miller2012advantages}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~D.}\ \bibnamefont
+  {Miller}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Gan}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Madden}}, \bibinfo
+  {author} {\bibfnamefont {J.-F.}\ \bibnamefont {Jue}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Robinson}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {D.~D.}\ \bibnamefont {Keiser}},\ }\href {\doibase
+  10.1016/j.jnucmat.2012.01.022} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {424}},\ \bibinfo
+  {pages} {38} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gan}\ \emph {et~al.}(2010)\citenamefont {Gan},
+  \citenamefont {Keiser}, \citenamefont {Wachs}, \citenamefont {Robinson},
+  \citenamefont {Miller},\ and\ \citenamefont {Allen}}]{gan2010transmission}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Gan}}, \bibinfo {author} {\bibfnamefont {D.~D.}\ \bibnamefont {Keiser}},
+  \bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont {Wachs}}, \bibinfo
+  {author} {\bibfnamefont {A.~B.}\ \bibnamefont {Robinson}}, \bibinfo {author}
+  {\bibfnamefont {B.~D.}\ \bibnamefont {Miller}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {T.~R.}\ \bibnamefont {Allen}},\ }\href {\doibase
+  10.1016/j.jnucmat.2009.11.015} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {396}},\ \bibinfo
+  {pages} {234} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hartree}(1928)}]{hartree}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
+  {Hartree}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Mat.
+  Proc. Cambridge Philos. Soc.}\ }\textbf {\bibinfo {volume} {24}},\ \bibinfo
+  {pages} {89} (\bibinfo {year} {1928})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fock}(1930)}]{fock}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Fock}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Zeitschrift f{\"u}r Physik}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo
+  {pages} {126} (\bibinfo {year} {1930})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Thomas}(1927)}]{thomas1927calculation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~H.}\ \bibnamefont
+  {Thomas}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Mathematical
+  Proceedings of the Cambridge Philosophical Society}}},\ Vol.~\bibinfo
+  {volume} {23}\ (\bibinfo {organization} {Cambridge University Press},\
+  \bibinfo {year} {1927})\ pp.\ \bibinfo {pages} {542--548}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Fermi}(1927)}]{fermi1927metodo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Fermi}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Rend.
+  Accad. Naz. Lincei}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {32}
+  (\bibinfo {year} {1927})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hohenberg}\ and\ \citenamefont
+  {Kohn}(1964)}]{hohenberg1964inhomogeneous}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Hohenberg}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Kohn}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical
+  Review}\ }\textbf {\bibinfo {volume} {136}},\ \bibinfo {pages} {B864}
+  (\bibinfo {year} {1964})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Herring}(1940)}]{herring1940new}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Herring}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review}\ }\textbf {\bibinfo {volume} {57}},\ \bibinfo {pages}
+  {1169} (\bibinfo {year} {1940})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Phillips}\ and\ \citenamefont
+  {Kleinman}(1959)}]{phillips1959new}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {Phillips}}\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Kleinman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review}\ }\textbf {\bibinfo {volume} {116}},\ \bibinfo {pages}
+  {287} (\bibinfo {year} {1959})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hamann}\ \emph {et~al.}(1979)\citenamefont {Hamann},
+  \citenamefont {Schl{\"u}ter},\ and\ \citenamefont {Chiang}}]{hamann1979norm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
+  {Hamann}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Schl{\"u}ter}}, \ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Chiang}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review Letters}\ }\textbf {\bibinfo {volume} {43}},\ \bibinfo
+  {pages} {1494} (\bibinfo {year} {1979})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Troullier}\ and\ \citenamefont
+  {Martins}(1991)}]{troullier1991efficient}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Troullier}}\ and\ \bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont
+  {Martins}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {43}},\ \bibinfo {pages} {1993} (\bibinfo {year}
+  {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vanderbilt}(1990)}]{vanderbilt1990soft}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Vanderbilt}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {41}},\ \bibinfo {pages} {7892} (\bibinfo {year}
+  {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kresse}\ and\ \citenamefont
+  {Joubert}(1999)}]{kresse1999ultrasoft}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Kresse}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Joubert}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {59}},\ \bibinfo {pages} {1758} (\bibinfo {year}
+  {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bl{\"o}chl}(1994{\natexlab{a}})}]{Bloechl1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~E.}\ \bibnamefont
+  {Bl{\"o}chl}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {50}},\ \bibinfo {pages} {17953} (\bibinfo {year}
+  {1994}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Burkes}\ \emph {et~al.}(2015)\citenamefont {Burkes},
+  \citenamefont {Casella}, \citenamefont {Casella}, \citenamefont {Buck},
+  \citenamefont {Pool}, \citenamefont {{MacF}arlan}, \citenamefont {Edwards},\
+  and\ \citenamefont {Smith}}]{burkes2015thermal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~E.}\ \bibnamefont
+  {Burkes}}, \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont {Casella}},
+  \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Casella}}, \bibinfo
+  {author} {\bibfnamefont {E.~C.}\ \bibnamefont {Buck}}, \bibinfo {author}
+  {\bibfnamefont {K.~N.}\ \bibnamefont {Pool}}, \bibinfo {author}
+  {\bibfnamefont {P.~J.}\ \bibnamefont {{MacF}arlan}}, \bibinfo {author}
+  {\bibfnamefont {M.~K.}\ \bibnamefont {Edwards}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {F.~N.}\ \bibnamefont {Smith}},\ }\href {\doibase
+  10.1016/j.jnucmat.2015.04.040} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {464}},\ \bibinfo
+  {pages} {331} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rondinella}\ and\ \citenamefont
+  {Wiss}(2010)}]{rondinella2010high}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~V.}\ \bibnamefont
+  {Rondinella}}\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Wiss}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Materials Today}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages} {24}
+  (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Blades}\ \emph {et~al.}(1956)\citenamefont {Blades},
+  \citenamefont {Fleming},\ and\ \citenamefont {Thode}}]{blades1956ratio}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~T.}\ \bibnamefont
+  {Blades}}, \bibinfo {author} {\bibfnamefont {W.~H.}\ \bibnamefont {Fleming}},
+  \ and\ \bibinfo {author} {\bibfnamefont {H.~G.}\ \bibnamefont {Thode}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Canadian Journal
+  of Chemistry}\ }\textbf {\bibinfo {volume} {34}},\ \bibinfo {pages} {233}
+  (\bibinfo {year} {1956})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Petruska}\ \emph {et~al.}(1955)\citenamefont
+  {Petruska}, \citenamefont {Thode},\ and\ \citenamefont
+  {Tomlinson}}]{petruska1955absolute}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont
+  {Petruska}}, \bibinfo {author} {\bibfnamefont {H.~G.}\ \bibnamefont {Thode}},
+  \ and\ \bibinfo {author} {\bibfnamefont {R.~H.}\ \bibnamefont {Tomlinson}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Canadian Journal
+  of Physics}\ }\textbf {\bibinfo {volume} {33}},\ \bibinfo {pages} {693}
+  (\bibinfo {year} {1955})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kim}\ and\ \citenamefont
+  {Hofman}(2011)}]{kim2011fission}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~S.}\ \bibnamefont
+  {Kim}}\ and\ \bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont
+  {Hofman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {419}},\ \bibinfo
+  {pages} {291} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Miller}\ \emph {et~al.}(2015)\citenamefont {Miller},
+  \citenamefont {Gan}, \citenamefont {Keiser}, \citenamefont {Robinson},
+  \citenamefont {Jue}, \citenamefont {Madden},\ and\ \citenamefont
+  {Medvedev}}]{miller2015transmission}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~D.}\ \bibnamefont
+  {Miller}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Gan}},
+  \bibinfo {author} {\bibfnamefont {D.~D.}\ \bibnamefont {Keiser},
+  \bibfnamefont {Jr}}, \bibinfo {author} {\bibfnamefont {A.~B.}\ \bibnamefont
+  {Robinson}}, \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Jue}},
+  \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont {Madden}}, \ and\
+  \bibinfo {author} {\bibfnamefont {P.~G.}\ \bibnamefont {Medvedev}},\ }\href
+  {\doibase 10.1016/j.jnucmat.2014.12.012} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume}
+  {458}},\ \bibinfo {pages} {115} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Gan}\ \emph {et~al.}(2012)\citenamefont {Gan},
+  \citenamefont {Keiser}, \citenamefont {Miller}, \citenamefont {Robinson},
+  \citenamefont {Jue}, \citenamefont {Medvedev},\ and\ \citenamefont
+  {Wachs}}]{gan2012tem}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Gan}}, \bibinfo {author} {\bibfnamefont {D.~D.}\ \bibnamefont {Keiser}},
+  \bibinfo {author} {\bibfnamefont {B.~D.}\ \bibnamefont {Miller}}, \bibinfo
+  {author} {\bibfnamefont {A.~B.}\ \bibnamefont {Robinson}}, \bibinfo {author}
+  {\bibfnamefont {J.-F.}\ \bibnamefont {Jue}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Medvedev}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {D.~M.}\ \bibnamefont {Wachs}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf {\bibinfo
+  {volume} {424}},\ \bibinfo {pages} {43} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Johnson}\ and\ \citenamefont
+  {Mazey}(1980{\natexlab{a}})}]{johnson1980gas}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~B.}\ \bibnamefont
+  {Johnson}}\ and\ \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Mazey}},\ }\href {\doibase 10.1016/0022-3115(80)90198-1} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf
+  {\bibinfo {volume} {93--94}},\ \bibinfo {pages} {721} (\bibinfo {year}
+  {1980}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Johnson}\ and\ \citenamefont
+  {Mazey}(1980{\natexlab{b}})}]{johnson1980hydrogen}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~B.}\ \bibnamefont
+  {Johnson}}\ and\ \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Mazey}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
+  of Nuclear Materials}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo {pages}
+  {41} (\bibinfo {year} {1980}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Evans}(1983)}]{evans1983void}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont
+  {Evans}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
+  of Nuclear Materials}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages}
+  {180} (\bibinfo {year} {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mazey}\ and\ \citenamefont
+  {Evans}(1986)}]{mazey1986bubble}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Mazey}}\ and\ \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont
+  {Evans}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
+  of Nuclear Materials}\ }\textbf {\bibinfo {volume} {138}},\ \bibinfo {pages}
+  {16} (\bibinfo {year} {1986})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Evans}\ and\ \citenamefont
+  {Mazey}(1986)}]{evans1986solid}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont
+  {Evans}}\ and\ \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Mazey}},\ }\href {\doibase 10.1016/0022-3115(86)90004-8} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf
+  {\bibinfo {volume} {138}},\ \bibinfo {pages} {176} (\bibinfo {year}
+  {1986})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Johnson}\ \emph {et~al.}(1991)\citenamefont
+  {Johnson}, \citenamefont {Stevens},\ and\ \citenamefont
+  {Thomson}}]{johnson1991image}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~B.}\ \bibnamefont
+  {Johnson}}, \bibinfo {author} {\bibfnamefont {K.~J.}\ \bibnamefont
+  {Stevens}}, \ and\ \bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont
+  {Thomson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nuclear Instruments and Methods in Physics Research Section~B: Beam
+  Interactions with Materials and Atoms}\ }\textbf {\bibinfo {volume} {62}},\
+  \bibinfo {pages} {218} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Johnson}\ and\ \citenamefont
+  {Mazey}(1995)}]{johnson1995gas}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~B.}\ \bibnamefont
+  {Johnson}}\ and\ \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Mazey}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
+  of Nuclear Materials}\ }\textbf {\bibinfo {volume} {218}},\ \bibinfo {pages}
+  {273} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lawson}\ and\ \citenamefont
+  {Johnson}(1998)}]{lawson1998temperature}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~E.}\ \bibnamefont
+  {Lawson}}\ and\ \bibinfo {author} {\bibfnamefont {P.~B.}\ \bibnamefont
+  {Johnson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {252}},\ \bibinfo
+  {pages} {34} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ghoniem}\ \emph {et~al.}(2001)\citenamefont
+  {Ghoniem}, \citenamefont {Walgraef},\ and\ \citenamefont
+  {Zinkle}}]{ghoniem2001theory}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~M.}\ \bibnamefont
+  {Ghoniem}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Walgraef}}, \
+  and\ \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont {Zinkle}},\
+  }\href@noop {} {\ \textbf {\bibinfo {volume} {8}},\ \bibinfo {pages} {1}
+  (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Johnson}\ and\ \citenamefont
+  {Lawson}(2006)}]{johnson2006helium}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~B.}\ \bibnamefont
+  {Johnson}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Lawson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nuclear Instruments and Methods in Physics Research Section~B: Beam
+  Interactions with Materials and Atoms}\ }\textbf {\bibinfo {volume} {243}},\
+  \bibinfo {pages} {325} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gan}\ \emph {et~al.}(2015)\citenamefont {Gan},
+  \citenamefont {Keiser}, \citenamefont {Miller}, \citenamefont {Robinson},
+  \citenamefont {Wachs},\ and\ \citenamefont {Meyer}}]{Gan2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Gan}}, \bibinfo {author} {\bibfnamefont {D.~D.}\ \bibnamefont {Keiser},
+  \bibfnamefont {Jr.}}, \bibinfo {author} {\bibfnamefont {B.~D.}\ \bibnamefont
+  {Miller}}, \bibinfo {author} {\bibfnamefont {A.~B.}\ \bibnamefont
+  {Robinson}}, \bibinfo {author} {\bibfnamefont {D.~M.}\ \bibnamefont {Wachs}},
+  \ and\ \bibinfo {author} {\bibfnamefont {M.~K.}\ \bibnamefont {Meyer}},\
+  }\href {\doibase 10.1016/j.jnucmat.2015.04.023} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf {\bibinfo
+  {volume} {464}},\ \bibinfo {pages} {1} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Bakker}(1997)}]{bakker1997using}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Bakker}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {International Journal of Heat and Mass Transfer}\ }\textbf {\bibinfo
+  {volume} {40}},\ \bibinfo {pages} {3503} (\bibinfo {year}
+  {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Maxwell}(1881)}]{maxwell1881treatise}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {Maxwell}},\ }\href@noop {} {\emph {\bibinfo {title} {A Treatise on
+  Electricity and Magnetism}}},\ Vol.~\bibinfo {volume} {1}\ (\bibinfo
+  {publisher} {Clarendon Press},\ \bibinfo {address} {Oxford},\ \bibinfo {year}
+  {1881})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {M{acE}wan}\ \emph {et~al.}(1967)\citenamefont
+  {M{acE}wan}, \citenamefont {Stoute},\ and\ \citenamefont
+  {Notley}}]{macewan1967effect}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont
+  {M{acE}wan}}, \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont
+  {Stoute}}, \ and\ \bibinfo {author} {\bibfnamefont {M.~J.~F.}\ \bibnamefont
+  {Notley}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {24}},\ \bibinfo
+  {pages} {109} (\bibinfo {year} {1967})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Goldsmith}\ and\ \citenamefont
+  {Douglas}(1973)}]{goldsmith1973measurements}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~A.}\ \bibnamefont
+  {Goldsmith}}\ and\ \bibinfo {author} {\bibfnamefont {J.~A.~M.}\ \bibnamefont
+  {Douglas}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {47}},\ \bibinfo
+  {pages} {31} (\bibinfo {year} {1973})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{DeV}ries}(1989)}]{devries1989experimental}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont
+  {{DeV}ries}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Heat Transfer}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo
+  {pages} {281} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Loeb}(1954)}]{loeb1954thermal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~L.}\ \bibnamefont
+  {Loeb}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
+  of the American Ceramic Society}\ }\textbf {\bibinfo {volume} {37}},\
+  \bibinfo {pages} {96} (\bibinfo {year} {1954})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cunningham}\ and\ \citenamefont
+  {Peddicord}(1981)}]{cunningham1981heat}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont
+  {Cunningham}}\ and\ \bibinfo {author} {\bibfnamefont {K.~L.}\ \bibnamefont
+  {Peddicord}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {International Journal of Heat and Mass Transfer}\ }\textbf {\bibinfo
+  {volume} {24}},\ \bibinfo {pages} {1081} (\bibinfo {year}
+  {1981})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tzou}(1991)}]{tzou1991effect}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~Y.}\ \bibnamefont
+  {Tzou}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {International Journal of Heat and Mass Transfer}\ }\textbf {\bibinfo
+  {volume} {34}},\ \bibinfo {pages} {1839} (\bibinfo {year}
+  {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bauer}(1993)}]{bauer1993general}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~H.}\ \bibnamefont
+  {Bauer}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {International Journal of Heat and Mass Transfer}\ }\textbf {\bibinfo
+  {volume} {36}},\ \bibinfo {pages} {4181} (\bibinfo {year}
+  {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hu}\ \emph {et~al.}(2015)\citenamefont {Hu},
+  \citenamefont {Casella}, \citenamefont {Lavender}, \citenamefont {Senor},\
+  and\ \citenamefont {Burkes}}]{hu2015assessment}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Hu}}, \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont {Casella}},
+  \bibinfo {author} {\bibfnamefont {C.~A.}\ \bibnamefont {Lavender}}, \bibinfo
+  {author} {\bibfnamefont {D.~J.}\ \bibnamefont {Senor}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {D.~E.}\ \bibnamefont {Burkes}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\
+  }\textbf {\bibinfo {volume} {462}},\ \bibinfo {pages} {64} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Trellis Pro}}(2017)}]{trelis}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Trellis Pro}}}\
+  }(\bibinfo  {publisher} {csimsoft, LLC.},\ \bibinfo {address} {American Fork,
+  Utah},\ \bibinfo {year} {2012--2017})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rabinovich}\ \emph {et~al.}(1987)\citenamefont
+  {Rabinovich}, \citenamefont {Vasserman}, \citenamefont {Nedostup},\ and\
+  \citenamefont {Veksler}}]{rabinovich1987thermophysical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont
+  {Rabinovich}}, \bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Vasserman}}, \bibinfo {author} {\bibfnamefont {V.~I.}\ \bibnamefont
+  {Nedostup}}, \ and\ \bibinfo {author} {\bibfnamefont {L.~S.}\ \bibnamefont
+  {Veksler}},\ }\href@noop {} {\emph {\bibinfo {title} {Thermophysical
+  Properties of Neon, Argon, Krypton, and Xenon}}}\ (\bibinfo  {publisher}
+  {Hemisphere Publishing Corporation},\ \bibinfo {address} {New York, NY},\
+  \bibinfo {year} {1987})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Burkes}\ \emph {et~al.}(2010)\citenamefont {Burkes},
+  \citenamefont {Papesch}, \citenamefont {Maddison}, \citenamefont {Hartmann},\
+  and\ \citenamefont {Rice}}]{burkes2010thermo}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~E.}\ \bibnamefont
+  {Burkes}}, \bibinfo {author} {\bibfnamefont {C.~A.}\ \bibnamefont {Papesch}},
+  \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont {Maddison}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Hartmann}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {F.~J.}\ \bibnamefont {Rice}},\ }\href {\doibase
+  10.1016/j.jnucmat.2010.06.018} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {403}},\ \bibinfo
+  {pages} {160} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Greenwood}\ \emph {et~al.}(1959)\citenamefont
+  {Greenwood}, \citenamefont {Foreman},\ and\ \citenamefont
+  {Rimmer}}]{greenwood1959role}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~W.}\ \bibnamefont
+  {Greenwood}}, \bibinfo {author} {\bibfnamefont {A.~J.~E.}\ \bibnamefont
+  {Foreman}}, \ and\ \bibinfo {author} {\bibfnamefont {D.~E.}\ \bibnamefont
+  {Rimmer}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {1}},\ \bibinfo
+  {pages} {305} (\bibinfo {year} {1959})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Trinkaus}(1983)}]{trinkaus1983energetics}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Trinkaus}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Radiation Effects}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages}
+  {189} (\bibinfo {year} {1983})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Xiao}\ \emph {et~al.}(2015)\citenamefont {Xiao},
+  \citenamefont {Long}, \citenamefont {Tian},\ and\ \citenamefont
+  {Li}}]{xiao2015atomistic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Xiao}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Long}}, \bibinfo
+  {author} {\bibfnamefont {X.}~\bibnamefont {Tian}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Li}},\ }\href {\doibase
+  10.1016/j.matdes.2015.02.005} {\bibfield  {journal} {\bibinfo  {journal}
+  {Materials and Design}\ }\textbf {\bibinfo {volume} {74}},\ \bibinfo {pages}
+  {55} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Thomas}(1991)}]{thomas1991condensed}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~E.}\ \bibnamefont
+  {Thomas}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Fundamental
+  Aspects of Inert Gases in Solids}}}\ (\bibinfo  {publisher} {Springer},\
+  \bibinfo {address} {New York},\ \bibinfo {year} {1991})\ pp.\ \bibinfo
+  {pages} {431--441}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ross}\ and\ \citenamefont
+  {{McM}ahan}(1980)}]{ross1980condensed}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Ross}}\ and\ \bibinfo {author} {\bibfnamefont {A.~K.}\ \bibnamefont
+  {{McM}ahan}},\ }\href {\doibase 10.1103/PhysRevB.21.1658} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review~B: Condensed Matter and
+  Materials Physics}\ }\textbf {\bibinfo {volume} {21}},\ \bibinfo {pages}
+  {1658} (\bibinfo {year} {1980})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zheng}\ \emph {et~al.}(2014)\citenamefont {Zheng},
+  \citenamefont {Chen}, \citenamefont {Gu}, \citenamefont {Chen},\ and\
+  \citenamefont {Li}}]{zheng2014thermodynamics}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Zheng}}, \bibinfo {author} {\bibfnamefont {Q.~F.}\ \bibnamefont {Chen}},
+  \bibinfo {author} {\bibfnamefont {Y.~J.}\ \bibnamefont {Gu}}, \bibinfo
+  {author} {\bibfnamefont {Z.~Y.}\ \bibnamefont {Chen}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {C.~J.}\ \bibnamefont {Li}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Chemical Physics}\
+  }\textbf {\bibinfo {volume} {141}},\ \bibinfo {pages} {124} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gaston}\ \emph {et~al.}(2009)\citenamefont {Gaston},
+  \citenamefont {Newman}, \citenamefont {Hansen},\ and\ \citenamefont
+  {Lebrun-Grandie}}]{gaston2009moose}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Gaston}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Newman}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Hansen}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Lebrun-Grandie}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nuclear Engineering and Design}\
+  }\textbf {\bibinfo {volume} {239}},\ \bibinfo {pages} {1768} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Clark}\ \emph {et~al.}(2003)\citenamefont {Clark},
+  \citenamefont {Knighton}, \citenamefont {Meyer},\ and\ \citenamefont
+  {Hofman}}]{clark2003monolithic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont
+  {Clark}}, \bibinfo {author} {\bibfnamefont {G.~C.}\ \bibnamefont {Knighton}},
+  \bibinfo {author} {\bibfnamefont {M.~K.}\ \bibnamefont {Meyer}}, \ and\
+  \bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont {Hofman}},\ }in\ \href
+  {http://www.iaea.org/inis/collection/NCLCollectionStore/_Public/35/068/35068367.pdf}
+  {\emph {\bibinfo {booktitle} {2003 International Meeting on Reduced
+  Enrichment for Research and Test Reactors}}},\ Vol.~\bibinfo {volume} {1}\
+  (\bibinfo {address} {Chicago, Illinois},\ \bibinfo {year} {2003})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Smith}\ \emph {et~al.}(2013)\citenamefont {Smith},
+  \citenamefont {Alzina}, \citenamefont {Bourret}, \citenamefont {Nait-Ali},
+  \citenamefont {Pennec}, \citenamefont {Tessier-Doyen}, \citenamefont {Otsu},
+  \citenamefont {Matsubara}, \citenamefont {Elser},\ and\ \citenamefont
+  {Gonzenbach}}]{smith2013thermal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont
+  {Smith}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Alzina}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Bourret}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Nait-Ali}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Pennec}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Tessier-Doyen}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Otsu}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Matsubara}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Elser}}, \
+  and\ \bibinfo {author} {\bibfnamefont {U.~T.}\ \bibnamefont {Gonzenbach}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of
+  Materials Research}\ }\textbf {\bibinfo {volume} {28}},\ \bibinfo {pages}
+  {2260} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hashin}\ and\ \citenamefont
+  {Shtrikman}(1962)}]{hashin1962variational}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Hashin}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Shtrikman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Applied Physics}\ }\textbf {\bibinfo {volume} {33}},\ \bibinfo
+  {pages} {3125} (\bibinfo {year} {1962})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schulz}(1981)}]{Schulz1981}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Schulz}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {High
+  Temperatures -- High Pressures}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo
+  {pages} {649} (\bibinfo {year} {1981})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kim}\ \emph {et~al.}(2013)\citenamefont {Kim},
+  \citenamefont {Hofman},\ and\ \citenamefont
+  {Cheon}}]{kim2013recrystallization}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~S.}\ \bibnamefont
+  {Kim}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Hofman}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Cheon}},\ }\href
+  {\doibase 10.1016/j.jnucmat.2010.06.018} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume}
+  {436}},\ \bibinfo {pages} {14} (\bibinfo {year} {2013})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Bauer}\ and\ \citenamefont
+  {Holland}(1995)}]{bauer1995pile}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~H.}\ \bibnamefont
+  {Bauer}}\ and\ \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont
+  {Holland}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nuclear Technology}\ }\textbf {\bibinfo {volume} {110}},\ \bibinfo {pages}
+  {407} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peddicord}\ \emph {et~al.}(1978)\citenamefont
+  {Peddicord}, \citenamefont {Cunningham},\ and\ \citenamefont
+  {Tripathi}}]{peddicord1978porosity}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~L.}\ \bibnamefont
+  {Peddicord}}, \bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont
+  {Cunningham}}, \ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Tripathi}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Transactions of the American Nuclear Society}\ }\textbf {\bibinfo {volume}
+  {28}},\ \bibinfo {pages} {548} (\bibinfo {year} {1978})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Bakker}\ \emph {et~al.}(1995)\citenamefont {Bakker},
+  \citenamefont {Kwast},\ and\ \citenamefont
+  {Cordfunke}}]{bakker1995determination}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Bakker}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Kwast}}, \
+  and\ \bibinfo {author} {\bibfnamefont {E.~H.~P.}\ \bibnamefont {Cordfunke}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Nuclear
+  Materials}\ }\textbf {\bibinfo {volume} {226}},\ \bibinfo {pages} {128}
+  (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lawson}\ \emph {et~al.}(1988)\citenamefont {Lawson},
+  \citenamefont {Olsen}, \citenamefont {Richardson}, \citenamefont {Mueller},\
+  and\ \citenamefont {Lander}}]{lawson1988structure}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~C.}\ \bibnamefont
+  {Lawson}}, \bibinfo {author} {\bibfnamefont {C.~E.}\ \bibnamefont {Olsen}},
+  \bibinfo {author} {\bibfnamefont {J.~W.}\ \bibnamefont {Richardson}},
+  \bibinfo {author} {\bibfnamefont {M.~H.}\ \bibnamefont {Mueller}}, \ and\
+  \bibinfo {author} {\bibfnamefont {G.~H.}\ \bibnamefont {Lander}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Acta
+  Crystallographica~B: Structural Science}\ }\textbf {\bibinfo {volume} {44}},\
+  \bibinfo {pages} {89} (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Akella}\ \emph {et~al.}(1997)\citenamefont {Akella},
+  \citenamefont {Weir}, \citenamefont {Wills},\ and\ \citenamefont
+  {S{\"o}derlind}}]{akella1997structural}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Akella}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Weir}},
+  \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Wills}}, \ and\
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {S{\"o}derlind}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of
+  Physics: Condensed Matter}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo
+  {pages} {L549} (\bibinfo {year} {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lander}(2003)}]{lander2003gh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~H.}\ \bibnamefont
+  {Lander}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Science}\ }\textbf {\bibinfo {volume} {301}},\ \bibinfo {pages} {1057}
+  (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Freeman}\ and\ \citenamefont
+  {Lander}(1984)}]{freemanHandbook1984}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Freeman}}\ and\ \bibinfo {author} {\bibfnamefont {G.~H.}\ \bibnamefont
+  {Lander}},\ }\href@noop {} {\emph {\bibinfo {title} {Handbook on the Physics
+  and Chemistry of the Actinides}}},\ Vol.\ \bibinfo {volume} {1,2}\ (\bibinfo
+  {publisher} {North-Holland},\ \bibinfo {address} {Amsterdam},\ \bibinfo
+  {year} {1984})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wills}\ and\ \citenamefont
+  {Eriksson}(1992)}]{wills1992crystal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Wills}}\ and\ \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Eriksson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {45}},\ \bibinfo {pages} {13879} (\bibinfo {year}
+  {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Eriksson}\ \emph {et~al.}(1993)\citenamefont
+  {Eriksson}, \citenamefont {S{\"o}derlind}, \citenamefont {Wills},\ and\
+  \citenamefont {Boring}}]{eriksson1993first}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Eriksson}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {S{\"o}derlind}}, \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Wills}}, \ and\ \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Boring}},\ }\href {\doibase 10.1016/0921-4526(93)90436-A} {\bibfield
+  {journal} {\bibinfo  {journal} {Physica~C: Superconductivity}\ }\textbf
+  {\bibinfo {volume} {190}},\ \bibinfo {pages} {5} (\bibinfo {year}
+  {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Crocombette}\ \emph {et~al.}(2001)\citenamefont
+  {Crocombette}, \citenamefont {Jollet}, \citenamefont {Thien~Nga},\ and\
+  \citenamefont {Petit}}]{crocombette2001plane}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Crocombette}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Jollet}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Thien~Nga}}, \ and\
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Petit}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review~B: Condensed
+  Matter and Materials Physics}\ }\textbf {\bibinfo {volume} {64}},\ \bibinfo
+  {pages} {104107} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {S{\"o}derlind}(2002)}]{soderlind2002first}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {S{\"o}derlind}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {66}},\ \bibinfo {pages} {085113} (\bibinfo {year}
+  {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lawson}\ \emph {et~al.}(2000)\citenamefont {Lawson},
+  \citenamefont {Artinez}, \citenamefont {Roberts}, \citenamefont {Bennett},\
+  and\ \citenamefont {Richardson}}]{lawson2000melting}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~C.}\ \bibnamefont
+  {Lawson}}, \bibinfo {author} {\bibfnamefont {B.~M.}\ \bibnamefont {Artinez}},
+  \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Roberts}}, \bibinfo
+  {author} {\bibfnamefont {B.~I.}\ \bibnamefont {Bennett}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.~W.}\ \bibnamefont {Richardson}, \bibfnamefont
+  {Jr.}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Philosophical Magazine~B}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo
+  {pages} {53} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jones}\ \emph {et~al.}(2000)\citenamefont {Jones},
+  \citenamefont {Boettger}, \citenamefont {Albers},\ and\ \citenamefont
+  {Singh}}]{jones2000theoretical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont
+  {Jones}}, \bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont {Boettger}},
+  \bibinfo {author} {\bibfnamefont {R.~C.}\ \bibnamefont {Albers}}, \ and\
+  \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont {Singh}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review~B: Condensed
+  Matter and Materials Physics}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo
+  {pages} {4644} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Taylor}(2008)}]{taylor2008evaluation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~D.}\ \bibnamefont
+  {Taylor}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {77}},\ \bibinfo {pages} {094119} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Perdew}\ \emph {et~al.}(1992)\citenamefont {Perdew},
+  \citenamefont {Chevary}, \citenamefont {Vosko}, \citenamefont {Jackson},
+  \citenamefont {Pederson}, \citenamefont {Singh},\ and\ \citenamefont
+  {Fiolhais}}]{Perdew1992a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Perdew}}, \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Chevary}},
+  \bibinfo {author} {\bibfnamefont {S.~H.}\ \bibnamefont {Vosko}}, \bibinfo
+  {author} {\bibfnamefont {K.~A.}\ \bibnamefont {Jackson}}, \bibinfo {author}
+  {\bibfnamefont {M.~R.}\ \bibnamefont {Pederson}}, \bibinfo {author}
+  {\bibfnamefont {D.~J.}\ \bibnamefont {Singh}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Fiolhais}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review~B: Condensed Matter and
+  Materials Physics}\ }\textbf {\bibinfo {volume} {46}},\ \bibinfo {pages}
+  {6671} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Perdew}\ \emph {et~al.}(1993)\citenamefont {Perdew},
+  \citenamefont {Chevary}, \citenamefont {Vosko}, \citenamefont {Jackson},
+  \citenamefont {Pederson}, \citenamefont {Singh},\ and\ \citenamefont
+  {Fiolhais}}]{Perdew1993}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Perdew}}, \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Chevary}},
+  \bibinfo {author} {\bibfnamefont {S.~H.}\ \bibnamefont {Vosko}}, \bibinfo
+  {author} {\bibfnamefont {K.~A.}\ \bibnamefont {Jackson}}, \bibinfo {author}
+  {\bibfnamefont {M.~R.}\ \bibnamefont {Pederson}}, \bibinfo {author}
+  {\bibfnamefont {D.~J.}\ \bibnamefont {Singh}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Fiolhais}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review~B: Condensed Matter and
+  Materials Physics}\ }\textbf {\bibinfo {volume} {48}},\ \bibinfo {pages}
+  {4978} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Barrett}\ \emph {et~al.}(1963)\citenamefont
+  {Barrett}, \citenamefont {Mueller},\ and\ \citenamefont
+  {Hitterman}}]{barrett1963crystal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~S.}\ \bibnamefont
+  {Barrett}}, \bibinfo {author} {\bibfnamefont {M.~H.}\ \bibnamefont
+  {Mueller}}, \ and\ \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont
+  {Hitterman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review}\ }\textbf {\bibinfo {volume} {129}},\ \bibinfo {pages}
+  {625} (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Xiang}\ \emph {et~al.}(2008)\citenamefont {Xiang},
+  \citenamefont {Huang},\ and\ \citenamefont {Hsiung}}]{xiang2008quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Xiang}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Huang}}, \ and\
+  \bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont {Hsiung}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Nuclear
+  Materials}\ }\textbf {\bibinfo {volume} {375}},\ \bibinfo {pages} {113}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Perdew}\ \emph {et~al.}(1996)\citenamefont {Perdew},
+  \citenamefont {Burke},\ and\ \citenamefont {Ernzerhof}}]{Perdew1996b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Perdew}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Burke}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ernzerhof}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  Letters}\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo {pages} {3865}
+  (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Perdew}\ \emph {et~al.}(1997)\citenamefont {Perdew},
+  \citenamefont {Burke},\ and\ \citenamefont {Ernzerhof}}]{Perdew1997}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Perdew}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Burke}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ernzerhof}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  Letters}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo {pages} {1396}
+  (\bibinfo {year} {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2012)\citenamefont {Li},
+  \citenamefont {Ren}, \citenamefont {Lu}, \citenamefont {Lu}, \citenamefont
+  {Dai},\ and\ \citenamefont {Liu}}]{li2012structure}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {Q.~B.}\ \bibnamefont {Ren}},
+  \bibinfo {author} {\bibfnamefont {C.~H.}\ \bibnamefont {Lu}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Lu}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Dai}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {B.~X.}\ \bibnamefont {Liu}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Alloys and Compounds}\ }\textbf
+  {\bibinfo {volume} {516}},\ \bibinfo {pages} {139} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Beeler}\ \emph {et~al.}(2013)\citenamefont {Beeler},
+  \citenamefont {Deo}, \citenamefont {Baskes},\ and\ \citenamefont
+  {Okuniewski}}]{beeler2013first}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Beeler}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Deo}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Baskes}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Okuniewski}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\
+  }\textbf {\bibinfo {volume} {433}},\ \bibinfo {pages} {143} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Giannozzi}\ \emph {et~al.}(2009)\citenamefont
+  {Giannozzi}, \citenamefont {Baroni}, \citenamefont {Bonini}, \citenamefont
+  {Calandra}, \citenamefont {Car}, \citenamefont {Cavazzoni}, \citenamefont
+  {Ceresoli}, \citenamefont {Chiarotti}, \citenamefont {Cococcioni},
+  \citenamefont {Dabo}, \citenamefont {Dal~Corso}, \citenamefont
+  {de~Gironcoli}, \citenamefont {Fabris}, \citenamefont {Fratesi},
+  \citenamefont {Gebauer}, \citenamefont {Gerstmann}, \citenamefont
+  {Gougoussis}, \citenamefont {Kokalj}, \citenamefont {Lazzeri}, \citenamefont
+  {Martin-Samos}, \citenamefont {Marzari}, \citenamefont {Mauri}, \citenamefont
+  {Mazzarello}, \citenamefont {Paolini}, \citenamefont {Pasquarello},
+  \citenamefont {Paulatto}, \citenamefont {Sbraccia}, \citenamefont {Scandolo},
+  \citenamefont {Sclauzero}, \citenamefont {Seitsonen}, \citenamefont
+  {Smogunov}, \citenamefont {Umari},\ and\ \citenamefont
+  {Wentzcovitch}}]{giannozzi2009quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Giannozzi}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Baroni}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Bonini}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Calandra}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Car}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Cavazzoni}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Ceresoli}}, \bibinfo {author} {\bibfnamefont {G.~L.}\
+  \bibnamefont {Chiarotti}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Cococcioni}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Dabo}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Dal~Corso}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {de~Gironcoli}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Fabris}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Fratesi}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Gebauer}}, \bibinfo {author} {\bibfnamefont
+  {U.}~\bibnamefont {Gerstmann}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Gougoussis}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Kokalj}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Lazzeri}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Martin-Samos}}, \bibinfo {author} {\bibfnamefont
+  {N.}~\bibnamefont {Marzari}}, \bibinfo {author} {\bibfnamefont
+  {F.}~\bibnamefont {Mauri}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Mazzarello}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Paolini}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Pasquarello}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Paulatto}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Sbraccia}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Scandolo}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Sclauzero}}, \bibinfo {author} {\bibfnamefont {A.~P.}\
+  \bibnamefont {Seitsonen}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Smogunov}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Umari}}, \
+  and\ \bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont {Wentzcovitch}},\
+  }\href {\doibase 10.1088/0953-8984/21/39/395502} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Physics: Condensed Matter}\ }\textbf
+  {\bibinfo {volume} {21}},\ \bibinfo {pages} {395502} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Holzwarth}\ \emph {et~al.}(2001)\citenamefont
+  {Holzwarth}, \citenamefont {Tackett},\ and\ \citenamefont
+  {Matthews}}]{holzwarth2001projector}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~A.~W.}\
+  \bibnamefont {Holzwarth}}, \bibinfo {author} {\bibfnamefont {A.~R.}\
+  \bibnamefont {Tackett}}, \ and\ \bibinfo {author} {\bibfnamefont {G.~E.}\
+  \bibnamefont {Matthews}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Computer Physics Communications}\ }\textbf {\bibinfo {volume}
+  {135}},\ \bibinfo {pages} {329} (\bibinfo {year} {2001})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Tackett}\ \emph {et~al.}(2001)\citenamefont
+  {Tackett}, \citenamefont {Holzwarth},\ and\ \citenamefont
+  {Matthews}}]{tackett2001projector}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {Tackett}}, \bibinfo {author} {\bibfnamefont {N.~A.~W.}\ \bibnamefont
+  {Holzwarth}}, \ and\ \bibinfo {author} {\bibfnamefont {G.~E.}\ \bibnamefont
+  {Matthews}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Computer Physics Communications}\ }\textbf {\bibinfo {volume} {135}},\
+  \bibinfo {pages} {348} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ich{\'e}-Tarrat}\ and\ \citenamefont
+  {Marsden}(2008)}]{iche2008examining}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Ich{\'e}-Tarrat}}\ and\ \bibinfo {author} {\bibfnamefont {C.~J.}\
+  \bibnamefont {Marsden}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {The Journal of Physical Chemistry A}\ }\textbf {\bibinfo {volume}
+  {112}},\ \bibinfo {pages} {7632} (\bibinfo {year} {2008})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Rappe}\ \emph {et~al.}(1990)\citenamefont {Rappe},
+  \citenamefont {Rabe}, \citenamefont {Kaxiras},\ and\ \citenamefont
+  {Joannopoulos}}]{rappe1990optimized}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Rappe}}, \bibinfo {author} {\bibfnamefont {K.~M.}\ \bibnamefont {Rabe}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Kaxiras}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Joannopoulos}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review~B:
+  Condensed Matter and Materials Physics}\ }\textbf {\bibinfo {volume} {41}},\
+  \bibinfo {pages} {1227} (\bibinfo {year} {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Naval Research
+  Laboratories}}(2015)}]{StructureofCrystals}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Naval Research
+  Laboratories}}},\ }\href@noop {} {\enquote {\bibinfo {title} {Structure of
+  {C}rystals},}\ }\bibinfo {howpublished}
+  {{\url{http://aflowlib.duke.edu/users/egossett/lattice/}}} (\bibinfo {year}
+  {2015})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pack}\ and\ \citenamefont
+  {Monkhorst}(1977)}]{pack1977special}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Pack}}\ and\ \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont
+  {Monkhorst}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {16}},\ \bibinfo {pages} {1748} (\bibinfo {year}
+  {1977})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Methfessel}\ and\ \citenamefont
+  {Paxton}(1989)}]{methfessel1989high}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Methfessel}}\ and\ \bibinfo {author} {\bibfnamefont {A.~T.}\ \bibnamefont
+  {Paxton}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {40}},\ \bibinfo {pages} {3616} (\bibinfo {year}
+  {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ravindran}\ \emph {et~al.}(1998)\citenamefont
+  {Ravindran}, \citenamefont {Fast}, \citenamefont {Korzhavyi}, \citenamefont
+  {Johansson}, \citenamefont {Wills},\ and\ \citenamefont
+  {Eriksson}}]{ravindran1998density}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Ravindran}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Fast}},
+  \bibinfo {author} {\bibfnamefont {P.~A.}\ \bibnamefont {Korzhavyi}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Johansson}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Wills}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {O.}~\bibnamefont {Eriksson}},\ }\href {\doibase
+  10.1063/1.368733} {\bibfield  {journal} {\bibinfo  {journal} {Journal of
+  Applied Physics}\ }\textbf {\bibinfo {volume} {84}},\ \bibinfo {pages} {4891}
+  (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Beckstein}\ \emph {et~al.}(2001)\citenamefont
+  {Beckstein}, \citenamefont {Klepeis}, \citenamefont {Hart},\ and\
+  \citenamefont {Pankratov}}]{beckstein2001first}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Beckstein}}, \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {Klepeis}}, \bibinfo {author} {\bibfnamefont {G.~L.~W.}\ \bibnamefont
+  {Hart}}, \ and\ \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Pankratov}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {63}},\ \bibinfo {pages} {134112} (\bibinfo {year}
+  {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lander}\ \emph {et~al.}(1994)\citenamefont {Lander},
+  \citenamefont {Fisher},\ and\ \citenamefont {Bader}}]{lander1994solid}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~H.}\ \bibnamefont
+  {Lander}}, \bibinfo {author} {\bibfnamefont {E.~S.}\ \bibnamefont {Fisher}},
+  \ and\ \bibinfo {author} {\bibfnamefont {S.~D.}\ \bibnamefont {Bader}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Advances in
+  Physics}\ }\textbf {\bibinfo {volume} {43}},\ \bibinfo {pages} {1} (\bibinfo
+  {year} {1994})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Le~Bihan}\ \emph {et~al.}(2003)\citenamefont
+  {Le~Bihan}, \citenamefont {Heathman}, \citenamefont {Idiri}, \citenamefont
+  {Lander}, \citenamefont {Wills}, \citenamefont {Lawson},\ and\ \citenamefont
+  {Lindbaum}}]{le2003structural}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Le~Bihan}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Heathman}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Idiri}}, \bibinfo
+  {author} {\bibfnamefont {G.~H.}\ \bibnamefont {Lander}}, \bibinfo {author}
+  {\bibfnamefont {J.~M.}\ \bibnamefont {Wills}}, \bibinfo {author}
+  {\bibfnamefont {A.~C.}\ \bibnamefont {Lawson}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Lindbaum}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review~B: Condensed Matter and
+  Materials Physics}\ }\textbf {\bibinfo {volume} {67}},\ \bibinfo {pages}
+  {134102} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Murnaghan}(1944)}]{murnaghan1944compressibility}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.~D.}\ \bibnamefont
+  {Murnaghan}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the National Academy of Sciences of the United States of
+  America}\ }\textbf {\bibinfo {volume} {30}},\ \bibinfo {pages} {244}
+  (\bibinfo {year} {1944})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hood}\ \emph {et~al.}(2008)\citenamefont {Hood},
+  \citenamefont {Yang},\ and\ \citenamefont {Moriarty}}]{hood2008quantum}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~Q.}\ \bibnamefont
+  {Hood}}, \bibinfo {author} {\bibfnamefont {L.~H.}\ \bibnamefont {Yang}}, \
+  and\ \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Moriarty}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review~B:
+  Condensed Matter and Materials Physics}\ }\textbf {\bibinfo {volume} {78}},\
+  \bibinfo {pages} {024116} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yoo}\ \emph {et~al.}(1998)\citenamefont {Yoo},
+  \citenamefont {Cynn},\ and\ \citenamefont {S{\"o}derlind}}]{yoo1998phase}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.-S.}\ \bibnamefont
+  {Yoo}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Cynn}}, \ and\
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {S{\"o}derlind}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review~B:
+  Condensed Matter and Materials Physics}\ }\textbf {\bibinfo {volume} {57}},\
+  \bibinfo {pages} {10359} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fisher}\ and\ \citenamefont
+  {{McS}kimin}(1958)}]{fisher1958adiabatic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~S.}\ \bibnamefont
+  {Fisher}}\ and\ \bibinfo {author} {\bibfnamefont {H.~J.}\ \bibnamefont
+  {{McS}kimin}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Applied Physics}\ }\textbf {\bibinfo {volume} {29}},\ \bibinfo
+  {pages} {1473} (\bibinfo {year} {1958})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wilson}\ and\ \citenamefont
+  {Rundle}(1949)}]{wilson1949structures}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~S.}\ \bibnamefont
+  {Wilson}}\ and\ \bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont
+  {Rundle}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Acta
+  Crystallographica}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo {pages} {126}
+  (\bibinfo {year} {1949})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yakel}(1973)}]{yakel1973review}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~L.}\ \bibnamefont
+  {Yakel}},\ }\href@noop {} {\emph {\bibinfo {title} {Review of X-ray
+  Diffraction Studies in Uranium Alloys}}},\ \bibinfo {type} {Tech. Rep.}\
+  (\bibinfo  {institution} {Oak Ridge National Laboratory},\ \bibinfo {address}
+  {Tennessee (USA)},\ \bibinfo {year} {1973})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Grenthe}\ \emph {et~al.}(2006)\citenamefont
+  {Grenthe}, \citenamefont {Drozdzynski}, \citenamefont {Fujino}, \citenamefont
+  {Buck}, \citenamefont {Albrecht-Schmitt},\ and\ \citenamefont
+  {Wolf}}]{nashchemistry}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Grenthe}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Drozdzynski}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Fujino}},
+  \bibinfo {author} {\bibfnamefont {E.~C.}\ \bibnamefont {Buck}}, \bibinfo
+  {author} {\bibfnamefont {T.~E.}\ \bibnamefont {Albrecht-Schmitt}}, \ and\
+  \bibinfo {author} {\bibfnamefont {S.~F.}\ \bibnamefont {Wolf}},\ }\href@noop
+  {} {\emph {\bibinfo {title} {The Chemistry of the Actinide and Transactinide
+  Elements}}},\ Vol.~\bibinfo {volume} {1}\ (\bibinfo  {publisher} {Springer},\
+  \bibinfo {address} {Dordrecht},\ \bibinfo {year} {2006})\ pp.\ \bibinfo
+  {pages} {253--698}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kittel}\ \emph {et~al.}(1993)\citenamefont {Kittel},
+  \citenamefont {Frost}, \citenamefont {Mustelier}, \citenamefont {Bagley},
+  \citenamefont {Crittenden},\ and\ \citenamefont
+  {Van~Dievoet}}]{kittel1993history}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont
+  {Kittel}}, \bibinfo {author} {\bibfnamefont {B.~R.~T.}\ \bibnamefont
+  {Frost}}, \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Mustelier}}, \bibinfo {author} {\bibfnamefont {K.~Q.}\ \bibnamefont
+  {Bagley}}, \bibinfo {author} {\bibfnamefont {G.~C.}\ \bibnamefont
+  {Crittenden}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Van~Dievoet}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {204}},\ \bibinfo
+  {pages} {1} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kim-Ngan}\ and\ \citenamefont
+  {Havela}(2016)}]{kim2016superconductivity}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.-T.~H.}\
+  \bibnamefont {Kim-Ngan}}\ and\ \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Havela}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Science: Advanced Materials and Devices}\ }\textbf
+  {\bibinfo {volume} {1}},\ \bibinfo {pages} {121} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Born}(1940)}]{born1940stability}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Born}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the Cambridge Philosophical Society}\ }\textbf {\bibinfo
+  {volume} {36}},\ \bibinfo {pages} {160} (\bibinfo {year} {1940})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Born}\ and\ \citenamefont
+  {Huang}(1954)}]{born1954dynamical}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Born}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Huang}},\
+  }\href@noop {} {\emph {\bibinfo {title} {Dynamical Theory of Crystal
+  Lattices}}}\ (\bibinfo  {publisher} {Clarendon Press},\ \bibinfo {year}
+  {1954})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mouhat}\ and\ \citenamefont
+  {Coudert}(2014)}]{Mouhat2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Mouhat}}\ and\ \bibinfo {author} {\bibfnamefont {F.-X.}\ \bibnamefont
+  {Coudert}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {90}},\ \bibinfo {pages} {224104} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {S{\"o}derlind}(1998)}]{Soderlind1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {S{\"o}derlind}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Advances in Physics}\ }\textbf {\bibinfo {volume} {47}},\ \bibinfo {pages}
+  {959} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tucker}(1950)}]{tucker1950approximate}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont
+  {Tucker}, \bibfnamefont {Jr.}},\ }\href@noop {} {\emph {\bibinfo {title} {An
+  Approximate Crystal Structure for the Beta Phase of Uranium}}},\ \bibinfo
+  {type} {Tech. Rep.}\ \bibinfo {number} {KAPL-388}\ (\bibinfo  {institution}
+  {Knolls Atomic Power Laboratory},\ \bibinfo {year} {1950})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Tucker}(1951)}]{tucker1951crystal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont
+  {Tucker}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Acta
+  Crystallographica}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages} {425}
+  (\bibinfo {year} {1951})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Donohue}\ and\ \citenamefont
+  {Einspahr}(1971)}]{donohue1971structure}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Donohue}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Einspahr}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Acta
+  Crystallographica~B: Structural Science}\ }\textbf {\bibinfo {volume} {27}},\
+  \bibinfo {pages} {1740} (\bibinfo {year} {1971})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Donohue}(1974)}]{donohue1974structures}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Donohue}},\ }\href@noop {} {\emph {\bibinfo {title} {Structures of the
+  Elements}}}\ (\bibinfo  {publisher} {John Wiley and Sons},\ \bibinfo {year}
+  {1974})\ pp.\ \bibinfo {pages} {134--148}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wallace}(1998)}]{wallace1998thermodynamics}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~C.}\ \bibnamefont
+  {Wallace}},\ }\href@noop {} {\emph {\bibinfo {title} {Thermodynamics of
+  Crystals}}}\ (\bibinfo  {publisher} {Courier Corporation},\ \bibinfo {year}
+  {1998})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Iasir}\ and\ \citenamefont
+  {Hammond}(2020)}]{iasir2020pseudopotential}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~R.~M.}\
+  \bibnamefont {Iasir}}\ and\ \bibinfo {author} {\bibfnamefont {K.~D.}\
+  \bibnamefont {Hammond}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Computational Materials Science}\ }\textbf {\bibinfo {volume}
+  {171}},\ \bibinfo {pages} {109221} (\bibinfo {year} {2020})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Dal~Corso}(2014)}]{dal2014pseudopotentials}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Dal~Corso}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Computational Materials Science}\ }\textbf {\bibinfo {volume} {95}},\
+  \bibinfo {pages} {337} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Quantum Espresso}}(2019)}]{pp1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Quantum Espresso}}},\
+  }\href@noop {} {\enquote {\bibinfo {title} {{PS} library},}\ }\bibinfo
+  {howpublished} {{\url{http://www.quantum-espresso.org/pseudopotentials}}}
+  (\bibinfo {year} {2019})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sinha}\ \emph
+  {et~al.}(2010{\natexlab{a}})\citenamefont {Sinha}, \citenamefont {Hegde},
+  \citenamefont {Prasad}, \citenamefont {Dey},\ and\ \citenamefont
+  {Kamath}}]{sinha2010phase}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~P.}\ \bibnamefont
+  {Sinha}}, \bibinfo {author} {\bibfnamefont {P.~V.}\ \bibnamefont {Hegde}},
+  \bibinfo {author} {\bibfnamefont {G.~J.}\ \bibnamefont {Prasad}}, \bibinfo
+  {author} {\bibfnamefont {G.~K.}\ \bibnamefont {Dey}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {H.~S.}\ \bibnamefont {Kamath}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Alloys and Compounds}\
+  }\textbf {\bibinfo {volume} {506}},\ \bibinfo {pages} {253} (\bibinfo {year}
+  {2010}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yakel}(1969)}]{yakel1969crystal}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~L.}\ \bibnamefont
+  {Yakel}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal
+  of Nuclear Materials}\ }\textbf {\bibinfo {volume} {33}},\ \bibinfo {pages}
+  {286} (\bibinfo {year} {1969})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sinha}\ \emph
+  {et~al.}(2010{\natexlab{b}})\citenamefont {Sinha}, \citenamefont {Hegde},
+  \citenamefont {Prasad}, \citenamefont {Dey},\ and\ \citenamefont
+  {Kamath}}]{sinha2010effect}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~P.}\ \bibnamefont
+  {Sinha}}, \bibinfo {author} {\bibfnamefont {P.~V.}\ \bibnamefont {Hegde}},
+  \bibinfo {author} {\bibfnamefont {G.~J.}\ \bibnamefont {Prasad}}, \bibinfo
+  {author} {\bibfnamefont {G.~K.}\ \bibnamefont {Dey}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {H.~S.}\ \bibnamefont {Kamath}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Alloys and Compounds}\
+  }\textbf {\bibinfo {volume} {491}},\ \bibinfo {pages} {753} (\bibinfo {year}
+  {2010}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Okamoto}\ \emph {et~al.}(2016)\citenamefont
+  {Okamoto}, \citenamefont {Schlesinger},\ and\ \citenamefont
+  {Mueller}}]{ASM-Alloy-Mo}%
+  \BibitemOpen
+  \bibinfo {editor} {\bibfnamefont {H.}~\bibnamefont {Okamoto}}, \bibinfo
+  {editor} {\bibfnamefont {M.~E.}\ \bibnamefont {Schlesinger}}, \ and\ \bibinfo
+  {editor} {\bibfnamefont {E.~M.}\ \bibnamefont {Mueller}},\ eds.,\ \enquote
+  {\bibinfo {title} {{Mo} (molybdenum) binary alloy phase diagrams},}\ in\
+  \href@noop {} {\emph {\bibinfo {booktitle} {Alloy Phase Diagrams}}},\
+  \bibinfo {series} {ASM Handbook}, Vol.~\bibinfo {volume} {3}\ (\bibinfo
+  {publisher} {ASM International},\ \bibinfo {year} {2016})\ pp.\ \bibinfo
+  {pages} {489--498}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Berche}\ \emph
+  {et~al.}(2011{\natexlab{a}})\citenamefont {Berche}, \citenamefont {Dupin},
+  \citenamefont {Gu{\'e}nau}, \citenamefont {Rado}, \citenamefont {Sundman},\
+  and\ \citenamefont {Dumas}}]{Berche2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Berche}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Dupin}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Gu{\'e}nau}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Rado}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Sundman}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~C.}\ \bibnamefont {Dumas}},\ }\href {\doibase
+  10.1016/j.jnucmat.2011.01.043} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {411}},\ \bibinfo
+  {pages} {131} (\bibinfo {year} {2011}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dwight}(1960)}]{dwight1960uranium}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont
+  {Dwight}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {2}},\ \bibinfo
+  {pages} {81} (\bibinfo {year} {1960})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tangri}\ and\ \citenamefont
+  {Williams}(1961)}]{tangri1961metastable}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Tangri}}\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Williams}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo
+  {pages} {226} (\bibinfo {year} {1961})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Berche}\ \emph
+  {et~al.}(2011{\natexlab{b}})\citenamefont {Berche}, \citenamefont {Dupin},
+  \citenamefont {Gu{\'e}neau}, \citenamefont {Rado}, \citenamefont {Sundman},\
+  and\ \citenamefont {Dumas}}]{berche2011calphad}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Berche}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Dupin}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Gu{\'e}neau}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Rado}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Sundman}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~C.}\ \bibnamefont {Dumas}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf
+  {\bibinfo {volume} {411}},\ \bibinfo {pages} {131} (\bibinfo {year}
+  {2011}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2010)\citenamefont {Zhang},
+  \citenamefont {Cui}, \citenamefont {Xu}, \citenamefont {Zhu}, \citenamefont
+  {Liu}, \citenamefont {Yin},\ and\ \citenamefont
+  {Jin}}]{zhang2010thermodynamic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {Y.~F.}\ \bibnamefont {Cui}},
+  \bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont {Xu}}, \bibinfo
+  {author} {\bibfnamefont {W.~J.}\ \bibnamefont {Zhu}}, \bibinfo {author}
+  {\bibfnamefont {H.~S.}\ \bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont
+  {B.~Y.}\ \bibnamefont {Yin}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {Z.~P.}\ \bibnamefont {Jin}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+   {journal} {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume}
+  {402}},\ \bibinfo {pages} {15} (\bibinfo {year} {2010})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Losada}\ and\ \citenamefont
+  {Garc{\'e}s}(2019)}]{losada2019ground}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.~L.}\ \bibnamefont
+  {Losada}}\ and\ \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {Garc{\'e}s}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {518}},\ \bibinfo
+  {pages} {380} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Landa}\ \emph {et~al.}(2011)\citenamefont {Landa},
+  \citenamefont {S{\"o}derlind},\ and\ \citenamefont
+  {Turchi}}]{landa2011density}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Landa}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {S{\"o}derlind}}, \ and\ \bibinfo {author} {\bibfnamefont {P.~E.~A.}\
+  \bibnamefont {Turchi}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume}
+  {414}},\ \bibinfo {pages} {132} (\bibinfo {year} {2011})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Alonso}\ and\ \citenamefont
+  {Rubiolo}(2007)}]{alonso2007role}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~R.}\ \bibnamefont
+  {Alonso}}\ and\ \bibinfo {author} {\bibfnamefont {G.~H.}\ \bibnamefont
+  {Rubiolo}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Modelling and Simulation in Materials Science and Engineering}\ }\textbf
+  {\bibinfo {volume} {15}},\ \bibinfo {pages} {263} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Castellano}\ \emph {et~al.}(2020)\citenamefont
+  {Castellano}, \citenamefont {Bottin}, \citenamefont {Dorado},\ and\
+  \citenamefont {Bouchet}}]{castellano2020thermodynamic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Castellano}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Bottin}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Dorado}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Bouchet}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review~B: Condensed
+  Matter and Materials Physics}\ }\textbf {\bibinfo {volume} {101}},\ \bibinfo
+  {pages} {184111} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Iasir}\ \emph {et~al.}(2018)\citenamefont {Iasir},
+  \citenamefont {Peters},\ and\ \citenamefont {Hammond}}]{iasir2018estimation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~R.~M.}\
+  \bibnamefont {Iasir}}, \bibinfo {author} {\bibfnamefont {N.~J.}\ \bibnamefont
+  {Peters}}, \ and\ \bibinfo {author} {\bibfnamefont {K.~D.}\ \bibnamefont
+  {Hammond}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {508}},\ \bibinfo
+  {pages} {159} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rest}\ \emph {et~al.}(2006)\citenamefont {Rest},
+  \citenamefont {Kim}, \citenamefont {Hofman}, \citenamefont {Meyer},\ and\
+  \citenamefont {Hayes}}]{rest2006u}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Rest}}, \bibinfo {author} {\bibfnamefont {Y.~S.}\ \bibnamefont {Kim}},
+  \bibinfo {author} {\bibfnamefont {G.~L.}\ \bibnamefont {Hofman}}, \bibinfo
+  {author} {\bibfnamefont {M.~K.}\ \bibnamefont {Meyer}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {S.~L.}\ \bibnamefont {Hayes}},\ }\href@noop {}
+  {\emph {\bibinfo {title} {U--{Mo} fuels handbook. Version 1.0}}},\ \bibinfo
+  {type} {Tech. Rep.}\ (\bibinfo  {institution} {Argonne National Lab.(ANL),
+  Argonne, IL (United States)},\ \bibinfo {year} {2006})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Grimes}\ and\ \citenamefont
+  {Catlow}(1991)}]{grimes1991stability}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont
+  {Grimes}}\ and\ \bibinfo {author} {\bibfnamefont {C.~R.~A.}\ \bibnamefont
+  {Catlow}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Philosophical Transactions of the Royal Society~A: Mathematical, Physical,
+  and Engineering Sciences}\ }\textbf {\bibinfo {volume} {335}},\ \bibinfo
+  {pages} {609} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Andersson}\ \emph {et~al.}(2011)\citenamefont
+  {Andersson}, \citenamefont {Uberuaga}, \citenamefont {Nerikar}, \citenamefont
+  {Unal},\ and\ \citenamefont {Stanek}}]{andersson2011u}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~A.}\ \bibnamefont
+  {Andersson}}, \bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Uberuaga}}, \bibinfo {author} {\bibfnamefont {P.~V.}\ \bibnamefont
+  {Nerikar}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Unal}}, \
+  and\ \bibinfo {author} {\bibfnamefont {C.~R.}\ \bibnamefont {Stanek}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review~B:
+  Condensed Matter and Materials Physics}\ }\textbf {\bibinfo {volume} {84}},\
+  \bibinfo {pages} {054105} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yun}\ \emph {et~al.}(2008)\citenamefont {Yun},
+  \citenamefont {Kim}, \citenamefont {Kim},\ and\ \citenamefont
+  {Park}}]{yun2008atomic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Yun}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Kim}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Kim}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Park}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf
+  {\bibinfo {volume} {378}},\ \bibinfo {pages} {40} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carter}\ \emph {et~al.}(1972)\citenamefont {Carter},
+  \citenamefont {Driscoll},\ and\ \citenamefont {Elleman}}]{carter1972xenon}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~C.}\ \bibnamefont
+  {Carter}}, \bibinfo {author} {\bibfnamefont {E.~J.}\ \bibnamefont
+  {Driscoll}}, \ and\ \bibinfo {author} {\bibfnamefont {T.~S.}\ \bibnamefont
+  {Elleman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physica Status Solidi~A: Applications and Materials Science}\ }\textbf
+  {\bibinfo {volume} {14}},\ \bibinfo {pages} {673} (\bibinfo {year}
+  {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Matzke}(1966)}]{matzke1966diffusion}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Matzke}},\ }\href {\doibase 10.13182/NT66-A27493} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nuclear Applications}\ }\textbf {\bibinfo {volume}
+  {2}},\ \bibinfo {pages} {131} (\bibinfo {year} {1966})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{MacE}wan}\ and\ \citenamefont
+  {Stevens}(1964)}]{macewan1964xenon}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~R.}\ \bibnamefont
+  {{MacE}wan}}\ and\ \bibinfo {author} {\bibfnamefont {W.~H.}\ \bibnamefont
+  {Stevens}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {11}},\ \bibinfo
+  {pages} {77} (\bibinfo {year} {1964})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Une}\ \emph {et~al.}(1987)\citenamefont {Une},
+  \citenamefont {Tanabe},\ and\ \citenamefont {Oguma}}]{une1987effects}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Une}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Tanabe}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Oguma}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\
+  }\textbf {\bibinfo {volume} {150}},\ \bibinfo {pages} {93} (\bibinfo {year}
+  {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Catlow}(1978)}]{catlow1978fission}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~R.~A.}\
+  \bibnamefont {Catlow}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the Royal Society of London Series~A, Mathematical
+  and Physical Sciences}\ }\textbf {\bibinfo {volume} {364}},\ \bibinfo {pages}
+  {473} (\bibinfo {year} {1978})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jackson}\ \emph {et~al.}(1986)\citenamefont
+  {Jackson}, \citenamefont {Murray}, \citenamefont {Harding},\ and\
+  \citenamefont {Catlow}}]{jackson1986calculation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {Jackson}}, \bibinfo {author} {\bibfnamefont {A.~D.}\ \bibnamefont {Murray}},
+  \bibinfo {author} {\bibfnamefont {J.~H.}\ \bibnamefont {Harding}}, \ and\
+  \bibinfo {author} {\bibfnamefont {C.~R.~A.}\ \bibnamefont {Catlow}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Philosophical
+  Magazine~A}\ }\textbf {\bibinfo {volume} {53}},\ \bibinfo {pages} {27}
+  (\bibinfo {year} {1986})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Grimes}\ \emph {et~al.}(1989)\citenamefont {Grimes},
+  \citenamefont {Catlow},\ and\ \citenamefont
+  {Stoneham}}]{grimes1989calculations}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont
+  {Grimes}}, \bibinfo {author} {\bibfnamefont {C.~R.~A.}\ \bibnamefont
+  {Catlow}}, \ and\ \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont
+  {Stoneham}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of the American Ceramic Society}\ }\textbf {\bibinfo {volume}
+  {72}},\ \bibinfo {pages} {1856} (\bibinfo {year} {1989})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Ball}\ and\ \citenamefont
+  {Grimes}(1990)}]{ball1990diffusion}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~G.~J.}\
+  \bibnamefont {Ball}}\ and\ \bibinfo {author} {\bibfnamefont {R.~W.}\
+  \bibnamefont {Grimes}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of the Chemical Society, Faraday Transactions}\ }\textbf
+  {\bibinfo {volume} {86}},\ \bibinfo {pages} {1257} (\bibinfo {year}
+  {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Petit}\ \emph {et~al.}(1999)\citenamefont {Petit},
+  \citenamefont {Jomard}, \citenamefont {Lemaignan}, \citenamefont {Bigot},\
+  and\ \citenamefont {Pasturel}}]{petit1999location}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Petit}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Jomard}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Lemaignan}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Bigot}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Pasturel}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Nuclear Materials}\ }\textbf
+  {\bibinfo {volume} {275}},\ \bibinfo {pages} {119} (\bibinfo {year}
+  {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Crocombette}(2002)}]{crocombette2002ab}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.-P.}\ \bibnamefont
+  {Crocombette}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {305}},\ \bibinfo
+  {pages} {29} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Freyss}\ \emph {et~al.}(2006)\citenamefont {Freyss},
+  \citenamefont {Vergnet},\ and\ \citenamefont {Petit}}]{freyss2006ab}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Freyss}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Vergnet}}, \
+  and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Petit}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Nuclear
+  Materials}\ }\textbf {\bibinfo {volume} {352}},\ \bibinfo {pages} {144}
+  (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adda}\ and\ \citenamefont
+  {Kirianenko}(1959)}]{adda1959etude}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Adda}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Kirianenko}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {1}},\ \bibinfo
+  {pages} {120} (\bibinfo {year} {1959})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peterson}\ and\ \citenamefont
+  {Rothman}(1964)}]{peterson1964diffusion}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~L.}\ \bibnamefont
+  {Peterson}}\ and\ \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Rothman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review}\ }\textbf {\bibinfo {volume} {136}},\ \bibinfo {pages}
+  {A842} (\bibinfo {year} {1964})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rothman}\ \emph {et~al.}(1959)\citenamefont
+  {Rothman}, \citenamefont {Lloyd}, \citenamefont {Weil},\ and\ \citenamefont
+  {Harkness}}]{rothman1959self}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Rothman}}, \bibinfo {author} {\bibfnamefont {L.~T.}\ \bibnamefont {Lloyd}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Weil}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {A.~L.}\ \bibnamefont {Harkness}},\ }\href@noop {}
+  {\emph {\bibinfo {title} {Self-Diffusion in gamma Uranium}}},\ \bibinfo
+  {type} {Tech. Rep.}\ (\bibinfo  {institution} {Argonne National Lab., Lemont,
+  Ill.},\ \bibinfo {year} {1959})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rothman}(1961)}]{rothman1961diffusion}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Rothman}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo
+  {pages} {77} (\bibinfo {year} {1961})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adda}\ and\ \citenamefont
+  {Kirianenko}(1962)}]{adda1962etude}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Adda}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Kirianenko}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo
+  {pages} {130} (\bibinfo {year} {1962})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Resnick}\ and\ \citenamefont
+  {Seigle}(1962)}]{resnick1962self}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Resnick}}\ and\ \bibinfo {author} {\bibfnamefont {L.~L.}\ \bibnamefont
+  {Seigle}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo
+  {pages} {5} (\bibinfo {year} {1962})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rothman}\ \emph {et~al.}(1961)\citenamefont
+  {Rothman}, \citenamefont {Gray}, \citenamefont {Hughes},\ and\ \citenamefont
+  {Harkness}}]{rothman1961self}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont
+  {Rothman}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Gray},
+  \bibfnamefont {Jr}}, \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Hughes}}, \ and\ \bibinfo {author} {\bibfnamefont {A.~L.}\ \bibnamefont
+  {Harkness}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Nuclear Materials}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo
+  {pages} {72} (\bibinfo {year} {1961})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2012)\citenamefont {Liu},
+  \citenamefont {Yu}, \citenamefont {Du}, \citenamefont {Sheng}, \citenamefont
+  {Long}, \citenamefont {Wang},\ and\ \citenamefont {Zhang}}]{liu2012atomic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Yu}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Du}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Sheng}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Long}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Wang}}, \ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Zhang}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Calphad}\ }\textbf
+  {\bibinfo {volume} {37}},\ \bibinfo {pages} {49} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Smirnova}\ \emph {et~al.}(2015)\citenamefont
+  {Smirnova}, \citenamefont {Kuksin}, \citenamefont {Starikov},\ and\
+  \citenamefont {Stegailov}}]{smirnova2015atomistic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~E.}\ \bibnamefont
+  {Smirnova}}, \bibinfo {author} {\bibfnamefont {A.~Y.}\ \bibnamefont
+  {Kuksin}}, \bibinfo {author} {\bibfnamefont {S.~V.}\ \bibnamefont
+  {Starikov}}, \ and\ \bibinfo {author} {\bibfnamefont {V.~V.}\ \bibnamefont
+  {Stegailov}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physics of Metals and Metallography}\ }\textbf {\bibinfo {volume} {116}},\
+  \bibinfo {pages} {445} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Adams}\ \emph {et~al.}(1989)\citenamefont {Adams},
+  \citenamefont {Foiles},\ and\ \citenamefont {Wolfer}}]{adams1989self}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~B.}\ \bibnamefont
+  {Adams}}, \bibinfo {author} {\bibfnamefont {S.~M.}\ \bibnamefont {Foiles}}, \
+  and\ \bibinfo {author} {\bibfnamefont {W.~G.}\ \bibnamefont {Wolfer}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of
+  Materials Research}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages}
+  {102} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bl{\"o}chl}\ \emph {et~al.}(1993)\citenamefont
+  {Bl{\"o}chl}, \citenamefont {Smargiassi}, \citenamefont {Car}, \citenamefont
+  {Laks}, \citenamefont {Andreoni},\ and\ \citenamefont
+  {Pantelides}}]{blochl1993first}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~E.}\ \bibnamefont
+  {Bl{\"o}chl}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Smargiassi}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Car}},
+  \bibinfo {author} {\bibfnamefont {D.~B.}\ \bibnamefont {Laks}}, \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {Andreoni}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {S.~T.}\ \bibnamefont {Pantelides}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\
+  }\textbf {\bibinfo {volume} {70}},\ \bibinfo {pages} {2435} (\bibinfo {year}
+  {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bl{\"o}chl}\ \emph {et~al.}(1990)\citenamefont
+  {Bl{\"o}chl}, \citenamefont {Van~de Walle},\ and\ \citenamefont
+  {Pantelides}}]{blochl1990first}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~E.}\ \bibnamefont
+  {Bl{\"o}chl}}, \bibinfo {author} {\bibfnamefont {C.~G.}\ \bibnamefont {Van~de
+  Walle}}, \ and\ \bibinfo {author} {\bibfnamefont {S.~T.}\ \bibnamefont
+  {Pantelides}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review Letters}\ }\textbf {\bibinfo {volume} {64}},\ \bibinfo
+  {pages} {1401} (\bibinfo {year} {1990})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Frank}\ \emph {et~al.}(1996)\citenamefont {Frank},
+  \citenamefont {Breier}, \citenamefont {Els{\"a}sser},\ and\ \citenamefont
+  {F{\"a}hnle}}]{frank1996first}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Frank}}, \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Breier}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Els{\"a}sser}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {F{\"a}hnle}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  Letters}\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo {pages} {518}
+  (\bibinfo {year} {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Janotti}\ \emph {et~al.}(2004)\citenamefont
+  {Janotti}, \citenamefont {Kr{\v{c}}mar}, \citenamefont {Fu},\ and\
+  \citenamefont {Reed}}]{janotti2004solute}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Janotti}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kr{\v{c}}mar}}, \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {Fu}}, \ and\ \bibinfo {author} {\bibfnamefont {R.~C.}\ \bibnamefont
+  {Reed}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical
+  Review Letters}\ }\textbf {\bibinfo {volume} {92}},\ \bibinfo {pages}
+  {085901} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kr{\v{c}}mar}\ \emph {et~al.}(2005)\citenamefont
+  {Kr{\v{c}}mar}, \citenamefont {Fu}, \citenamefont {Janotti},\ and\
+  \citenamefont {Reed}}]{krvcmar2005diffusion}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Kr{\v{c}}mar}}, \bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {Fu}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Janotti}}, \ and\
+  \bibinfo {author} {\bibfnamefont {R.~C.}\ \bibnamefont {Reed}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Acta Materialia}\ }\textbf
+  {\bibinfo {volume} {53}},\ \bibinfo {pages} {2369} (\bibinfo {year}
+  {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Milman}\ \emph {et~al.}(1993)\citenamefont {Milman},
+  \citenamefont {Payne}, \citenamefont {Heine}, \citenamefont {Needs},
+  \citenamefont {Lin},\ and\ \citenamefont {Lee}}]{milman1993free}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Milman}}, \bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont {Payne}},
+  \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Heine}}, \bibinfo
+  {author} {\bibfnamefont {R.~J.}\ \bibnamefont {Needs}}, \bibinfo {author}
+  {\bibfnamefont {J.~S.}\ \bibnamefont {Lin}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.~H.}\ \bibnamefont {Lee}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo
+  {volume} {70}},\ \bibinfo {pages} {2928} (\bibinfo {year}
+  {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sandberg}\ \emph {et~al.}(2002)\citenamefont
+  {Sandberg}, \citenamefont {Magyari-K{\"o}pe},\ and\ \citenamefont
+  {Mattsson}}]{sandberg2002self}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Sandberg}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Magyari-K{\"o}pe}}, \ and\ \bibinfo {author} {\bibfnamefont {T.~R.}\
+  \bibnamefont {Mattsson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume} {89}},\
+  \bibinfo {pages} {065901} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lidiard}(1955)}]{lidiard1955}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~B.}\ \bibnamefont
+  {Lidiard}},\ }\href {\doibase 10.1080/14786441108520633} {\bibfield
+  {journal} {\bibinfo  {journal} {Philosophical Magazine\ Series~7}\ }\textbf
+  {\bibinfo {volume} {46}},\ \bibinfo {pages} {1218} (\bibinfo {year}
+  {1955})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lidiard}(1960)}]{lidiard1960}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~B.}\ \bibnamefont
+  {Lidiard}},\ }\href {\doibase 10.1080/14786436008238325} {\bibfield
+  {journal} {\bibinfo  {journal} {Philosophical Magazine~A}\ }\textbf {\bibinfo
+  {volume} {5}},\ \bibinfo {pages} {1171} (\bibinfo {year} {1960})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Leclaire}\ and\ \citenamefont
+  {Lidiard}(1956)}]{leclaire1956}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~D.}\ \bibnamefont
+  {Leclaire}}\ and\ \bibinfo {author} {\bibfnamefont {A.~B.}\ \bibnamefont
+  {Lidiard}},\ }\href {\doibase 10.1080/14786435608238133} {\bibfield
+  {journal} {\bibinfo  {journal} {Philosophical Magazine~A}\ }\textbf {\bibinfo
+  {volume} {1}},\ \bibinfo {pages} {518} (\bibinfo {year} {1956})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Le~Claire}(1970)}]{leclaire1970}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~D.}\ \bibnamefont
+  {Le~Claire}},\ }\href {\doibase 10.1080/14786437008238468} {\bibfield
+  {journal} {\bibinfo  {journal} {Philosophical Magazine~A}\ }\textbf {\bibinfo
+  {volume} {21}},\ \bibinfo {pages} {819} (\bibinfo {year} {1970})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mehrer}(2007)}]{mehrer2007diffusion}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Mehrer}},\ }\href@noop {} {\emph {\bibinfo {title} {Diffusion in Solids:
+  Fundamentals, Methods, Materials, Diffusion-Controlled Processes}}},\ Vol.\
+  \bibinfo {volume} {155}\ (\bibinfo  {publisher} {Springer Science \& Business
+  Media},\ \bibinfo {year} {2007})\ pp.\ \bibinfo {pages}
+  {116--122}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vineyard}\ and\ \citenamefont
+  {Dienes}(1954)}]{vineyard1954theory}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~H.}\ \bibnamefont
+  {Vineyard}}\ and\ \bibinfo {author} {\bibfnamefont {G.~J.}\ \bibnamefont
+  {Dienes}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review}\ }\textbf {\bibinfo {volume} {93}},\ \bibinfo {pages} {265}
+  (\bibinfo {year} {1954})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vineyard}(1957)}]{vineyard1957frequency}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~H.}\ \bibnamefont
+  {Vineyard}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Physics and Chemistry of Solids}\ }\textbf {\bibinfo {volume}
+  {3}},\ \bibinfo {pages} {121} (\bibinfo {year} {1957})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Eyring}(1935)}]{Eyring1935}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Eyring}},\ }\href {\doibase 10.1063/1.1749604} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Chemical Physics}\ }\textbf {\bibinfo
+  {volume} {3}},\ \bibinfo {pages} {107} (\bibinfo {year} {1935})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Evans}\ and\ \citenamefont
+  {Polanyi}(1935)}]{Evans1935}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~G.}\ \bibnamefont
+  {Evans}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Polanyi}},\ }\href {\doibase 10.1039/tf9353100875} {\bibfield  {journal}
+  {\bibinfo  {journal} {Transactions of the Faraday Society}\ }\textbf
+  {\bibinfo {volume} {31}},\ \bibinfo {pages} {875} (\bibinfo {year}
+  {1935})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Heinola}\ and\ \citenamefont
+  {Ahlgren}(2010)}]{Heinola2010a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Heinola}}\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Ahlgren}},\ }\href {\doibase 10.1063/1.3386515} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Applied Physics}\ }\textbf {\bibinfo
+  {volume} {107}},\ \bibinfo {pages} {113531} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Balluffi}\ and\ \citenamefont
+  {Ho}(1973)}]{balluffi1973diffusion}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont
+  {Balluffi}}\ and\ \bibinfo {author} {\bibfnamefont {P.~S.}\ \bibnamefont
+  {Ho}},\ }\enquote {\bibinfo {title} {Diffusion},}\ \ (\bibinfo  {publisher}
+  {American Society for Metals},\ \bibinfo {address} {Metals Park, Ohio},\
+  \bibinfo {year} {1973})\ p.~\bibinfo {pages} {83}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wolverton}(2007)}]{wolverton2007solute}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Wolverton}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Acta Materialia}\ }\textbf {\bibinfo {volume} {55}},\ \bibinfo {pages}
+  {5867} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Soderlind}(1998)}]{soderlind1998theory}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Soderlind}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Advances in Physics}\ }\textbf {\bibinfo {volume} {47}},\ \bibinfo {pages}
+  {959} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ye}\ \emph {et~al.}(1987)\citenamefont {Ye},
+  \citenamefont {Chen}, \citenamefont {Ho}, \citenamefont {Harmon},\ and\
+  \citenamefont {Lindgrd}}]{ye1987phonon}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.-Y.}\ \bibnamefont
+  {Ye}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Chen}}, \bibinfo
+  {author} {\bibfnamefont {K.-M.}\ \bibnamefont {Ho}}, \bibinfo {author}
+  {\bibfnamefont {B.~N.}\ \bibnamefont {Harmon}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {P.-A.}\ \bibnamefont {Lindgrd}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo
+  {volume} {58}},\ \bibinfo {pages} {1769} (\bibinfo {year}
+  {1987})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sanchez}\ and\ \citenamefont
+  {De~Fontaine}(1975)}]{sanchez1975model}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Sanchez}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {De~Fontaine}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review Letters}\ }\textbf {\bibinfo {volume} {35}},\ \bibinfo
+  {pages} {227} (\bibinfo {year} {1975})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Beeler}\ \emph {et~al.}(2010)\citenamefont {Beeler},
+  \citenamefont {Good}, \citenamefont {Rashkeev}, \citenamefont {Deo},
+  \citenamefont {Baskes},\ and\ \citenamefont {Okuniewski}}]{beeler2010first}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Beeler}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Good}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Rashkeev}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Deo}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Baskes}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Okuniewski}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Physics: Condensed Matter}\
+  }\textbf {\bibinfo {volume} {22}},\ \bibinfo {pages} {505703} (\bibinfo
+  {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Henkelman}\ \emph {et~al.}(2000)\citenamefont
+  {Henkelman}, \citenamefont {Uberuaga},\ and\ \citenamefont
+  {J{\'o}nsson}}]{henkelman2000climbing}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Henkelman}}, \bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Uberuaga}}, \ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {J{\'o}nsson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Chemical Physics}\ }\textbf {\bibinfo {volume} {113}},\ \bibinfo
+  {pages} {9901} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Henkelman}\ and\ \citenamefont
+  {J{\'o}nsson}(2000)}]{henkelman2000improved}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Henkelman}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {J{\'o}nsson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Chemical Physics}\ }\textbf {\bibinfo {volume} {113}},\ \bibinfo
+  {pages} {9978} (\bibinfo {year} {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Matter}\ \emph {et~al.}(1980)\citenamefont {Matter},
+  \citenamefont {Winter},\ and\ \citenamefont
+  {Triftsh{\"a}user}}]{matter1980investigation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Matter}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Winter}}, \
+  and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Triftsh{\"a}user}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Nuclear
+  Materials}\ }\textbf {\bibinfo {volume} {88}},\ \bibinfo {pages} {273}
+  (\bibinfo {year} {1980})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lund}\ \emph {et~al.}(2013)\citenamefont {Lund},
+  \citenamefont {Lynn}, \citenamefont {Weber},\ and\ \citenamefont
+  {Okuniewski}}]{lund2013vacancy}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~R.}\ \bibnamefont
+  {Lund}}, \bibinfo {author} {\bibfnamefont {K.~G.}\ \bibnamefont {Lynn}},
+  \bibinfo {author} {\bibfnamefont {M.~H.}\ \bibnamefont {Weber}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont {Okuniewski}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of
+  Physics: Conference Series}\ }\textbf {\bibinfo {volume} {443}},\ \bibinfo
+  {pages} {012021} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shin}\ and\ \citenamefont
+  {Wolverton}(2010)}]{shin2010first}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Shin}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Wolverton}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Acta Materialia}\ }\textbf {\bibinfo {volume} {58}},\ \bibinfo {pages} {531}
+  (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Saal}\ and\ \citenamefont
+  {Wolverton}(2012)}]{saal2012solute}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {Saal}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Wolverton}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Acta Materialia}\ }\textbf {\bibinfo {volume} {60}},\ \bibinfo {pages}
+  {5151} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Burke}(1972)}]{burke1972measurement}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Burke}},\ }\href {\doibase https://doi.org/10.1016/0022-5088(72)90137-3}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of the Less-Common
+  Metals}\ }\textbf {\bibinfo {volume} {28}},\ \bibinfo {pages} {441} (\bibinfo
+  {year} {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kong}\ \emph {et~al.}(2014)\citenamefont {Kong},
+  \citenamefont {Wu}, \citenamefont {You}, \citenamefont {Liu}, \citenamefont
+  {Fang}, \citenamefont {Chen}, \citenamefont {Luo},\ and\ \citenamefont
+  {Wang}}]{kong2014first}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.-S.}\ \bibnamefont
+  {Kong}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Wu}}, \bibinfo
+  {author} {\bibfnamefont {Y.-W.}\ \bibnamefont {You}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont
+  {Q.}~\bibnamefont {Fang}}, \bibinfo {author} {\bibfnamefont {J.-L.}\
+  \bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {G.-N.}\ \bibnamefont
+  {Luo}}, \ and\ \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Wang}},\
+  }\href {\doibase https://doi.org/10.1016/j.actamat.2013.11.044} {\bibfield
+  {journal} {\bibinfo  {journal} {Acta Materialia}\ }\textbf {\bibinfo {volume}
+  {66}},\ \bibinfo {pages} {172} (\bibinfo {year} {2014})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Ohnuma}\ \emph {et~al.}(2009)\citenamefont {Ohnuma},
+  \citenamefont {Soneda},\ and\ \citenamefont {Iwasawa}}]{ohnuma2009first}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Ohnuma}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Soneda}}, \
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Iwasawa}},\ }\href
+  {\doibase https://doi.org/10.1016/j.actamat.2009.08.020} {\bibfield
+  {journal} {\bibinfo  {journal} {Acta Materialia}\ }\textbf {\bibinfo {volume}
+  {57}},\ \bibinfo {pages} {5947} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Bell}\ \emph {et~al.}(2009)\citenamefont {Bell},
+  \citenamefont {Kugel}, \citenamefont {Kaita}, \citenamefont {Zakharov},
+  \citenamefont {Schneider}, \citenamefont {LeBlanc}, \citenamefont
+  {Mansfield}, \citenamefont {Bell}, \citenamefont {Maingi}, \citenamefont
+  {Ding} \emph {et~al.}}]{bell2009plasma}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Bell}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Kugel}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Kaita}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Zakharov}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Schneider}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {LeBlanc}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Mansfield}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Bell}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Maingi}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ding}},  \emph
+  {et~al.},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Plasma
+  Physics and Controlled Fusion}\ }\textbf {\bibinfo {volume} {51}},\ \bibinfo
+  {pages} {124054} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mirnov}\ \emph {et~al.}(2003)\citenamefont {Mirnov},
+  \citenamefont {Lazarev}, \citenamefont {Sotnikov}, \citenamefont {Evtikhin},
+  \citenamefont {Lyublinski}, \citenamefont {Vertkov} \emph
+  {et~al.}}]{mirnov2003li}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Mirnov}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Lazarev}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Sotnikov}}, \bibinfo
+  {author} {\bibfnamefont {V.}~\bibnamefont {Evtikhin}}, \bibinfo {author}
+  {\bibfnamefont {I.}~\bibnamefont {Lyublinski}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Vertkov}},  \emph {et~al.},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Fusion Engineering and Design}\
+  }\textbf {\bibinfo {volume} {65}},\ \bibinfo {pages} {455} (\bibinfo {year}
+  {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {S{\'a}nchez}\ \emph {et~al.}(2009)\citenamefont
+  {S{\'a}nchez}, \citenamefont {Tabar{\'e}s}, \citenamefont {Tafalla},
+  \citenamefont {Ferreira}, \citenamefont {Garc{\'\i}a-Cort{\'e}s},
+  \citenamefont {Hidalgo}, \citenamefont {Medina}, \citenamefont {Ochando},
+  \citenamefont {Pedrosa},\ and\ \citenamefont {The}}]{sanchez2009impact}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {S{\'a}nchez}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Tabar{\'e}s}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Tafalla}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Ferreira}},
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Garc{\'\i}a-Cort{\'e}s}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Hidalgo}}, \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Medina}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Ochando}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Pedrosa}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {T.-I.}\ \bibnamefont {The}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+   {journal} {Journal of nuclear materials}\ }\textbf {\bibinfo {volume}
+  {390}},\ \bibinfo {pages} {852} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Tuccillo}\ \emph {et~al.}(2009)\citenamefont
+  {Tuccillo}, \citenamefont {Alekseyev}, \citenamefont {Angelini},
+  \citenamefont {Annibaldi}, \citenamefont {Apicella}, \citenamefont
+  {Apruzzese}, \citenamefont {Berrino}, \citenamefont {Barbato}, \citenamefont
+  {Bertocchi}, \citenamefont {Biancalani} \emph
+  {et~al.}}]{tuccillo2009overview}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Tuccillo}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Alekseyev}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Angelini}}, \bibinfo
+  {author} {\bibfnamefont {S.~V.}\ \bibnamefont {Annibaldi}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Apicella}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Apruzzese}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Berrino}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Barbato}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Bertocchi}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Biancalani}},  \emph {et~al.},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Nuclear Fusion}\ }\textbf {\bibinfo {volume}
+  {49}},\ \bibinfo {pages} {104013} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Xu}\ \emph {et~al.}(2011)\citenamefont {Xu},
+  \citenamefont {Wan}, \citenamefont {Li}, \citenamefont {Gong}, \citenamefont
+  {Hu}, \citenamefont {Shan}, \citenamefont {Li}, \citenamefont {Mansfield},
+  \citenamefont {Humphreys}, \citenamefont {Naulin} \emph
+  {et~al.}}]{xu2011study}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Xu}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Wan}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Li}}, \bibinfo {author}
+  {\bibfnamefont {X.}~\bibnamefont {Gong}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Hu}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Shan}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Li}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Mansfield}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Humphreys}}, \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Naulin}},  \emph {et~al.},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nuclear Fusion}\ }\textbf
+  {\bibinfo {volume} {51}},\ \bibinfo {pages} {072001} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Munaretto}\ \emph {et~al.}(2012)\citenamefont
+  {Munaretto}, \citenamefont {Dal~Bello}, \citenamefont {Innocente},
+  \citenamefont {Agostini}, \citenamefont {Auriemma}, \citenamefont {Barison},
+  \citenamefont {Canton}, \citenamefont {Carraro}, \citenamefont {De~Masi},
+  \citenamefont {Fiameni} \emph {et~al.}}]{munaretto2012rfx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Munaretto}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Dal~Bello}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Innocente}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Agostini}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Auriemma}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Barison}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Canton}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Carraro}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {De~Masi}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Fiameni}},  \emph {et~al.},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Nuclear Fusion}\ }\textbf {\bibinfo {volume}
+  {52}},\ \bibinfo {pages} {023012} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Erents}\ \emph {et~al.}(1971)\citenamefont {Erents},
+  \citenamefont {McCracken},\ and\ \citenamefont
+  {Goldsmith}}]{erents1971trapping}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Erents}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {McCracken}}, \
+  and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Goldsmith}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Journal of Physics
+  D: Applied Physics}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages}
+  {672} (\bibinfo {year} {1971})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hartley}\ \emph {et~al.}(1978)\citenamefont
+  {Hartley}, \citenamefont {Gore},\ and\ \citenamefont
+  {Young}}]{hartley1978potential}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Hartley}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Gore}}, \
+  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Young}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Lithium Needs and
+  Resources}\ ,\ \bibinfo {pages} {337}} (\bibinfo {year} {1978})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Allain}\ and\ \citenamefont
+  {Taylor}(2012)}]{allain2012lithium}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Allain}}\ and\ \bibinfo {author} {\bibfnamefont {C.~N.}\ \bibnamefont
+  {Taylor}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physics of Plasmas}\ }\textbf {\bibinfo {volume} {19}},\ \bibinfo {pages}
+  {056126} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont
+  {Bl{\"o}chl}(1994{\natexlab{b}})}]{blochl1994projector}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~E.}\ \bibnamefont
+  {Bl{\"o}chl}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review~B: Condensed Matter and Materials Physics}\ }\textbf
+  {\bibinfo {volume} {50}},\ \bibinfo {pages} {17953} (\bibinfo {year}
+  {1994}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ma}\ and\ \citenamefont
+  {Dudarev}(2019{\natexlab{a}})}]{ma2019effect}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.-W.}\ \bibnamefont
+  {Ma}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Dudarev}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  Materials}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages} {063601}
+  (\bibinfo {year} {2019}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ehrnhar}\ \emph {et~al.}(1991)\citenamefont
+  {Ehrnhar}, \citenamefont {Jung}, \citenamefont {Schultz},\ and\ \citenamefont
+  {Ullmaier}}]{LandoltBornstein1991}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Ehrnhar}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Jung}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Schultz}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Ullmaier}},\ }in\ \href
+  {\doibase 10.1007/10011948_25} {\emph {\bibinfo {booktitle} {Atomic Defects
+  in Metals}}},\ Vol.~\bibinfo {volume} {25},\ \bibinfo {editor} {edited by\
+  \bibinfo {editor} {\bibfnamefont {H.}~\bibnamefont {Ullmaier}}}\ (\bibinfo
+  {publisher} {Springer-Verlag Berlin Heidelberg},\ \bibinfo {year}
+  {1991})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ma}\ and\ \citenamefont
+  {Dudarev}(2019{\natexlab{b}})}]{ma2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.-W.}\ \bibnamefont
+  {Ma}}\ and\ \bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont
+  {Dudarev}},\ }\href {\doibase 10.1103/PhysRevMaterials.3.013605} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review Materials}\ }\textbf
+  {\bibinfo {volume} {3}},\ \bibinfo {pages} {013605} (\bibinfo {year}
+  {2019}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Benedek}\ \emph {et~al.}(1992)\citenamefont
+  {Benedek}, \citenamefont {Yang}, \citenamefont {Woodward},\ and\
+  \citenamefont {Min}}]{benedek1992formation}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Benedek}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Yang}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Woodward}}, \ and\
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Min}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review~B: Condensed
+  Matter and Materials Physics}\ }\textbf {\bibinfo {volume} {45}},\ \bibinfo
+  {pages} {2607} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pawellek}\ \emph {et~al.}(1991)\citenamefont
+  {Pawellek}, \citenamefont {Fahnle}, \citenamefont {Elsasser}, \citenamefont
+  {Ho},\ and\ \citenamefont {Chan}}]{Pawellek_1991}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Pawellek}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Fahnle}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Elsasser}}, \bibinfo
+  {author} {\bibfnamefont {K.~M.}\ \bibnamefont {Ho}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {C.~T.}\ \bibnamefont {Chan}},\ }\href {\doibase
+  10.1088/0953-8984/3/14/024} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Physics: Condensed Matter}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {2451} (\bibinfo {year} {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Frank}\ \emph {et~al.}(1993)\citenamefont {Frank},
+  \citenamefont {Breier}, \citenamefont {Els{\"a}sser},\ and\ \citenamefont
+  {F{\"a}hnle}}]{frank1993properties}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Frank}}, \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Breier}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Els{\"a}sser}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {F{\"a}hnle}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review~B:
+  Condensed Matter and Materials Physics}\ }\textbf {\bibinfo {volume} {48}},\
+  \bibinfo {pages} {7676} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Becquart}\ and\ \citenamefont
+  {Domain}(2007)}]{becquart2007ab}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Becquart}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Domain}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nuclear Instruments and Methods in Physics Research Section B: Beam
+  Interactions with Materials and Atoms}\ }\textbf {\bibinfo {volume} {255}},\
+  \bibinfo {pages} {23} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Seletskaia}\ \emph {et~al.}(2005)\citenamefont
+  {Seletskaia}, \citenamefont {Osetsky}, \citenamefont {Stoller},\ and\
+  \citenamefont {Stocks}}]{seletskaia2005magnetic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Seletskaia}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Osetsky}},
+  \bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont {Stoller}}, \ and\
+  \bibinfo {author} {\bibfnamefont {G.~M.}\ \bibnamefont {Stocks}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  Letters}\ }\textbf {\bibinfo {volume} {94}},\ \bibinfo {pages} {046403}
+  (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fu}\ and\ \citenamefont {Willaime}(2005)}]{fu2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.-C.}\ \bibnamefont
+  {Fu}}\ and\ \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Willaime}},\
+  }\href {\doibase 10.1103/PhysRevB.72.064117} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review~B: Condensed Matter and Materials Physics}\
+  }\textbf {\bibinfo {volume} {72}},\ \bibinfo {pages} {064117} (\bibinfo
+  {year} {2005})}\BibitemShut {NoStop}%
+\end{thebibliography}%

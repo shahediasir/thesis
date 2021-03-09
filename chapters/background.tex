@@ -1,0 +1,399 @@
+\chapter{Background}\label{chp:bckgrnd}
+
+\section{First Principles Method}
+First principles or \textit{ab initio} methods has become an essential tool in material science over the last three decades. Any relevant physical property of real materials can in principle be described by the law of quantum mechanics. The foundation of this method is computational solution of electronic many-body Schr\"odinger equation. With the proper description of the positions of the atomic nuclei, and the total number of electrons in the system; the energy and other relevant properties can be approximated. The ability to obtain a solution that is good enough, requires well efficient description of electronic system and considerable  computational power.
+
+
+
+\subsection{The Many-Body Hamiltonian}
+The quantum theory of electrons and nuclei controls the characteristics of matter over wide ranges in temperature and pressure. One of the most fundamental qualities of solid is that it has a variety of properties which are not featured by a single atom. Electric conductivity as well as magnetism arise as collective properties of the particle in the system. The particles of a solid can be described by the Schr\"odinger's equation
+\begin{equation}
+	\mathcal{H}\ket{\Psi(t)} = i\hbar  \frac{\partial}{\partial t}\ket{\Psi(t)},
+\end{equation}
+The time-independent Schr\"odinger equation is as follows:
+
+\nomenclature{$\mathcal{H}$}{many body hamiltonian}
+\nomenclature{$\Psi(t)$}{time dependent wave function}
+
+\begin{equation}\label{sheqn}
+	\mathcal{H}\ket{\psi_j} = E_j\ket{\psi_j}
+\end{equation}
+
+where the Hamiltonian expresses the motion of the particles:
+\begin{align}\label{hameqn}
+ \mathcal{H} &= -\sum_j \frac{\hbar^2}{2m_e}\nabla^2_j - \sum_a \frac{\hbar^2}{2M_a}\nabla^2_a \nonumber \\
+			& \quad -\sum_{j,a}\frac{Z_ae^2}{\abs{\vb{r}_j-\vb{R}_a}} + \frac{1}{2}\sum_{j,k}^{j\neq k} \frac{e^2}{\abs{\vb{r}_j - \vb{r}_k}} + \frac{1}{2}\sum_{a,b}^{a\neq b} \frac{Z_aZ_be^2}{\abs{\vb{R}_a - \vb{R}_b}} \nonumber \\
+ \mathcal{H} & \stackrel{Htr.\ units}{=} -\sum_j\frac{1}{2}\nabla^2_j - \sum_a\frac{1}{2\tilde{M}_a}\nabla_a^2 \nonumber \\
+			& \quad -\sum_{j,a}\frac{Z_a}{\abs{\vb{r}_j - \vb{R}_a}} + \frac{1}{2}\sum_{j,k}^{j\neq k} \frac{1}{\abs{\vb{r}_j-\vb{r}_k}} + \frac{1}{2}\sum_{a,b}^{a\neq b} \frac{Z_aZ_b}{\abs{\vb{R}_a - \vb{R}_b}} \nonumber \\
+   & = T_e + T_N \nonumber \\
+   & \quad + V_{Ne}(\vb{r},\vb{R}) + V_{ee}(\vb{r}) + V_{NN}(\vb{r}) 
+\end{align}
+
+\nomenclature{$m_e$}{mass of a single elctron}
+\nomenclature{$\vb{r}_j$}{position of $j$-th electron}
+\nomenclature{$\vb{R}_a$}{position of $a$-th nucleus}
+
+The second part of the equation is expressed in Hatree units~(see Appendix~\ref{appen_atomicunit}), which will be used for the remainder of the discussion. In these units, the electron mass $m_e$ as well as the elementary charge $e$, the reduced Planck's constant $\hbar$ and Coulomb's constant $1/4\pi\epsilon_0$ are set to unity, leaving $\tilde{M}_a = M_a/m_e$ as the relative atomic mass of the nucleus of atom $a$. $\vb{r}_j$ denotes the position of the $j$-th electron, while $\vb{R}_a$ is the position of the nucleus of atom $a$. $Z_a$ is that nucleus' charge number. A solution of the Schr\"odinger equation~\eqref{sheqn} would be a function dependent on the spatial coordinates of all particles in the system and is as such only obtainable for very small systems. The Schr\"odinger equation with the above Hamiltonian is impossible to solve exactly for most of systems of interest. A series of approximations and methods were therefore developed to reduce the complexity of the problem. With the help of Eqn~\eqref{hameqn} the Schr\"odinger equation \eqref{sheqn} becomes 
+
+\begin{equation}
+ [T_e + T_N + V_{Ne}(\vb{r},\vb{R}) + V_{ee}(\vb{r}) + V_{NN}(\vb{r})]\Phi(\vb{r},\vb{R}) = E\Phi(\vb{r},\vb{R})
+\end{equation}
+In order to simplify the equations, the electronic coordinates and spin indices are combined into a vector $\vb{r} = (\vec{r},s)$ and $\vb{R}$ denotes the nuclear coordinates. The wave function here is a regular function of the atomic positions but a quantum state $\ket{\Phi(x,t)}$ in the Hilbert space for the electrons and nuclei, so that $\Phi(\vec{r}) = \braket{\vec{r}}{\Phi(\vb{r},\vb{R})}$. The nuclear mass exceeds the electron mass by more than three orders of magnitude, and so both move on different time scales. Thus the wave function $\Phi(\vb{r},\vb{R})$ can be separated into an electronic part $\Psi(\vb{r},\vb{R})$ and a nuclear wave function $\chi(\vb{R})$
+
+\begin{equation}
+\Phi(\vb{r},\vb{R}) = \Psi(\vb{r},\vb{R})\chi(\vb{R})
+\end{equation}
+The nuclear wave function is much more localized, which is why the Schr\"odinger equation can be separated into two parts:
+\begin{align}
+[T_e + V_{ee}(\vb{r}) + V_{Ne}(\vb{r},\vb{R})]\Psi(\vb{r},\vb{R}) & = \epsilon_n(\vb{R})\Psi(\vb{r},{R})\label{bo1} \\
+[T_N + V_{NN}(\vb{R}) + \epsilon_n(\vb{R})]\chi(\vb{r}) & = E\chi(\vb{R})\label{bo2}
+\end{align}
+The nuclear positions $(\vb{R})$ in the equation~\eqref{bo1} servs only as a parameter and it is possible to use the \textit{adiabatic} or \textit{Born-Oppenheimer} approximation. On the timescale of the nuclar motion the electron follow the ions adiabatically. As a further approximation, the quantum effects on the motion of the nuclei are neglected and time dependent Schr\"odinger equation is replaced by Newton's equation of motion:
+\begin{align}
+\frac{\partial P_I}{\partial t} & = -\nabla_I E_0 (\vb{R}) \\
+with \quad E_0(\vb{R}) & = \epsilon_0(\vb{R}) + V_{NN}(\vb{R})
+\end{align}
+This refers to the so called \textit{ab-initio} molecular dynamics, where the forces around a nuclei are calculated from the electronic groudn state.
+
+Equation~\ref{bo1} and \ref{bo2} are not generally applicable. However, for several physical systems, the Born-Oppenheimer approximation works and Eqn. ~\ref{bo1}, \ref{bo2} produces meaningful results. In solid state physics, Eqn~\eqref{bo2} usually written in a classical form and Eqn~\eqref{bo1} becomes the problem to be solved. It is still a very complicated equation, where the term describing the interaction between electrons would require the knowledge of $3^N$ variables for a sysmtem of N electrons. Such a large number of variables make the problem computationally not tractable and several approximated methods have been introduced. Some of those important methods will be discussed.
+
+These approximation methods are based on the \textit{independent particle} approximation, in which the Hamiltonian takes the form
+\begin{equation}
+	\mathcal{H}^{\prime} = \sum_j \mathcal{H}_j
+\end{equation}
+The electrons wave function can be written as products of single particle wave functions. This leads to a further simplification of the Hamiltonian. 
+\begin{align}\label{ham1}
+	\mathcal{H}^{\prime} & \stackrel{\text{eqn.} \ref{bo1}} = -\sum_j^N \frac{1}{2}\nabla^2_j - \sum_j^N\sum_a^M \frac{Z_a}{\abs{\vb{r}_j - \vb{R}_a}} + \frac{1}{2}\sum^N_{j\neq k}\sum^N_k\frac{1}{\abs{\vb{r}_j - \vb{r}_k}} \nonumber \\ 
+	 &\quad  = T_e + V^{\text{ext}} + \frac{1}{2}\sum_{j\neq k} \upsilon_{jk}(\abs{\vb{r}_j - \vb{r}_k}) 
+\end{align}
+
+
+
+\subsection{Hartree--Fock Approach}
+A very simple way to write many-electron wavefunction is as a product of single-particle wavefunction:
+\begin{equation}\label{hwf}
+\Psi(r_1,r_2,\dots,r_N) = \prod_j^N \psi_j(r_j)
+\end{equation}
+The Hamiltonian \eqref{ham1} is not just a sum of single-particle Hamiltonians, the true wavefunctions cannot be written in the product of the form \eqref{hwf}, furthermore, it does not have the \textit{antisymmetry} property required for fermions.
+
+The fermionic nature of the electrons imposes the Pauli exclusion principle as an additional constrant. One can achieve that by constructing a many-body wave function in an antisymmetric manner. This is achieved by writing the electronic wave function as a Slater determinant of single-paricle wave functions:
+\begin{equation}\label{hfwf}
+\Psi(r_1,r_2,\dots,r_N) = \frac{1}{\sqrt{N!}}\begin{vmatrix}
+\psi_1(\vb{r}_1) & \psi_1(\vb{r}_2) & \dots & \psi_1(\vb{r}_N) \\
+\psi_2(\vb{r}_2) & \psi_2(\vb{r}_2) & \dots &					\\
+\vdots			 &					& \ddots &					\\
+\psi_N(\vb{r}_1) & \dots			&		 &  \psi_N(\vb{r}_N) 
+\end{vmatrix}
+\end{equation}
+
+The expectation value of the Hamiltonian~\eqref{ham1} can be calculated using the newly introduced wave function, which leads to an energy functional that can be minimised variationally~\eqref{vareqn}. Additional constraints for the single particle orbitals is to be normalized~\eqref{norm1}.
+\begin{equation}\label{vareqn}
+E \le E' \equiv \frac{\bra{\Psi}H\ket{\Psi}}{\braket{\Psi}{\Psi}} = 
+\end{equation}
+Here, for any state $\ket{\Psi}$ provides an upper bound $E'$ for the exac ground-state energy $E$. The orthonormalization conditions,
+
+\begin{equation}\label{norm1}
+\braket{\psi_i(\vb{r}_i)}{\psi_j(\vb{r}_j)} = \int d\vb{r}\ \psi_i(\vb{r})^{\ast} \psi_j(\vb{r}) = \delta_{ij}
+\end{equation}
+The many-particle wave function~\eqref{hfwf} and the Hamiltonian~\eqref{ham1} give the single particle Hatree-Fock\footnotemark (HF) Equations:
+\begin{align}\label{hfeqn}
+\begin{split}
+\mathcal{H}_i^{\text{HF}} \psi_i(\vb{r}_i) & = \left[-\frac{\nabla^2}{2} + \upsilon^{\text{ext}}(\vb{r}_i) + \upsilon^{\text{H}}(\vb{r}_i) + \upsilon^{\text{EX}}(\vb{r}_i) \right] \psi_i(\vb{r}_i) \\
+		& = \epsilon_i\psi_i(\vb{r}_i)
+\end{split}
+\end{align}
+where the kinetic energy term $T_e$ and the external potential $V^{\text{ext}}$ are unchanged from Eqn~\eqref{ham1}, are divided into the single particle constributions, with $V^{\text{ext}} = \sum^N_{i=1}\upsilon^{\text{ext}}(\vb{r}_i)$. The third term in Eqn~\eqref{ham1}, the interaction between the electrons, produces two additional operators $\upsilon^{\text{H}}$ and $\upsilon^{\text{EX}}$. The first term in called the \textit{Hartree potential} and has the following form:
+\begin{align}\label{hpot}
+\begin{split}
+	\upsilon^{\text{H}}(\vb{r}_i) & = \sum_{j=1}^N \int\frac{\abs{\psi_j(\vb{r}_j)^2}}{\abs{\vb{r}_i - \vb{r}_j}} d\vb{r}_j \\
+     & = \int \frac{n(\vb{r}_j)}{\abs{\vb{r}_i - \vb{r}_j}} d\vb{r}_j
+\end{split}
+\end{align}
+where
+\begin{equation}\label{density}
+    n(\vb{r}) = N \int d\vb{r}_1,\dots,d\vb{r}_N \abs{\Psi^0(\vb{r}_1,\dots,\vb{r}_N)}^2
+\end{equation}
+It takes account of the mean-field Coulomb interaction between the $i$ th electron and the total electron density $n(\vb{r})$ as defined in Eqn~\eqref{hpot}. The second term in Eqn~\eqref{hfeqn} can be written in its integral form
+\begin{equation}\label{exeqn}
+\upsilon^{\text{EX}}\psi_i(\vb{r}_i) = \sum_{j=1}^N \int d\vb{r}_j\psi^{\ast}_j(\vb{r}_j)\frac{1}{\abs{\vb{r}_i - \vb{r}_j}}\psi_j(\vb{r}_i)\psi_i(\vb{r}_j)
+\end{equation}
+
+\nomenclature{$n(\vb{r})$}{electron density}
+\nomenclature{$N$}{number of electrons}
+\nomenclature{$\upsilon^{\text{EX}}$}{exchange potential}
+\nomenclature{$E_{xc}$}{exchange-correlation energy}
+
+It is known as \textit{exchange potential} and takes account the antisymmetric nature of the total wave function. When the two particles have same coordinates the Hatree and exchange potential cancel each other.
+
+The solution of the Hatree-Fock equation are the HF orbitals. Since the orbitals are also part of the equation the problem needs to be solved self-consistently. The exchange operator $\upsilon^{\text{EX}}$ is usually referred to as a non-local operator, which makes it impossible to carry out full HF calculations for condensed matter system without introducing the local approximations. Evaluating $\upsilon^{\text{EX}}$ is already a non trivial task, but the HF equation approximates the full many-body problem in a way that leaves out important contributions. What is not considered is usually referred to as \textit{correlation} which adds an extra term in the Hamiltonian form~\eqref{hfeqn}. This contribution is small compared to the total energy of the system, but it is crucial for many solid systems. The \textit{correlation} contribution to the Hamiltonian takes mainly account of the fact that one electron is screened by others from the interaction with the nuclei and more distant electrons. The HF method is usually works for system in which the particle do not ``see'' each other. HF performs badly for systems with large number of electrons in metals.
+
+
+\footnotetext{From Hatree~\cite{hartree}, who first postulated the factorization of the wave function in single particle states in 1928, and Fock~\cite{fock}, who redefined the method by including Slater determinant.}
+
+
+\subsection{Density Functional Theory}
+In the Hatree-Fock approach where we used wave-functions to solve many-body problem which is solved self-consistly. The density $n(\vb{r})$ plays a prominent role in self-consistent calculations. This evokes the query as to whether there exists an \textit{exact} theory for the ground state electronic system of the density $n(\vb{r})$. This question leads to the \textit{density functional \mbox{theory}} (DFT). The simplest and oldest version of the DFT formalism is the Thomas-Fermi model\cite{thomas1927calculation,fermi1927metodo}.
+
+\subsubsection{Density}
+The idea to shift focus from wavefunction $(\Psi(\vb{r}))$ to denisty $(n(\vb{r}))$ to solve many-body Schr\"odinger equation is very important. For many particle system the density, $n(\vb{r})$, is calculated by the expectatioin value of the single-particle density operator for many-body wavefunction.
+\begin{equation}
+\hat{n}(\vb{r}) = \sum_i^N \delta(\vb{r} - \vb{r}_i)
+\end{equation}
+The density can be calculated as follows:
+\begin{align}\label{deneqn}
+\begin{split}
+n(\vb{r}) & = \bra{\Psi}\hat{n}(\vb{r})\ket{\Psi} = \sum_i^N \int \delta(\vb{r}- \vb{r}_i) \abs{\Psi(\vb{r}_1,\dots,\vb{r}_N)}^2\\
+    & = N \int \abs{\Psi(\vb{r}_2,\dots,\vb{r}_N}^2
+\end{split}
+\end{align}
+where $\vb{r}_i$ are the variable associated with each of the electrons. Assuming the wavefunction is normalised to unity, the above integration over all the space yields the total number of electrons.
+\begin{equation}
+	\int d\vb{r} n(\vb{r}) = N
+\end{equation} 
+
+
+\subsubsection{Energy in Terms of the Density}
+It is necessary to represent all the energy in terms of density to eliminate wavefunction dependency. This is necessary because the electronic energy needs to be minimized with respect to density to obtain the ground state energy and corresponding electronic density. This is one of the foundations of DFT that was proposed by Hohenberg and Kohn in 1964~\cite{hohenberg1964inhomogeneous}.
+
+As we have discussed earlier (HF theory), once the wavefunction is obtained by solving the Hamiltonian the observable of other operator can be calculated by calculating the expectation value of the operator. This allows to calculate the separate the energy terms associated to the potential operator given in the Hamiltonian~\eqref{ham1}. For the sake of completeness lets reproduce the Hamiltonian in a simplest form
+\begin{align}
+\begin{split}
+\hat{\mathcal{H}}_e &\quad = \quad \hat{T} + \hat{V}_{en} + \hat{V}_{ee} \\
+     & \stackrel{eqn. \ref{ham1}}= -\sum_j^N \frac{1}{2}\nabla^2_j - \sum_j^N\sum_a^M \frac{Z_a}{\abs{\vb{r}_j - \vb{R}_a}} + \frac{1}{2}\sum^N_{j\neq k}\sum^N_k\frac{1}{\abs{\vb{r}_j - \vb{r}_k}} 
+\end{split}
+\end{align}
+Lets assume we have managed to solve many-body problem and obtained the wavefunction. The expectation value of the nuclei-electron interaction operator is given by
+\begin{align}
+\begin{split}
+\bra{\Psi(\vb{r}_1,\dots,\vb{r}_N)}\hat{V}_{ne}\ket{\psi(\vb{r}_1,\dots,\vb{r}_N)} &= -\sum_j^N\sum_a^M\Psi^{\ast}(\vb{r}_1,\dots,\vb{r}_N)\frac{Z_a}{\abs{\vb{r}_j - \vb{R}_a}}\Psi(\vb{r}_1,\dots,\vb{r}_N)\\
+E_{ne} & = -\sum_a^{M=Nn}\int n(\vb{r})\frac{Z_a}{\abs{\vb{r}-\vb{R}_a}} d\vb{r} \\
+       & = \int n(\vb{r})V_{ne}(\vb{r})d\vb{r}
+\end{split}
+\end{align}
+
+The equivalent derivation for electron-electron term is not trivial. This is because the electron-electron terms require two-particle density instead of single-particle density.
+\begin{equation}\label{eeeqn}
+E_{ee} = \frac{1}{2}\int\int d\vb{r}d\vb{r}' \frac{n^{(2)}(\vb{r},\vb{r}')}{\abs{\vb{r}-\vb{r}'}}
+\end{equation}
+where $n^{(2)}$ can be interpreted as the probability of finding an electron at location $\vb{r}$ given that a second electron exists at location $\vb{r}'$. Eqn.~\eqref{eeeqn} makes the many-particle problem so hard to solve. It is required to know the conditional probability $n^{(2)}$ to solve the above equation exactly. However, to make approximation single-particle density is preferred. If the two electrons were complete uncorrelated then two-particle density can be written as the product of one-particle density.
+\begin{equation}\label{coreqn1}
+n^{(2)} = n(\vb{r})n(\vb{r}') + \Delta n^{(2)}(\vb{r},\vb{r}')
+\end{equation}
+Where $n^{(2)}$ is a correction term. The electron-electron energy can be written as
+\begin{equation}
+ E_{ee} = \frac{1}{2}\int\int d\vb{r}d\vb{r}' \frac{n(\vb{r})n(\vb{r})'}{\abs{\vb{r}-\vb{r}'}} + \Delta E_{ee}
+\end{equation}
+where the $\Delta E_{ee}$ term comes from the correction term in Eqn.~\eqref{coreqn1}.
+The kinetic energy operator has a derivative term, which creates a problem to calculate the expectation value. This is because of the derivative, it is not possible to collect wavefunction and its conjugate as a single norm square.
+\begin{equation}\label{keeqn}
+T = -\frac{1}{2}\int d\vb{r} \Psi^{\ast}(\vb{r}_1,\dots,\vb{r}_N) \nabla^2 \Psi(\vb{r}_1,\dots,\vb{r}_N)
+\end{equation}
+In order to calculate kinetic energy the key assumptions of DFT is to expand the density as the sum of squares of single-particle orbitals
+\begin{equation}
+n(\vb{r}) = \sum_j^{N_e} \abs{\phi_j(\vb{r})}^2
+\end{equation}
+These orbitals are called \textit{Kohn-Sham} orbitals. Now the kinetic energy term can be written as single-particle kinetic energy plus a correction
+\begin{equation}
+T = -\frac{1}{2}\sum_j^{N_e} \int d\vb{r} \phi^{\ast}_j (\vb{r})\nabla^2 \phi_j(\vb{r}) + \Delta T
+\end{equation}
+The total ground state energy can be written as
+\begin{equation}
+\begin{split}
+E  & = -\frac{1}{2}\sum_j^{N_e} \int d\vb{r} \phi^{\ast}_j (\vb{r})\nabla^2 \phi_j(\vb{r}) + \int n(\vb{r})V_{ne}(\vb{r})d\vb{r} +  \frac{1}{2}\int\int d\vb{r}d\vb{r}' \frac{n(\vb{r})n(\vb{r})'}{\abs{\vb{r}-\vb{r}'}} + \Delta E_{ee} + \Delta T \\
+   & =-\frac{1}{2}\sum_j^{N_e} \int d\vb{r} \phi^{\ast}_j (\vb{r})\nabla^2 \phi_j(\vb{r}) + \int n(\vb{r})V_{ne}(\vb{r})d\vb{r} +  \frac{1}{2}\int\int d\vb{r}d\vb{r}' \frac{n(\vb{r})n(\vb{r})'}{\abs{\vb{r}-\vb{r}'}} + E_{xc}
+\end{split}
+\end{equation}
+Here the two correction terms are replaced with $E_{xc}$, called the \textit{exchange-correlation} energy. The origin of this term is the difference between $N$ interacting and noninteracting particles. Several well-developed approximations exist for exchange-correlation, and one of them is called local approximation
+\begin{equation}\label{ldaeqn}
+E_{xc} = \int d\vb{r} n(\vb{r})\epsilon_{xc}([n],\vb{r})
+\end{equation}
+where $\epsilon_{xc}$ is an energy per electron at point $\vb{r}$ that depends only on the density $n(\vb{r})$. Thus, within the local density approximation the total energy can be written as
+\begin{align}\label{toteeqn}
+\begin{split}
+E=-\frac{1}{2}\sum_j^{N_e} \int d\vb{r} \phi^{\ast}_j (\vb{r})\nabla^2 \phi_j(\vb{r}) + \int n(\vb{r})V_{ne}(\vb{r})d\vb{r}  \\
++ \frac{1}{2}\int\int d\vb{r}d\vb{r}' \frac{n(\vb{r})n(\vb{r})'}{\abs{\vb{r}-\vb{r}'}} + \int d\vb{r} n(\vb{r})\epsilon_{xc}([n],\vb{r})
+\end{split}
+\end{align}
+The above equation is used to derive to obtain Kohn-Sham equation which makes DFT applicable in practice. The functional form of the above equation can be written as follows:
+\begin{equation}
+E_{\text{KS}}[n] = T_s[n] + \int d\vb{r} V_{\text{ext}}n(\vb{r}) + E_{\text{H}}[n] + E_{\text{xc}}[n]
+\end{equation}
+Here $V_{\text{ext}}$ is the external potential due to the nuclei and other external field.
+\nomenclature{$V_{\text{ext}}$}{external potential}
+\nomenclature{$E$}{energy of the system}
+
+
+\subsection{Kohn--Sham Equations}
+The previous section addressed the formation of K-S equation and the idea of self-consistency. In DFT based calculation, methods are classified based on the representation of the density, potential and especially KS orbitals. The choice of representation is made to increase the computational efficiency, while maintaining the accuracy.
+For a choice of basis, the coefficients are the only variable to be determined (density depends on KS orbitals). The total energy of DFT becomes variational, then the solution of the self-consistent KS equations requires to determine occupied orbitals that provides a minima of the total energy.
+
+According to the second theorem of Hohenberg and Kohn, all properties such as kinetic energy, etc. are uniquely determined if $n(\vb{r})$ is specified. Eqn~\eqref{toteeqn} shows the relationship. To minimize the total energy with respect of KS orbitals, the variational principle is usually used. While performing the minimization, it is prefer to minimize with $\phi^{\ast}(\vb{r})$ (both yield the same result). Using the chain rule for functional derivatives, the equations becomes:
+\begin{equation}
+\label{eq_var_ks}
+\frac{\delta E}{\delta \phi^{\ast}_i(\vb{r})} = \frac{\delta T_s}{\delta \phi^{\ast}_i(\vb{r})} + \left [ \frac{\delta E_{\text{ext}}}{\delta n(\vb{r})} + \frac{\delta E_H}{\delta n(\vb{r})} + \frac{E_{xc}}{\delta n(\vb{r})}	\right ] \frac{\delta n(\vb{r})}{\delta \phi^{\ast}_i(\vb{r})}  = 0
+\end{equation}
+The kinetic energy may be differentiated separately with respect to orbital. In the above equation the $E_{ei}$ is replaced with $E_{ext}$ which means potential due to nuclei and any other external fields.
+\begin{equation}
+\label{eq_var_ks_eig}
+-\frac{1}{2} \nabla^2 \phi^{\ast}_i (\vb{r}) + \left [ V_{\text{ext}} (\vb{r}) + \int d(\vb{r'}) \frac{n(\vb{r'})}{\abs{\vb{r}-\vb{r'}}} + \epsilon_{xc} (n) + n(\vb{r}) \frac{\delta \epsilon_{xc}[n]}{\delta n(\vb{r})}   \right ] \phi_i(\vb{r})  = \epsilon_i \phi_i (\vb{r})
+\end{equation}
+Eqn~\ref{eq_var_ks_eig} is a system of equations, represent the many-particle system in terms of single-particle orbitals. Each of these equations resemble a \schrod equation.
+\begin{equation}
+\label{eq_ks_s}
+\left [ \hat{T} + V_{eff}\right ] \phi_i (\vb{r}) = \epsilon_i \phi_i (\vb{r})
+\end{equation}
+
+%Deriving Eqn~\ref{eq_var_ks_eig} from Eqn~\ref{eq_var_ks} involves variational principle and using Lagrange multiplier for \schrod equation. 
+Here the $V_{eff}$ is the sum of the $V_H$, $V_{xc}$ and $V_{\text{ext}}$, which depends on the density and indirectly depends on orbitals. Now we have an equation where any change in the orbitals effect also the potential on which they in turn depend on orbital. This problem is resolved by solving Kohn-Sham system of equations self-consistently.
+\begin{center}
+\begin{figure}
+\begin{tikzpicture}[node distance =2 cm, auto]
+	\node [block] (inguess) {Initial guess};	
+	\node [block] (inguess2) [below of =inguess, yshift=0.75 cm] {$n(\vb{r})$};
+	\node [block2] (cal1) [below of = inguess2] {Calculate effective potential};
+	\node [block2] (cal2) [below of =cal1, yshift = 0.75 cm] {$V_{eff}(\vb{r}) = V_{\text{ext}} (\vb{r}) + V_H[n] + V_{xc} [n]$};
+	\node [block2] (sol1) [below of = cal2] {Solve KS equations};
+	\node [block2] (sol2) [below of = sol1, yshift = 0.75 cm] {$\left [-\frac{1}{2} \nabla^2 + V_{eff}(\vb{r}) \right] \phi_i(\vb{r}) = \epsilon_i \phi_i(\vb{r})$};
+
+	\node [block2] (den1) [below of = sol2] {Calculate electron density};
+	\node [block2] (den2) [below of = den1, yshift = 0.75 cm] { $n(\vb{r}) = \sum_{\alpha} c_{i\alpha} \abs{\phi_i(\vb{r})^2}$ };
+
+	\node [decision] (slf) [below of = den2, yshift = -1.3 cm] {Self-consistent ?};
+	\node [block3] (result) [below of = slf, yshift = -1.3 cm] {Output Quantities};
+	\node [block3] (resultfin) [below of = result, yshift = 0.73 cm] {Energy, forces, stresses, eigenvalues...};
+
+
+	\path [line] (inguess2) -- (cal1);
+	\path [line] (cal2) -- (sol1);
+	\path [line] (den2) -- (slf);
+	\path [line] (sol2) -- (den1);
+	\path [line] (slf) -- node {yes} (result);
+	\draw[thick, ->] (slf.west) -- node {no} ++ (-5, 0.0cm) |- (inguess2) ;
+\end{tikzpicture}
+\caption{Schematic representation of the self-consistent loop solution of Kohn-Sham equations.}
+\end{figure}
+\end{center}
+
+\subsection{Kohn--Sham problem for an isolated atom}
+For an one-electron atom, the Coulombic potential, $V(\mathbf{r}) = V(r) = -Z/r$ is spherically symmetric, the solution can be split into a radial and an angular part 
+\begin{equation}
+\label{eq_rad_ang}
+\psi_{n\ell m} (\mathbf{r}) = \psi_{n\ell}(r) Y_{\ell m}(\theta,\phi) = r^{-1} \phi_{n\ell}(r) Y_{\ell m} (\theta,\phi)
+\end{equation}
+
+\nomenclature{$n$}{principle quantum number}
+\nomenclature{$\ell$}{angular quantum number}
+\nomenclature{$m$}{spin}
+
+
+The above equation sometime is referred to as spherically symmetric \schrod equation and $Y_{\ell m}(\theta, \phi)$ are normalized spherical harmonics. Using the Laplacian in the spherical coordinates the wave equation can be reduced to the radial equation for principle quantum number n
+\begin{equation}
+\label{eq_radial}
+-\frac{1}{2}\frac{d^2}{dr^2} \psi_{n\ell} + \left [ \frac{\ell(\ell+1)}{2r^2} + V_{ext}(r) - \epsilon_{n\ell} \right ] \psi_{n\ell} = 0
+\end{equation}
+In the Kohn-Sham approach to the many-particle system, the form of the single-particle equations are identical to the above radial \schrod equation with an effective potential $V_{eff}$ replacing the Coulomb potential. The effective potential $(V_{eff} = V_{ext}(r) + V_{H} (r) + V_{xc} (r))$ is spherically symmetric in the Kohn-Sham approach. The independent-particle Kohn-Sham states may be classified by the angular quantum numbers L = \{$\ell$, m\}, and the one particle equations becomes analogous to the \schrod equation for one-electron atom. 
+\begin{equation}
+\label{eq_oneparticle}
+-\frac{1}{2}\frac{d^2}{dr^2} \psi_{n\ell} + \left [ \frac{\ell(\ell+1)}{2r^2} + V_{eff}(r) - \epsilon_{n\ell} \right ] \psi_{n\ell} = 0
+\end{equation}
+
+\subsection{Theory of Pseudopotential}
+In Solids, the electrons and nuclei interact strongly through the Coulomb potential. However, according to the Fermi Liquid theory (FLT) the electronic excitation near the Fermi energy in metals behave as if they were independent particles. This leaves the strong interactions with the core electrons and the nuclei. In most cases, the core electrons are quite strongly bound, and do not respond effectively to the motions of the valence electrons. Hence, they can be regarded as essentially fixed.
+\begin{figure}
+\centering
+\includegraphics[scale=0.8]{radialdistfuncS.eps}
+\caption{Radial distribution function of Hydrogenic 1s, 2s and 3s electron. It shows higher kinetic energy near the nucleus.}
+\label{fig_hydrogen}
+\end{figure}
+This is the essence of the pseudopotential approximation, the strong core potential is replaced by a pseudopotential, whose ground state wave function resembles the all electron wavefunction outside a selected core radius. In this way both the core states and the wiggles (Fig.~\ref{fig_hydrogen}) in the valance wavefunctions are removed. For many metals the pseudowavefunctions can be represented by lower number of planewaves. Thus making planewaves a simple and reasonable efficient basis for the pseudo wavefunctions.
+\begin{figure}
+\centering
+\includegraphics[scale=0.80]{pseudo_figure_01.png}
+\caption{Schematic diagram of the replacement of all-electron wave function and core potential by a pseudo-wavefunction and pseudopotential.}
+\end{figure}
+\subsection{Basic Phillips--Kleinman Construction}
+For a given many electron Hamiltonian, $\hat{H}=\hat{T}+\hat{U}$, where $\hat{T}$ is the kinetic energy operator and $\hat{U}$ is the potential energy operator, the core electron wave functions are defined by the \schrod equation
+\begin{equation}
+ \hat{H}\ket{\psi_i} = \epsilon_i \ket{\psi_i} \quad   (i = 1, n core)
+\end{equation}
+
+The valance electron wave function similarly can be found by the Hamiltonian
+\begin{equation}
+\label{eq_val_hamil}
+\hat{H}\ket{\psi_{\upsilon}} = \epsilon_{\upsilon} \ket{\psi_{\upsilon}}
+\end{equation}
+The valence electron wave function is orthogonal to the core electron wave function ($\braket{\psi_{\upsilon}}{\psi_i}=0$), this orthogonality always has to be preserved, even if the core electrons are not treated explicitly. One way to preserve this orthogonality is to write valence electron wave function in a basis set that is priori orthogonal to the core electrons. The simple Gram-Shmidt orthogonalization technique can be used. Herring~\cite{herring1940new} was the first one to use Orthogonalized plane waves (OPWs)(Appendix~\ref{appen_opw}) as basis for the first quantitative calculations of bands. Using this idea, we can orthogonalize any arbitrary basis set $\{\ket{\chi_n}\}$ to the core electron wave functions by defining a new basis set $\{\ket{\varrho_n}\}$
+
+\begin{equation}
+\label{eq_pk}
+\ket{\varrho_n} = \ket{\chi_n} - \sum^{ncore}_{i=1} \braket{\psi_i}{\chi_n}\ket{\psi_i}
+\end{equation}
+Here each of the new basis set, $\{\ket{\varrho_n}\}$, satisfies $\braket{\chi_n}{\psi_i} = 0$ for each $\ket{\psi_i}$. Now we can express the valance electron wave function as a linear combination of the new basis sets,
+\begin{equation}
+\label{eq_val}
+\ket{\psi_{\upsilon}} = \sum_n C_n \ket{\varrho_n} 
+\end{equation}
+Using Eqn~\ref{eq_pk} into the Eqn~\ref{eq_val}, the valence electron can be expressed in the following way. The orthogonality condition with the core electron still valid.
+\begin{equation}
+\ket{\psi_{\upsilon}} = \sum_n C_n \left [ \ket{\chi_n} - \sum_{i=1}^{ncore} \ket{\psi_i}\braket{\psi_i}{\chi_n} \right ] = \ket{\phi} - \hat{\Omega}\ket{\phi}
+\end{equation}
+Here, $\hat{\Omega}$ is a projection operator for core electron wave function
+\begin{equation}
+\label{eq_projection}
+\hat{\Omega} = \sum_{i=n}^{ncore} \dyad{\psi_i}{\psi_i}
+\end{equation}
+and a new wave function which is a linear combination of $\ket{\chi_n}$, sometime designated as pseudo-orbital,
+\begin{equation}
+\label{eq_pseudoorbital}
+\ket{\phi} = \sum_n C_n \ket{\chi_n}
+\end{equation}
+This technique of representing the valance electron wave function in preorthogonalized basis set has been studied and used as a computational tool~\cite{herring1940new}. It took the insight of the Phillips and Kleinman~\cite{phillips1959new}. The new pseudoorbitals satisfies the orthogonality condition, but it also change the Hamiltonian so that the eigen values are same with the valance electrons. Mathematically, it can be obtained by replacing original valance electron Hamiltonian equation (Eqn~\ref{eq_val_hamil}) with newly obtained pseudo wave function.
+\begin{equation}
+\label{eq_ps_pot}
+\hat{H}\ket{\psi_{\upsilon}} = \hat{H} \left [ \ket{\phi} - \sum_n \ket{\psi_i}\braket{\psi_i}{\phi} \right ] =\epsilon_{\upsilon} \left [ \ket{\phi} - \sum_n \ket{\psi_i}\braket{\psi_i}{\phi}  \right ] 
+\end{equation}
+Rearranging the above equation provides a new Hamiltonian,
+\begin{equation}
+\label{eq_ps_hamil}
+\left [ \hat{H} + \sum_n ^{ncore} (\epsilon_{\upsilon} - \epsilon_i)\ket{\psi_i}\bra{\psi_i}\right ]\ket{\phi} = 
+\epsilon_{\upsilon}\ket{\phi}
+\end{equation}
+The above equation has the form of the original valance electron eigenequation (\ref{eq_val_hamil}), but with an extra term for preorthogonalization. This extra potential $(V_{nl} = \sum_n^{core} \dyad{\psi_i}{\psi_i})$, is a nonlocal operator, and the pseudo orbital $(\ket{\phi)}$ is an eigenstate of the new effective Hamiltonian, $\hat{H} + V_{nl}$. The new Hamiltonian has an extra potential $V_{nl}$, which depends on the angular momentum $l$ due to the spherical symmetry. Because of its spherical symmetry, each angular momentum $l$, $m$ can be treated separately. The dependence on $l$ means that, a pseudopotential is an non-local operator, can be written in ``semilocal'' (SL) form
+\begin{equation}
+\label{eq_sl}
+\hat{V}_{SL} = \sum_{\ell m} \ket{Y_{\ell m}}V_\ell(r)\bra{Y_{\ell m}}
+\end{equation}
+Where $Y_{\ell m}(\theta,\phi) = P_\ell(cos(\theta))e^{im\theta}$. It is semi-local because it is non local on the angular variables but local in the radial variable.\footnote{$P_l$ is the Legendre polynomials}
+
+
+The sophistication and accuracy have evolved considerably since the Phillips-Kleinman construction. This development produces many methods of generating pseudopotentials. All of these methods follow these goals: (1) Pseudopotential should be as soft as possible, so that it can allow representation of pseudo-wavefunction with fewer planewaves. (2) Transferability has to be maintained (it means a generated pseudopotential with a configuration should produce other properties accurately) (3) the pseudo-charge density should produce the valance charge density as accurately as possible. 
+
+
+\subsection{Norm-Conserving Pseudopotentials}
+Hamann, Schl\"uter and Chiang~\cite{hamann1979norm} developed the concept of norm-conservation, which was a first step to fulfill all the above requirements. As the exchange-correlation energy of the electronic system depends on the electron density, it is necessary that outside the core region the real and pseudo wavefunctions be indentical. In the outer region ($r > r_c$), both functions coincide. Threfore, the total charge density created in the core region $(r < r_c)$ must be the same after pseudisation:
+\begin{equation}
+\int^{r_{c}}_0 \psi^{\ast}_{AE}(r)\psi_{AE}(r)dr = \int^{r_c}_0 \psi^{\ast}_{ps}(r)\psi_{ps}(r)dr
+\end{equation}
+
+\nomenclature{$\psi_{AE}$}{all electron wave function}
+\nomenclature{$\psi_{ps}$}{pseudo wave function}
+
+
+Where $\psi_{ae}(r)$ is the all electron wavefunction and $\psi_{ps}$ is the pseudo wavefunction. The logarithmic derivatives of the real and pseudo wave function and their energy derivative agree in the outer region. These types of pseudopotentials are the most transferable since they are able to reproduce the scattering properties of an ion in different chemical environments\cite{hamann1979norm}. The downsize of Norm-Conserving pseudopotenttial is a higher cutoff radiuss and thus increased memory and CPU requirements. Troullier and Martins~\cite{troullier1991efficient} developed a more effective method to generate norm-conserving pseudopotentials for practical calculations. 
+
+\subsection{Ultrasoft Pseudopotentials}
+The norm conservation requirement produces a very high requirement of cutoff energy for the plane-wave basis set. Particularly the tightly bound orbitals that have a substantial fraction of their weight inside the core region of the atom. There are some important cases where it was impossible to construct a pseudopotential that allows a significant reduction of the cutoff energy. Vanderbilt~\cite{vanderbilt1990soft} suggested to relax the norm conservation criteria in favor of a smoother (i.e. softer) potential. The ultrasoft pseudopotentials are difficult to construct and require extensive testing~\cite{kresse1999ultrasoft}.
+
+\subsection{Projector Augmented-Wave Method (PAW)}
+The electronic wave functions oscillate wildly near the nuclei (Fig.~\ref{fig_hydrogen}) than the bonding area between the atoms. Expanding these region using plane-wave creates computational challenges. Augmented-wave methods uses the separation of the wave functions in two regions to address this issue. The first part is partial wave expansion inside an atom-centered sphere called the augmentation region and a plane wave expansion outside. Both expansions are continuously differentiable at the boundary.
+
+Bl\"ochl~\cite{Bloechl1994} suggested that there is a linear transformation from the all-electron to the pseudo wave functions. The transformation is as follows:
+\begin{equation}
+\ket{\Psi} = \ket{\tilde{\Psi}} + \sum_i (\ket{\phi_i} - \ket{\tilde{\phi_i}})\braket{\tilde{p_i}}{\tilde{\Psi}}
+\end{equation}
+Here $\phi_i$ are the partial waves within the augmentation regions, and $\bra{\tilde{p_i}}$ is a projector with a condition of $\braket{\tilde{p_i}}{\tilde{\phi_i}} = \delta_{ij}$. The tilde quantities are related the pseudo representation. Kresse and Joubert~\cite{kresse1999ultrasoft} showed a connection between PAW and US-pp and how the PAW method can be implemented into existing code.
+
+
+
+\bibliographystyle{apsrev4-1}
+\bibliography{abbreviated,comp}

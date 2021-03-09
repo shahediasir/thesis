@@ -70,13 +70,15 @@ Among the many fission products, fission gas (\ie, xenon and krypton) produces
 some of the most significant challenges associated with nuclear fuel
 development. Fission gas influences the thermal conductivity,
 causes swelling, and impacts the neutron economy of the
-reactor~\cite{rondinella2010high,iasir2018estimation}. 
+reactor~\cite{rondinella2010high,iasir2018estimation}. The ratio of xenon and krypton in fission gases is nine to one~\cite{rest2006u}. The important fission gas isotopes with short half lives are $^{133}$Xe (5.25 d) and $^{135}$Xe (9.1 h). Among them, $^{135}$Xe has a very high neutron absorption cross-section ($\sigma_a = \num{2.7e6}\pm 0.1$ barns) that can lower the fuel reactivity. Hence, the evolution of fission gases are directly related to the fuel performance. 
 
-The atomic-scale transport processes in U--Mo alloys are of great interest to
-understand fuel performance during irradiation.
+Large fission gas atoms (\ie, xenon) are mostly insoluble in the fuel matrix~\cite{grimes1991stability,andersson2011u}. There is a significant driving force for segregation of fission gas atoms to defects such as grain boundaries or dislocations and consequently form gas bubbles at these sinks.  Post irradiation analysis of U--Mo showed that, the fission gases distribute themselves inside the grain and grain boundaries~\cite{miller2012advantages, miller2015transmission, gan2010transmission, gan2012tem}. Fission gas in U--Mo alloys also forms superlattices, where they distribute themselves in an organised array~\cite{gan2012tem,van2008transmission}. To understand the mechanism, the rate-limiting steps of fission gas diffusion need to be studied. One of them is the individual gas atom movements through the fuel matrix using vacancies.
+ %The atomic-scale transport processes in U--Mo alloys are of great interest to understand fuel performance during irradiation.
 %Interestingly, molybdenum is itself a fission product.
-Specifically, the characteristics of fission gas are an important
-performance-limiting factor. For these reasons, the behaviour of fission gas
+%Specifically, the characteristics of fission gas are an important performance-limiting factor. 
+
+
+The behaviour of fission gas
 has been extensively researched for common fuels such as
 \ce{UO2}~\cite{yun2008atomic,carter1972xenon,matzke1966diffusion,
     macewan1964xenon, une1987effects}.
@@ -129,7 +131,7 @@ We also calculate the vacancy--solute binding energies of several solutes
 in \textgamma-uranium and find that such binding energies are generally
 higher in \textgamma-uranium than in iron or aluminium.
 
-\section{Thermodynamics of Vacancies in Solid}
+
 
 \section{Theory}\label{sec_theory}
 Diffusion coefficients in crystalline solids are often described by an
@@ -139,6 +141,14 @@ $D_0$, with the diffusion coefficient given by
 \begin{equation}
     D = D_0 e^{-E_m/k_B T},
 \end{equation}
+
+\nomenclature{$D$}{diffusion coefficient}
+\nomenclature{$D_0$}{pre-exponential factor}
+\nomenclature{$E_m$}{migration energy}
+\nomenclature{$Q_{\text{IS}}$}{vibrational partition function of the initial state}
+\nomenclature{$Q_{\text{TS}}$}{vibration partition function of transition state}
+
+
 where $k_B$ is the Boltzmann constant and $T$ is the absolute temperature.
 If $D_0$ is independent of temperature, an Arrhenius plot ($D$ against $1/T$)
 gives a straight line; if $D_0$ changes with $T$, it yields a curve that falls
@@ -193,6 +203,16 @@ binding energy of a solute to a vacancy:
   \label{eq_solvacen}
 \end{equation}
 
+\nomenclature{$ E_\text{bind}^{\ce{$X$-\Box}}$}{binding energy between solute ($X$) and vacancy ($\Box$)}
+\nomenclature{$E^{X_1}_{\mathrm{U}_{N-1}}$}{energy of a system with one solute atom}
+\nomenclature{$E^{\Box_1}_{\mathrm{U}_{N-1}}$}{energy of a system with one vacancy}
+\nomenclature{$E^{X_1\Box_1}_{\mathrm{U}_{N-2}}$}{energy of a system with a solute--vacancy pair}
+\nomenclature{$E_{\mathrm{U}_N}$}{energy of a system with $N$ uranium atoms}
+\nomenclature{$E^{\Box}_f$}{vacancy formation energy}
+\nomenclature{$N$}{number of atoms in a supercell}
+\nomenclature{$\mathcal{P}$}{probability of having different numbers of molybdenum atoms in nearest-neighbor locations in bcc crystal}
+
+
 For a bcc supercell with $N$ sites, the cell may contain no defects (energy
 $E_{\mathrm{U}_N}$), may contain a vacancy (energy $E^{\Box_1}_{\mathrm{U}_{N-1}}$), a solute
 impurity ($E^{X_1}_{\mathrm{U}_{N-1}}$ or a solute--vacancy pair
@@ -223,6 +243,9 @@ atom can be calculated using the following equation:
 \begin{equation}\label{eq_combination}
   \mathcal{P} = \binom{n}{k} x^k_\text{Mo} ( 1 - x_\text{Mo})^{n-k},
 \end{equation}
+
+\nomenclature{$x_{\text{Mo}}$}{mole fraction of molybdenum}
+
 where $n$ is the number of available nearest-neighbour positions not occupied
 by the vacancy (for bcc, $n=7$), $k$ is the number of molybdenum atoms in
 the nearest-neighbour shell, and $x_{\ce{Mo}}$ is the (overall) mole fraction
@@ -410,6 +433,12 @@ jumps (see Fig.~\ref{figure01}b). These three migration pathways (labeled 1, 2,
 and~3) show higher activation energies than the case with no molybdenum in the
 NN shell.
 
+In the presence of a vacancy, xenon tends to move towards the vacancy and takes position
+in between the vacancy and lattice site. This results a very low migration path and lower
+barrier for xenon to move to the nearest vacancy. %In pure \textgamma-uranium the migration path is about ($\approx$ 1.03 \AA).
+This behaviour is very similar to how xenon moves in UO$_2$ fuel. In UO$_2$, the xenon atoms prefer to find their
+lowest energy location in between the original trap site and the second uranium vacancy ($V_{\text{U}}$)~\cite{andersson2011u}. Adding one molybdenum in the nearest neighbour increases the migration barriers for all three migration paths. The nearest location of a molybdenum and a vacancy changes the lowest energy location of xenon atom. Xenon tends to move towards the vacancy and the extra space created by molybdenum atom. It finds a place in between its original site, the vacancy and molybdenum atom, and increases the migration barrier.
+
 There is more than one way to put two molybdenum atoms in the
 NN shell around a solute atom in a bcc crystal, and each of these arrangements
 creates a distinct xenon migration pathway. Figure~\ref{figure02} shows all
@@ -423,11 +452,13 @@ Directions~1 and~2 (Fig.~\ref{figure02}a) have migration energies of 0.110
 and 0.212~eV, respectively; direction~2 has almost double the migration energy
 of direction~1.
 Directions~1, 4 and~6, which all have a molybdenum atom on the corner of the
-cube adjancent to the vacancy, have the lowest migration energies.
+cube adjancent to the vacancy, have the lowest migration energies. The lowest energy
+location for xenon in the case of direction 1,4 and 6 are near to each other. Which produces 
+very low migration barrier. 
 
 Figure~\ref{figure03} shows the symmetrically-distinct arrangements of three
 molybdenum atoms in the nearest neighbour shell.
-This local concentration creates seven distinct jumps of a xenon atom to the
+This local concentration creates ten distinct jumps of a xenon atom to the
 nearest neighbour vacancy (Fig.~\ref{figure03}).
 The migration energies for three-molybdenum configurations vary from 0.201~eV
 for direction~4 to 1.213~eV for direction~7.
@@ -440,7 +471,11 @@ where xenon moves to the opposite corner from the three molybdenum atoms.
 Figure~\ref{figure03}b has a combination of two molybdenum atoms on one face of
 the cell and one molybdenum in the lower corner on the opposite site. 
 This configuration reduces the migration energy compared to the configuration
-in which all three molybdenum atoms are coplanar. 
+in which all three molybdenum atoms are coplanar. Direction~7 (Figure~\ref{figure03}c) produces the highest migration barrier for xenon. 
+In this configuration, initial minimum energy position for xenon is equidistant
+from all three molybdenum atoms. The final position is not equidistant but creates a larger energy barrier. In the case of direction~8 and 9 the location of the vacancy 
+changes the lowest energy location (for final position) for xenon and reduces the barrier.
+ 
 
 We did not calculate the migration energy of xenon with more than three
 molybdenum atoms in the nearest-neighbour shell.
@@ -460,13 +495,13 @@ more than three molybdenum in U-10Mo or U-7Mo.
 \begin{figure}
   \centering
   \includegraphics[scale=0.6]{image01}
-  \caption{(a)~Diagram of a xenon jump from the centre site to a
+	\caption{(a)~Diagram of a xenon jump from the centre site to a
     nearest-neighbour vacancy in \textgamma-uranium.
     (a)~All eight jumps are symmetrically equivalent with no molybdenum
     present;
     (b)~with one molybdenum atom in the nearest neighbour shell, there are
         three unique solute jumps (1, 2, and~3).}
-    \label{figure01}
+      \label{figure01}
 \end{figure}
 
 \begin{figure}
@@ -510,15 +545,15 @@ more than three molybdenum in U-10Mo or U-7Mo.
              & 5~(Fig.~\ref{figure02}b) & 0.224 \\
              & 6~(Fig.~\ref{figure02}c) & 0.110 \\
  	3 Mo & 1~(Fig.~\ref{figure03}a) & 0.515 \\
-	     & 2~(Fig.~\ref{figure03}a) & \tiny{\textcolor{purple}{still running}}		\\
+	     %& 2~(Fig.~\ref{figure03}a) & \tiny{\textcolor{purple}{still running}}		\\
 	     & 2$^\prime$~(Fig.~\ref{figure03}a) & 0.917	\\
 	     & 3~(Fig.~\ref{figure03}a) & 0.579	\\
 	     & 4~(Fig.~\ref{figure03}b) & 0.201	\\
 	     & 5~(Fig.~\ref{figure03}b) & 0.384	\\
 	     & 6~(Fig.~\ref{figure03}b) & 0.386	\\
 	     & 7~(Fig.~\ref{figure03}c) & 1.213	\\
-	     & 8~(Fig.~\ref{figure03}c) & \tiny{\textcolor{purple}{still running}}	\\
-	     & 9~(Fig.~\ref{figure03}c) & \tiny{\textcolor{purple}{still running}}	\\
+	     & 8~(Fig.~\ref{figure03}c) & 0.461 \\
+	     & 9~(Fig.~\ref{figure03}c) & 0.435 \\
       \midrule
              & Mo Jump & $E_m$ (eV) \\% \hline
       \midrule
@@ -568,7 +603,8 @@ shell in bcc uranium. Future work should include a determination of diffusion
 coefficient of xenon using  the kinetic Monte Carlo method.
 
 
-\bibliographystyle{unsrt}
+%\bibliographystyle{iopart-num}
+\bibliographystyle{apsrev4-1}
 \bibliography{abbreviated,umox}
 
 

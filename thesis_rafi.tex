@@ -36,17 +36,23 @@
 \usepackage{siunitx}
 \usepackage[version=4]{mhchem}
 
-%\usepackage[rootbib]{chapterbib}
-\usepackage{chapterbib}
+
+\usepackage[rootbib]{chapterbib}
+%\usepackage{chapterbib}
 %\begin{comment}
 \usepackage{booktabs}
 \usepackage[overload]{textcase}
 \usepackage{xcolor}
-\usepackage{cite}
+%\usepackage{cite}
 \usepackage{setspace}
 \usepackage{nomencl}
 \usepackage{tikz}
 \usepackage{listings}
+\usepackage[numbers,square,sort&compress]{natbib}
+\usepackage[toc,page]{appendix}
+%\usepackage[titletoc]{appendix}
+
+
 \usetikzlibrary{shapes.geometric, arrows}
 
 \tikzstyle{block2} = [rectangle, draw,
@@ -168,12 +174,12 @@ commentstyle=\color{codegray},
 \makenomenclature
 \DeclareGraphicsExtensions{.pdf,.png,.jpg,.mps}
 
-\title{Studying the Impact of Xenon gas in Uranium--Molybdenum Fuel}
+\title{The Impact of Fission gas on Uranium--Molybdenum Fuel}
 \author{Abu Rafi Mohammad Iasir}
-\date{May, 12 2021}
+\date{May 2021}
 \copyrightyear{2021}
                 
-\chair{Karl D Hammond}
+\chair{Karl Hammond}
 \firstreader{Scott Kovalaski}
 \secondreader{Robert Winholtz}
 \thirdreader{Nickie Peters}
@@ -212,8 +218,8 @@ To my parents Ismail and Halima
 
 \listoffigures
 %%\listofschemes
-%\listofsymbols % or \printnomenclature; requires nomencl package
-\printnomenclature
+\listofsymbols % or \printnomenclature; requires nomencl package
+%\printnomenclature
 
 
 
@@ -224,6 +230,7 @@ To my parents Ismail and Halima
 \mainmatter % this line is mandatory
 
 \include{chapters/firstchapter}
+\include{chapters/background}
 
 \include{chapters/xenontherm}
 
@@ -231,8 +238,7 @@ To my parents Ismail and Halima
 
 \include{chapters/u-mo-xe}
 
-\include{chapters/futurework}
-
+\include{chapters/conclusions}
 
 
 
@@ -243,16 +249,14 @@ To my parents Ismail and Halima
 \include{appen/lihe}
 \include{appen/opw}
 \include{appen/paw}
-\include{appen/psfile}
-\include{appen/elastic_alphaU}
-\include{appen/bcc_els}
+%\include{appen/psfile}
 \include{appen/fem_moose}
 \include{appen/inputfiles}
 
 \backmatter % mandatory; prepares for bibliography, glossary, index
 %\nocite{*}
-%\bibliographystyle{iopart-num}
-%\bibliography{full,comp,umox}
+\bibliographystyle{apsrev4-1}
+\bibliography{full,comp,umox,lihe}
 
 \begin{vita}
 Abu Rafi Mohammad Iasir was born in Chattagram (Chittagong), Bangladesh. He received his BSc. in Chemical Engineering from Bangladesh University of Engineering and Technology in 2012. In 2013, he moved to Mizzou and received an M.S. in Nuclear Engineering under the supervision of Dr. Gary Solbrekken. 

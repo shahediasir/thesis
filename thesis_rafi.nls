@@ -1,16 +1,53 @@
 
 \begin{thenomenclature} 
 \nomgroup{A}
-  \item [{$\lambda$}]\begingroup thermal conductitivity\nomeqref {2.5}\nompageref{14}
-  \item [{$\lambda_0$}]\begingroup thermal conductivity of 100$\%$ dense material\nomeqref {2.5}\nompageref{14}
-  \item [{$\lambda_p$}]\begingroup thermal conductivity of dispersed phase\nomeqref {2.5}\nompageref{14}
-  \item [{$\lambda_s$}]\begingroup thermal conductivity of continuous phase (U--10Mo)\nomeqref {2.5}\nompageref{14}
-  \item [{$\mathcal{H}$}]\begingroup many body hamiltonian\nomeqref {3.1}\nompageref{28}
-  \item [{$\nu$}]\begingroup porosity\nomeqref {2.5}\nompageref{14}
-  \item [{$\nu_p$}]\begingroup volume fraction of xenon in U--10Mo\nomeqref {2.5}\nompageref{14}
-  \item [{$K$}]\begingroup thermal conductivity tensor\nomeqref {2.2}\nompageref{11}
-  \item [{$K_{\text{eff}}$}]\begingroup effective thermal conductivity\nomeqref {2.3}\nompageref{12}
-  \item [{$q''$}]\begingroup heat flux\nomeqref {2.2}\nompageref{11}
-  \item [{$T$}]\begingroup absolute temperature\nomeqref {2.2}\nompageref{11}
+  \item [{$ E_\text{bind}^{\ce{$X$-\Box}}$}]\begingroup binding energy between solute ($X$) and vacancy ($\Box$)\nomeqref {5.3}\nompageref{83}
+  \item [{$\ell$}]\begingroup angular quantum number\nomeqref {2.38}\nompageref{22}
+  \item [{$\lambda$}]\begingroup thermal conductitivity\nomeqref {3.5}\nompageref{39}
+  \item [{$\lambda_0$}]\begingroup thermal conductivity of 100$\%$ dense material\nomeqref {3.5}\nompageref{39}
+  \item [{$\lambda_p$}]\begingroup thermal conductivity of dispersed phase\nomeqref {3.5}\nompageref{39}
+  \item [{$\lambda_s$}]\begingroup thermal conductivity of continuous phase (U--10Mo)\nomeqref {3.5}\nompageref{39}
+  \item [{$\mathcal{H}$}]\begingroup many body hamiltonian\nomeqref {2.1}\nompageref{11}
+  \item [{$\mathcal{P}$}]\begingroup probability of having different numbers of molybdenum atoms in nearest-neighbor locations in bcc crystal\nomeqref {5.3}\nompageref{83}
+  \item [{$\nu$}]\begingroup porosity\nomeqref {3.5}\nompageref{39}
+  \item [{$\nu_p$}]\begingroup volume fraction of xenon in U--10Mo\nomeqref {3.5}\nompageref{39}
+  \item [{$\Psi(t)$}]\begingroup time dependent wave function\nomeqref {2.1}\nompageref{11}
+  \item [{$\psi_{AE}$}]\begingroup all electron wave function\nomeqref {2.51}\nompageref{28}
+  \item [{$\psi_{ps}$}]\begingroup pseudo wave function\nomeqref {2.51}\nompageref{28}
+  \item [{$\upsilon^{\text{EX}}$}]\begingroup exchange potential\nomeqref {2.19}\nompageref{16}
+  \item [{$\vb{R}_a$}]\begingroup position of $a$-th nucleus\nomeqref {2.3}\nompageref{12}
+  \item [{$\vb{r}_j$}]\begingroup position of $j$-th electron\nomeqref {2.3}\nompageref{12}
+  \item [{$D$}]\begingroup diffusion coefficient\nomeqref {5.1}\nompageref{82}
+  \item [{$D_0$}]\begingroup pre-exponential factor\nomeqref {5.1}\nompageref{82}
+  \item [{$E$}]\begingroup energy of the system\nomeqref {2.34}\nompageref{21}
+  \item [{$E^{\Box_1}_{\mathrm{U}_{N-1}}$}]\begingroup energy of a system with one vacancy\nomeqref {5.3}\nompageref{83}
+  \item [{$E^{\Box}_f$}]\begingroup vacancy formation energy\nomeqref {5.3}\nompageref{83}
+  \item [{$E^{X_1\Box_1}_{\mathrm{U}_{N-2}}$}]\begingroup energy of a system with a solute--vacancy pair\nomeqref {5.3}\nompageref{83}
+  \item [{$E^{X_1}_{\mathrm{U}_{N-1}}$}]\begingroup energy of a system with one solute atom\nomeqref {5.3}\nompageref{83}
+  \item [{$E_f^{\text{He}-\Box-\text{He}}$}]\begingroup helium--helium dumbbell formation energy around a vacancy\nomeqref {B.5}\nompageref{104}
+  \item [{$E_f^{\text{oct}}$}]\begingroup helium formation energy in a octahedral position\nomeqref {B.1}\nompageref{103}
+  \item [{$E_f^{\text{subs}}$}]\begingroup helium formation energy in a substitutional position\nomeqref {B.1}\nompageref{103}
+  \item [{$E_f^{\text{tetr}}$}]\begingroup helium formation energy in a tetrahedral position\nomeqref {B.1}\nompageref{103}
+  \item [{$E_m$}]\begingroup migration energy\nomeqref {5.1}\nompageref{82}
+  \item [{$E_{\mathrm{U}_N}$}]\begingroup energy of a system with $N$ uranium atoms\nomeqref {5.3}\nompageref{83}
+  \item [{$E_{\text{He}_{\text{isolated}}}$}]\begingroup energy of an isolated helium atom\nomeqref {B.1}\nompageref{103}
+  \item [{$E_{xc}$}]\begingroup exchange-correlation energy\nomeqref {2.19}\nompageref{16}
+  \item [{$K$}]\begingroup thermal conductivity tensor\nomeqref {3.2}\nompageref{36}
+  \item [{$K_{\text{eff}}$}]\begingroup effective thermal conductivity\nomeqref {3.3}\nompageref{37}
+  \item [{$m$}]\begingroup spin\nomeqref {2.38}\nompageref{22}
+  \item [{$m_e$}]\begingroup mass of a single elctron\nomeqref {2.3}\nompageref{12}
+  \item [{$N$}]\begingroup number of atoms in a supercell\nomeqref {5.3}\nompageref{83}
+  \item [{$N$}]\begingroup number of electrons\nomeqref {2.19}\nompageref{16}
+  \item [{$n$}]\begingroup principle quantum number\nomeqref {2.38}\nompageref{22}
+  \item [{$n(\vb{r})$}]\begingroup electron density\nomeqref {2.19}\nompageref{16}
+  \item [{$q''$}]\begingroup heat flux\nomeqref {3.2}\nompageref{36}
+  \item [{$Q_{\text{IS}}$}]\begingroup vibrational partition function of the initial state\nomeqref {5.1}\nompageref{82}
+  \item [{$Q_{\text{TS}}$}]\begingroup vibration partition function of transition state\nomeqref {5.1}\nompageref{82}
+  \item [{$r_{\text{core}}$}]\begingroup core radius\nomeqref {4.0}\nompageref{54}
+  \item [{$r_{\text{shape}}$}]\begingroup shape function cutoff\nomeqref {4.0}\nompageref{54}
+  \item [{$r_{PAW}$}]\begingroup augmentation radius\nomeqref {4.0}\nompageref{54}
+  \item [{$T$}]\begingroup absolute temperature\nomeqref {3.2}\nompageref{36}
+  \item [{$V_{\text{ext}}$}]\begingroup external potential\nomeqref {2.34}\nompageref{21}
+  \item [{$x_{\text{Mo}}$}]\begingroup mole fraction of molybdenum\nomeqref {5.5}\nompageref{84}
 
 \end{thenomenclature}

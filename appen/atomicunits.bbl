@@ -1,9 +1,13 @@
+\providecommand{\newblock}{}
 \begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+% Bibliography created with iopart-num v2.1
+% /biblio/bibtex/contrib/iopart-num
 
 \bibitem{hartree}
-Douglas~R Hartree.
-\newblock The wave mechanics of an atom with a non-coulomb central field. part
-  i. theory and methods.
-\newblock {\em Mat. Proc. Cambridge Philos. Soc.}, 24:89, 1928.
+Hartree D~R 1928 {\em Mat. Proc. Cambridge Philos. Soc.\/} {\bf 24} 89
 
 \end{thebibliography}

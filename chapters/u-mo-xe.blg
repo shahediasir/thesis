@@ -1,47 +1,63 @@
 This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: chapters/u-mo-xe.aux
-The style file: unsrt.bst
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: abbreviated.bib
 Database file #2: umox.bib
-You've used 88 entries,
-            1791 wiz_defined-function locations,
-            1902 strings with 30074 characters,
-and the built_in function-call counts, 21970 in all, are:
-= -- 1978
-> -- 1046
-< -- 4
-+ -- 384
-- -- 296
-* -- 1843
-:= -- 3555
-add.period$ -- 265
-call.type$ -- 88
-change.case$ -- 86
-chr.to.int$ -- 0
-cite$ -- 88
-duplicate$ -- 806
-empty$ -- 2064
-format.name$ -- 296
-if$ -- 4681
-int.to.chr$ -- 0
-int.to.str$ -- 88
-missing$ -- 88
-newline$ -- 444
-num.names$ -- 89
-pop$ -- 108
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+You've used 94 entries,
+            5847 wiz_defined-function locations,
+            3060 strings with 43054 characters,
+and the built_in function-call counts, 96713 in all, are:
+= -- 6053
+> -- 2741
+< -- 651
++ -- 878
+- -- 660
+* -- 15257
+:= -- 9375
+add.period$ -- 97
+call.type$ -- 94
+change.case$ -- 385
+chr.to.int$ -- 92
+cite$ -- 94
+duplicate$ -- 8996
+empty$ -- 7156
+format.name$ -- 1610
+if$ -- 19326
+int.to.chr$ -- 3
+int.to.str$ -- 102
+missing$ -- 1171
+newline$ -- 334
+num.names$ -- 283
+pop$ -- 3745
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 470
 quote$ -- 0
-skip$ -- 301
+skip$ -- 3400
 stack$ -- 0
-substring$ -- 1959
-swap$ -- 104
-text.length$ -- 4
+substring$ -- 2294
+swap$ -- 8653
+text.length$ -- 334
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
+top$ -- 8
+type$ -- 1361
 warning$ -- 0
-while$ -- 241
-width$ -- 90
-write$ -- 973
+while$ -- 283
+width$ -- 0
+write$ -- 806
