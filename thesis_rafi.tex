@@ -24,10 +24,10 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{physics}
-\usepackage{txfonts}
-%\usepackage[T1]{fontenc}
-%\usepackage{newpxtext,newpxmath}
-%\usepackage[largesc,osf]{newpxtext}
+%\usepackage{txfonts}
+%\usepackage{pxfonts}
+\usepackage{newpxtext, newpxmath}
+%\usepackage[largesc,osf]{newpxtext, newpxmath}
 \usepackage{graphicx}
 %\usepackage{achemso}
 \usepackage{textgreek}
@@ -35,6 +35,7 @@
 \usepackage{comment}
 \usepackage{siunitx}
 \usepackage[version=4]{mhchem}
+\usepackage{rotating}
 
 
 \usepackage[rootbib]{chapterbib}
@@ -51,30 +52,31 @@
 \usepackage[numbers,square,sort&compress]{natbib}
 \usepackage[toc,page]{appendix}
 %\usepackage[titletoc]{appendix}
+%\addtolength{\nomlabel}{0.8cm}
 
 
 \usetikzlibrary{shapes.geometric, arrows}
 
 \tikzstyle{block2} = [rectangle, draw,
-    text width=15em, text centered, minimum height=3em]
+     text centered,  rounded corners=5pt, line width=0.4mm, minimum height=3em]
+\tikzstyle{alp's} = [ellipse, draw,
+	text width=2em, text centered]
 
 \tikzstyle{block3} = [rectangle, draw,
-	text width=20em, text centered, minimum height=3em]
+	text width=20em, text centered, minimum height=3em, rounded corners=10pt]
 
 \tikzstyle{decision} = [diamond, draw,
-	text width=7em, text centered, minimum height=2em]
+	 text centered, aspect=2.5, line width=0.4mm]
 
 
-\tikzstyle{block} = [rectangle, draw,
-    text width=5em, text centered, minimum height=3em]
 
-\tikzstyle{line} = [thick, ->, >=stealth, draw, -latex']
+\tikzstyle{line} = [thick, ->, >=stealth, draw, line width=0.51mm, -latex']
 \tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
     minimum height=2em]
 
 \tikzstyle[arrow] = [thick, ->, >=stealth]
 
-\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{categorize}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
@@ -174,13 +176,14 @@ commentstyle=\color{codegray},
 \makenomenclature
 \DeclareGraphicsExtensions{.pdf,.png,.jpg,.mps}
 
-\title{The Impact of Fission gas on Uranium--Molybdenum Fuel}
+%\title{The Impact of Fission gas on Uranium--Molybdenum Fuel}
+\title{Influence of Inert Gases on Heat and Mass Transfer in Next-Generation Nuclear Reactors}
 \author{Abu Rafi Mohammad Iasir}
 \date{May 2021}
 \copyrightyear{2021}
                 
 \chair{Karl Hammond}
-\firstreader{Scott Kovalaski}
+\firstreader{Scott Kovaleski}
 \secondreader{Robert Winholtz}
 \thirdreader{Nickie Peters}
 
@@ -208,7 +211,12 @@ To my parents Ismail and Halima
 
 
 \begin{acknowledgments}
+It is my pleasure to thank my supervisor, Dr.~Karl Hammond, whose expertise was invaluable in this research. His guidance and assistance throughout my PhD helped me to grow as a researcher. My sincere thanks to my PhD committee, Dr.~Scott Kovaleski, Dr.~Robert Winholtz, and Dr.~Nickie Peters.
 
+
+I am very grateful to a few wonderful people with whom I shared our lab: Amir Mofrad, Andrea Saltos, Brandon Laufer, Luke Kruse, Jiasen Guo, and Zhuocen Yang. I know I learned more from these people than I will ever realize. Their patience, insight, and, most importantly, camaraderie and humor helped to make the long days and challenging time more enjoyable. I'd also like to thank Dr.~Mosa, Dr.~Sadia Akhtar, Tahmid Hasan and Shawmy Khan for their generosity and help. Many thanks to my friends David Winjum, Saumil Dharia, Rachel Dickie, Payel Sen, and Murat Yildirm. We have lived through a very interesting time and shared so many memories. Special thanks to Joe Strnad and his family. My life at Mizzou would be a very different one without them.
+
+Finally, my sincere gratitude to my family for their continuous love and support. I am grateful to my sisters Sadia, Tahera,  Ayesha and my brother Javed. You remind me to appreciate life and the value of family. Over the last seven years, I've missed many family events, but you've found a way to include me every time from eight thousand miles away. Last, but most important, my mother, Halima, and my father, Ismail, who always knew when to call me and tell me right the thing. Their unwavering love, pride, and motivation have shaped who I am today.
 \end{acknowledgments}
 
 
@@ -218,25 +226,26 @@ To my parents Ismail and Halima
 
 \listoffigures
 %%\listofschemes
-\listofsymbols % or \printnomenclature; requires nomencl package
-%\printnomenclature
+%\listofsymbols % or \printnomenclature; requires nomencl package
+\printnomenclature[0.8in]
 
 
 
+\include{chapters/abstract}
 
-%\begin{abstract}
-%\end{abstract}
 
 \mainmatter % this line is mandatory
 
 \include{chapters/firstchapter}
 \include{chapters/background}
 
-\include{chapters/xenontherm}
+\include{chapters/01xenontherm}
 
 \include{chapters/pseudoUranium}
 
 \include{chapters/u-mo-xe}
+
+\include{chapters/lihe}
 
 \include{chapters/conclusions}
 
@@ -246,7 +255,7 @@ To my parents Ismail and Halima
 
 \appendix
 \include{appen/atomicunits}
-\include{appen/lihe}
+%\include{appen/lihe}
 \include{appen/opw}
 \include{appen/paw}
 %\include{appen/psfile}
@@ -255,11 +264,12 @@ To my parents Ismail and Halima
 
 \backmatter % mandatory; prepares for bibliography, glossary, index
 %\nocite{*}
-\bibliographystyle{apsrev4-1}
-\bibliography{full,comp,umox,lihe}
+\bibliographystyle{apsrev4-2}
+\bibliography{full,final}
+%\bibliography{full,umox,lihe,pseudo,other,firstc,xnthrm}
 
 \begin{vita}
-Abu Rafi Mohammad Iasir was born in Chattagram (Chittagong), Bangladesh. He received his BSc. in Chemical Engineering from Bangladesh University of Engineering and Technology in 2012. In 2013, he moved to Mizzou and received an M.S. in Nuclear Engineering under the supervision of Dr. Gary Solbrekken. 
+Abu Rafi Mohammad Iasir was born in Chattagram (Chittagong), Bangladesh. He received his BSc.\ in Chemical Engineering from Bangladesh University of Engineering and Technology in 2012. In 2013, he moved to Mizzou and received an M.S. in Nuclear Engineering under the supervision of Dr. Gary Solbrekken in 2015. 
 \end{vita}
 \end{document}
 

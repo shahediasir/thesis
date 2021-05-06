@@ -1,36 +1,38 @@
 \chapter{Orthogonal Plane Wave}\label{appen_opw}
 
-For now we will try to approximate time-independent \schrod equation so that we can achieve self-consistency. We let $V(r)$ the potential seen by each electron. Then each energy eigenfunction will satisfy the following equation:
+For now, we will try to approximate the time-independent \schrod equation so that we can achieve self-consistency. Let $V(r)$ be the potential seen by each electron. Then each energy eigenfunction will satisfy the following equation:
 \begin{equation}
 \label{eigeqn}
-H\psi_i = (T+V(r))\psi_i = E_i\psi_i 
+\hat{\mathcal{H}}\psi_i = \left[\hat{T}+\hat{V}(r)\right]\psi_i = E_i\psi_i 
 \end{equation}
-Here $T$ is the kinetic energy ($-\hbar^2\nabla^2/2m$), and $E_i$ is the energy of the ith state. The next step is to distinguish between the core and the valance state. The index $\alpha$ will be used for core and $v$ will be used for conduction band. According to our second assumption, the core states are the same as in the isolated ion, but their energies are different, i.e. $E_\alpha$, are different:
+Here, $\hat{T}$ is the kinetic energy operator ($-\hbar^2\nabla^2/2m$), and $E_i$ is the energy of the $i$-th state. The next step is to distinguish between the core and the valence state. The index $\alpha$ will be used for the core electrons and $v$ will be used for the valence band. The core states are the same as in the isolated ion, but their energies are different (\ie, $E_\alpha$, is different):
 \begin{equation}
 \label{eq_eigalpha}
-(T+V(r))\psi_\alpha = E_\alpha \psi_\alpha
+\left[\hat{T}+\hat{V}(r)\right]\psi_\alpha = E_\alpha \psi_\alpha
 \end{equation}
-Here, the subscript $\alpha$ not only denotes the position of the ion as well as the energy and angular-momentum quantum numbers of the state in the equation. We have an well defined eigen value problem, apart from not knowing $V(r)$. We can approach the problem in several ways. The choice of basis function is often used physics. The plane wave basis sets is often used in band structure calculations. If we expand the \schrod equation \ref{eq_eigalpha} with complete set of states,  then we may obtain a linear simultaneous equations in the expansion coefficients. The problem of  solving differential equations become a matrix diagonilizing problem. The choice of plane waves has its pros and cons. One of the difficulties of using plane waves, is that, it requires a large number of plane waves to give a reasonable description of the wave function. Thus the solution becomes very difficult. Core electron has higher kinetic energy (s orbital) near the nucleus (see Fig.~\ref{fig_hydrogen}), which makes it really hard for plane wave to approximate those oscillation. Herring~\cite{herring1940new} suggested that, rather than expanding the conduction electron wave function in plane waves, a more rapidly convergent procedure is to expand in \textit{orthogonalized} plane waves (OPWs). Hopefully, the expansions in terms of OPWs, would require fewer terms and therefore yield a easier calculation. The OPWs with wave number $\mathbf{k}$ can be defined as follows:
+Here, the subscript $\alpha$ not only denotes the position of the ion but also the energy and angular momentum quantum numbers of the state in the equation. This is a well-defined Sturm--Liouville eigenvalue problem, apart from not knowing $V(r)$. We can approach the problem in several ways. The most common is to represent $\psi_{\alpha}$ by a basis set. Plane-wave basis sets are often used in band structure calculations. If we expand the \schrod Eqn.~\eqref{eq_eigalpha} with a complete set of states,  then we may obtain a linear solution of simultaneous equations in the expansion coefficients. The problem of  solving differential equations then becomes a matrix diagonalization problem. 
+
+The choice of plane waves has its pros and cons. One of the difficulties of using plane waves is that, it typically requires a large number of plane waves to give a reasonable description of the wavefunction. Thus the solution becomes very difficult. In addition the core electrons have higher kinetic energy near the nucleus (see Fig.~\ref{fig_hydrogen}), which makes it even harder for plane waves to approximate those electrons. Herring~\cite{herring1940new} suggested that, rather than expanding the valence electron wave function in plane waves, a more rapidly convergent procedure is to expand in \textit{orthogonalized} plane waves (OPWs). Hopefully, the expansions in terms of OPWs, would require fewer terms and therefore yield a faster calculation. The OPWs with wave number $\mathbf{k}$ can be defined as follows:
 \begin{equation}
 \label{eq_opw}
-OPW_{\vb{k}} = e^{i\vb{k.r}} - \sum_{\alpha} \psi_{\alpha}(\vb{r}) \psi^{\ast}_{\alpha} e^{i{\vb{k.r}}} d\tau'
+OPW_{\vb{k}} = e^{i\vb{k\cdot r}} - \sum_{\alpha} \psi_{\alpha}(\vb{r}) \psi^{\ast}_{\alpha} e^{i{\vb{k\cdot r}}} d \vb{r}
 \end{equation}
 
-An example would be sodium, where it has a ground state configuration of $1s^2 2s^2 2p^6 3s^1$, the core level would represent $1s^2 2s^2 2p^6$. For so-called simple metal (i.e. Na, Mg and Al), the convergent electron wave function is rapidly convergent in the OPW basis. Before going any further, lets check whether this OPW (\ref{eq_opw}) is orthogonal to the core states. Lets assume an arbitrary core wave function $\psi_{\beta}$ and check the orthogonality with \ref{eq_opw}.
+An example would be sodium, which has a ground state configuration of $1s^2 2s^2 2p^6 3s^1$. The core orbitals would be $1s^2 2s^2 2p^6$. For so-called simple metals (\ie, Na, Mg, and Al), the electron wavefunction is rapidly convergent in the OPW basis. Before going any further, let's check whether this OPW (\ref{eq_opw}) is orthogonal to the core states. Let's assume an arbitrary core wavefunction $\psi_{\beta}$ and check the orthogonality with \ref{eq_opw}:
 \begin{equation}
-\int\psi^{\ast}_{\beta}(\vb{r})OPW_{\vb{k}}d\tau' = \int \psi^{\ast} (\vb{r}) e^{i\vb{k.r}} d\tau - \sum_{\alpha} \delta_{\alpha\beta} \int \psi^{\ast} (\vb{r'}) e^{i\vb{k.r'}} d\tau' = 0 
+\int\psi^{\ast}_{\beta}(\vb{r})OPW_{\vb{k}}d\vb{r} = \int \psi^{\ast}_{\beta} (\vb{r}) e^{i\vb{k\cdot r}} d\vb{r} - \sum_{\alpha} \delta_{\alpha\beta} \int \psi^{\ast}_{\alpha} (\vb{r}) e^{i\vb{k\cdot r}} d\vb{r} = 0 
 \end{equation}
-It is convenient to normalize the plane waves in the unit cell volume of the metal $\Omega$, and we will bra and ket notation for the wave functions from now on. The plane wave becomes
+It is convenient to normalize the plane waves in the unit cell volume of the metal $\Omega$, and we will use Dirac's bra-ket notation for the wave functions from now on. The plane wave becomes
 \begin{equation}
-	\ket{\vb{k}} \equiv \Omega^{-1/2}e^{i\vb{k.r}}
+	\ket{\vb{k}} = \Omega^{-1/2}e^{i\vb{k\cdot r}}
 \end{equation}
 For core electron wave functions
 \begin{equation}
 	\ket{\alpha} \equiv \psi_{\alpha} (\vb{r}) 
 \end{equation}
-where a bra operators is defined as $\bra{\alpha} = \ket{\alpha}^{\ast}$, the other representation an integral:
+where $\bra{\alpha} = \ket{\alpha}^{\ast}$, and
 \begin{equation}
-	\braket{\alpha}{\vb{k}} = \Omega^{-1/2} \int \psi^{\ast}_{\alpha} (\vb{r}) e^{i\vb{k.r}}
+	\braket{\alpha}{\vb{k}} = \Omega^{-1/2} \int \psi^{\ast}_{\alpha} (\vb{r}) e^{i\vb{k\cdot r}} d\vb{r}
 \end{equation}
 Thus the OPW equations becomes
 \begin{equation}
@@ -39,38 +41,37 @@ Thus the OPW equations becomes
 The projection operator $P$ can be defined as follows:
 \begin{equation}
 \label{eq_proj}
-P = \sum_{\alpha} \dyad{\alpha}{\alpha}
+P = \sum_{\alpha} \dyad{\alpha}{\alpha}.
 \end{equation}
-The $P$ operator projects any function onto core states. In terms of $P$ operator the OPW can take following form
+The $P$ operator projects any function onto the core states. In terms of the $P$ operator the OPW can take following form:
 \begin{equation}
-	OPW_{\vb{k}} = (1-P)\ket{\vb{k}}
+	OPW_{\vb{k}} = (1-P)\ket{\vb{k}}.
 \end{equation}
-Now, we can expand the conduction-band (valence electron) state in terms of the general linear combination of  OPW's:
+Now, we can expand the valence-band (valence electron) state as a linear combination of  OPWs:
 \begin{equation}
 	\psi_{k} = \sum_q a_q (\vb{k})(1-P)\ket{\vb{k}+\vb{q}}
 \end{equation}
-Before going a bit further, lets see how kinetic energy is represented by planewaves.
+Before going a bit further, lets see how kinetic energy is represented by plane waves.
 \begin{equation}
 \label{eq_kin}
-	\bra{q'}-\frac{\hbar^2}{2m}\nabla^2\ket{q} = \frac{1}{2}\frac{\hbar^2}{2m} \abs{\vec{q}}^2 \delta_{\vec{q}\vec{q}'}
+	\bra{q'}-\frac{\hbar^2}{2m}\nabla^2\ket{q} = \frac{1}{2}\frac{\hbar^2}{2m} \abs{\vb{q}}^2 \delta_{qq'}
 \end{equation}
 In the above approximation of kinetic energy we assumed the normalizing factor is one.
 Now we are going to expand \ref{eq_eigalpha} with OPWs, and the \schrod equation becomes
 \begin{equation}
-H\psi_k = \sum_q a_q (\vb{k})H(1-P)\ket{\vb{k}+\vb{q}}=E_k\sum_q a_q (\vb{k}) (1-P) \ket{\vb{k}+\vb{q}}
+\hat{\mathcal{H}}\psi_k = \sum_q a_q (\vb{k})\hat{\mathcal{H}}(1-P)\ket{\vb{k}+\vb{q}}=E_k\sum_q a_q (\vb{k}) (1-P) \ket{\vb{k}+\vb{q}}
 \end{equation}
-Where , $H$ consists both the kinetic energy and the potential. Multiplying on the left by $\bra{\vb{k}+\vb{q}'}$, and using Equation~\eqref{eq_kin} we obtain
+where $\hat{\mathcal{H}}$ consists both the kinetic energy and the potential energy. Multiplying on the left by $\bra{\vb{k}+\vb{q}'}$, and using Equation~\eqref{eq_kin} we obtain
 \begin{multline}
 \label{eq_opwd}
-a_{q'} (\vb{k}) \frac{\hbar^2}{2m}\abs{\vb{k}+\vb{q}'}^2 + \sum_q a_q (\vb{k}) \\
-	\times
-[\bra{\vb{k}+\vb{q}'}V\ket{\vb{k}+\vb{q}} - \sum_{\alpha} E_{\alpha} \braket{\vb{k}+\vb{q}'}{\alpha}\braket{\alpha}{\vb{k}+\vb{q}}]
-	= [a_{q'} (\vb{k}) - \sum_q a_q (\vb{k}) \bra{\vb{k}+\vb{q}'}P\ket{\vb{k}+\vb{q}}]E_{\vb{k}}  
+a_{q'} (\vb{k}) \frac{\hbar^2}{2m}\abs{\vb{k}+\vb{q}'}^2 + \sum_q a_q (\vb{k})[\bra{\vb{k}+\vb{q}'}V\ket{\vb{k}+\vb{q}} - \sum_{\alpha} E_{\alpha} \braket{\vb{k}+\vb{q}'}{\alpha}\braket{\alpha}{\vb{k}+\vb{q}}]
+	= \\
+ [a_{q'} (\vb{k}) - \sum_q a_q (\vb{k}) \bra{\vb{k}+\vb{q}'}P\ket{\vb{k}+\vb{q}}]E_{\vb{k}}  
 \end{multline}
-The above equation can be solve by diagonalizing some of matrix element. If we can evaluate some of the various matrix elements (integrals), we obtain a set of linear algebraic equation.
+The above equation can be solved by diagonalizing some of matrix element. If we can evaluate some of the various matrix elements (integrals), we obtain a set of linear algebraic equations.
 
 
-\bibliography{abbreviated,comp}
-\bibliographystyle{iopart-num}
-%\bibliography{abbreviated,comp}
+\bibliographystyle{apsrev4-2}
+\bibliography{abbreviated,final}
+%\bibliography{abbreviated,other} 
 

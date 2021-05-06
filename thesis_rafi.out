@@ -8,81 +8,84 @@
 \BOOKMARK [0][-]{chapter*.4}{List of Tables}{}% 8
 \BOOKMARK [0][-]{chapter*.5}{List of Figures}{}% 9
 \BOOKMARK [0][-]{chapter*.6}{List of Symbols}{}% 10
-\BOOKMARK [0][-]{chapter.1}{1. Introduction}{}% 11
-\BOOKMARK [1][-]{section.1.1}{Metallic Uranium and Alloys}{chapter.1}% 12
-\BOOKMARK [1][-]{section.1.2}{Fission Gas}{chapter.1}% 13
-\BOOKMARK [1][-]{section*.7}{References}{chapter.1}% 14
-\BOOKMARK [0][-]{chapter.2}{2. Background}{}% 15
-\BOOKMARK [1][-]{section.2.1}{First Principles Method}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.1.1}{The Many-Body Hamiltonian}{section.2.1}% 17
-\BOOKMARK [2][-]{subsection.2.1.2}{Hartree\205Fock Approach}{section.2.1}% 18
-\BOOKMARK [2][-]{subsection.2.1.3}{Density Functional Theory}{section.2.1}% 19
-\BOOKMARK [3][-]{subsubsection.2.1.3.1}{Density}{subsection.2.1.3}% 20
-\BOOKMARK [3][-]{subsubsection.2.1.3.2}{Energy in Terms of the Density}{subsection.2.1.3}% 21
-\BOOKMARK [2][-]{subsection.2.1.4}{Kohn\205Sham Equations}{section.2.1}% 22
-\BOOKMARK [2][-]{subsection.2.1.5}{Kohn\205Sham problem for an isolated atom}{section.2.1}% 23
-\BOOKMARK [2][-]{subsection.2.1.6}{Theory of Pseudopotential}{section.2.1}% 24
-\BOOKMARK [2][-]{subsection.2.1.7}{Basic Phillips\205Kleinman Construction}{section.2.1}% 25
-\BOOKMARK [2][-]{subsection.2.1.8}{Norm-Conserving Pseudopotentials}{section.2.1}% 26
-\BOOKMARK [2][-]{subsection.2.1.9}{Ultrasoft Pseudopotentials}{section.2.1}% 27
-\BOOKMARK [2][-]{subsection.2.1.10}{Projector Augmented-Wave Method \(PAW\)}{section.2.1}% 28
-\BOOKMARK [1][-]{section*.8}{References}{chapter.2}% 29
-\BOOKMARK [0][-]{chapter.3}{3. Effect of Xenon on the overall thermal conductivity of U\20510Mo}{}% 30
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 31
-\BOOKMARK [1][-]{section.3.2}{Methods}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.2.1}{Effective Thermal Conductivity Calculation}{section.3.2}% 33
-\BOOKMARK [1][-]{section.3.3}{Results and Discussion}{chapter.3}% 34
-\BOOKMARK [2][-]{subsection.3.3.1}{Effect of Xenon Gas Bubbles on the Thermal Conductivity}{section.3.3}% 35
-\BOOKMARK [3][-]{subsubsection.3.3.1.1}{Intra-Granular Bubbles}{subsection.3.3.1}% 36
-\BOOKMARK [3][-]{subsubsection.3.3.1.2}{Inter-Granular Bubbles}{subsection.3.3.1}% 37
-\BOOKMARK [2][-]{subsection.3.3.2}{Effect of Xenon Pressure on the Overall Thermal Conductivity}{section.3.3}% 38
-\BOOKMARK [2][-]{subsection.3.3.3}{Effect of Bubble Arrangement on Thermal Conductivity}{section.3.3}% 39
-\BOOKMARK [1][-]{section.3.4}{Conclusions}{chapter.3}% 40
-\BOOKMARK [1][-]{section*.9}{References}{chapter.3}% 41
-\BOOKMARK [0][-]{chapter.4}{4. First-Principles Study of Metallic Uranium}{}% 42
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 43
-\BOOKMARK [1][-]{section.4.2}{Computational Details}{chapter.4}% 44
-\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 45
-\BOOKMARK [2][-]{subsection.4.3.1}{-Uranium}{section.4.3}% 46
-\BOOKMARK [2][-]{subsection.4.3.2}{-U: Crystal Structure and Elastic Moduli}{section.4.3}% 47
-\BOOKMARK [2][-]{subsection.4.3.3}{Body-centered Tetragonal Uranium}{section.4.3}% 48
-\BOOKMARK [2][-]{subsection.4.3.4}{Face-centered Cubic Uranium}{section.4.3}% 49
-\BOOKMARK [2][-]{subsection.4.3.5}{Electronic Density of States}{section.4.3}% 50
-\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 51
-\BOOKMARK [0][-]{section*.10}{Appendices}{}% 52
-\BOOKMARK [1][-]{section.a..1}{Calculation of Elastic Parameters of -uranium}{section*.10}% 53
-\BOOKMARK [1][-]{section.a..2}{Elastic Parameter Calculation for -uranium}{section*.10}% 54
-\BOOKMARK [1][-]{section*.11}{References}{section*.10}% 55
-\BOOKMARK [0][-]{appendix.5}{5. Xenon Mobility in U\205Mo fuel}{}% 56
-\BOOKMARK [1][-]{section.5.1}{Introduction}{appendix.5}% 57
-\BOOKMARK [1][-]{section.5.2}{Theory}{appendix.5}% 58
-\BOOKMARK [1][-]{section.5.3}{Methodology}{appendix.5}% 59
-\BOOKMARK [1][-]{section.5.4}{Results and Discussion}{appendix.5}% 60
+\BOOKMARK [0][-]{section*.7}{Abstract}{}% 11
+\BOOKMARK [0][-]{chapter.1}{1. Introduction}{}% 12
+\BOOKMARK [1][-]{section.1.1}{Metallic Uranium and Alloys}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.2}{Fission Gas}{chapter.1}% 14
+\BOOKMARK [1][-]{section*.8}{References}{chapter.1}% 15
+\BOOKMARK [0][-]{chapter.2}{2. Background}{}% 16
+\BOOKMARK [1][-]{section.2.1}{Electronic Structure Calculations}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.1.1}{The Many-Body Hamiltonian}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.2}{Hartree\205Fock Approach}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.3}{Density Functional Theory}{section.2.1}% 20
+\BOOKMARK [3][-]{subsubsection.2.1.3.1}{Density}{subsection.2.1.3}% 21
+\BOOKMARK [3][-]{subsubsection.2.1.3.2}{Energy in Terms of the Density}{subsection.2.1.3}% 22
+\BOOKMARK [2][-]{subsection.2.1.4}{Kohn\205Sham Equations}{section.2.1}% 23
+\BOOKMARK [2][-]{subsection.2.1.5}{Kohn\205Sham Problem for an Isolated Atom}{section.2.1}% 24
+\BOOKMARK [2][-]{subsection.2.1.6}{Pseudopotentials}{section.2.1}% 25
+\BOOKMARK [2][-]{subsection.2.1.7}{Basic Phillips\205Kleinman Construction}{section.2.1}% 26
+\BOOKMARK [2][-]{subsection.2.1.8}{Norm-Conserving Pseudopotentials}{section.2.1}% 27
+\BOOKMARK [2][-]{subsection.2.1.9}{Ultrasoft Pseudopotentials \(US\)}{section.2.1}% 28
+\BOOKMARK [2][-]{subsection.2.1.10}{Projector Augmented Wave Method \(PAW\)}{section.2.1}% 29
+\BOOKMARK [1][-]{section*.9}{References}{chapter.2}% 30
+\BOOKMARK [0][-]{chapter.3}{3. Estimation of Effective Thermal Conductivity in U-10Mo fuels with distributed xenon gas bubbles}{}% 31
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.2}{Methods}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.2.1}{Effective Thermal Conductivity Calculation}{section.3.2}% 34
+\BOOKMARK [1][-]{section.3.3}{Results and Discussion}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.1}{Effect of Xenon Gas Bubbles on the Thermal Conductivity}{section.3.3}% 36
+\BOOKMARK [3][-]{subsubsection.3.3.1.1}{Intra-Granular Bubbles}{subsection.3.3.1}% 37
+\BOOKMARK [3][-]{subsubsection.3.3.1.2}{Inter-Granular Bubbles}{subsection.3.3.1}% 38
+\BOOKMARK [2][-]{subsection.3.3.2}{Effect of Xenon Pressure on the Overall Thermal Conductivity}{section.3.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.3}{Effect of Bubble Arrangement on Thermal Conductivity}{section.3.3}% 40
+\BOOKMARK [1][-]{section.3.4}{Conclusions}{chapter.3}% 41
+\BOOKMARK [1][-]{section*.10}{References}{chapter.3}% 42
+\BOOKMARK [0][-]{chapter.4}{4. Pseudopotential for Plane-Wave Density Functional Theory Studies of Metallic Uranium}{}% 43
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.2}{Computational Details}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.3}{Results}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.3.1}{normalnormal-Uranium}{section.4.3}% 47
+\BOOKMARK [2][-]{subsection.4.3.2}{-U: Crystal Structure and Elastic Moduli}{section.4.3}% 48
+\BOOKMARK [2][-]{subsection.4.3.3}{Body-Centered Tetragonal Uranium}{section.4.3}% 49
+\BOOKMARK [2][-]{subsection.4.3.4}{Face-Centered Cubic Uranium}{section.4.3}% 50
+\BOOKMARK [2][-]{subsection.4.3.5}{Electronic Density of States}{section.4.3}% 51
+\BOOKMARK [1][-]{section.4.4}{Conclusion}{chapter.4}% 52
+\BOOKMARK [1][-]{section.4.4}{Appendix: Elastic Parameter Calculation of -uranium}{chapter.4}% 53
+\BOOKMARK [1][-]{figure.4.7}{Appendix: Elastic Parameter Calculation for -uranium}{chapter.4}% 54
+\BOOKMARK [1][-]{section*.13}{References}{chapter.4}% 55
+\BOOKMARK [0][-]{chapter.5}{5. Xenon Mobility in BCC-Uranium and Uranium\205Molybdenum Alloys}{}% 56
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.2}{Theory}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.3}{Methodology}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.4}{Results and Discussion}{chapter.5}% 60
 \BOOKMARK [2][-]{subsection.5.4.1}{Vacancy Formation and Impurity\205Vacancy Binding Energies}{section.5.4}% 61
 \BOOKMARK [2][-]{subsection.5.4.2}{Xenon and Molybdenum Diffusion}{section.5.4}% 62
-\BOOKMARK [1][-]{section.5.5}{Conclusions}{appendix.5}% 63
-\BOOKMARK [1][-]{section*.12}{References}{appendix.5}% 64
-\BOOKMARK [0][-]{appendix.6}{6. Conclusions and Future Work}{}% 65
-\BOOKMARK [0][-]{appendix.A}{A. Atomic Units}{}% 66
-\BOOKMARK [1][-]{subsection.A.0.1}{Bohr Radius}{appendix.A}% 67
-\BOOKMARK [2][-]{subsection.A.0.2}{Hatree}{subsection.A.0.1}% 68
-\BOOKMARK [2][-]{subsection.A.0.3}{Rydberg Atomic Units}{subsection.A.0.1}% 69
-\BOOKMARK [1][-]{section*.13}{References}{appendix.A}% 70
-\BOOKMARK [0][-]{appendix.B}{B. Helium Interaction with BCC Lithium}{}% 71
-\BOOKMARK [1][-]{section*.14}{References}{appendix.B}% 72
-\BOOKMARK [0][-]{appendix.C}{C. Orthogonal Plane Wave}{}% 73
-\BOOKMARK [1][-]{section*.15}{References}{appendix.C}% 74
-\BOOKMARK [0][-]{appendix.D}{D. Projector Augmented Wave}{}% 75
-\BOOKMARK [1][-]{section.D.1}{PAW Pseudopotential Generation}{appendix.D}% 76
-\BOOKMARK [1][-]{section*.16}{References}{appendix.D}% 77
-\BOOKMARK [0][-]{appendix.E}{E. Finite Element Method in MOOSE}{}% 78
-\BOOKMARK [0][-]{appendix.F}{F. Input Files}{}% 79
-\BOOKMARK [1][-]{section.F.1}{MOOSE Framework}{appendix.F}% 80
-\BOOKMARK [1][-]{section.F.2}{ATOMPAW}{appendix.F}% 81
-\BOOKMARK [1][-]{section.F.3}{DFT Calculation}{appendix.F}% 82
-\BOOKMARK [2][-]{subsection.F.3.1}{SCF of a primitive cell}{section.F.3}% 83
-\BOOKMARK [2][-]{subsection.F.3.2}{Supercell of uranium}{section.F.3}% 84
-\BOOKMARK [2][-]{subsection.F.3.3}{Nudged Elastic Band Calculation}{section.F.3}% 85
-\BOOKMARK [2][-]{subsection.F.3.4}{A sample code to run distorted lattice in quantum espresso}{section.F.3}% 86
-\BOOKMARK [0][-]{appendix*.17}{Bibliography}{}% 87
-\BOOKMARK [0][-]{appendix*.18}{Vita}{}% 88
+\BOOKMARK [1][-]{section.5.5}{Conclusions}{chapter.5}% 63
+\BOOKMARK [1][-]{section*.14}{References}{chapter.5}% 64
+\BOOKMARK [0][-]{chapter.6}{6. Helium Impurities and Interaction with Lithium}{}% 65
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 66
+\BOOKMARK [1][-]{section.6.2}{Methodology}{chapter.6}% 67
+\BOOKMARK [1][-]{section.6.3}{Results and Discussion}{chapter.6}% 68
+\BOOKMARK [1][-]{section*.15}{References}{chapter.6}% 69
+\BOOKMARK [0][-]{chapter.7}{7. Conclusions and Future Work}{}% 70
+\BOOKMARK [0][-]{appendix.A}{A. Atomic Units}{}% 71
+\BOOKMARK [1][-]{section.A.1}{Bohr Radius}{appendix.A}% 72
+\BOOKMARK [1][-]{section.A.2}{Hartree}{appendix.A}% 73
+\BOOKMARK [1][-]{section.A.3}{Rydberg Units}{appendix.A}% 74
+\BOOKMARK [1][-]{section*.16}{References}{appendix.A}% 75
+\BOOKMARK [0][-]{appendix.B}{B. Orthogonal Plane Wave}{}% 76
+\BOOKMARK [1][-]{section*.17}{References}{appendix.B}% 77
+\BOOKMARK [0][-]{appendix.C}{C. Projector Augmented Wave}{}% 78
+\BOOKMARK [1][-]{section.C.1}{PAW Pseudopotential Generation}{appendix.C}% 79
+\BOOKMARK [1][-]{section*.18}{References}{appendix.C}% 80
+\BOOKMARK [0][-]{appendix.D}{D. Finite Element Method in MOOSE}{}% 81
+\BOOKMARK [0][-]{appendix.E}{E. Input Files}{}% 82
+\BOOKMARK [1][-]{section.E.1}{MOOSE Framework}{appendix.E}% 83
+\BOOKMARK [1][-]{section.E.2}{ATOMPAW}{appendix.E}% 84
+\BOOKMARK [1][-]{section.E.3}{DFT Calculation}{appendix.E}% 85
+\BOOKMARK [2][-]{subsection.E.3.1}{SCF of a Primitive Cell}{section.E.3}% 86
+\BOOKMARK [2][-]{subsection.E.3.2}{Supercell of -Uranium}{section.E.3}% 87
+\BOOKMARK [2][-]{subsection.E.3.3}{Nudged Elastic Band Calculation}{section.E.3}% 88
+\BOOKMARK [2][-]{subsection.E.3.4}{QuantumEspresso with Python.}{section.E.3}% 89
+\BOOKMARK [0][-]{appendix*.19}{Bibliography}{}% 90
+\BOOKMARK [0][-]{appendix*.20}{Vita}{}% 91

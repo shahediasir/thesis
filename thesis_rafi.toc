@@ -1,109 +1,114 @@
 \contentsline {chapter}{\MakeUppercase {Acknowledgments}}{ii}{chapter*.1}%
 \contentsline {chapter}{\MakeUppercase {List of Tables}}{vi}{chapter*.4}%
-\contentsline {chapter}{\MakeUppercase {List of Figures}}{vii}{chapter*.5}%
-\contentsline {chapter}{\MakeUppercase {List of Symbols}}{x}{chapter*.6}%
-\renewcommand *{\toc@label }{Chapter}\@first@in@sectiontrue 
+\contentsline {chapter}{\MakeUppercase {List of Figures}}{viii}{chapter*.5}%
+\contentsline {chapter}{\MakeUppercase {List of Symbols}}{xi}{chapter*.6}%
 \gdef \the@ipfilectr {@-1}
+\contentsline {chapter}{\MakeUppercase {Abstract}}{xiii}{section*.7}%
+\gdef \the@ipfilectr {}
+\renewcommand *{\toc@label }{Chapter}\@first@in@sectiontrue 
+\gdef \the@ipfilectr {@-2}
 \contentsline {chapter}{\numberline {1.}\MakeUppercase {Introduction}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Metallic Uranium and Alloys}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Fission Gas}{7}{section.1.2}%
-\contentsline {section}{\numberline {}References}{8}{section*.7}%
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-2}
-\contentsline {chapter}{\numberline {2.}\MakeUppercase {Background}}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}First Principles Method}{11}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}The Many-Body Hamiltonian}{11}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Hartree--Fock Approach}{14}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Density Functional Theory}{17}{subsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.3.1}Density}{17}{subsubsection.2.1.3.1}%
-\contentsline {subsubsection}{\numberline {2.1.3.2}Energy in Terms of the Density}{18}{subsubsection.2.1.3.2}%
-\contentsline {subsection}{\numberline {2.1.4}Kohn--Sham Equations}{21}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Kohn--Sham problem for an isolated atom}{22}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Theory of Pseudopotential}{24}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}Basic Phillips--Kleinman Construction}{24}{subsection.2.1.7}%
-\contentsline {subsection}{\numberline {2.1.8}Norm-Conserving Pseudopotentials}{28}{subsection.2.1.8}%
-\contentsline {subsection}{\numberline {2.1.9}Ultrasoft Pseudopotentials}{29}{subsection.2.1.9}%
-\contentsline {subsection}{\numberline {2.1.10}Projector Augmented-Wave Method (PAW)}{29}{subsection.2.1.10}%
-\contentsline {section}{\numberline {}References}{30}{section*.8}%
+\contentsline {section}{\numberline {1.2}Fission Gas}{8}{section.1.2}%
+\contentsline {section}{\numberline {}References}{9}{section*.8}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
-\contentsline {chapter}{\numberline {3.}\MakeUppercase {Effect of Xenon on the overall thermal conductivity of \NoCaseChange {U--10Mo}}}{31}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{31}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Methods}{33}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Effective Thermal Conductivity Calculation}{36}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Results and Discussion}{38}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Effect of Xenon Gas Bubbles on the Thermal Conductivity}{38}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.1}Intra-Granular Bubbles}{38}{subsubsection.3.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.3.1.2}Inter-Granular Bubbles}{39}{subsubsection.3.3.1.2}%
-\contentsline {subsection}{\numberline {3.3.2}Effect of Xenon Pressure on the Overall Thermal Conductivity}{41}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Effect of Bubble Arrangement on Thermal Conductivity}{42}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Conclusions}{46}{section.3.4}%
-\contentsline {section}{\numberline {}References}{47}{section*.9}%
+\contentsline {chapter}{\numberline {2.}\MakeUppercase {Background}}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Electronic Structure Calculations}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}The Many-Body Hamiltonian}{13}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Hartree--Fock Approach}{17}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Density Functional Theory}{20}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Density}{20}{subsubsection.2.1.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}Energy in Terms of the Density}{21}{subsubsection.2.1.3.2}%
+\contentsline {subsection}{\numberline {2.1.4}Kohn--Sham Equations}{24}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Kohn--Sham Problem for an Isolated Atom}{25}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Pseudopotentials}{27}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Basic Phillips--Kleinman Construction}{27}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.8}Norm-Conserving Pseudopotentials}{31}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.1.9}Ultrasoft Pseudopotentials (US)}{32}{subsection.2.1.9}%
+\contentsline {subsection}{\numberline {2.1.10}Projector Augmented Wave Method (PAW)}{32}{subsection.2.1.10}%
+\contentsline {section}{\numberline {}References}{34}{section*.9}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {chapter}{\numberline {4.}\MakeUppercase {First-Principles Study of Metallic Uranium}}{50}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{50}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Computational Details}{52}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Results}{54}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}\textalpha -Uranium}{54}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}\textgamma -U: Crystal Structure and Elastic Moduli}{57}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Body-centered Tetragonal Uranium}{59}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Face-centered Cubic Uranium}{60}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Electronic Density of States}{61}{subsection.4.3.5}%
-\contentsline {section}{\numberline {4.4}Conclusion}{63}{section.4.4}%
-\contentsline {chapter}{Appendices}{65}{section*.10}%
-\contentsline {section}{\numberline {.1}Calculation of Elastic Parameters of \textalpha -uranium}{66}{section.a..1}%
-\contentsline {section}{\numberline {.2}Elastic Parameter Calculation for \textgamma -uranium}{68}{section.a..2}%
-\contentsline {section}{\numberline {}References}{72}{section*.11}%
+\contentsline {chapter}{\numberline {3.}\MakeUppercase {Estimation of Effective Thermal Conductivity in \NoCaseChange {U-10Mo} fuels with distributed xenon gas bubbles}}{35}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{35}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Methods}{39}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Effective Thermal Conductivity Calculation}{44}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Results and Discussion}{44}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Effect of Xenon Gas Bubbles on the Thermal Conductivity}{44}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}Intra-Granular Bubbles}{45}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}Inter-Granular Bubbles}{46}{subsubsection.3.3.1.2}%
+\contentsline {subsection}{\numberline {3.3.2}Effect of Xenon Pressure on the Overall Thermal Conductivity}{49}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Effect of Bubble Arrangement on Thermal Conductivity}{49}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Conclusions}{54}{section.3.4}%
+\contentsline {section}{\numberline {}References}{56}{section*.10}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {chapter}{\numberline {5.}\MakeUppercase {Xenon Mobility in \NoCaseChange {U--Mo} fuel}}{79}{appendix.5}%
-\contentsline {section}{\numberline {5.1}Introduction}{79}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Theory}{82}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Methodology}{85}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Results and Discussion}{86}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Vacancy Formation and Impurity--Vacancy Binding Energies}{86}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Xenon and Molybdenum Diffusion}{87}{subsection.5.4.2}%
-\contentsline {section}{\numberline {5.5}Conclusions}{90}{section.5.5}%
-\contentsline {section}{\numberline {}References}{94}{section*.12}%
+\contentsline {chapter}{\numberline {4.}\MakeUppercase {Pseudopotential for Plane-Wave Density Functional Theory Studies of Metallic Uranium}}{60}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{60}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Computational Details}{63}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Results}{65}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}\relax \mathweight {bold}\textalpha -Uranium}{65}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}\textgamma -U: Crystal Structure and Elastic Moduli}{70}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Body-Centered Tetragonal Uranium}{72}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Face-Centered Cubic Uranium}{73}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Electronic Density of States}{76}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Conclusion}{76}{section.4.4}%
+\contentsline {section}{\numberline {}Appendix: Elastic Parameter Calculation of \textalpha -uranium}{79}{section.4.4}%
+\contentsline {section}{\numberline {}Appendix: Elastic Parameter Calculation for \textgamma -uranium}{85}{figure.4.7}%
+\contentsline {section}{\numberline {}References}{89}{section*.13}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
-\contentsline {chapter}{\numberline {6.}\MakeUppercase {Conclusions and Future Work}}{99}{appendix.6}%
+\contentsline {chapter}{\numberline {5.}\MakeUppercase {Xenon Mobility in BCC-Uranium and Uranium--Molybdenum Alloys}}{92}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{92}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Theory}{95}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Methodology}{98}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Results and Discussion}{99}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Vacancy Formation and Impurity--Vacancy Binding Energies}{99}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Xenon and Molybdenum Diffusion}{101}{subsection.5.4.2}%
+\contentsline {section}{\numberline {5.5}Conclusions}{106}{section.5.5}%
+\contentsline {section}{\numberline {}References}{107}{section*.14}%
 \gdef \the@ipfilectr {}
-\c@tocdepth =0\renewcommand *{\toc@label }{Appendix}\@first@in@sectiontrue 
 \gdef \the@ipfilectr {@-7}
-\contentsline {chapter}{\numberline {A.}\MakeUppercase {Atomic Units}}{100}{appendix.A}%
-\contentsline {subsection}{\numberline {A.0.1}Bohr Radius}{101}{subsection.A.0.1}%
-\contentsline {subsection}{\numberline {A.0.2}Hatree}{101}{subsection.A.0.2}%
-\contentsline {subsection}{\numberline {A.0.3}Rydberg Atomic Units}{102}{subsection.A.0.3}%
-\contentsline {section}{\numberline {}References}{102}{section*.13}%
+\contentsline {chapter}{\numberline {6.}\MakeUppercase {Helium Impurities and Interaction with Lithium}}{113}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{113}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Methodology}{114}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Results and Discussion}{115}{section.6.3}%
+\contentsline {section}{\numberline {}References}{123}{section*.15}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{\numberline {B.}\MakeUppercase {Helium Interaction with BCC Lithium}}{103}{appendix.B}%
-\contentsline {section}{\numberline {}References}{110}{section*.14}%
+\contentsline {chapter}{\numberline {7.}\MakeUppercase {Conclusions and Future Work}}{126}{chapter.7}%
 \gdef \the@ipfilectr {}
+\c@tocdepth =0\renewcommand *{\toc@label }{Appendix}\@first@in@sectiontrue 
 \gdef \the@ipfilectr {@-9}
-\contentsline {chapter}{\numberline {C.}\MakeUppercase {Orthogonal Plane Wave}}{112}{appendix.C}%
-\contentsline {section}{\numberline {}References}{115}{section*.15}%
+\contentsline {chapter}{\numberline {A.}\MakeUppercase {Atomic Units}}{130}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Bohr Radius}{131}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Hartree}{131}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Rydberg Units}{132}{section.A.3}%
+\contentsline {section}{\numberline {}References}{132}{section*.16}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-10}
-\contentsline {chapter}{\numberline {D.}\MakeUppercase {Projector Augmented Wave}}{116}{appendix.D}%
-\contentsline {section}{\numberline {D.1}PAW Pseudopotential Generation}{119}{section.D.1}%
-\contentsline {section}{\numberline {}References}{121}{section*.16}%
+\contentsline {chapter}{\numberline {B.}\MakeUppercase {Orthogonal Plane Wave}}{133}{appendix.B}%
+\contentsline {section}{\numberline {}References}{136}{section*.17}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-11}
-\contentsline {chapter}{\numberline {E.}\MakeUppercase {Finite Element Method in MOOSE}}{122}{appendix.E}%
+\contentsline {chapter}{\numberline {C.}\MakeUppercase {Projector Augmented Wave}}{137}{appendix.C}%
+\contentsline {section}{\numberline {C.1}PAW Pseudopotential Generation}{141}{section.C.1}%
+\contentsline {section}{\numberline {}References}{141}{section*.18}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-12}
-\contentsline {chapter}{\numberline {F.}\MakeUppercase {Input Files}}{124}{appendix.F}%
-\contentsline {section}{\numberline {F.1}MOOSE Framework}{124}{section.F.1}%
-\contentsline {section}{\numberline {F.2}ATOMPAW}{138}{section.F.2}%
-\contentsline {section}{\numberline {F.3}DFT Calculation}{139}{section.F.3}%
-\contentsline {subsection}{\numberline {F.3.1}SCF of a primitive cell}{139}{subsection.F.3.1}%
-\contentsline {subsection}{\numberline {F.3.2}Supercell of uranium}{140}{subsection.F.3.2}%
-\contentsline {subsection}{\numberline {F.3.3}Nudged Elastic Band Calculation}{143}{subsection.F.3.3}%
-\contentsline {subsection}{\numberline {F.3.4}A sample code to run distorted lattice in quantum espresso}{146}{subsection.F.3.4}%
+\contentsline {chapter}{\numberline {D.}\MakeUppercase {Finite Element Method in MOOSE}}{143}{appendix.D}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-13}
+\contentsline {chapter}{\numberline {E.}\MakeUppercase {Input Files}}{145}{appendix.E}%
+\contentsline {section}{\numberline {E.1}MOOSE Framework}{145}{section.E.1}%
+\contentsline {section}{\numberline {E.2}ATOMPAW}{159}{section.E.2}%
+\contentsline {section}{\numberline {E.3}DFT Calculation}{160}{section.E.3}%
+\contentsline {subsection}{\numberline {E.3.1}SCF of a Primitive Cell}{160}{subsection.E.3.1}%
+\contentsline {subsection}{\numberline {E.3.2}Supercell of \textgamma -Uranium}{161}{subsection.E.3.2}%
+\contentsline {subsection}{\numberline {E.3.3}Nudged Elastic Band Calculation}{164}{subsection.E.3.3}%
+\contentsline {subsection}{\numberline {E.3.4}\mbox {\textsc {QuantumEspresso}} with Python.}{167}{subsection.E.3.4}%
 \gdef \the@ipfilectr {}
 \setcounter {tocdepth}{3}
-\contentsline {chapter}{\MakeUppercase {Bibliography}}{148}{appendix*.17}%
-\contentsline {chapter}{\MakeUppercase {Vita}}{161}{appendix*.18}%
+\contentsline {chapter}{\MakeUppercase {Bibliography}}{169}{appendix*.19}%
+\contentsline {chapter}{\MakeUppercase {Vita}}{186}{appendix*.20}%

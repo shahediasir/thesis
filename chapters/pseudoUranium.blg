@@ -1,7 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: chapters/pseudoUranium.aux
-The style file: apsrev4-1.bst
+The style file: apsrev4-2.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -9,10 +10,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Database file #1: abbreviated.bib
-Database file #2: comp.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Database file #1: abbreviated.bib
+Database file #2: final.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
 Control: key (0) 
 Control: author (72) initials jnrlst
 Control: editor formatted (1) identically to author
@@ -20,44 +23,44 @@ Control: production of article title (-1) disabled
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-You've used 64 entries,
-            5847 wiz_defined-function locations,
-            2894 strings with 37804 characters,
-and the built_in function-call counts, 63266 in all, are:
-= -- 4059
-> -- 1670
-< -- 419
-+ -- 552
-- -- 398
-* -- 9738
-:= -- 6249
-add.period$ -- 66
-call.type$ -- 64
-change.case$ -- 265
-chr.to.int$ -- 64
-cite$ -- 64
-duplicate$ -- 5906
-empty$ -- 4760
-format.name$ -- 978
-if$ -- 12629
-int.to.chr$ -- 1
-int.to.str$ -- 72
-missing$ -- 755
-newline$ -- 244
-num.names$ -- 192
-pop$ -- 2466
+You've used 60 entries,
+            6079 wiz_defined-function locations,
+            2906 strings with 37881 characters,
+and the built_in function-call counts, 63227 in all, are:
+= -- 4544
+> -- 1697
+< -- 346
++ -- 551
+- -- 408
+* -- 9537
+:= -- 5957
+add.period$ -- 60
+call.type$ -- 60
+change.case$ -- 246
+chr.to.int$ -- 59
+cite$ -- 60
+duplicate$ -- 5676
+empty$ -- 4509
+format.name$ -- 998
+if$ -- 12995
+int.to.chr$ -- 2
+int.to.str$ -- 68
+missing$ -- 875
+newline$ -- 232
+num.names$ -- 180
+pop$ -- 2449
 preamble$ -- 1
-purify$ -- 320
+purify$ -- 300
 quote$ -- 0
-skip$ -- 2305
+skip$ -- 2735
 stack$ -- 0
-substring$ -- 1623
-swap$ -- 5542
-text.length$ -- 204
+substring$ -- 1505
+swap$ -- 5393
+text.length$ -- 208
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 898
+type$ -- 859
 warning$ -- 0
-while$ -- 191
+while$ -- 177
 width$ -- 0
-write$ -- 563
+write$ -- 532

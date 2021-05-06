@@ -425,12 +425,12 @@
   \thispagestyle{empty}%
   {\addtolength{\baselineskip}{0.5ex}\setlength{\parindent}{\z@}%
   The undersigned, appointed by the dean of the Graduate School, have examined
-  the\par
+  the
   \MakeLowercase{\thesis@type} entitled
 
   \begin{center}
     \vspace{1ex}%
-    \begin{minipage}{0.8\textwidth}\noindent\centering
+    \begin{minipage}{0.9\textwidth}\noindent\centering
       \MakeUppercase{\@title}
     \end{minipage}
     \vspace{1ex}%

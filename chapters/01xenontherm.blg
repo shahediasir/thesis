@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: chapters/01xenontherm.aux
+The style file: apsrev4-2.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: abbreviated.bib
+Database file #2: final.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+Control: key (0) 
+Control: author (72) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+You've used 69 entries,
+            6079 wiz_defined-function locations,
+            2959 strings with 40677 characters,
+and the built_in function-call counts, 72369 in all, are:
+= -- 5154
+> -- 1959
+< -- 398
++ -- 634
+- -- 468
+* -- 10966
+:= -- 6782
+add.period$ -- 69
+call.type$ -- 69
+change.case$ -- 283
+chr.to.int$ -- 67
+cite$ -- 69
+duplicate$ -- 6584
+empty$ -- 5175
+format.name$ -- 1151
+if$ -- 14840
+int.to.chr$ -- 3
+int.to.str$ -- 77
+missing$ -- 1027
+newline$ -- 259
+num.names$ -- 208
+pop$ -- 2837
+preamble$ -- 1
+purify$ -- 345
+quote$ -- 0
+skip$ -- 3074
+stack$ -- 0
+substring$ -- 1570
+swap$ -- 6262
+text.length$ -- 240
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 988
+warning$ -- 0
+while$ -- 207
+width$ -- 0
+write$ -- 595

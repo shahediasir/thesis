@@ -1,50 +1,51 @@
 \gdef \the@ipfilectr {@-1}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Orthorhombic crystal structure of \textalpha -uranium}}{5}{figure.1.1}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces U--Mo phase diagram}}{5}{figure.1.2}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces U--Al phase diagram}}{6}{figure.1.3}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic representation of the self-consistent loop solution of Kohn-Sham equations.}}{23}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Radial distribution function of Hydrogenic 1s, 2s and 3s electron. It shows higher kinetic energy near the nucleus.}}{25}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic diagram of the replacement of all-electron wave function and core potential by a pseudo-wavefunction and pseudopotential.}}{25}{figure.2.3}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Orthorhombic crystal structure of \textalpha -uranium.}}{4}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Uranium--aluminum phase diagram}}{5}{figure.1.2}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Uranium--molybdenum phase diagram}}{6}{figure.1.3}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Discretized domain of intra-granular xenon bubbles}}{34}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces SEM image of the fission gas bubbles along the grain boundary}}{36}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Thermal conductivity of xenon as a function of pressure and temperature}}{37}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Comparision between the thermal conductivities}}{38}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Comparison of thermal conductivities with theoretical models}}{40}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Comparing thermal conductivities between the inclusion of GB xenon and withouth xenon}}{41}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Overall thermal conductivity of U-10Mo using the thermal conductivity of xenon at two extremes of pressure (1\nobreakspace {}bar and 1000\nobreakspace {}bar)}}{42}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Different bubble arrangements in which the area of each bubble and the number of bubbles are the same}}{43}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Comparison of the calculated thermal conductivity of different bubble arrangements (constant bubble area and diameter)}}{44}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Different bubble arrangements where the area is the same but the bubbles have different diameters.}}{45}{figure.3.10}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Comparison of thermal conductivity between different bubble diameters at constant total bubble area with bubble-free U-10Mo.}}{45}{figure.3.11}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematic representation of the self-consistent loop solution of Kohn--Sham equations.}}{26}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Radial distribution function of hydrogenic 1s, 2s, and 3s, electrons}}{28}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of the replacement of the all-electron wavefunction and core potentials by a pseudo-wavefunction and pseudopotential.}}{28}{figure.2.3}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Energy vs volume plot for \textalpha -uranium}}{56}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Total electronic densities of states of \textalpha , \textgamma , bct, and fcc uranium near the Fermi level.}}{61}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces The partial electronic densities of states of \textalpha , \textgamma , bct, and fcc uranium near the Fermi level.}}{62}{figure.4.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Changes in strain energy in $D_1$, $D_2$ and $D_3$}}{69}{figure.a..4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Changes in strain energy in $D_4$, $D_5$ and $D_6$}}{70}{figure.a..5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Changes in strain energy in $D_7$, $D_8$ and $D_9$}}{71}{figure.a..6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Energy as a function of lattice parameters for \textgamma -uranium.}}{73}{figure.a..7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Changes in the strain energy as a function of strain $(\delta )$ for monoclinic distortions of \textgamma -uranium }}{74}{figure.a..8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Changes in the strain energy as a function of strain $(\delta )$ for orthorhombic distortions of \textgamma -uranium }}{75}{figure.a..9}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces (a)\nobreakspace {}Discretized domain of intra-granular xenon bubbles inside a U-10Mo matrix; (b)\nobreakspace {}Example two-dimensional bubble distribution used for intra-granular xenon gas, consisting of bubbles with 3.1, 3.6, 3.75, and 4.0\nobreakspace {}nm diameters, consistent with the work of Miller and coworkers}}{40}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces (a) SEM image of the fission gas bubbles along the grain boundaries from Miller used for FEM calculations (b) Geometry created based on the grain boundary fission gas image in (a) (c) FEM mesh with grain boundary fission gas of the region between the dotted line in (b).}}{41}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces (a) Thermal conductivity of xenon as a function of pressure and temperature based on the measurements of Rabinovich et al.}}{42}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Comparison between the thermal conductivity of \mbox {U-10Mo} (from Kaufmann) to the effective thermal conductivity of \mbox {U-10Mo} with intra-granular xenon bubbles of different diameters as arranged in Figure\nobreakspace {}\ref {gbs}b.}}{45}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Comparison of the calculated effective thermal conductivity of \mbox {U-10Mo} with intra-granular xenon bubble (radius 1.55\nobreakspace {}nm, 10$\%$ porosity) with the Maxwell--Eucken and Hashin--Shtrikman models}}{47}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Comparison between the thermal conductivity of bubble-free \mbox {U-10Mo} with that of \mbox {U-10Mo} that has xenon bubbles decorating the grain boundaries according to the distribution in Figure\nobreakspace {}\ref {fig_Xe_SEM}}}{48}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Overall thermal conductivity of \mbox {U-10Mo} using the thermal conductivity of xenon at two extremes of pressure (1\nobreakspace {}bar and 1000\nobreakspace {}bar), compared to that of pure (bubble-free) \mbox {U-10Mo}}}{50}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Different bubble arrangements in which the area of each bubble and the number of bubbles are the same}}{51}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Comparison of the calculated thermal conductivity of different bubble arrangements (constant bubble area and diameter corresponding to Fig.\nobreakspace {}\ref {fig:five_figures}). }}{52}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Different bubble arrangements where the area is the same but the bubbles have different diameters. (a)\nobreakspace {}20 bubbles, (b)\nobreakspace {}25 bubbles, (c)\nobreakspace {}32 bubbles, (d)\nobreakspace {}38 bubbles.}}{53}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Comparison of thermal conductivity between different bubble diameters at constant total bubble area with bubble-free U-10Mo. Bubble arrangements are shown in Figure\nobreakspace {}\ref {fig:area_same_four}}}{54}{figure.3.11}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces (a)\nobreakspace {}Diagram of a xenon jump from the centre site to a nearest-neighbour vacancy in \textgamma -uranium. (a)\nobreakspace {}All eight jumps are symmetrically equivalent with no molybdenum present; (b)\nobreakspace {}with one molybdenum atom in the nearest neighbour shell, there are three unique solute jumps (1, 2, and\nobreakspace {}3).}}{90}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The three sets of symmetrically-inequivalent hops of xenon from the centre with two molybdenum atoms in the nearest-neighbour shell. The numbers denote symmetrically distinct pathways.}}{91}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The three sets of symmetrically-distinct hops from the centre site with three molybdenum atoms in the nearest-neighbour shell. The numbers denote symmetrically distinct pathways.}}{91}{figure.5.3}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Energy vs. volume curve for three different phases of uranium.}}{66}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces (a)\nobreakspace {}Calculated total energy as a function of volume for \textalpha -uranium. (b)\nobreakspace {}Calculated total energy as a function of the positional parameter $y$ for \textalpha -uranium.}}{68}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Total electronic densities of states of \textalpha , \textgamma , bct, and fcc uranium near the Fermi level.}}{74}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The partial electronic densities of states of \textalpha , \textgamma , bct, and fcc uranium near the Fermi level.}}{75}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Changes in the strain energy as a function of strain using distortion matrix\nobreakspace {}$D_1$\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq_D1}\unskip \@@italiccorr )}}, $D_2$\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq_D2}\unskip \@@italiccorr )}}, and $D_3$\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq_D3}\unskip \@@italiccorr )}}.}}{82}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Changes in the strain energy as a function of strain using distortion matrix\nobreakspace {}$D_4$\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq_D4}\unskip \@@italiccorr )}}, $D_5$\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq_D5}\unskip \@@italiccorr )}}, and $D_6$\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq_D6}\unskip \@@italiccorr )}}.}}{83}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Changes in the strain energy as a function of strain using distortion matrix\nobreakspace {}$D_7$\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq_D7}\unskip \@@italiccorr )}}, $D_8$\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq_D8}\unskip \@@italiccorr )}}, and $D_9$\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq_D9}\unskip \@@italiccorr )}}.}}{84}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Energy as a function of lattice parameter for \textgamma -uranium}}{86}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Changes in the strain energy as a function of strain $(\delta )$ for monoclinic distortions of \textgamma -uranium}}{87}{figure.4.9}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Changes in the strain energy as a function of strain $(\delta )$ for orthorhombic distortions of \textgamma -uranium}}{88}{figure.4.10}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagram of a xenon jump from the center site to a nearest-neighbor vacancy in \textgamma -uranium. }}{104}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The three sets of symmetrically-inequivalent hops of xenon from the center with two molybdenum atoms in the nearest-neighbor shell.}}{104}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The three sets of symmetrically-distinct hops from the center site with three molybdenum atoms in the nearest-neighbor shell}}{105}{figure.5.3}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Helium--helium dumbbells in different orientations in the bcc lithium unit cell.}}{116}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Tetrahedral ({\scriptsize $\bigcirc $}) and octahedral ($\square $) sites in a bcc crystal}}{120}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Binding energy of $n$ helium atoms to a vacancy for $n \in [1,8]$.}}{121}{figure.6.3}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Different dumbbell configuration in bcc lithium}}{108}{figure.B.1}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Interstitial atom location in 2D for bcc crystal}}{109}{figure.B.2}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces He binding energy}}{109}{figure.B.3}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-9}
 \gdef \the@ipfilectr {}
@@ -53,4 +54,6 @@
 \gdef \the@ipfilectr {@-11}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-12}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-13}
 \gdef \the@ipfilectr {}

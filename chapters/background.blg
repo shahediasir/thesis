@@ -1,7 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: chapters/background.aux
-The style file: apsrev4-1.bst
+The style file: apsrev4-2.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -9,10 +10,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Database file #1: abbreviated.bib
-Database file #2: comp.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Database file #1: abbreviated.bib
+Database file #2: final.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
 Control: key (0) 
 Control: author (72) initials jnrlst
 Control: editor formatted (1) identically to author
@@ -21,39 +24,39 @@ Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
 You've used 12 entries,
-            5847 wiz_defined-function locations,
-            2594 strings with 29121 characters,
-and the built_in function-call counts, 10339 in all, are:
-= -- 745
+            6079 wiz_defined-function locations,
+            2626 strings with 29393 characters,
+and the built_in function-call counts, 10864 in all, are:
+= -- 883
 > -- 175
-< -- 71
+< -- 60
 + -- 68
 - -- 36
-* -- 1431
-:= -- 1090
+* -- 1441
+:= -- 1093
 add.period$ -- 12
 call.type$ -- 12
-change.case$ -- 50
+change.case$ -- 52
 chr.to.int$ -- 12
 cite$ -- 12
-duplicate$ -- 978
-empty$ -- 786
+duplicate$ -- 996
+empty$ -- 787
 format.name$ -- 102
-if$ -- 2030
+if$ -- 2207
 int.to.chr$ -- 1
 int.to.str$ -- 20
-missing$ -- 129
+missing$ -- 163
 newline$ -- 88
 num.names$ -- 36
-pop$ -- 430
+pop$ -- 458
 preamble$ -- 1
 purify$ -- 60
 quote$ -- 0
-skip$ -- 416
+skip$ -- 524
 stack$ -- 0
 substring$ -- 322
-swap$ -- 862
-text.length$ -- 20
+swap$ -- 877
+text.length$ -- 22
 text.prefix$ -- 0
 top$ -- 8
 type$ -- 150

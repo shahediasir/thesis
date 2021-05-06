@@ -1,30 +1,31 @@
 \chapter{Finite Element Method in MOOSE}\label{appen_fem}
-Divergence theorem transforms and volume integral into a surface integral:
-	\begin{equation}\label{eq_div}
-		\int_{\Omega} \nabla \cdot \va{g}\ dx = \int_{\partial \Omega} \va{g} \cdot \hat{n}\ ds
-	\end{equation}
-The strong form of the diffusion equation without a source term is as follows:
+This appendix discusses how a partial differential equation can be implemented in the MOOSE Framework.
+	The strong form of the heat diffusion equation without a source term is 
 \begin{equation*}
-	\nabla \cdot \left(K(T)\nabla T\right) = 0
+	\nabla \cdot \big(K(T)\nabla T\big) = 0.
 \end{equation*}
-Multiplying by a test function ($\mathcal{T}_f$), and integrating over the domain $\Omega$:
-    \begin{align*}
-		\int_{\Omega} \mathcal{T}_f \big( \nabla \cdot \underbrace{K(T) \nabla T}_{\mathcal{G}} \big) = &  0 \\
-		\int_{\Omega} \mathcal{T}_f \nabla \cdot \mathcal{G} = & 0 \\
-		\int_{\Omega} \nabla \cdot (\mathcal{T}_f \mathcal{G}) - \int_{\Omega} \nabla \mathcal{T}_f \cdot \mathcal{G} = & 0
-	\end{align*}
-
-Using the divergence theorem~\eqref{eq_div} the above equation becomes:
+Multiplying by a test function ($\mathcal{T}_f$) and integrating over the domain $\Omega$ gives
+    \begin{align}\label{eq_dis}
+		\int_{\Omega} \mathcal{T}_f \big( \nabla \cdot \underbrace{K(T) \nabla T}_{\mathcal{G}} \big) &= 0 \nonumber \\
+		\int_{\Omega} \mathcal{T}_f \nabla \cdot \mathcal{G} &= 0 \nonumber \\
+		\int_{\Omega} \nabla \cdot (\mathcal{T}_f \mathcal{G}) - \int_{\Omega} \nabla \mathcal{T}_f \cdot \mathcal{G} &= 0
+	\end{align}
+Using the divergence theorem,
+\begin{equation}\label{eq_div}
+		\int_{\Omega} \nabla \cdot \va{g}\ dx = \int_{\partial \Omega} \va{g} \cdot \hat{n}\ ds
+\end{equation}
+Eqn.~\eqref{eq_dis} becomes:
 	\begin{align*}
-		\int_{\partial \Omega} \mathcal{T}_f \mathcal{G} \cdot \hat{n}\  ds - \int_{\Omega} \nabla \mathcal{T}_f \cdot \mathcal{G} dx  &=  0 \\
+		\int_{\partial \Omega} \mathcal{T}_f \mathcal{G} \cdot \hat{n}\  ds - \int_{\Omega} \nabla \mathcal{T}_f \cdot \mathcal{G} dx  &= 0 \\
 		\int_{\Omega} \nabla \mathcal{T}_f \cdot K(T) \nabla T dx - \int_{\partial \Omega} \mathcal{T}_f K(T)\nabla T \cdot \hat{n}\  ds   &= 0
 	\end{align*}
-Using the inner product notation the above equation can be written as follows:
+Using the inner product notation, the above equation can be written as follows:
 \begin{equation}
 	(\nabla \mathcal{T}_f, K\nabla T) - \langle \mathcal{T}_f, K\nabla T \cdot \hat{n}  \rangle = 0
 \end{equation}
 Each of these term inherits an existing MOOSE type to solve the problem.
 \begin{equation}
-	\underbrace{(\nabla \mathcal{T}_f, K\nabla T)}_{Kernel} - \underbrace{\langle \mathcal{T}_f, K\nabla T \cdot \hat{n}  \rangle}_{Boundary Condition} = 0
+	\underbrace{(\nabla \mathcal{T}_f, K\nabla T)}_{\text{Kernel}} - \underbrace{\langle \mathcal{T}_f, K\nabla T \cdot \hat{n} \rangle}_{\text{Boundary Condition}}= 0
 \end{equation}
+Source files containing a kernel and boundary conditions are given in Appendix~\ref{appen_inputfiles}.
 

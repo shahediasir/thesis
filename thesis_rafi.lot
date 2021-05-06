@@ -5,26 +5,27 @@
 \gdef \the@ipfilectr {@-3}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Parameters used to generate the pseudopotential in atompaw}}{54}{table.4.1}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Comparison of ground-state properties and elastic moduli of \textalpha -U with previous work}}{57}{table.4.2}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Comparison of ground-state properties and elastic moduli of \textgamma -U with previous work}}{58}{table.4.3}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Comparison of ground-state properties and elastic moduli of bct uranium with previous work}}{59}{table.4.4}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Comparison of ground-state properties and elastic parameters of fcc uranium}}{60}{table.4.5}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
-\contentsline {table}{\numberline {5.1}{\ignorespaces Probability of having different numbers of molybdenum atoms in the nearest-neighbour (NN) location for a bcc uranium--molybdenum alloy. We have used Eq.\nobreakspace {}\textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {eq_combination}\unskip \@@italiccorr )}} to calculate the probabilities.}}{85}{table.5.1}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Vacancy formation energy (eV) of \textgamma -U compared with previously-published results.}}{87}{table.5.2}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Solute--vacancy binding energies in \textgamma -uranium for various solutes near a vacancy. Positive energies indicate energetically-favourable binding.}}{88}{table.5.3}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Xenon migration energy ($E_m$) for different configurations.}}{92}{table.5.4}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Parameters used to generate the pseudopotential in atompaw}}{65}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Ground-state properties and elastic moduli of \textalpha -uranium from present work, compared with the PAW pseudopotential calculations of Beeler}}{69}{table.4.2}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Equilibrium lattice parameters, volume per atom, and elastic moduli of \textgamma -uranium.}}{71}{table.4.3}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces The optimized lattice parameters (\r A), volume per atom (\r A$^3$) and elastic moduli of bct uranium.}}{72}{table.4.4}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces The equilibrium lattice parameter, volume per atom, and elastic moduli of fcc uranium.}}{73}{table.4.5}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Probability of having different numbers of molybdenum atoms in the nearest-neighbor (NN) location for a bcc uranium--molybdenum alloy. }}{98}{table.5.1}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Vacancy formation energy (eV) of \textgamma -uranium compared with previously-published results.}}{100}{table.5.2}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Solute--vacancy binding energies in \textgamma -uranium for various solutes near a vacancy}}{101}{table.5.3}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Xenon migration energy ($E_m$) for different configurations.}}{102}{table.5.4}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Calculated vacancy formation energy $E_f^{\Box }$, vacancy migration energy $E_m^\Box $, and various split-dumbbell and self-interstitial formation energies in lithium}}{117}{table.6.1}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Formation energies ($E_f$), binding energies ($E_b$), and migration energies ($E_m$, all in eV) for helium located at octahedral or tetrahedral interstitial sites as well as substitutional sites}}{118}{table.6.2}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Formation energies ($E_f$) of He--He split dumbbells bound to a vacancy.}}{118}{table.6.3}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Binding energy of $n$ helium atoms to a vacancy.}}{121}{table.6.4}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {table}{\numberline {B.1}{\ignorespaces Defect formation energies in bcc lithium}}{105}{table.B.1}%
-\contentsline {table}{\numberline {B.2}{\ignorespaces Formation energy of helium in lithium}}{106}{table.B.2}%
-\contentsline {table}{\numberline {B.3}{\ignorespaces He--He dummbbell formation energy in lithium}}{106}{table.B.3}%
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-9}
 \gdef \the@ipfilectr {}
@@ -33,4 +34,6 @@
 \gdef \the@ipfilectr {@-11}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-12}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-13}
 \gdef \the@ipfilectr {}

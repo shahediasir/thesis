@@ -1,8 +1,8 @@
 \chapter{Input Files}\label{appen_inputfiles}
-Input files for different software are included in this chapter. Because of the complexity and number, I have included samples of them.
+Input files for different software are included in this chapter. Because of the complexity and number, I have only included samples of them.
 
 \section{MOOSE Framework}
-This is the \texttt{main.C} file for moose simulation. Depends on the problem, moose requires a number of header files and source file.  
+This is the \texttt{main.C} file for MOOSE simulation. Depends on the problem, MOOSE requires a number of header files and source files.  
 
 \lstset{style=cpp}
 \begin{lstlisting}
@@ -42,10 +42,10 @@ This is the \texttt{main.C} file for moose simulation. Depends on the problem, m
   }
 \end{lstlisting}
 \pagebreak
-This is a sample of source file (kernel in MOOSE) of heat transfer in U--10Mo 
+This is a sample of source file (kernel in MOOSE) of heat transfer in U-10Mo.
 \lstset{style=cpp}
 \begin{lstlisting}
-// this file is edited by rafi fro temperature dependent thermal conductivity
+// this file is edited by Rafi for temperature dependent thermal conductivity
 #include "Tempdepk.h"
 
 template<>
@@ -86,7 +86,7 @@ Tempdepk::computeQpJacobian()
 
 \lstset{style=cpp}
 \begin{lstlisting}
-// this file is edited by rafi fro temperature dependent thermal conductivity
+// this file was edited by Rafi for temperature dependent thermal conductivity
 #include "TXenon.h"
 
 
@@ -130,10 +130,10 @@ TXenon::computeQpJacobian()
 
 \end{lstlisting}
 \pagebreak
-Material source code for U--10Mo property.
+Material source code for U-10Mo properties.
 \lstset{style=cpp}
 \begin{lstlisting}
-// this file is edited by Rafi January 24, 2017
+// this file was edited by Rafi January 24, 2017
 // 
 #include "Tconductivity.h"
 
@@ -171,9 +171,9 @@ Tconductivity::computeQpProperties()
 \end{lstlisting}
 \pagebreak
 \lstset{style=cpp}
-Source file for xenon material property.
+Source file for xenon material properties.
 \begin{lstlisting}
-// this file is edited by Rafi February 13, 2017
+// this file was edited by Rafi February 13, 2017
 // 
 #include "XenonT.h"
 
@@ -217,7 +217,6 @@ XenonT::computeQpProperties()
 }
 \end{lstlisting}
 \pagebreak
-
 Source file for heat flux calculation.
 \lstset{style=cpp}
 \begin{lstlisting}
@@ -266,6 +265,7 @@ HeatFlux::computeValue()
   return _t_thermal_conductivity[_qp]*_temperature_gradient[_qp](_component);
 }
 \end{lstlisting}
+\pagebreak
 This source file is to calculate the gradient of the temperature.
 \lstset{style=cpp}
 \begin{lstlisting}
@@ -381,7 +381,7 @@ protected:
 \pagebreak
 \lstset{style=cpp}
 \begin{lstlisting}
-// this file is created by Rafi at February 13, 2017
+// this file was created by Rafi on February 13, 2017
 
 #ifndef TCONDUCTIVITY_H
 #define TCONDUCTIVITY_H
@@ -426,7 +426,7 @@ private:
 \texttt{XenonT.h}
 \lstset{style=cpp}
 \begin{lstlisting}
-/ this file is created by Rafi at February 13, 2017
+/ this file was created by Rafi on February 13, 2017
 // The reference is Rabinovich et al.
 // Thermophysical Propeties of Neon, Argon, Krypton and Xenon// for the purpose of temperature dependent thermal condcutivity for U-10Mo
 #ifndef XENONT_H
@@ -472,7 +472,7 @@ private:
 \texttt{HeatFlux.h}
 \lstset{style=cpp}
 \begin{lstlisting}{style=dflt}
-ifndef HEATFLUX_H
+#ifndef HEATFLUX_H
 #define HEATFLUX_H
 
 #include "AuxKernel.h"
@@ -517,7 +517,7 @@ protected:
 \lstset{style=cpp}
 \texttt{TGradient.h}
 \begin{lstlisting}{style=cpp}
-ifndef TGRADIENT_H
+#ifndef TGRADIENT_H
 #define TGRADIENT_H
 
 #include "AuxKernel.h"
@@ -561,7 +561,7 @@ protected:
 \pagebreak
 
 \section{ATOMPAW}
-This is an input file for Atompaw to generate the paw database for electronic structure calculation.
+This is an input file for Atompaw to generate the PAW pseudopotential for electronic structure calculations on uranium.
 \lstset{style=atpw}
 \begin{lstlisting}
 U 92
@@ -616,16 +616,16 @@ default
 \end{lstlisting}
 
 \section{DFT Calculation}
-\subsection{SCF of a primitive cell}
-This is sample input file to calculate the self consistent field study using Quantum Espresso. It contains the lattice parameter of \textalpha-uranium.
+\subsection{SCF of a Primitive Cell}
+This is sample input file to calculate the self consistent field study using \textsc{QuantumEspresso}. It contains the lattice parameter of \textalpha-uranium.
 \lstset{style=deflt}
 \begin{lstlisting}
 &CONTROL
                        title = 'alphaU'
                  calculation = 'scf'
                 restart_mode = 'from_scratch'
-                      outdir = '/home/iasir/quantum_espresso/Uranium_PAW/rvloc_96/y_value_plot/lat01'
-                  pseudo_dir = '/home/iasir/quantum_espresso/Uranium_PAW/rvloc_96/y_value_plot/lat01'
+                      outdir = '/home/iasir/quantum_espresso'
+                  pseudo_dir = '/home/iasir/quantum_espresso'
                       prefix = 'alphaU'
                    verbosity = 'default'
                      tstress = .true.
@@ -664,8 +664,8 @@ K_POINTS automatic
 \end{lstlisting}
 
 \pagebreak
-\subsection{Supercell of uranium}
-The following input is for performing a relax calcuation using supercell of \textgamma-uranium with molybdenum and xenon.
+\subsection{Supercell of \textgamma-Uranium}
+The following input is for performing a relax calculation using supercell of \mbox{\textgamma-uranium} with molybdenum and xenon.
 \lstset{style=atpw}
 \begin{lstlisting}
 &CONTROL
@@ -796,7 +796,7 @@ K_POINTS automatic
 \end{lstlisting}
 \pagebreak
 \subsection{Nudged Elastic Band Calculation}
-The following input file is to perform nudged elastic band calculation using Quantum Espresso.
+The following input file is to perform nudged elastic band calculation using \mbox{\textsc{QuantumEspresso}}.
 \lstset{style=atpw}
 \begin{lstlisting}
 BEGIN
@@ -975,10 +975,13 @@ END
 
 
 \newpage
-\subsection{A sample code to run distorted lattice in quantum espresso}
-The following code sample is valid for bcc lattice only.
+\subsection{\mbox{\textsc{QuantumEspresso}} with Python.}
+A sample code to run distorted lattice in \mbox{\textsc{QuantumEspresso}} with Python.
+The following code is valid for bcc lattice only.
 \lstset{style=pythn}
 \begin{lstlisting}
+#! /usr/bin/python3
+
 import os, subprocess
 from glob import glob
 import re
@@ -990,7 +993,8 @@ def matprintf(x):
          print ('{:16.13f} {:16.13f} {:16.13f}'.format(x[i][0],x[i][1],x[i][2]))
 
 #d = np.array([3.42, 3.43, 3.44, 3.455, 3.45, 3.465, 3.46, 3.475, 3.47, 3.48, 3.445, 3.4425])
-d = np.array([0,0.01,-0.01,0.005,-0.005,0.0075,-0.0075,0.00625,-0.00625,0.0025,-0.0025,0.00375,-0.00375,0.00125,-0.00125,0.02,-0.02])
+d = np.array([0,0.01,-0.01,0.005,-0.005,0.0075,-0.0075,0.00625,-0.00625,0.0025,-0.0025,\
+0.00375,-0.00375,0.00125,-0.00125,0.02,-0.02])
     
         # Run with different ecutwfc
 for i in range(len(d)):

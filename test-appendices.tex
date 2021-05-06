@@ -1,0 +1,71 @@
+\documentclass{MUthesis}
+\usepackage{amsmath}
+%\usepackage{pxfonts}
+\usepackage{newpxtext,newpxmath}
+\usepackage[toc,page]{appendix}
+%\usepackage{textgreek}
+%\usepackage{appendix}
+
+\newcommand*{\textalpha}{\text{\ensuremath{\alphaup}}}
+
+\title{Hi!}
+\author{My Butt}
+
+\begin{document}
+%\maketitle
+\tableofcontents
+
+\chapter{Preface}
+blah blah
+blah blah
+blah blah
+blah blah
+blah blah
+blah blah
+blah blah
+blah blah
+blah blah
+blah blah
+blah blah
+\mainmatter
+
+\chapter{Main Chapter}
+\section{A section}
+\subsection{blah}
+\subsubsection{blah}
+\paragraph{blah}
+\subparagraph{blah}
+\section{Another section}
+\chapter{Another Main Chapter}
+\section{A section}
+\section{Another section}
+\section{Yet Another section}
+
+\chapter{Chapter with sections}
+\section{A section}
+\section[Another section with Greek $\alpha$ in it]
+        {Another section with Greek \boldmath$\alpha$ in it}
+\section{Yet Another section}
+%\begin{subappendices}
+\clearpage
+\addcontentsline{toc}{section}{Appendix: Calculation of Elastic Parameters of $\alphaup$-uranium}
+\section*{\boldmath Appendix: Calculation of Elastic Parameters of $\alphaup$-uranium}\label{appen_elalpha}
+In this appendix, we will discuss the stress-strain relationships that was used to calculated the nine independent elastic constants of \textalpha-uranium. The base-centered orthorhombic phase of uranium has three lattice parameters $a$, $b$, and $c$, with the Bravais lattice matrix.
+
+\begin{equation}\label{eq_lattic_alphaU}
+\mathbf{R} = \begin{pmatrix}
+			\frac{a}{2} & -\frac{b}{2} & 0 \\
+			\frac{a}{2} & \frac{b}{2} & 0 \\
+			0			&    0        & c 
+			\end{pmatrix}
+\end{equation}
+
+%\end{subappendices}
+
+\chapter{Extra Chapter}
+
+\appendix
+
+\chapter{Hello!}
+
+\end{document}

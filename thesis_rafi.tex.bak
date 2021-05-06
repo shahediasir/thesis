@@ -1,0 +1,280 @@
+\documentclass[hyper,dissertation]{MUthesis}
+%% options:
+%%  doublespace  -- the default, indicates double spacing as per MU
+%%                  requirements; use for all final copies
+%%  singlespace  -- for early work; not acceptable for final draft
+%%  dissertation -- default; indicates this is a dissertation
+%%  thesis       -- indicates this is a Master's thesis; changes the default
+%%                  for \degree{}{} to Master of Science / M.S.
+%%  nolisthyphen -- disallows hyphenation in the Table of Contents and
+%%                      the list of figures/tables; only use if the graduate
+%%                      school or your committee complain
+%%  nohyphen     -- disallows hyphenation /everywhere/; don't use unless
+%%                  someone complains (and even then, fight back!)
+%%  hyperpages   -- default; loads hyperref with stripped down options
+%%  hyper        -- loads hyperref with page labels and invisible links
+%%  nohyper      -- turns off loading of hyperref, which is used only to
+%%                  fix page labels (so that i is called i, not 1, in the PDF);
+%%                  use this if you want to load hyperref with other options
+%%
+%%  All other options are passed as-is to the "report" class; the default size
+%%  is 12pt, but you can specify 10 or 11 pt (or any other size supported by
+%%  "report")
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+%\usepackage{txfonts}
+%\usepackage{pxfonts}
+\usepackage{newpxtext, newpxmath}
+%\usepackage[largesc,osf]{newpxtext, newpxmath}
+\usepackage{graphicx}
+%\usepackage{achemso}
+\usepackage{textgreek}
+\usepackage{miller}
+\usepackage{comment}
+\usepackage{siunitx}
+\usepackage[version=4]{mhchem}
+\usepackage{rotating}
+
+
+%\usepackage[rootbib]{chapterbib}
+\usepackage{chapterbib}
+%\begin{comment}
+\usepackage{booktabs}
+\usepackage[overload]{textcase}
+\usepackage{xcolor}
+%\usepackage{cite}
+\usepackage{setspace}
+\usepackage{nomencl}
+\usepackage{tikz}
+\usepackage{listings}
+\usepackage[numbers,square,sort&compress]{natbib}
+\usepackage[toc,page]{appendix}
+%\usepackage[titletoc]{appendix}
+
+
+\usetikzlibrary{shapes.geometric, arrows}
+
+\tikzstyle{block2} = [rectangle, draw,
+     text centered,  rounded corners=5pt, line width=0.4mm, minimum height=3em]
+\tikzstyle{elps} = [ellipse, draw,
+	text width=2em, text centered]
+
+\tikzstyle{block3} = [rectangle, draw,
+	text width=20em, text centered, minimum height=3em, rounded corners=10pt]
+
+\tikzstyle{decision} = [diamond, draw,
+	 text centered, aspect=2.5, line width=0.4mm]
+
+
+
+\tikzstyle{line} = [thick, ->, >=stealth, draw, line width=0.51mm, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
+    minimum height=2em]
+
+\tikzstyle[arrow] = [thick, ->, >=stealth]
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{deflt}{
+commentstyle=\color{codegray},
+	keywordstyle=\color{black},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{black},
+	basicstyle=\linespread{0.9}\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2,
+	xleftmargin=2.0ex,
+}
+
+\lstdefinestyle{cpp}{
+	commentstyle=\color{codegray},
+	keywordstyle=\color{black},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{black},
+	basicstyle=\linespread{0.9}\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true, 
+	%morecomment=[1]{//},
+	morecomment=[s]{/*}{*/},
+	morecomment=[l]{//},
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2,
+	xleftmargin=2.0ex,
+}
+\lstdefinestyle{atpw}{
+	commentstyle=\color{codegray},
+	keywordstyle=\color{black},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{black},
+	basicstyle=\linespread{0.9}\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true, 
+	%morecomment=[s]{/*}{*/},
+	morecomment=[l]{!},
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2,
+	xleftmargin=2.0ex,
+}
+
+\lstdefinestyle{pythn}{
+	commentstyle=\color{codegray},
+	keywordstyle=\color{black},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{black},
+	basicstyle=\linespread{0.9}\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true, 
+	%morecomment=[s]{/*}{*/},
+	morecomment=[l]{\#},
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=ture,
+	tabsize=2,
+	xleftmargin=2.0ex,
+}
+
+\DeclareRobustCommand{\schrod}{Schr\"odinger }
+
+\graphicspath{{images/}}
+%\makenomenclature
+%\makeglossary
+\newcommand*{\ie}{\emph{i.e.}}
+\newcommand*{\eg}{\emph{e.g.}}
+\makeatletter
+\DeclareRobustCommand{\etal}{\emph{et al}\@ifnextchar.{}{.}}
+\makeatother
+\makenomenclature
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.mps}
+
+\title{The Impact of Fission gas on Uranium--Molybdenum Fuel}
+\author{Abu Rafi Mohammad Iasir}
+\date{May 2021}
+\copyrightyear{2021}
+                
+\chair{Karl Hammond}
+\firstreader{Scott Kovalaski}
+\secondreader{Robert Winholtz}
+\thirdreader{Nickie Peters}
+
+%% Your degree's name;
+%\degree{Doctor of Philosophy}{Ph.D.}
+%% defaults to {Doctor of Philosophy}{Ph.D.} (option "dissertation"; default)
+%% defaults to {Master of Science}{M.S.} for theses (option "thesis")
+
+\begin{document}
+\frontmatter   % optional (automatically set at \begin{document})
+\maketitle     % mandatory
+\copyrightpage % optional
+\approvalpage  % mandatory
+
+\begin{dedication}
+To my parents Ismail and Halima 
+\end{dedication}
+
+\begin{epigraph}{\textit{Rumi}}
+``\textit{Do you think that I know what I am doing? \\
+  That for one breath or half-breath I belong to myself?\\
+  As much as a pen knows what it's writing,\\
+  Or the ball can guess where it's going next.}''
+\end{epigraph}
+
+
+\begin{acknowledgments}
+It is my pleasure to thank my supervisor, Dr.~Karl Hammond, whose expertise was invaluable in this research. His guidance and assistance throughout my PhD helped me to grow as a researcher. My sincere thanks to my PhD committee, Dr.~Scott Kovaleski, Dr.~Robert Winholtz, and Dr.~Nickie Peters.
+
+
+I am very grateful to a few wonderful people with whom I shared our lab: Amir Mofrad, Andrea Saltos, Brandon Laufer, Luke Kruse, Jiasen Guo, and Zhuocen Yang. I know I learned more from these people than I will ever realize. Their patience, insight, and, most importantly, camaraderie and humor helped to make the long days and challenging time more enjoyable. I'd also like to thank Dr.~Mosa, Dr.~Sadia Akhtar, Tahmid Hasan and Shawmy Khan for their generosity and help. Many thanks to my friends David Winjum, Saumil Dharia, Rachel Dickie, Payel Sen, and Murat Yildirm. We have lived through a very interesting time and shared so many memories. Special thanks to Joe Strnad and his family. My life at Mizzou would be a very different one without them.
+
+Finally, to my family, including my sisters Sadia, Tahera,  Ayesha and my brother Javed. You remind me to appreciate life and the value of family. Over the last seven years, I've missed many family events, but you've found a way to include me every time from eight thousand miles away. Last, but most important, my mother, Halima, and my father, Ismail, who always knew when to call me and tell me right the thing. Their unwavering love, pride, and motivation have shaped who I am today.
+\end{acknowledgments}
+
+
+\tableofcontents
+%%\listofillustrations
+\listoftables
+
+\listoffigures
+%%\listofschemes
+\listofsymbols % or \printnomenclature; requires nomencl package
+%\printnomenclature
+
+
+
+
+\begin{abstract}
+Uranium--molybdenum alloys are the potential fuel that can replace highly-enriched uranium fuel in research and test reactors around the world. This is an important steps towards achieving nuclear nonproliferation and establishing peaceful use of nuclear energy. In this work, we have looked into how fission gases (\ie, krypton and xenon) impacts the transport properties in U--Mo alloys. The impact of fission gases on the over all thermal conductivity of U--Mo has been studied. We find that the presence of fission gases inside the fuel significantly reduces the overall thermal conductivity. We have also studied the electronic structure of uranium using density functional theory (DFT)\@. A new pseudopotential is introduced for uranium. The xenon migration in U--Mo alloys has been studied using DFT. Our results show that, with the presence of molybdenum in the nearest-neighbor location the migration energies of xenon increases. Finally, we have studied the helium interaction with lithium which is a potential plasma facing material for fusion reactors, using DFT. Our studies show that, helium has lower migration energies 
+inside lithium indicating higher mobility.
+
+\end{abstract}
+
+\mainmatter % this line is mandatory
+
+\include{chapters/firstchapter}
+\include{chapters/background}
+
+\include{chapters/01xenontherm}
+
+\include{chapters/pseudoUranium}
+
+\include{chapters/u-mo-xe}
+
+\include{chapters/lihe}
+
+\include{chapters/conclusions}
+
+
+
+
+
+\appendix
+\include{appen/atomicunits}
+%\include{appen/lihe}
+\include{appen/opw}
+\include{appen/paw}
+%\include{appen/psfile}
+\include{appen/fem_moose}
+\include{appen/inputfiles}
+
+\backmatter % mandatory; prepares for bibliography, glossary, index
+%\nocite{*}
+\bibliographystyle{apsrev4-2}
+\bibliography{full,final}
+%\bibliography{full,umox,lihe,pseudo,other,firstc,xnthrm}
+
+\begin{vita}
+Abu Rafi Mohammad Iasir was born in Chattagram (Chittagong), Bangladesh. He received his BSc.\ in Chemical Engineering from Bangladesh University of Engineering and Technology in 2012. In 2013, he moved to Mizzou and received an M.S. in Nuclear Engineering under the supervision of Dr. Gary Solbrekken in 2015. 
+\end{vita}
+\end{document}
+
+\endinput
+%%
+%% End of file `MUthesis-example.tex'.

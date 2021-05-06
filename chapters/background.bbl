@@ -1,4 +1,4 @@
-%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
 %Control: key (0)
 %Control: author (72) initials jnrlst
 %Control: editor formatted (1) identically to author
@@ -38,7 +38,7 @@
 \providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
 \providecommand \urlprefix  [0]{URL }%
 \providecommand \Eprint [0]{\href }%
-\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \doibase [0]{https://doi.org/}%
 \providecommand \selectlanguage [0]{\@gobble}%
 \providecommand \bibinfo  [0]{\@secondoftwo}%
 \providecommand \bibfield  [0]{\@secondoftwo}%
@@ -53,29 +53,29 @@
 \bibitem [{\citenamefont {Hartree}(1928)}]{hartree}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
-  {Hartree}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Mat.
-  Proc. Cambridge Philos. Soc.}\ }\textbf {\bibinfo {volume} {24}},\ \bibinfo
-  {pages} {89} (\bibinfo {year} {1928})}\BibitemShut {NoStop}%
+  {Hartree}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proc.\ Camb.\
+  Phil.\ Soc.}}},\ Vol.~\bibinfo {volume} {24}\ (\bibinfo  {publisher}
+  {Cambridge University Press},\ \bibinfo {year} {1928})\ p.~\bibinfo {pages}
+  {89}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Fock}(1930)}]{fock}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
   {Fock}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
-  {Zeitschrift f{\"u}r Physik}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo
-  {pages} {126} (\bibinfo {year} {1930})}\BibitemShut {NoStop}%
+  {Z.~Phys.}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo {pages} {126}
+  (\bibinfo {year} {1930})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Thomas}(1927)}]{thomas1927calculation}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~H.}\ \bibnamefont
-  {Thomas}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Mathematical
-  Proceedings of the Cambridge Philosophical Society}}},\ Vol.~\bibinfo
-  {volume} {23}\ (\bibinfo {organization} {Cambridge University Press},\
-  \bibinfo {year} {1927})\ pp.\ \bibinfo {pages} {542--548}\BibitemShut
-  {NoStop}%
+  {Thomas}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proc.\ Camb.\
+  Phil.\ Soc.}}},\ Vol.~\bibinfo {volume} {23}\ (\bibinfo {organization}
+  {Cambridge University Press},\ \bibinfo {year} {1927})\ pp.\ \bibinfo {pages}
+  {542--548}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Fermi}(1927)}]{fermi1927metodo}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
   {Fermi}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Rend.
-  Accad. Naz. Lincei}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages} {32}
-  (\bibinfo {year} {1927})}\BibitemShut {NoStop}%
+  Accad. Naz. Lincei}\ }\textbf {\bibinfo {volume} {6}},\ \bibinfo {pages}
+  {602} (\bibinfo {year} {1927})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Hohenberg}\ and\ \citenamefont
   {Kohn}(1964)}]{hohenberg1964inhomogeneous}%
   \BibitemOpen
@@ -103,7 +103,7 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
   {Hamann}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Schl{\"u}ter}}, \ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Schl{\"u}ter}},\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
   {Chiang}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys.\
   Rev.\ Lett.}\ }\textbf {\bibinfo {volume} {43}},\ \bibinfo {pages} {1494}
   (\bibinfo {year} {1979})}\BibitemShut {NoStop}%
@@ -129,7 +129,7 @@
   {Joubert}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys.\ Rev.~B}\ }\textbf {\bibinfo {volume} {59}},\ \bibinfo {pages} {1758}
   (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Bl{\"o}chl}(1994)}]{Bloechl1994}%
+\bibitem [{\citenamefont {Bl{\"o}chl}(1994)}]{blochl1994projector}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~E.}\ \bibnamefont
   {Bl{\"o}chl}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
